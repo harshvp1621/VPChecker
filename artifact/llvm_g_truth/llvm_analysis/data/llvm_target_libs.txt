@@ -1,0 +1,9 @@
+libexpat.so.1
+libXpm.so.4
+libtiff.so.6
+libcurl.so.4
+libr_core.so.5.9.2
+libxml2.so.2
+libgnutls.so.30
+libnetsnmpmibs.so.40
+libcrypto.so.3

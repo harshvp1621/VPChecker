@@ -1,0 +1,733 @@
+Function: XML_ParserCreate  * 1 
+Function: XML_ParserCreate_MM  *  *  * 3 
+Function: parserCreate  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: dtdCreate  * 1 
+Ind-call: long 1 
+Function: poolInit  *  * 2 
+Function: parserInit  *  * 2 
+Function: XML_ParserFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: destroyBindings  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: poolDestroy  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: dtdDestroy  *  char  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: hashTableIterInit  *  * 2 
+Function: hashTableIterNext  * 1 
+Function: hashTableDestroy  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: prologInitProcessor  *  *  *  * 4 
+Function: copyString  *  * 2 
+Ind-call: long 1 
+Function: getDebugLevel  *  long 2 
+Function: initializeEncoding  * 1 
+Ind-call: * * * 3 
+Function: prologProcessor  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: doProlog  *  *  *  *  int  *  *  char  char  int 10 
+Ind-call: * int * * * 5 
+Ind-call: * int * * * 5 
+Ind-call: * * * * int 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * int 5 
+Ind-call: * * * * * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * * * 5 
+Ind-call: * 1 
+Ind-call: * * * * * int 6 
+Ind-call: * * * * * int 6 
+Ind-call: * * int * int * * * * 9 
+Ind-call: * 1 
+Ind-call: * * int * int * * * * 9 
+Ind-call: * * * * * * 6 
+Ind-call: * * int * int * * * * 9 
+Ind-call: * * * 3 
+Ind-call: * * * * 4 
+Ind-call: * * * * * 5 
+Ind-call: * * * * * 5 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: * * int 3 
+Ind-call: * * * * * 5 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * * 4 
+Function: accountingDiffTolerated  *  int  *  *  int  int 6 
+Function: accountingOnAbort  * 1 
+Function: processXmlDecl  *  int  *  * 4 
+Ind-call: int * * * * * * * * * 10 
+Ind-call: * * 2 
+Ind-call: * * * int 4 
+Ind-call: * * 2 
+Function: poolStoreString  *  *  *  * 4 
+Function: poolClear  * 1 
+Function: lookup  *  *  *  long 4 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Function: normalizePublicId  * 1 
+Function: contentProcessor  *  *  *  * 4 
+Function: getElementType  *  *  *  * 4 
+Function: getAttributeId  *  *  *  * 4 
+Function: poolAppendString  *  * 2 
+Function: poolAppend  *  *  *  * 4 
+Ind-call: * * * * * 5 
+Function: defineAttribute  *  *  char  char  *  * 6 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: poolGrow  * 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: storeAttributeValue  *  *  char  *  *  *  int 7 
+Function: storeEntityValue  *  *  *  *  int 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * * 5 
+Ind-call: * * 2 
+Function: reportDefault  *  *  *  * 4 
+Ind-call: * * * * * 5 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: doIgnoreSection  *  *  *  *  *  char 6 
+Ind-call: * * * * 4 
+Function: ignoreSectionProcessor  *  *  *  * 4 
+Function: nextScaffoldPart  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: processInternalEntity  *  *  char 3 
+Ind-call: long 1 
+Ind-call: * * * * 4 
+Function: entityTrackingOnOpen  *  *  int 3 
+Function: entityTrackingOnClose  *  *  int 3 
+Function: build_model  * 1 
+Ind-call: long 1 
+Function: reportProcessingInstruction  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Function: reportComment  *  *  *  * 4 
+Ind-call: * * 2 
+Function: normalizeLines  * 1 
+Function: getRootParserOf  *  * 2 
+Function: entityTrackingReportStats  *  *  *  int 4 
+Function: doContent  *  int  *  *  *  *  char  int 8 
+Ind-call: * * * * 4 
+Ind-call: * * int 3 
+Ind-call: * * * 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * * * * 5 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * * * * 5 
+Ind-call: * long 2 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * 1 
+Ind-call: * * * * * 5 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * * * * 5 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: internalEntityProcessor  *  *  *  * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: storeRawNames  * 1 
+Ind-call: * long 2 
+Function: getContext  * 1 
+Function: storeAtts  *  *  *  *  *  int 6 
+Ind-call: * * int * 4 
+Ind-call: * long 2 
+Ind-call: * * int * 4 
+Ind-call: * * 2 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: freeBindings  *  * 2 
+Ind-call: * * 2 
+Function: epilogProcessor  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: doCdataSection  *  *  *  *  *  char  int 7 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * * int 3 
+Ind-call: * * * * * 5 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: cdataSectionProcessor  *  *  *  * 4 
+Function: externalEntityContentProcessor  *  *  *  * 4 
+Function: poolCopyString  *  * 2 
+Function: setElementTypePrefix  *  * 2 
+Function: addBinding  *  *  *  *  * 5 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Function: copy_salt_to_sipkey  *  * 2 
+Function: sip24_init  *  * 2 
+Function: sip24_update  *  *  long 3 
+Function: keylen  * 1 
+Function: sip24_final  * 1 
+Function: sip_round  *  int 2 
+Function: get_hash_secret_salt  * 1 
+Function: is_rfc3986_uri_char  char 1 
+Function: appendAttributeValue  *  *  char  *  *  *  int 7 
+Ind-call: * * * * 4 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Function: poolBytesToAllocateFor  int 1 
+Function: hash  *  * 2 
+Function: keyeq  *  * 2 
+Function: handleUnknownEncoding  *  * 2 
+Ind-call: * * * 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Function: accountingReportStats  *  * 2 
+Function: accountingGetCurrentAmplification  * 1 
+Function: accountingReportDiff  *  int  *  *  long  int  int 7 
+Function: unsignedCharToPrintable  char 1 
+Function: hashTableInit  *  * 2 
+Function: XML_ParserCreateNS  *  char 2 
+Function: XML_ParserReset  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: moveToFreeBindingList  *  * 2 
+Function: dtdReset  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: hashTableClear  * 1 
+Ind-call: * 1 
+Function: XML_SetEncoding  *  * 2 
+Ind-call: * 1 
+Function: XML_ExternalEntityParserCreate  *  *  * 3 
+Function: dtdCopy  *  *  *  * 4 
+Ind-call: long 1 
+Function: setContext  *  * 2 
+Function: externalEntityInitProcessor  *  *  *  * 4 
+Function: externalParEntInitProcessor  *  *  *  * 4 
+Function: entityValueInitProcessor  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: externalParEntProcessor  *  *  *  * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: entityValueProcessor  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: externalEntityInitProcessor2  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: externalEntityInitProcessor3  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: copyEntityTable  *  *  *  * 4 
+Function: poolCopyStringN  *  *  int 3 
+Function: XML_UseParserAsHandlerArg  * 1 
+Function: XML_UseForeignDTD  *  char 2 
+Function: XML_SetReturnNSTriplet  *  int 2 
+Function: XML_SetUserData  *  * 2 
+Function: XML_SetBase  *  * 2 
+Function: XML_GetBase  * 1 
+Function: XML_GetSpecifiedAttributeCount  * 1 
+Function: XML_GetIdAttributeIndex  * 1 
+Function: XML_SetElementHandler  *  *  * 3 
+Function: XML_SetStartElementHandler  *  * 2 
+Function: XML_SetEndElementHandler  *  * 2 
+Function: XML_SetCharacterDataHandler  *  * 2 
+Function: XML_SetProcessingInstructionHandler  *  * 2 
+Function: XML_SetCommentHandler  *  * 2 
+Function: XML_SetCdataSectionHandler  *  *  * 3 
+Function: XML_SetStartCdataSectionHandler  *  * 2 
+Function: XML_SetEndCdataSectionHandler  *  * 2 
+Function: XML_SetDefaultHandler  *  * 2 
+Function: XML_SetDefaultHandlerExpand  *  * 2 
+Function: XML_SetDoctypeDeclHandler  *  *  * 3 
+Function: XML_SetStartDoctypeDeclHandler  *  * 2 
+Function: XML_SetEndDoctypeDeclHandler  *  * 2 
+Function: XML_SetUnparsedEntityDeclHandler  *  * 2 
+Function: XML_SetNotationDeclHandler  *  * 2 
+Function: XML_SetNamespaceDeclHandler  *  *  * 3 
+Function: XML_SetStartNamespaceDeclHandler  *  * 2 
+Function: XML_SetEndNamespaceDeclHandler  *  * 2 
+Function: XML_SetNotStandaloneHandler  *  * 2 
+Function: XML_SetExternalEntityRefHandler  *  * 2 
+Function: XML_SetExternalEntityRefHandlerArg  *  * 2 
+Function: XML_SetSkippedEntityHandler  *  * 2 
+Function: XML_SetUnknownEncodingHandler  *  *  * 3 
+Function: XML_SetElementDeclHandler  *  * 2 
+Function: XML_SetAttlistDeclHandler  *  * 2 
+Function: XML_SetEntityDeclHandler  *  * 2 
+Function: XML_SetXmlDeclHandler  *  * 2 
+Function: XML_SetParamEntityParsing  *  int 2 
+Function: XML_SetHashSalt  *  long 2 
+Function: XML_Parse  *  *  int  int 4 
+Function: startParsing  * 1 
+Function: XML_GetBuffer  *  int 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: XML_ParseBuffer  *  int  int 3 
+Ind-call: * * * * 4 
+Function: callProcessor  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: errorProcessor  *  *  *  * 4 
+Function: generate_hash_secret_salt  * 1 
+Function: ENTROPY_DEBUG  *  long 2 
+Function: XML_StopParser  *  char 2 
+Function: XML_ResumeParser  * 1 
+Ind-call: * * * * 4 
+Function: XML_GetParsingStatus  *  * 2 
+Function: XML_GetErrorCode  * 1 
+Function: XML_GetCurrentByteIndex  * 1 
+Function: XML_GetCurrentByteCount  * 1 
+Function: XML_GetInputContext  *  *  * 3 
+Function: XML_GetCurrentLineNumber  * 1 
+Ind-call: * * * * 4 
+Function: XML_GetCurrentColumnNumber  * 1 
+Ind-call: * * * * 4 
+Function: XML_FreeContentModel  *  * 2 
+Ind-call: * 1 
+Function: XML_MemMalloc  *  long 2 
+Ind-call: long 1 
+Function: XML_MemRealloc  *  *  long 3 
+Ind-call: * long 2 
+Function: XML_MemFree  *  * 2 
+Ind-call: * 1 
+Function: XML_DefaultCurrent  * 1 
+Function: XML_ErrorString  int 1 
+Function: XML_ExpatVersion 0 
+Function: XML_ExpatVersionInfo 0 
+Function: XML_GetFeatureList 0 
+Function: XML_SetBillionLaughsAttackProtectionMaximumAmplification  *  float 2 
+Function: XML_SetBillionLaughsAttackProtectionActivationThreshold  *  long 2 
+Function: XML_SetReparseDeferralEnabled  *  char 2 
+Function: testingAccountingGetCountBytesDirect  * 1 
+Function: testingAccountingGetCountBytesIndirect  * 1 
+Function: _INTERNAL_trim_to_complete_utf8_characters  *  * 2 
+Function: XmlUtf8Encode  int  * 2 
+Function: XmlUtf16Encode  int  * 2 
+Function: XmlSizeOfUnknownEncoding 0 
+Function: XmlInitUnknownEncoding  *  *  *  * 4 
+Function: checkCharRefNumber  int 1 
+Function: unknown_isName  *  * 2 
+Ind-call: * * 2 
+Function: unknown_isNmstrt  *  * 2 
+Ind-call: * * 2 
+Function: unknown_isInvalid  *  * 2 
+Ind-call: * * 2 
+Function: unknown_toUtf8  *  *  *  *  * 5 
+Ind-call: * * 2 
+Function: unknown_toUtf16  *  *  *  *  * 5 
+Ind-call: * * 2 
+Function: normal_prologTok  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_contentTok  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_cdataSectionTok  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_ignoreSectionTok  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_attributeValueTok  *  *  *  * 4 
+Function: normal_entityValueTok  *  *  *  * 4 
+Function: normal_nameMatchesAscii  *  *  *  * 4 
+Function: normal_nameLength  *  * 2 
+Function: normal_skipS  *  * 2 
+Function: normal_getAtts  *  *  int  * 4 
+Function: normal_charRefNumber  *  * 2 
+Function: normal_predefinedEntityName  *  *  * 3 
+Function: normal_updatePosition  *  *  *  * 4 
+Function: normal_isPublicId  *  *  *  * 4 
+Function: latin1_toUtf8  *  *  *  *  * 5 
+Function: latin1_toUtf16  *  *  *  *  * 5 
+Function: normal_scanRef  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_scanPercent  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_scanCharRef  *  *  *  * 4 
+Function: normal_scanHexCharRef  *  *  *  * 4 
+Function: normal_scanLt  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_scanComment  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_scanCdataSection  *  *  *  * 4 
+Function: normal_scanPi  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_scanEndTag  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_scanAtts  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_checkPiTarget  *  *  *  * 4 
+Function: normal_scanLit  int  *  *  *  * 5 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: normal_scanDecl  *  *  *  * 4 
+Function: normal_scanPoundName  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: XmlGetUtf8InternalEncoding 0 
+Function: utf8_toUtf8  *  *  *  *  * 5 
+Function: utf8_toUtf16  *  *  *  *  * 5 
+Function: utf8_isName2  *  * 2 
+Function: utf8_isName3  *  * 2 
+Function: isNever  *  * 2 
+Function: utf8_isNmstrt2  *  * 2 
+Function: utf8_isNmstrt3  *  * 2 
+Function: utf8_isInvalid2  *  * 2 
+Function: utf8_isInvalid3  *  * 2 
+Function: utf8_isInvalid4  *  * 2 
+Function: XmlGetUtf16InternalEncoding 0 
+Function: little2_prologTok  *  *  *  * 4 
+Function: little2_contentTok  *  *  *  * 4 
+Function: little2_cdataSectionTok  *  *  *  * 4 
+Function: little2_ignoreSectionTok  *  *  *  * 4 
+Function: little2_attributeValueTok  *  *  *  * 4 
+Function: little2_entityValueTok  *  *  *  * 4 
+Function: little2_nameMatchesAscii  *  *  *  * 4 
+Function: little2_nameLength  *  * 2 
+Function: little2_skipS  *  * 2 
+Function: little2_getAtts  *  *  int  * 4 
+Function: little2_charRefNumber  *  * 2 
+Function: little2_predefinedEntityName  *  *  * 3 
+Function: little2_updatePosition  *  *  *  * 4 
+Function: little2_isPublicId  *  *  *  * 4 
+Function: little2_toUtf8  *  *  *  *  * 5 
+Function: little2_toUtf16  *  *  *  *  * 5 
+Function: unicode_byte_type  char  char 2 
+Function: little2_scanRef  *  *  *  * 4 
+Function: little2_scanPercent  *  *  *  * 4 
+Function: little2_scanCharRef  *  *  *  * 4 
+Function: little2_scanHexCharRef  *  *  *  * 4 
+Function: little2_scanLt  *  *  *  * 4 
+Function: little2_scanComment  *  *  *  * 4 
+Function: little2_scanCdataSection  *  *  *  * 4 
+Function: little2_scanPi  *  *  *  * 4 
+Function: little2_scanEndTag  *  *  *  * 4 
+Function: little2_scanAtts  *  *  *  * 4 
+Function: little2_checkPiTarget  *  *  *  * 4 
+Function: little2_scanLit  int  *  *  *  * 5 
+Function: little2_scanDecl  *  *  *  * 4 
+Function: little2_scanPoundName  *  *  *  * 4 
+Function: XmlInitEncoding  *  *  * 3 
+Function: getEncodingIndex  * 1 
+Function: initScanProlog  *  *  *  * 4 
+Function: initScanContent  *  *  *  * 4 
+Function: initUpdatePosition  *  *  *  * 4 
+Function: initScan  *  *  int  *  *  * 6 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: big2_prologTok  *  *  *  * 4 
+Function: big2_contentTok  *  *  *  * 4 
+Function: big2_cdataSectionTok  *  *  *  * 4 
+Function: big2_ignoreSectionTok  *  *  *  * 4 
+Function: big2_attributeValueTok  *  *  *  * 4 
+Function: big2_entityValueTok  *  *  *  * 4 
+Function: big2_nameMatchesAscii  *  *  *  * 4 
+Function: big2_nameLength  *  * 2 
+Function: big2_skipS  *  * 2 
+Function: big2_getAtts  *  *  int  * 4 
+Function: big2_charRefNumber  *  * 2 
+Function: big2_predefinedEntityName  *  *  * 3 
+Function: big2_updatePosition  *  *  *  * 4 
+Function: big2_isPublicId  *  *  *  * 4 
+Function: big2_toUtf8  *  *  *  *  * 5 
+Function: big2_toUtf16  *  *  *  *  * 5 
+Function: big2_scanRef  *  *  *  * 4 
+Function: big2_scanPercent  *  *  *  * 4 
+Function: big2_scanCharRef  *  *  *  * 4 
+Function: big2_scanHexCharRef  *  *  *  * 4 
+Function: big2_scanLt  *  *  *  * 4 
+Function: big2_scanComment  *  *  *  * 4 
+Function: big2_scanCdataSection  *  *  *  * 4 
+Function: big2_scanPi  *  *  *  * 4 
+Function: big2_scanEndTag  *  *  *  * 4 
+Function: big2_scanAtts  *  *  *  * 4 
+Function: big2_checkPiTarget  *  *  *  * 4 
+Function: big2_scanLit  int  *  *  *  * 5 
+Function: big2_scanDecl  *  *  *  * 4 
+Function: big2_scanPoundName  *  *  *  * 4 
+Function: ascii_toUtf8  *  *  *  *  * 5 
+Function: streqci  *  * 2 
+Function: XmlParseXmlDecl  int  *  *  *  *  *  *  *  *  * 10 
+Function: findEncoding  *  *  * 3 
+Ind-call: * * * * * 5 
+Function: doParseXmlDecl  *  int  *  *  *  *  *  *  *  *  * 11 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * 3 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: parsePseudoAttribute  *  *  *  *  *  *  * 7 
+Function: toAscii  *  *  * 3 
+Ind-call: * * * * * 5 
+Function: isSpace  int 1 
+Function: XmlGetUtf8InternalEncodingNS 0 
+Function: XmlGetUtf16InternalEncodingNS 0 
+Function: XmlInitEncodingNS  *  *  * 3 
+Function: initScanPrologNS  *  *  *  * 4 
+Function: initScanContentNS  *  *  *  * 4 
+Function: XmlParseXmlDeclNS  int  *  *  *  *  *  *  *  *  * 10 
+Function: findEncodingNS  *  *  * 3 
+Ind-call: * * * * * 5 
+Function: XmlInitUnknownEncodingNS  *  *  *  * 4 
+Function: XmlPrologStateInit  * 1 
+Function: prolog0  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Function: prolog1  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Function: doctype0  *  int  *  *  * 5 
+Function: error  *  int  *  *  * 5 
+Function: common  *  int 2 
+Function: doctype1  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: internalSubset  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: prolog2  *  int  *  *  * 5 
+Function: doctype3  *  int  *  *  * 5 
+Function: doctype2  *  int  *  *  * 5 
+Function: doctype4  *  int  *  *  * 5 
+Function: entity0  *  int  *  *  * 5 
+Function: attlist0  *  int  *  *  * 5 
+Function: element0  *  int  *  *  * 5 
+Function: notation0  *  int  *  *  * 5 
+Function: doctype5  *  int  *  *  * 5 
+Function: notation1  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: notation3  *  int  *  *  * 5 
+Function: notation2  *  int  *  *  * 5 
+Function: notation4  *  int  *  *  * 5 
+Function: declClose  *  int  *  *  * 5 
+Function: externalSubset1  *  int  *  *  * 5 
+Function: condSect0  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: condSect1  *  int  *  *  * 5 
+Function: condSect2  *  int  *  *  * 5 
+Function: element1  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: element2  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Function: element3  *  int  *  *  * 5 
+Function: element6  *  int  *  *  * 5 
+Function: element7  *  int  *  *  * 5 
+Function: element4  *  int  *  *  * 5 
+Function: element5  *  int  *  *  * 5 
+Function: attlist1  *  int  *  *  * 5 
+Function: attlist2  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: attlist8  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: attlist5  *  int  *  *  * 5 
+Function: attlist3  *  int  *  *  * 5 
+Function: attlist4  *  int  *  *  * 5 
+Function: attlist6  *  int  *  *  * 5 
+Function: attlist7  *  int  *  *  * 5 
+Function: attlist9  *  int  *  *  * 5 
+Function: entity1  *  int  *  *  * 5 
+Function: entity2  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: entity4  *  int  *  *  * 5 
+Function: entity3  *  int  *  *  * 5 
+Function: entity5  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Function: entity6  *  int  *  *  * 5 
+Function: entity7  *  int  *  *  * 5 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Function: entity9  *  int  *  *  * 5 
+Function: entity8  *  int  *  *  * 5 
+Function: entity10  *  int  *  *  * 5 
+Function: XmlPrologStateInitExternalEntity  * 1 
+Function: externalSubset0  *  int  *  *  * 5 

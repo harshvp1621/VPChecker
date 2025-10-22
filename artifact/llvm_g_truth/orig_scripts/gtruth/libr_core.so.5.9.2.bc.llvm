@@ -1,0 +1,4501 @@
+Function: r_core_anal_type_match  *  * 2 
+Function: anal_emul_init  *  *  *  * 4 
+Function: anal_emul_restore  *  *  *  * 4 
+Function: RVecBuf_init  * 1 
+Function: RVecUT64_init  * 1 
+Function: bb_cmpaddr  *  * 2 
+Function: RVecUT64_clear  * 1 
+Function: RVecUT64_reserve  *  long 2 
+Function: RVecUT64_push_back  *  * 2 
+Function: RVecUT64_at  *  long 2 
+Function: RVecBuf_reserve  *  long 2 
+Function: etrace_index  * 1 
+Function: type_match  *  *  long  long  *  int  _Bool  long 8 
+Function: etrace_addrof  *  int 2 
+Function: var_rename  *  *  *  long 4 
+Function: etrace_regwrite  *  int 2 
+Function: get_src_regname  *  long  *  int 4 
+Ind-call: * 1 
+Function: var_retype  *  *  *  *  _Bool  _Bool 6 
+Function: r_anal_block_contains  *  long 2 
+Function: cond_invert  *  int 2 
+Function: r_read_ble  *  _Bool  int 3 
+Function: r_str_ncpy  *  *  long 3 
+Function: RVecBuf_fini  * 1 
+Function: RVecUT64_fini  * 1 
+Function: r_read_ble16  *  _Bool 2 
+Function: r_read_ble32  *  _Bool 2 
+Function: r_read_ble64  *  _Bool 2 
+Function: r_read_be64  * 1 
+Function: r_read_le64  * 1 
+Function: r_read_at_le32  *  long 2 
+Function: r_read_le32  * 1 
+Function: r_read_be32  * 1 
+Function: r_read_at_be32  *  long 2 
+Function: r_read_be16  * 1 
+Function: r_read_le16  * 1 
+Function: r_str_startswith_inline  *  * 2 
+Function: RVecTraceOp_at  *  long 2 
+Function: RVecAccess_at  *  long 2 
+Function: RVecAccess_length  * 1 
+Function: RVecTraceOp_length  * 1 
+Function: RVecString_init  * 1 
+Function: RVecString_empty  * 1 
+Function: RVecString_at  *  long 2 
+Function: etrace_have_memread  *  int 2 
+Function: type_pos_hit  *  _Bool  int  int  * 5 
+Function: RVecString_clear  * 1 
+Function: parse_format  *  *  * 3 
+Function: RVecString_length  * 1 
+Function: retype_callee_arg  *  *  _Bool  *  int  * 6 
+Function: get_addr  *  *  int 3 
+Function: etrace_regwrite_contains  *  int  * 3 
+Function: RVecString_fini  * 1 
+Function: etrace_regread_value  *  int  * 3 
+Function: RVecString_push_back  *  * 2 
+Function: RVecString_reserve  *  long 2 
+Function: etrace_memwrite_addr  *  int 2 
+Function: RVecBuf_length  * 1 
+Function: RVecUT64_length  * 1 
+Function: cmd_anal_objc  *  *  _Bool 3 
+Function: objc_analyze  * 1 
+Function: objc_find_refs  * 1 
+Function: core_objc_new  * 1 
+Function: objc_build_refs  * 1 
+Function: core_objc_free  * 1 
+Function: readQword  *  long  * 3 
+Function: isInvalid  long 1 
+Function: readDword  *  long  * 3 
+Function: getRefPtr  *  long  * 3 
+Function: RVecAnalRef_free  * 1 
+Function: RVecAnalRef_fini  * 1 
+Function: r_vector_empty  * 1 
+Function: inBetween  *  long 2 
+Function: r_read_le32.63  * 1 
+Function: isValid  long 1 
+Function: r_read_le64.64  * 1 
+Function: r_read_at_le32.65  *  long 2 
+Function: array_add  *  long  long 3 
+Function: kv_array_free  * 1 
+Function: r_core_asm_hit_new 0 
+Function: r_core_asm_hit_list_new 0 
+Function: r_core_asm_hit_free  * 1 
+Function: r_core_asm_search  *  * 2 
+Function: r_core_asm_strsearch  *  *  long  long  int  int  int  int 8 
+Function: r_core_asm_bwdisassemble  *  long  int  int 4 
+Function: add_hit_to_hits  *  long  int  char 4 
+Function: r_core_asm_back_disassemble_instr  *  long  int  int  int 5 
+Function: r_core_asm_back_disassemble  *  long  int  long  char  int 6 
+Function: r_core_asm_back_disassemble_all  *  long  long  long  int 5 
+Function: add_hit_to_sorted_hits  *  long  int  char 4 
+Function: prune_hits_in_addr_range  *  long  long  char 4 
+Function: handle_forward_disassemble  *  *  *  long  long  long  long 7 
+Function: find_addr  *  long 2 
+Function: is_addr_in_range  long  long  long  long 4 
+Function: rcoreasm_address_comparator  *  * 2 
+Function: prune_hits_in_hit_range  *  * 2 
+Function: is_hit_inrange  *  long  long 3 
+Function: r_core_asm_back_disassemble_byte  *  long  int  int  int 5 
+Function: r_core_asm_bwdis_len  *  *  *  int 4 
+Function: r_project_new 0 
+Function: r_project_rename  *  * 2 
+Function: r_project_is_loaded  * 1 
+Function: r_project_is_git  * 1 
+Function: r_project_close  * 1 
+Function: r_project_open  *  *  * 3 
+Function: r_project_save  * 1 
+Function: r_project_free  * 1 
+Function: core_anal_bbs  *  * 2 
+Function: __isdata  *  long 2 
+Function: addBB  *  long  long  long  long  int  int 7 
+Function: bbCMP  *  * 2 
+Function: fcnNew  * 1 
+Function: fcnFree  * 1 
+Function: fcnAddBB  *  * 2 
+Function: checkFunction  * 1 
+Function: printFunctionCommands  *  *  * 3 
+Function: createFunction  *  *  * 3 
+Function: function_name  *  *  long 3 
+Function: initBB  *  long  long  long  long  int  int  int  int 9 
+Function: __is_data_block_cb  *  * 2 
+Function: core_anal_bbs_range  *  * 2 
+Function: r_core_item_at  *  long 2 
+Function: r_core_item_free  * 1 
+Function: r_core_anal_address  *  long 2 
+Function: r_core_anal_fcn_autoname  *  *  int 3 
+Function: autoname_slow  *  *  int 3 
+Function: autoname_basic  *  *  int 3 
+Function: blacklisted_word  * 1 
+Function: RVecAnalRef_free.145  * 1 
+Function: cmpstrings  * 1 
+Function: RVecAnalRef_fini.146  * 1 
+Function: r_str_startswith_inline.148  *  * 2 
+Function: r_core_anal_autoname_all_fcns  * 1 
+Function: r_core_anal_autoname_all_golang_fcns  * 1 
+Function: r_read_le32.157  * 1 
+Function: r_flag_space_push  *  * 2 
+Function: r_flag_space_pop  * 1 
+Function: r_core_anal_op  *  long  int 3 
+Function: r_core_anal_hint_list  *  int 2 
+Function: print_arch_hint_cb  long  *  * 3 
+Function: print_bits_hint_cb  long  int  * 3 
+Function: print_addr_hint_cb  long  *  * 3 
+Function: print_hint_tree  *  int 2 
+Function: hint_node_free  *  * 2 
+Function: hint_node_print  *  int  * 3 
+Function: r_vector_empty.166  * 1 
+Function: print_hint_h_format  * 1 
+Function: hint_node_cmp  *  *  * 3 
+Function: r_core_anal_hint_print  *  long  int 3 
+Function: r_core_anal_bb_seek  *  long 2 
+Function: r_core_anal_esil_fcn  *  long  long  int  int 5 
+Function: r_core_anal_fcn  *  long  long  int  int 5 
+Function: is_skippable_addr  *  long 2 
+Function: function_rename  *  * 2 
+Function: __core_anal_fcn  *  long  long  int  int 5 
+Function: get_function_name  *  long 2 
+Function: r_itv_contain  long  long  long 3 
+Function: r_anal_set_stringrefs  *  * 2 
+Function: set_fcn_name_from_flag  *  *  * 3 
+Function: r_anal_analyze_fcn_refs  *  *  int 3 
+Function: is_entry_flag  * 1 
+Function: autoname_imp_trampoline  *  * 2 
+Function: loganal  long  long  int 3 
+Function: next_append  *  *  long 3 
+Function: RVecAnalRef_length  * 1 
+Function: RVecAnalRef_at  *  long 2 
+Function: r_anal_try_get_fcn  *  *  int  int 4 
+Function: r_itv_begin  long  long 2 
+Function: r_itv_end  long  long 2 
+Function: r_read_ble8  * 1 
+Function: r_read_ble16.177  *  _Bool 2 
+Function: r_read_ble32.178  *  _Bool 2 
+Function: r_read_ble64.179  *  _Bool 2 
+Function: r_read_be64.180  * 1 
+Function: r_read_le64.181  * 1 
+Function: r_read_at_le32.182  *  long 2 
+Function: r_read_be32.183  * 1 
+Function: r_read_at_be32.184  *  long 2 
+Function: r_read_be16.185  * 1 
+Function: r_read_le16.186  * 1 
+Function: check_string_at  *  long 2 
+Function: find_sym_flag  *  * 2 
+Function: r_core_anal_fcn_clean  *  long 2 
+Function: r_core_print_bb_custom  *  * 2 
+Function: get_title  long 1 
+Function: r_core_print_bb_gml  *  * 2 
+Function: r_core_anal_datarefs  *  long 2 
+Function: r_core_anal_coderefs  *  long 2 
+Function: r_core_anal_importxrefs  * 1 
+Function: add_single_addr_xrefs  *  long  * 3 
+Function: r_core_anal_codexrefs  *  long 2 
+Function: r_core_anal_callgraph  *  long  int 3 
+Function: RAnalRef_cmp  *  * 2 
+Function: r_core_anal_fcn_list_size  * 1 
+Function: r_core_anal_fcn_name  *  * 2 
+Function: r_core_anal_fcn_get_calls  *  * 2 
+Function: RVecAnalRef_new 0 
+Function: is_call_ref  *  * 2 
+Function: RVecAnalRef_push_back  *  * 2 
+Function: RVecAnalRef_reserve  *  long 2 
+Function: RVecAnalRef_init  * 1 
+Function: r_core_anal_fcn_list  *  *  * 3 
+Function: fcn_list_default  *  *  _Bool  _Bool 4 
+Function: fcnlist_gather_metadata  *  * 2 
+Function: cmpaddr  *  * 2 
+Function: fcn_list_table  *  *  int 3 
+Function: fcn_list_verbose_json  *  * 2 
+Function: fcn_list_verbose  *  *  * 3 
+Function: fcn_list_json  *  *  _Bool  _Bool 4 
+Function: fcn_list_detail  *  * 2 
+Function: fcn_print_makestyle  *  *  char 3 
+Function: fcn_list_legacy  *  *  _Bool 3 
+Function: fcn_print_legacy  *  *  _Bool 3 
+Function: filename  *  long 2 
+Function: RVecAnalRef_empty  * 1 
+Function: is_fcn_traced  *  * 2 
+Function: RAnalRef_compare_by_at  *  * 2 
+Function: RVecAnalRef_sort  *  * 2 
+Function: fcn_print_detail  *  * 2 
+Function: fcn_list_bbs  * 1 
+Function: fcn_print_json  *  *  _Bool  * 4 
+Function: cmpsize  *  * 2 
+Function: cmpfcncc  *  * 2 
+Function: cmpedges  *  * 2 
+Function: cmpcalls  *  * 2 
+Function: cmpname  *  * 2 
+Function: cmpframe  *  * 2 
+Function: cmpxrefs  *  * 2 
+Function: cmpnbbs  *  * 2 
+Function: fcn_print_verbose  *  *  _Bool 3 
+Function: RAnalRef_compare_by_addr  *  * 2 
+Function: RVecAnalRef_uniq  *  * 2 
+Ind-call: * * 2 
+Function: __fcn_print_default  *  *  _Bool 3 
+Function: r_core_recover_vars  *  *  _Bool 3 
+Function: r_pvector_push  *  * 2 
+Function: anal_block_cb  *  * 2 
+Function: anal_block_on_exit  *  * 2 
+Function: r_pvector_length  * 1 
+Function: r_pvector_at  *  long 2 
+Function: r_core_anal_graph_to  *  long  int 3 
+Function: anal_graph_to  *  long  int  * 4 
+Function: anal_path_exists  *  long  long  *  int  *  * 7 
+Function: r_anal_block_contains.211  *  long 2 
+Function: r_core_anal_graph  *  long  int 3 
+Function: core_anal_graph_nodes  *  *  int  * 4 
+Function: palColorFor  * 1 
+Function: core_anal_graph_construct_nodes  *  *  int  *  * 5 
+Function: core_anal_graph_construct_edges  *  *  int  *  * 5 
+Function: core_anal_color_curr_node  *  * 2 
+Function: core_anal_graph_label  *  *  int 3 
+Function: r_core_anal_search  *  long  long  long  int 5 
+Function: opiscall  *  *  long  *  int  int 6 
+Function: core_anal_followptr  *  int  long  long  long  _Bool  int 7 
+Function: r_core_anal_search_xrefs  *  long  long  *  int 5 
+Function: found_xref  *  long  long  int  *  int  _Bool  _Bool 8 
+Function: add_string_ref  *  long  long 3 
+Function: is_string_at  *  long  * 3 
+Function: is_string  *  int  * 3 
+Function: r_core_anal_data  *  long  int  int  int 5 
+Function: r_core_anal_get_stats  *  long  long  long 4 
+Function: block_flags_stat  *  * 2 
+Function: r_core_anal_stats_free  * 1 
+Function: r_core_anal_cycles  *  int 2 
+Function: fcn_merge_touch_cb  long  * 2 
+Function: fcn_merge_add_cb  *  * 2 
+Function: r_core_anal_fcn_merge  *  long  long 3 
+Function: r_core_anal_esil  *  *  * 3 
+Function: esilbreak_reg_write  *  *  * 3 
+Function: esilbreak_mem_read  *  long  *  int 4 
+Function: esilbreak_mem_write  *  long  *  int 4 
+Function: cccb  * 1 
+Function: r_flag_space_set  *  * 2 
+Function: r_vector_at  *  int 2 
+Function: myvalid  *  long 2 
+Function: getpcfromstack  *  * 2 
+Function: get_next_i  *  * 2 
+Function: find_bb  *  * 2 
+Function: handle_var_stack_access  *  long  int  int 4 
+Function: is_stack  *  long 2 
+Function: reg_name_for_access  *  int 2 
+Function: delta_for_access  *  int 2 
+Function: r_core_search_value_in_range  *  _Bool  long  long  long  long  int  *  * 9 
+Ind-call: * long long int * 5 
+Function: isValidAddress  *  long 2 
+Function: stringAt  *  long 2 
+Function: r_core_anal_paths  *  long  long  _Bool  int  _Bool 6 
+Function: analPaths  *  * 2 
+Function: printAnalPaths  *  * 2 
+Function: analPathFollow  *  long  * 3 
+Function: r_core_anal_inflags  *  * 2 
+Function: __cb  *  * 2 
+Function: __addrs_cmp  *  * 2 
+Function: r_core_anal_propagate_noreturn  *  long 2 
+Function: ut64_new  long 1 
+Function: analyze_noreturn_function  *  * 2 
+Function: r_core_anal_get_comments  *  long 2 
+Function: r_core_print_func_args  * 1 
+Function: r_core_get_func_args  *  * 2 
+Function: print_arg_str  int  *  _Bool 3 
+Function: print_format_values  *  *  _Bool  long  _Bool 5 
+Function: get_buf_val  *  int  int 3 
+Function: r_read_ble64.527  *  _Bool 2 
+Function: r_read_ble32.528  *  _Bool 2 
+Function: r_read_be32.529  * 1 
+Function: r_read_le32.530  * 1 
+Function: r_read_be64.531  * 1 
+Function: r_read_le64.532  * 1 
+Function: r_read_at_le32.533  *  long 2 
+Function: r_read_at_be32.534  *  long 2 
+Function: r_anal_function_arg_free  * 1 
+Function: set_fcn_args_info  *  *  *  *  int 5 
+Function: r_str_startswith_inline.540  *  * 2 
+Function: r_core_bin_set_by_fd  *  long 2 
+Function: r_core_bin_set_cur  *  * 2 
+Function: r_core_bin_export_info  *  int 2 
+Function: r_flag_space_push.549  *  * 2 
+Function: sdbkv_key  * 1 
+Function: sdbkv_value  * 1 
+Function: r_flag_space_pop.567  * 1 
+Function: r_core_bin_load_structs  *  * 2 
+Function: r_core_bin_set_by_name  *  * 2 
+Function: r_core_bin_set_env  *  * 2 
+Function: r_core_bin_info  *  int  *  int  int  *  * 7 
+Function: bin_raw_strings  *  *  int  int 4 
+Function: bin_strings  *  *  int  int 4 
+Function: bin_info  *  *  int  long 4 
+Function: bin_main  *  *  int  int 4 
+Function: bin_dwarf  *  *  int 3 
+Ind-call: * 1 
+Function: r_core_pdb_info  *  *  *  int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * int 3 
+Ind-call: * long * int 4 
+Ind-call: * 1 
+Function: bin_source  *  *  int 3 
+Function: bin_entry  *  *  int  long  int  _Bool 6 
+Function: bin_sections  *  *  int  long  int  long  *  *  _Bool 9 
+Function: bin_map_sections_to_segments  *  *  int 3 
+Function: bin_relocs  *  *  int  int 4 
+Function: bin_libs  *  *  int 3 
+Function: bin_imports  *  *  int  int  * 5 
+Function: bin_symbols  *  *  int  long  int  long  *  _Bool  * 9 
+Function: bin_classes  *  *  int 3 
+Function: bin_trycatch  *  *  int 3 
+Function: bin_size  *  *  int 3 
+Function: bin_mem  *  *  int 3 
+Function: bin_versioninfo  *  *  int 3 
+Function: bin_resources  *  *  int 3 
+Function: bin_signature  *  *  int 3 
+Ind-call: * _Bool 2 
+Function: bin_fields  *  *  int  int 4 
+Function: rva  *  long  long  int 4 
+Function: bin_pe_resources  *  *  int 3 
+Function: bin_no_resources  *  *  int 3 
+Function: r_flag_space_set.588  *  * 2 
+Function: r_str_startswith_inline.593  *  * 2 
+Function: bin_pe_versioninfo  *  *  int 3 
+Function: bin_elf_versioninfo  *  *  int 3 
+Function: bin_mach0_versioninfo  * 1 
+Function: bin_mem_print  *  *  int  int  int 5 
+Function: csv_supers  * 1 
+Function: r_str_ncpy.610  *  *  long 3 
+Function: classdump_java  *  * 2 
+Function: classdump_swift  *  * 2 
+Function: classdump_cxx  *  * 2 
+Function: classdump_c  *  * 2 
+Function: classdump_objc  *  * 2 
+Function: is_javaish  * 1 
+Function: is_swift  * 1 
+Function: objc_name_toc  * 1 
+Function: objc_type_toc  * 1 
+Function: r_core_bin_attr_tostring  long  int 2 
+Function: get_rp  * 1 
+Function: its_an_export  * 1 
+Function: compute_addr  *  long  long  int 4 
+Function: snInit  *  *  *  *  _Bool 5 
+Function: is_section_symbol  * 1 
+Function: is_file_symbol  * 1 
+Function: is_special_symbol  * 1 
+Function: handle_arm_special_symbol  *  *  int 3 
+Function: handle_arm_symbol  *  *  *  int 4 
+Function: select_flag_space  *  * 2 
+Function: construct_symbol_flagname  *  *  *  int 4 
+Function: snFini  * 1 
+Function: handle_arm_entry  *  *  *  int 4 
+Function: handle_arm_hint  *  *  long  long  int  int 6 
+Function: symbol_flag_prefix  * 1 
+Function: r_core_bin_impaddr  *  int  * 3 
+Function: get_import  *  *  *  long 4 
+Function: warn_if_dbg  * 1 
+Function: ri_init  *  * 2 
+Function: is_section_reloc  * 1 
+Function: is_file_reloc  * 1 
+Function: set_bin_relocs  *  *  long  *  * 5 
+Function: add_metadata  *  *  long  int 4 
+Function: bin_reloc_type_name  * 1 
+Function: construct_reloc_name  *  * 2 
+Function: resolveModuleOrdinal  *  *  int 3 
+Function: bin_reloc_size  * 1 
+Function: r_itv_begin.848  long  long 2 
+Function: r_itv_end.849  long  long 2 
+Function: filter_hash_string  * 1 
+Function: build_hash_string  *  int  *  *  int 5 
+Function: add_section  *  *  long  int 4 
+Function: io_create_mem_map  *  *  long  long 4 
+Function: findReusableFile  *  *  int 3 
+Function: findFile  *  *  int 3 
+Function: is_initfini  * 1 
+Function: srclineVal  * 1 
+Function: file_lines_free_kv  * 1 
+Function: read_file_lines  * 1 
+Function: file_lines_free  * 1 
+Function: a2b  *  long 2 
+Function: is_executable  * 1 
+Function: get_compile_time  * 1 
+Function: r_core_anal_type_init  * 1 
+Function: r_core_anal_cc_init  * 1 
+Function: pair_str  *  *  * 3 
+Function: pair_ut64x  *  *  long 3 
+Function: pair_ut64  *  *  long 3 
+Function: pair_int  *  *  int 3 
+Function: pair_bool  *  *  _Bool 3 
+Function: sdb_concat_by_path  *  * 2 
+Function: pair  *  * 2 
+Function: load_types_from  *  *  variadic 2 
+Function: _print_strings  *  *  *  int  int 5 
+Function: r_core_bin_set_arch_bits  *  *  *  short 4 
+Function: r_core_bin_update_arch_bits  * 1 
+Function: r_core_bin_raise  *  int 2 
+Function: r_core_bin_delete  *  int 2 
+Function: r_core_bin_list  *  int 2 
+Function: r_core_bin_file_print  *  *  *  int 4 
+Function: r_core_bin_rebase  *  long 2 
+Function: r_print_list  *  * 2 
+Ind-call: * int 2 
+Function: tree_files  *  int 2 
+Function: tree_functions  *  int 2 
+Function: itemcmp  * 1 
+Function: functions_for_file  *  * 2 
+Function: ranal2_list  *  *  int 3 
+Function: r_core_esil_cmd  *  *  long  long 4 
+Function: r_core_config_init  * 1 
+Function: cb_dirpfx  *  * 2 
+Function: cb_cmdtimes  *  * 2 
+Function: boolify_var_cb  *  * 2 
+Function: cb_analcc  *  * 2 
+Function: cb_analsyscc  *  * 2 
+Function: cb_analverbose  *  * 2 
+Function: cb_anal_roregs  *  * 2 
+Function: cb_anal_cs  *  * 2 
+Function: cb_anal_gp  *  * 2 
+Function: cb_anal_limits  *  * 2 
+Function: cb_anal_noret_refs  *  * 2 
+Function: cb_anal_slow  *  * 2 
+Function: cb_anal_noret  *  * 2 
+Function: cb_anal_from  *  * 2 
+Function: cb_searchin  *  * 2 
+Function: set_options  *  variadic 1 
+Function: cb_anal_jmpretpoline  *  * 2 
+Function: cb_anal_jmptailcall  *  * 2 
+Function: cb_anal_jmptailcall_delta  *  * 2 
+Function: cb_analarmthumb  *  * 2 
+Function: cb_anal_delay  *  * 2 
+Function: cb_analdepth  *  * 2 
+Function: cb_analgraphdepth  *  * 2 
+Function: cb_analsleep  *  * 2 
+Function: cb_anal_ignbithints  *  * 2 
+Function: cb_anal_nonull  *  * 2 
+Function: cb_analvars  *  * 2 
+Function: cb_analvars_stackname  *  * 2 
+Function: cb_analvars_newstack  *  * 2 
+Function: cb_analnorevisit  *  * 2 
+Function: cb_analnopskip  *  * 2 
+Function: cb_analhpskip  *  * 2 
+Function: cb_analarch  *  * 2 
+Function: update_analarch_options  *  * 2 
+Function: cb_analrecont  *  * 2 
+Function: cb_analijmp  *  * 2 
+Function: cb_archdecoder  *  * 2 
+Function: update_archdecoder_options  *  * 2 
+Function: cb_archdecoder_getter  *  * 2 
+Function: cb_archbits  *  * 2 
+Function: cb_archbits_getter  *  * 2 
+Function: cb_arch_platform  *  * 2 
+Function: cb_archendian  *  * 2 
+Function: cb_analmaxrefs  *  * 2 
+Function: cb_anal_jmptbl  *  * 2 
+Function: cb_anal_cjmpref  *  * 2 
+Function: cb_anal_jmpref  *  * 2 
+Function: cb_anal_jmpabove  *  * 2 
+Function: cb_anal_loads  *  * 2 
+Function: cb_anal_followdatarefs  *  * 2 
+Function: cb_anal_brokenrefs  *  * 2 
+Function: cb_anal_jmpmid  *  * 2 
+Function: cb_anal_searchstringrefs  *  * 2 
+Function: cb_anal_trycatch  *  * 2 
+Function: cb_anal_bb_max_size  *  * 2 
+Function: cb_anal_pushret  *  * 2 
+Function: cb_anal_cxxabi  *  * 2 
+Function: cb_asmabi  *  * 2 
+Function: cb_malloc  *  * 2 
+Function: cb_esilverbose  *  * 2 
+Function: cb_gotolimit  *  * 2 
+Function: cb_esilstackdepth  *  * 2 
+Function: cb_cfgdebug  *  * 2 
+Function: cb_asmos  *  * 2 
+Function: cb_asm_invhex  *  * 2 
+Function: cb_asm_codealign  *  * 2 
+Function: cb_emustr  *  * 2 
+Function: cb_emuskip  *  * 2 
+Function: cb_maxname  *  * 2 
+Function: cb_midflags  *  * 2 
+Function: cb_flag_realnames  *  * 2 
+Function: cb_asmlineswidth  *  * 2 
+Function: cb_asmsubvarmin  *  * 2 
+Function: cb_asmsubtail  *  * 2 
+Function: cb_scr_wideoff  *  * 2 
+Function: cb_scrrainbow  *  * 2 
+Function: cb_scrlast  *  * 2 
+Function: cb_segoff  *  * 2 
+Function: cb_asm_offset_segment_bits  *  * 2 
+Function: cb_decoff  *  * 2 
+Function: cb_reloff  *  * 2 
+Function: cb_asmsubsec  *  * 2 
+Function: cb_asmpseudo  *  * 2 
+Function: cb_asmassembler  *  * 2 
+Function: cb_asmcpu  *  * 2 
+Function: cb_asmarch  *  * 2 
+Function: update_asmarch_options  *  * 2 
+Function: update_asmcpu_options  *  * 2 
+Function: cb_asmparser  *  * 2 
+Function: update_asmparser_options  *  * 2 
+Function: cb_asmsyntax  *  * 2 
+Function: cb_asmbits  *  * 2 
+Ind-call: * 1 
+Function: update_asmbits_options  *  * 2 
+Function: cb_usextr  *  * 2 
+Function: cb_useldr  *  * 2 
+Function: cb_binlimit  *  * 2 
+Function: cb_strpurge  *  * 2 
+Function: cb_nofp  *  * 2 
+Function: cb_binat  *  * 2 
+Function: cb_strfilter  *  * 2 
+Function: cb_binfilter  *  * 2 
+Function: cb_binforce  *  * 2 
+Function: cb_demangle_trylib  *  * 2 
+Function: cb_bindbginfo  *  * 2 
+Function: cb_binminstr  *  * 2 
+Function: cb_binmaxsymlen  *  * 2 
+Function: cb_binmaxstr  *  * 2 
+Function: cb_binmaxstrbuf  *  * 2 
+Function: cb_binstrenc  *  * 2 
+Function: cb_binprefix  *  * 2 
+Function: cb_rawstr  *  * 2 
+Function: cb_binstrings  *  * 2 
+Function: cb_debase64  *  * 2 
+Function: cb_binverbose  *  * 2 
+Function: cb_prjname  *  * 2 
+Function: cb_codevar  *  * 2 
+Function: cb_cfgcharset  *  * 2 
+Function: update_cfgcharsets_options  *  * 2 
+Function: cb_cfgdatefmt  *  * 2 
+Function: cb_timezone  *  * 2 
+Function: cb_cfgcorelog  *  * 2 
+Function: cb_cfg_fortunes  *  * 2 
+Function: cb_cfg_fortunes_type  *  * 2 
+Function: cb_cfgsanbox  *  * 2 
+Function: cb_cfgsanbox_grain  *  * 2 
+Function: cb_bigendian  *  * 2 
+Function: cb_config_log_level  *  * 2 
+Function: cb_config_log_ts  *  * 2 
+Function: cb_config_log_traplevel  *  * 2 
+Function: cb_config_log_filter  *  * 2 
+Function: cb_log_origin  *  * 2 
+Function: cb_log_source  *  * 2 
+Function: cb_config_log_colors  *  * 2 
+Function: cb_config_log_quiet  *  * 2 
+Function: cb_config_log_cons  *  * 2 
+Function: cb_diff_sort  *  * 2 
+Function: cb_dirsrc  *  * 2 
+Function: cb_dirhome  *  * 2 
+Function: cb_dirtmp  *  * 2 
+Function: cb_dir_projects  *  * 2 
+Function: cb_dirzigns  *  * 2 
+Function: cb_bdc  *  * 2 
+Function: cb_cmddepth  *  * 2 
+Function: cb_debug_hitinfo  *  * 2 
+Function: cb_cmdpdc  *  * 2 
+Function: update_cmdpdc_options  *  * 2 
+Function: cb_cmdlog  *  * 2 
+Function: cb_cmdrepeat  *  * 2 
+Function: cb_cmd_esil_pin  *  * 2 
+Function: cb_cmd_esil_step  *  * 2 
+Function: cb_cmd_esil_step_out  *  * 2 
+Function: cb_cmd_esil_mdev  *  * 2 
+Function: cb_cmd_esil_intr  *  * 2 
+Function: cb_cmd_esil_trap  *  * 2 
+Function: cb_cmd_esil_todo  *  * 2 
+Function: cb_cmd_esil_ioer  *  * 2 
+Function: cb_dbg_maxsnapsize  *  * 2 
+Function: cb_dbg_wrap  *  * 2 
+Function: cb_dbg_libs  *  * 2 
+Function: cb_dbg_unlibs  *  * 2 
+Function: cb_dbg_verbose  *  * 2 
+Function: cb_dbg_bpinmaps  *  * 2 
+Function: cb_dbg_forks  *  * 2 
+Function: cb_dbg_btalgo  *  * 2 
+Function: cb_stopthreads  *  * 2 
+Function: cb_dbg_clone  *  * 2 
+Function: cb_dbg_aftersc  *  * 2 
+Function: cb_runprofile  *  * 2 
+Function: cb_dbg_args  *  * 2 
+Function: cb_dbg_follow_child  *  * 2 
+Function: cb_dbg_trace_continue  *  * 2 
+Function: cb_trace  *  * 2 
+Function: cb_tracetag  *  * 2 
+Function: cb_dbgstatus  *  * 2 
+Function: cb_dbgbackend  *  * 2 
+Function: cb_dbgbep  *  * 2 
+Function: cb_swstep  *  * 2 
+Function: cb_dbg_execs  *  * 2 
+Function: cb_dbg_gdb_page_size  *  * 2 
+Function: cb_dbg_gdb_retries  *  * 2 
+Function: cb_consbreak  *  * 2 
+Function: __dbg_swstep_getter  *  * 2 
+Function: cb_dbgbpsize  *  * 2 
+Function: cb_dbgbtdepth  *  * 2 
+Function: cb_fsview  *  * 2 
+Function: cb_hex_header  *  * 2 
+Function: cb_hex_bytes  *  * 2 
+Function: cb_hex_ascii  *  * 2 
+Function: cb_hex_hdroff  *  * 2 
+Function: cb_hex_style  *  * 2 
+Function: cb_hex_pairs  *  * 2 
+Function: cb_hex_align  *  * 2 
+Function: cb_hex_section  *  * 2 
+Function: cb_hexcompact  *  * 2 
+Function: cb_cmd_hexcursor  *  * 2 
+Function: cb_hexcols  *  * 2 
+Function: cb_hexstride  *  * 2 
+Function: cb_hexcomments  *  * 2 
+Function: cb_graphformat  *  * 2 
+Function: cb_dotted  *  * 2 
+Function: cb_exectrap  *  * 2 
+Function: cb_iotrap  *  * 2 
+Function: cb_mdevrange  *  * 2 
+Function: cb_jsonencoding  *  * 2 
+Function: cb_jsonencoding_numbers  *  * 2 
+Function: cb_scrfgets  *  * 2 
+Function: cb_screcho  *  * 2 
+Function: cb_scrlinesleep  *  * 2 
+Function: cb_completion_maxtab  *  * 2 
+Function: cb_scr_maxpage  *  * 2 
+Function: cb_scrpagesize  *  * 2 
+Function: cb_scrflush  *  * 2 
+Function: cb_scrbreakword  *  * 2 
+Function: cb_breaklines  *  * 2 
+Function: cb_scr_gadgets  *  * 2 
+Function: cb_scrtheme  *  * 2 
+Function: cb_scrtimeout  *  * 2 
+Function: cb_scrcolumns  *  * 2 
+Function: cb_scroptimize  *  * 2 
+Function: cb_scrrows  *  * 2 
+Function: cb_rows  *  * 2 
+Function: cb_fps  *  * 2 
+Function: cb_fixrows  *  * 2 
+Function: cb_fixcolumns  *  * 2 
+Function: cb_scrhighlight  *  * 2 
+Function: cb_scrint  *  * 2 
+Function: cb_scr_bgfill  *  * 2 
+Function: cb_scrhtml  *  * 2 
+Function: cb_scrnkey  *  * 2 
+Function: cb_pager  *  * 2 
+Function: cb_scr_color_grep_highlight  *  * 2 
+Function: cb_scr_prompt_popup  *  * 2 
+Function: cb_scr_vi  *  * 2 
+Function: cb_scr_prompt_mode  *  * 2 
+Function: cb_scrprompt  *  * 2 
+Function: cb_color  *  * 2 
+Function: cb_color_getter  *  * 2 
+Function: cb_scr_color_grep  *  * 2 
+Function: cb_scr_color_ophex  *  * 2 
+Function: cb_scrnull  *  * 2 
+Function: cb_utf8  *  * 2 
+Function: cb_utf8_curvy  *  * 2 
+Function: cb_scr_demo  *  * 2 
+Function: cb_scr_histblock  *  * 2 
+Function: cb_scr_histfilter  *  * 2 
+Function: cb_scr_histsize  *  * 2 
+Function: cb_scrstrconv  *  * 2 
+Function: cb_str_escbslash  *  * 2 
+Function: cb_contiguous  *  * 2 
+Function: cb_searchalign  *  * 2 
+Function: cb_search_kwidx  *  * 2 
+Function: cb_io_cache  *  * 2 
+Function: cb_io_cache_read  *  * 2 
+Function: cb_io_cache_write  *  * 2 
+Function: cb_io_cache_nodup  *  * 2 
+Function: cb_io_cache_mode  *  * 2 
+Function: cb_iopcache  *  * 2 
+Function: cb_iopcachewrite  *  * 2 
+Function: cb_iopcacheread  *  * 2 
+Function: cb_ioff  *  * 2 
+Function: cb_iomask  *  * 2 
+Function: cb_io_oxff  *  * 2 
+Function: cb_ioaslr  *  * 2 
+Function: cb_iova  *  * 2 
+Function: cb_io_pava  *  * 2 
+Function: cb_ioautofd  *  * 2 
+Function: cb_io_unalloc  *  * 2 
+Function: cb_io_unalloc_ch  *  * 2 
+Function: cb_io_overlay  *  * 2 
+Function: cb_config_log_file  *  * 2 
+Function: cb_config_file_output  *  * 2 
+Function: cb_zoombyte  *  * 2 
+Function: cb_linesto  *  * 2 
+Function: cb_linesabs  *  * 2 
+Function: cb_prjvctype  *  * 2 
+Function: print_node_options  * 1 
+Function: isGdbPlugin  * 1 
+Function: compareName  *  * 2 
+Function: compareNameLen  *  * 2 
+Function: compareAddress  *  * 2 
+Function: compareType  *  * 2 
+Function: compareSize  *  * 2 
+Function: compareDist  *  * 2 
+Function: cb_log_cons  *  int  *  * 4 
+Function: r_str_ncpy.1722  *  *  long 3 
+Function: list_available_plugins  * 1 
+Function: __setsegoff  *  *  int 3 
+Function: r_str_startswith_inline.1723  *  * 2 
+Function: list_cpus  * 1 
+Function: cb_analcc_getter  *  * 2 
+Function: r_core_parse_radare2rc  * 1 
+Function: r_core_config_update  * 1 
+Function: r_core_setup_debugger  *  *  _Bool 3 
+Function: r_core_seek_base  *  * 2 
+Function: r_core_seek  *  long  _Bool 3 
+Function: r_core_block_read  * 1 
+Function: r_core_dump  *  *  long  long  int 5 
+Function: r_core_transform_op  *  *  char 3 
+Function: r_write_le16  *  short 2 
+Function: r_write_le32  *  int 2 
+Function: r_write_le64  *  long 2 
+Function: r_write_ble16  *  short  _Bool 3 
+Function: r_write_ble32  *  int  _Bool 3 
+Function: r_write_ble64  *  long  _Bool 3 
+Function: r_write_be64  *  long 2 
+Function: r_write_be32  *  int 2 
+Function: r_write_at_be32  *  int  long 3 
+Function: r_write_be16  *  short 2 
+Function: r_write_at_be16  *  short  long 3 
+Function: r_write_be8  *  char 2 
+Function: r_write_at_be8  *  char  long 3 
+Function: r_write_at_ble8  *  char  long 3 
+Function: r_write_ble8  *  char 2 
+Function: r_write_at_le32  *  int  long 3 
+Function: r_write_at_le16  *  short  long 3 
+Function: r_write_le8  *  char 2 
+Function: r_write_at_le8  *  char  long 3 
+Function: r_core_write_op  *  *  char 3 
+Function: r_core_write_at  *  long  *  int 4 
+Function: r_core_arch_bits_at  *  long  *  * 4 
+Function: r_core_seek_arch_bits  *  long 2 
+Function: r_core_seek_delta  *  long 2 
+Function: r_core_extend_at  *  long  int 3 
+Function: r_itv_begin.1771  long  long 2 
+Function: r_core_shift_block  *  long  long  long 4 
+Function: get_glibc_version_32  *  * 2 
+Function: get_va_symbol_32  *  *  * 3 
+Function: get_section_content_32  *  *  * 3 
+Function: print_heap_chunk_32  * 1 
+Function: print_heap_fastbin_32  *  int  *  int  *  _Bool 6 
+Function: print_single_linked_list_bin_32  *  *  int  int  int  _Bool 6 
+Function: update_main_arena_32  *  int  * 3 
+Function: get_brks_32  *  *  * 3 
+Function: r_itv_begin.1836  long  long 2 
+Function: r_itv_end.1837  long  long 2 
+Function: update_arena_with_tc_32  *  * 2 
+Function: update_arena_without_tc_32  *  * 2 
+Function: print_malloc_states_32  *  int  * 3 
+Function: is_arena_32  *  int  int 3 
+Function: print_inst_minfo_32  *  int 2 
+Function: print_malloc_info_32  *  int  int 3 
+Function: get_glibc_version_64  *  * 2 
+Function: get_va_symbol_64  *  *  * 3 
+Function: get_section_content_64  *  *  * 3 
+Function: print_heap_chunk_64  * 1 
+Function: print_heap_fastbin_64  *  long  *  long  *  _Bool 6 
+Function: print_single_linked_list_bin_64  *  *  long  long  long  _Bool 6 
+Function: update_main_arena_64  *  long  * 3 
+Function: get_brks_64  *  *  * 3 
+Function: update_arena_with_tc_64  *  * 2 
+Function: update_arena_without_tc_64  *  * 2 
+Function: print_malloc_states_64  *  long  * 3 
+Function: is_arena_64  *  long  long 3 
+Function: print_inst_minfo_64  *  long 2 
+Function: print_malloc_info_64  *  long  long 3 
+Function: r_core_debug_ri  *  *  int 3 
+Function: regcb  *  long  * 3 
+Function: ut64_new.1857  long 1 
+Function: regcmp  *  * 2 
+Function: r_core_debug_rr  *  *  int 3 
+Function: r_core_log_view  *  int  int 3 
+Function: cmd_write_hexpair  *  * 2 
+Function: cmd_write_fail  * 1 
+Function: r_core_cmpwatch_free  * 1 
+Function: r_core_cmpwatch_get  *  long 2 
+Function: r_core_cmpwatch_add  *  long  int  * 4 
+Function: r_core_cmpwatch_del  *  long 2 
+Function: r_core_cmpwatch_show  *  long  int 3 
+Function: r_core_cmd_strf  *  *  variadic 2 
+Function: r_core_cmdf  *  *  variadic 2 
+Function: r_core_cmd  *  *  _Bool 3 
+Function: handle_command_call  *  * 2 
+Function: r_str_startswith_inline.1902  *  * 2 
+Function: run_cmd_depth  *  * 2 
+Function: r_core_cmd_subst  *  * 2 
+Function: r_core_cmd_call  *  * 2 
+Function: r_core_cmd0  *  * 2 
+Function: lastcmd_repeat  *  int 2 
+Function: r_core_cmd_nullcallback  * 1 
+Function: is_macro_command  * 1 
+Function: find_ch_after_macro  *  char 2 
+Function: r_core_cmd_subst_i  *  *  *  * 4 
+Function: tmpenvs_free  * 1 
+Function: find_eoq  * 1 
+Function: r_core_cmd_help  *  * 2 
+Function: r_core_cmd_pipe  *  *  * 3 
+Function: r_core_cmd_str  *  * 2 
+Function: recursive_help  *  int  * 3 
+Function: r_core_cmd_tobuf  *  * 2 
+Function: r_core_cmd_find_subcmd_begin  * 1 
+Function: r_core_cmd_find_subcmd_end  *  _Bool 2 
+Function: r_core_cmd_str_pipe  *  * 2 
+Function: r_flag_space_push.1929  *  * 2 
+Function: findSeparator  * 1 
+Function: set_tmp_bits  *  int  *  * 4 
+Function: parse_tmp_evals  *  * 2 
+Function: r_write_ble64.1931  *  long  _Bool 3 
+Function: r_write_ble32.1932  *  int  _Bool 3 
+Function: set_tmp_arch  *  *  * 3 
+Function: r_core_cmd_help_match  *  *  * 3 
+Function: r_core_cmd_foreach3  *  *  * 3 
+Function: r_core_cmd_foreach  *  *  * 3 
+Ind-call: * int 2 
+Function: r_flag_space_pop.1936  * 1 
+Function: unescape_special_chars  *  * 2 
+Function: bb_cmp  *  * 2 
+Function: foreach_newline  * 1 
+Function: foreachOffset  *  *  * 3 
+Function: foreachWord  *  *  * 3 
+Function: r_flag_space_cur  * 1 
+Function: duplicate_flag  *  * 2 
+Function: r_spaces_current  * 1 
+Function: foreach3list  *  char  * 3 
+Ind-call: * int 2 
+Function: foreach_pairs  *  *  * 3 
+Function: foreach3list_free  * 1 
+Function: r_interval_tree_iter_get  * 1 
+Function: append_item  *  *  long  long 4 
+Function: r_itv_size  long  long 2 
+Function: isAnExport  * 1 
+Function: copy_into_flagitem_list  *  * 2 
+Function: r_write_be32.2020  *  int 2 
+Function: r_write_le32.2021  *  int 2 
+Function: r_write_le16.2022  *  short 2 
+Function: r_write_at_le16.2023  *  short  long 3 
+Function: r_write_le8.2024  *  char 2 
+Function: r_write_at_le8.2025  *  char  long 3 
+Function: r_write_at_ble8.2026  *  char  long 3 
+Function: r_write_ble8.2027  *  char 2 
+Function: r_write_be16.2028  *  short 2 
+Function: r_write_at_be16.2029  *  short  long 3 
+Function: r_write_be8.2030  *  char 2 
+Function: r_write_at_be8.2031  *  char  long 3 
+Function: r_write_be64.2032  *  long 2 
+Function: r_write_le64.2033  *  long 2 
+Function: r_write_at_le32.2034  *  int  long 3 
+Function: r_write_at_be32.2035  *  int  long 3 
+Function: r_core_cmd_callf  *  *  variadic 2 
+Function: r_core_cmpwatch_update  *  long 2 
+Function: update_watcher  *  * 2 
+Function: r_core_cmpwatch_revert  *  long 2 
+Function: revert_watcher  * 1 
+Function: r_core_get_theme  * 1 
+Function: r_core_list_themes  * 1 
+Function: list_themes_in_path  *  * 2 
+Function: r_core_echo  *  * 2 
+Function: r_core_slurp  *  *  * 3 
+Function: r_core_get_stacksz  *  long  long 3 
+Function: r_core_link_stroff  *  * 2 
+Function: bb_cmpaddr.2077  *  * 2 
+Function: r_vector_empty.2078  * 1 
+Function: r_vector_at.2079  *  int 2 
+Function: set_offset_hint  *  *  *  long  long  int 6 
+Function: set_retval  *  long 2 
+Function: r_core_esil_step  *  long  *  *  _Bool 5 
+Ind-call: * * long long 4 
+Ind-call: * * long long 4 
+Function: cmd_syscall_dostr  *  long  long 3 
+Function: syscallNumber  *  int 2 
+Function: fcnshowr  * 1 
+Ind-call: * long 2 
+Function: r_core_af  *  long  *  _Bool 4 
+Function: __setFunctionName  *  long  *  _Bool 4 
+Ind-call: * * * * 4 
+Function: __add_vars_sdb  *  * 2 
+Function: RVecAnalRef_free.2137  * 1 
+Function: RVecAnalRef_fini.2139  * 1 
+Function: getFunctionName  *  long  *  _Bool 4 
+Function: rename_fcnsig  *  *  * 3 
+Function: fcnNeedsPrefix  * 1 
+Function: r_core_anal_undefine  *  long 2 
+Function: cmd_af  *  * 2 
+Function: cmd_afix  *  * 2 
+Function: __core_cmd_anal_fcn_allstats  *  * 2 
+Function: __core_cmd_anal_fcn_stats  *  * 2 
+Function: faddr  *  long  * 3 
+Function: sdbkv_key.2186  * 1 
+Function: sdbkv_value.2187  * 1 
+Function: cmd_aflxj  * 1 
+Function: cmpaddr.2190  *  * 2 
+Function: cmpbbs  *  * 2 
+Function: cmpsize.2191  *  * 2 
+Function: cmpname.2192  *  * 2 
+Function: cmd_afla  *  * 2 
+Function: cmd_afsr  *  * 2 
+Function: cmd_afsj  *  * 2 
+Function: cmd_afsv  *  long  int 3 
+Function: r_core_anal_fmap  *  * 2 
+Function: var_cmd  *  * 2 
+Ind-call: * 1 
+Function: type_cmd  *  * 2 
+Function: afCc  *  * 2 
+Function: cmd_afci  *  * 2 
+Function: cmd_anal_fcn_sig  *  * 2 
+Function: cmd_afck  *  * 2 
+Function: cmd_tcc  *  * 2 
+Function: anal_fcn_del_bb  *  * 2 
+Function: cmd_afba  *  * 2 
+Function: afbo  * 1 
+Function: anal_bb_edge  *  * 2 
+Function: anal_fcn_list_bb  *  *  _Bool 3 
+Function: cmd_afbplus  *  * 2 
+Function: cmd_afbc  *  * 2 
+Function: cmd_afbd  *  * 2 
+Function: xrefs_map  *  * 2 
+Function: RVecBlocks_init  * 1 
+Function: RVecBlocks_push_back  *  * 2 
+Function: emulate_block  *  *  * 3 
+Function: find_predecessor  *  * 2 
+Function: save_regstate_in_destinations  *  *  *  * 4 
+Function: RVecBlocks_length  * 1 
+Function: RVecBlocks_reserve  *  long 2 
+Function: print_bb  *  *  *  long 4 
+Function: caseval  * 1 
+Function: __opaddr  *  long 2 
+Function: _abo  * 1 
+Function: RVecAddr_new 0 
+Function: RVecAddr_push_back  *  * 2 
+Function: RVecAddr_free  * 1 
+Function: afba_leafs  *  long  * 3 
+Function: afba_purge  *  long  * 3 
+Function: RVecAddr_empty  * 1 
+Function: afba_left  *  long  * 3 
+Function: RVecAddr_remove  *  long 2 
+Function: RVecAddr_at  *  long 2 
+Function: RVecAddr_length  * 1 
+Function: RVecAddr_fini  * 1 
+Function: RVecAddr_reserve  *  long 2 
+Function: RVecAddr_init  * 1 
+Function: r_core_cmd_help_contains  *  *  * 3 
+Function: r_core_cmd_help_match_spec  *  *  *  char 4 
+Function: cmd_afcl  *  * 2 
+Function: cc_cb  *  *  * 3 
+Function: var_help  *  char 2 
+Function: cmd_afvx  *  *  _Bool 3 
+Function: list_vars  *  *  *  int  * 5 
+Function: __cmd_afvf  *  * 2 
+Function: delta_cmp2  *  * 2 
+Function: delta_cmp  *  * 2 
+Function: var_accesses_list  *  *  *  int  * 5 
+Function: print_fcn_arg  *  *  *  *  long  int  int 7 
+Function: afla_leafs  *  long  * 3 
+Function: afla_purge  *  long  * 3 
+Function: __updateStats  *  *  long  int 4 
+Function: cmd_anal_reg  *  * 2 
+Function: __tableRegList  *  *  * 3 
+Function: cmd_reg_profile  *  char  * 3 
+Ind-call: * 1 
+Function: __anal_reg_list  *  int  int  char 4 
+Function: reg_name_roll_set  *  *  long 3 
+Function: r_str_ncpy.2793  *  *  long 3 
+Function: showreg  *  * 2 
+Function: reg_by_name_role  *  * 2 
+Function: get_arch_name  * 1 
+Function: cmd_drpi  * 1 
+Function: __table_format_string  *  int 2 
+Function: r_core_esil_step_back  * 1 
+Function: cmd_aei  * 1 
+Function: esil_new_setup  * 1 
+Function: core_type_by_addr  *  long 2 
+Function: cmd_agfb  * 1 
+Function: cmd_agfb2  *  * 2 
+Function: cmd_aggb  * 1 
+Function: cmd_agfb3  *  *  int  int 4 
+Function: r_core_agraph_treemap  *  int  * 3 
+Function: free_item  * 1 
+Function: add_item  *  *  long  long 4 
+Function: treemap_layout  *  * 2 
+Function: bysize  *  * 2 
+Function: r_core_agraph_print  *  int  * 3 
+Function: mermaid_anod_body  * 1 
+Function: mermaid_graph  *  * 2 
+Ind-call: * 1 
+Function: agraph_print_node_dot  *  * 2 
+Function: agraph_print_edge_dot  *  *  * 3 
+Function: agraph_print_node  *  * 2 
+Function: agraph_print_edge  *  *  * 3 
+Function: agraph_print_node_gml  *  * 2 
+Function: agraph_print_edge_gml  *  *  * 3 
+Function: convert_dotcmd_to_image  *  *  * 3 
+Function: convert_dot_to_image  *  *  * 3 
+Function: dot_executable_path 0 
+Function: getViewerPath 0 
+Function: mermaid_title_body_node_str  *  * 2 
+Function: mermaid_sanitize_str  * 1 
+Function: r_core_anal_refs  *  * 2 
+Function: r_core_get_boundaries_prot  *  int  *  * 4 
+Function: append_bound  *  *  long  long  long  long  int 7 
+Function: maskMatches  int  int  _Bool 3 
+Function: r_itv_overlap  long  long  long  long 4 
+Function: r_itv_intersect  long  long  long  long 4 
+Function: r_core_anal_all  * 1 
+Function: logline  *  int  * 3 
+Function: isSkippable  * 1 
+Function: isValidSymbol  * 1 
+Function: r_core_file_reopen_in_malloc  * 1 
+Function: reopen_in_malloc_cb  *  *  int 3 
+Function: r_core_file_reopen_remote_debug  *  *  long 3 
+Function: __save_old_sections  * 1 
+Function: __rebase_everything  *  *  long 3 
+Function: __rebase_flags  *  * 2 
+Function: r_core_file_reopen_debug  *  * 2 
+Function: r_comment_var_help  *  char 2 
+Function: r_comment_vars  *  * 2 
+Function: cmd_ic_add  *  * 2 
+Function: r_core_lines_currline  * 1 
+Function: r_core_lines_initcache  *  long  long 3 
+Function: r_core_search_prelude  *  long  long  *  int  *  int 7 
+Function: __prelude_cb_hit  *  *  long 3 
+Function: r_core_search_uds  *  int 2 
+Function: r_core_search_preludes  *  _Bool 2 
+Function: _CbInRangeSearchV  *  long  long  int  * 5 
+Function: isArm  * 1 
+Function: r_core_set_asm_configs  *  *  int  int 4 
+Function: r_core_gadget_free  * 1 
+Function: r_core_print_examine  *  * 2 
+Function: r_core_print_cmp  *  long  long 3 
+Function: r_print_offset  *  long  int  int  * 5 
+Function: lenof  long  int 2 
+Function: r_core_clippy  *  * 2 
+Function: r_core_cmd_help_contains_spec  *  *  *  char 4 
+Function: r_core_run_script  *  * 2 
+Function: r_core_cmd_lines  *  * 2 
+Function: lang_run_file  *  *  * 3 
+Function: r_core_cmd_file  *  * 2 
+Function: langFromHashbang  *  * 2 
+Function: r_line_hist_sdb_up  * 1 
+Function: r_line_hist_sdb_down  * 1 
+Function: r_core_cmd_command  *  * 2 
+Function: r_core_disassemble_instr  *  long  int 3 
+Function: r_core_disassemble_bytes  *  long  int 3 
+Function: r_core_cmd_buffer  *  * 2 
+Function: r_core_cmdf_at  *  long  *  variadic 3 
+Function: r_core_cmd_strf_at  *  long  *  variadic 3 
+Function: r_core_cmd_call_at  *  long  * 3 
+Function: r_core_cmd_str_at  *  long  * 3 
+Function: r_core_cmd_task_sync  *  *  _Bool 3 
+Function: r_core_cmd_init  * 1 
+Function: core_cmd0_wrapper  *  * 2 
+Function: cmd_system  *  * 2 
+Function: cmd_last  *  * 2 
+Function: cmd_hash  *  * 2 
+Function: cmd_alias  *  * 2 
+Function: cmd_env  *  * 2 
+Function: cmd_tasks  *  * 2 
+Function: cmd_macro  *  * 2 
+Function: cmd_pointer  *  * 2 
+Function: cmd_plus  *  * 2 
+Function: cmd_stdin  *  * 2 
+Function: cmd_interpret  *  * 2 
+Function: cmd_table  *  * 2 
+Function: cmd_search  *  * 2 
+Function: cmd_rap  *  * 2 
+Function: cmd_help  *  * 2 
+Ind-call: * long int 3 
+Function: cmd_iosys  *  * 2 
+Function: cmd_ox  *  * 2 
+Function: cmd_anal  *  * 2 
+Function: cmd_bsize  *  * 2 
+Function: cmd_cmp  *  * 2 
+Function: cmd_meta  *  * 2 
+Function: cmd_debug  *  * 2 
+Ind-call: * * 2 
+Ind-call: * int 2 
+Function: cmd_eval  *  * 2 
+Function: cmd_flag  *  * 2 
+Function: cmd_egg  *  * 2 
+Function: cmd_info  *  * 2 
+Function: cmd_kuery  *  * 2 
+Function: cmd_l  *  * 2 
+Function: cmd_join  *  * 2 
+Function: cmd_head  *  * 2 
+Function: cmd_plugins  *  * 2 
+Function: cmd_mount  *  * 2 
+Function: cmd_open  *  * 2 
+Ind-call: * * 2 
+Function: cmd_print  *  * 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: char 1 
+Ind-call: char 1 
+Ind-call: char 1 
+Ind-call: char 1 
+Ind-call: * long char _Bool 4 
+Ind-call: * long char _Bool 4 
+Ind-call: * long char _Bool 4 
+Ind-call: * int 2 
+Function: cmd_project  *  * 2 
+Function: cmd_quit  *  * 2 
+Function: cmd_Quit  *  * 2 
+Function: cmd_resize  *  * 2 
+Function: cmd_seek  *  * 2 
+Function: cmd_type  *  * 2 
+Function: cmd_log  *  * 2 
+Function: cmd_undo  *  * 2 
+Function: cmd_pipein  *  * 2 
+Function: cmd_visual  *  * 2 
+Function: cmd_panels  *  * 2 
+Function: cmd_write  *  * 2 
+Function: cmd_hexdump  *  * 2 
+Function: cmd_yank  *  * 2 
+Function: cmd_zign  *  * 2 
+Function: csvZignatures  *  * 2 
+Function: cmdCheck  *  * 2 
+Function: bestmatch  *  * 2 
+Function: diff_zig  *  * 2 
+Function: cmdOpen  *  * 2 
+Function: cmdAdd  *  * 2 
+Function: cmdFlirt  *  * 2 
+Function: cmdSearch  *  * 2 
+Function: cmdCompare  *  * 2 
+Function: cmdSpace  *  * 2 
+Function: cmdInfo  *  * 2 
+Function: spaces_list  *  int 2 
+Function: r_spaces_current_name  * 1 
+Function: search  *  _Bool  _Bool 3 
+Function: fill_search_metrics  *  *  * 3 
+Function: searchRange  *  long  long  _Bool  * 5 
+Function: print_ctx_hits  * 1 
+Function: searchBytesHitCB  *  *  long  * 4 
+Function: apply_flag  *  *  long  int  int  *  _Bool 7 
+Function: apply_name  *  *  *  _Bool 4 
+Ind-call: * * * * 4 
+Function: search_add_to_types  *  *  int  *  * 5 
+Function: fcnMatchCB  *  *  *  *  * 5 
+Function: cmd_za_detailed_help 0 
+Function: za_add  *  * 2 
+Function: addGraphZign  *  *  * 3 
+Function: item_frm_signame  *  * 2 
+Function: _sig_bytediff_cb  *  *  int  int 4 
+Function: print_zig_diff  *  *  *  * 4 
+Function: bestmatch_fcn  *  *  _Bool 3 
+Function: bestmatch_sig  *  *  _Bool 3 
+Function: get_zb_threshold  * 1 
+Function: print_possible_matches  *  _Bool  * 3 
+Ind-call: * 1 
+Function: listCB  *  * 2 
+Function: cmd_w0  *  * 2 
+Function: w_incdec_handler  *  *  int 3 
+Function: cmd_w6  *  * 2 
+Function: cmd_wa  *  * 2 
+Function: cmd_wb  *  * 2 
+Function: cmd_wX  *  * 2 
+Function: cmd_wB  *  * 2 
+Function: cmd_wc  *  * 2 
+Function: cmd_wh  *  * 2 
+Function: cmd_we  *  * 2 
+Function: cmd_wp  *  * 2 
+Function: cmd_wu  *  * 2 
+Function: cmd_wr  *  * 2 
+Function: cmd_w  *  * 2 
+Function: cmd_wget  *  * 2 
+Function: cmd_wz  *  * 2 
+Function: cmd_wt  *  * 2 
+Function: cmd_wf  *  * 2 
+Function: cmd_ww  *  * 2 
+Function: cmd_wx  *  * 2 
+Function: cmd_wm  *  * 2 
+Function: cmd_write_value  *  * 2 
+Function: cmd_wo  *  * 2 
+Function: cmd_wd  *  * 2 
+Function: cmd_ws  *  * 2 
+Function: r_write_ble16.3419  *  short  _Bool 3 
+Function: encrypt_or_decrypt_block  *  *  *  int  * 5 
+Function: cmd_write_value_float  *  * 2 
+Function: cmd_write_value_double  *  * 2 
+Function: cmd_write_value_long_double  *  * 2 
+Function: cmd_wfs  *  * 2 
+Function: cmd_wfx  *  * 2 
+Function: cmd_wff  *  * 2 
+Function: ioMemcpy  *  long  long  int 4 
+Function: r_pvector_length.3420  * 1 
+Function: cmd_wcf  *  * 2 
+Function: cmd_write_pcache  *  * 2 
+Function: squash_write_cache  *  * 2 
+Function: __current_filename  * 1 
+Function: __va2pa  *  long 2 
+Function: cmd_write_bits  *  int  long 3 
+Function: cmd_write_inc  *  int  long 3 
+Function: cmd_uname  *  * 2 
+Function: cmd_uniq  *  * 2 
+Function: textlog_chat  * 1 
+Function: log_callback_all  *  int  * 3 
+Function: log_callback_r2  *  int  * 3 
+Function: getIndexFromLogString  * 1 
+Function: expr2cmd  *  * 2 
+Function: cmd_type_noreturn  *  * 2 
+Function: showFormat  *  *  int 3 
+Function: stdifunion  *  *  * 3 
+Function: print_struct_union_list_json  *  * 2 
+Function: print_struct_union_in_c_format  *  *  *  _Bool 4 
+Function: printkey_cb  *  *  * 3 
+Function: print_keys  *  *  *  *  _Bool 5 
+Ind-call: * * * 3 
+Function: stdifstruct  *  *  * 3 
+Function: print_enum_in_c_format  *  *  _Bool 3 
+Function: typesList  *  int 2 
+Function: cmd_tac  *  * 2 
+Function: cmd_tail  *  * 2 
+Function: print_link_readable_cb  *  *  * 3 
+Function: sdbdeletelink  *  *  * 3 
+Function: stdiflink  *  *  * 3 
+Function: print_link_r_cb  *  *  * 3 
+Function: print_link_readable_json_cb  *  *  * 3 
+Function: print_link_json_cb  *  *  * 3 
+Function: print_link_cb  *  *  * 3 
+Function: stdiffunc  *  *  * 3 
+Function: printFunctionTypeC  *  * 2 
+Function: printFunctionType  *  * 2 
+Function: printfunc_json_cb  *  *  * 3 
+Function: print_typelist_r_cb  *  *  * 3 
+Function: stdiftype  *  *  * 3 
+Function: print_typelist_json_cb  *  *  * 3 
+Function: seek_to_register  *  *  _Bool 3 
+Function: __core_cmd_search_backward_prelude  *  _Bool  _Bool 3 
+Function: cmd_sort  *  * 2 
+Function: cmd_seek_opcode  *  * 2 
+Function: __init_seek_line  * 1 
+Function: __get_current_line  * 1 
+Function: __seek_line_absolute  *  int 2 
+Function: __seek_line_relative  *  int 2 
+Function: __clean_lines_cache  * 1 
+Function: printPadded  *  int 2 
+Function: cmd_seek_opcode_backward  *  int 2 
+Function: cmd_seek_opcode_forward  *  int 2 
+Function: __backward_prelude_cb_hit  *  *  long 3 
+Function: cmd_r2cmd  *  * 2 
+Function: cmd_rebase  *  * 2 
+Function: __runMain  *  * 2 
+Ind-call: int * 2 
+Function: cmd_Pz  *  * 2 
+Function: r_core_project_zip_import  *  * 2 
+Function: r_core_project_zip_export  *  *  * 3 
+Function: cmd_pdu  *  * 2 
+Function: cmd_print_pwn  * 1 
+Function: cmd_print_ph  *  * 2 
+Ind-call: * int 2 
+Function: cmd_print_pv  *  *  _Bool 3 
+Function: cmd_print_blocks  *  * 2 
+Function: cmd_print_bars  *  * 2 
+Function: __cmd_pad  *  * 2 
+Function: cmd_pDj  *  * 2 
+Function: cmd_pi  *  *  int  int  * 5 
+Function: r_core_disasm_table  *  int  * 3 
+Function: findClassBounds  *  *  * 3 
+Function: core_print_decompile  *  * 2 
+Function: disasm_recursive  *  long  int  char 4 
+Function: func_walk_blocks  *  *  char  char  _Bool 5 
+Function: disasm_strings  *  *  * 3 
+Function: disasm_ropchain  *  long  char 3 
+Function: cmd_pdj  *  *  * 3 
+Function: __printPattern  *  * 2 
+Function: print_analstr  *  long  int 3 
+Function: cmd_psa  *  * 2 
+Function: decode_text  *  long  long  _Bool 4 
+Function: print_json_string  *  *  int  * 4 
+Function: print_pascal_string  *  *  int 3 
+Function: r_core_magic  *  *  int  * 4 
+Function: cmd_pCd  *  * 2 
+Function: cmd_pCD  *  * 2 
+Function: cmd_pCx  *  *  * 3 
+Function: cmd_printmsg  *  * 2 
+Function: bitimage  *  int 2 
+Function: cmd_prc_zoom  *  * 2 
+Ind-call: * long int 3 
+Function: cmd_prcn  *  *  int  _Bool 4 
+Ind-call: * long int 3 
+Function: cmd_prc  *  *  int 3 
+Ind-call: * long int 3 
+Function: printraw  *  int  int 3 
+Function: cmd_print_op  *  * 2 
+Function: annotated_hexdump  *  *  int 3 
+Ind-call: * long 2 
+Function: cmd_print_pxA  *  int  * 3 
+Function: cmd_pxb_k  *  int 2 
+Function: cmd_pxb_p  char 1 
+Function: _pointer_table  *  long  long  *  int  int  int 7 
+Function: r_read_ble32.3421  *  _Bool 2 
+Function: cmd_pxr  *  int  int  int  * 5 
+Ind-call: * long int 3 
+Function: r_read_ble16.3422  *  _Bool 2 
+Function: r_read_ble64.3423  *  _Bool 2 
+Function: cmd_print_gadget  *  * 2 
+Function: cmd_print_format  *  *  *  int 4 
+Function: cmd_print_fromage  *  *  *  int 4 
+Function: r_read_le64.3424  * 1 
+Function: printzoomcallback  *  int  long  *  long 5 
+Function: count_pzf  *  * 2 
+Function: r_flag_space_get  *  * 2 
+Function: count_pzs  *  * 2 
+Function: r_read_at_le32.3425  *  long 2 
+Function: r_read_le32.3426  * 1 
+Function: print_format_help_help_help_help  * 1 
+Function: r_core_cmd_print_binformat  *  *  int 3 
+Function: lart_new 0 
+Function: lart_free  * 1 
+Function: read_val  *  int  int 3 
+Function: lart_add  *  *  int  int  long 5 
+Function: r_read_be64.3427  * 1 
+Function: r_read_be32.3428  * 1 
+Function: r_read_at_be32.3429  *  long 2 
+Function: r_read_be16.3430  * 1 
+Function: r_read_le16.3431  * 1 
+Function: read_value  *  int  int 3 
+Function: first_flag_chars  *  *  * 3 
+Function: get_color  char 1 
+Function: r_core_magic_at  *  *  *  long  int  _Bool  *  * 8 
+Function: get_string_type  *  long 2 
+Function: check_string_at.3432  *  long  _Bool 3 
+Function: check_string_pointer  *  long 2 
+Function: strnullpad_check  *  int  int  int  _Bool 5 
+Function: invalid_page  *  *  long 3 
+Function: check_false_positive  * 1 
+Function: incAlphaBuffer  *  int 2 
+Function: incDigitBuffer  *  int 2 
+Function: disasm_until_optype  *  long  char  int  int 5 
+Function: _handle_call  *  *  * 3 
+Function: bbcmp  *  * 2 
+Function: pr_bb  *  *  *  _Bool  long  *  int  char  _Bool 9 
+Function: findMethodBounds  *  *  * 3 
+Function: __op_refs  *  *  int 3 
+Function: RVecAnalRef_empty.3433  * 1 
+Function: cmd_print_eq_dict  *  *  int 3 
+Function: analBars  *  long  long  long  long  long 6 
+Function: matchBar  *  int 2 
+Function: checkAnalType  *  int 2 
+Function: cmd_p_minus_e  *  long  long 3 
+Function: r_read_ble8.3434  * 1 
+Function: convert  *  * 2 
+Function: algolist  int 1 
+Function: handle_md4  *  int 2 
+Function: handle_md5  *  int 2 
+Function: handle_sha1  *  int 2 
+Function: handle_sha256  *  int 2 
+Function: handle_sha512  *  int 2 
+Function: handle_adler32  *  int 2 
+Function: handle_xor  *  int 2 
+Function: handle_xorpair  *  int 2 
+Function: handle_entropy  *  int 2 
+Function: handle_parity  *  int 2 
+Function: handle_hamdist  *  int 2 
+Function: handle_pcprint  *  int 2 
+Function: handle_mod255  *  int 2 
+Function: handle_xxhash  *  int 2 
+Function: handle_luhn  *  int 2 
+Function: handle_ssdeep  *  int 2 
+Function: handle_crc8_smbus  *  int 2 
+Function: handle_crc15_can  *  int 2 
+Function: handle_crc16  *  int 2 
+Function: handle_crc16_hdlc  *  int 2 
+Function: handle_crc16_usb  *  int 2 
+Function: handle_crc16_citt  *  int 2 
+Function: handle_crc24  *  int 2 
+Function: handle_crc32  *  int 2 
+Function: handle_crc32c  *  int 2 
+Function: handle_crc32_ecma_267  *  int 2 
+Function: handle_crc32_bzip2  *  int 2 
+Function: handle_crc32d  *  int 2 
+Function: handle_crc32_mpeg2  *  int 2 
+Function: handle_crc32_posix  *  int 2 
+Function: handle_crc32q  *  int 2 
+Function: handle_crc32_jamcrc  *  int 2 
+Function: handle_crc32_xfer  *  int 2 
+Function: handle_crc64  *  int 2 
+Function: handle_crc64_ecma182  *  int 2 
+Function: handle_crc64_we  *  int 2 
+Function: handle_crc64_xz  *  int 2 
+Function: handle_crc64_iso  *  int 2 
+Function: handle_fletcher8  *  int 2 
+Function: handle_fletcher16  *  int 2 
+Function: handle_fletcher32  *  int 2 
+Function: handle_fletcher64  *  int 2 
+Function: hexprint  *  int 2 
+Function: cmd_onn  *  * 2 
+Function: cmd_op  *  char  int 3 
+Function: init_desc_list_visual_cb  *  *  int 3 
+Function: desc_list_visual_cb  *  *  int 3 
+Function: desc_list_quiet2_cb  *  *  int 3 
+Ind-call: * int 2 
+Function: desc_list_quiet_cb  *  *  int 3 
+Ind-call: * int 2 
+Function: desc_list_cb  *  *  int 3 
+Ind-call: * int int * long * 6 
+Function: desc_list_cmds_cb2  *  *  int 3 
+Ind-call: * * int 3 
+Function: desc_list_cmds_cb  *  *  int 3 
+Ind-call: * * long * 4 
+Ind-call: * * * 3 
+Ind-call: * long long long * * 6 
+Function: desc_list_json_cb  *  *  int 3 
+Function: cmd_open_bin  *  * 2 
+Function: cmd_open_map  *  * 2 
+Ind-call: * * 2 
+Ind-call: * int int long long long * * 8 
+Ind-call: * int 2 
+Function: cmd_open_banks  *  int  * 3 
+Function: r_core_cmd_omt  *  * 2 
+Function: r_core_cmd_om_tab  *  * 2 
+Function: cmd_om  *  *  int 3 
+Function: cmd_omd  *  * 2 
+Function: cmd_omfg  *  * 2 
+Function: cmd_omf  *  int  * 3 
+Function: map_list  *  int  *  int 4 
+Ind-call: * long 2 
+Ind-call: * int int 3 
+Ind-call: * * long 3 
+Ind-call: * int int int long long long * * * 10 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: r_itv_contain.3435  long  long  long 3 
+Function: isfile  * 1 
+Function: find_desc_by_name  *  *  int 3 
+Function: cmd_man  *  * 2 
+Function: cmd_mktemp  *  * 2 
+Function: cmd_mkdir  *  * 2 
+Function: cmd_mv  *  * 2 
+Function: cmd_mount_ls  *  * 2 
+Function: t2s  char 1 
+Function: readman  *  * 2 
+Function: is_document  * 1 
+Function: unmarkdown  *  _Bool 2 
+Function: fill_line  *  int 2 
+Function: screenlock  * 1 
+Function: cmd_lr  *  * 2 
+Function: callback_foreach_kv  *  *  * 3 
+Function: cmd_info_bin  *  int  *  int 4 
+Function: cmd_iic  *  int 2 
+Function: r_core_bin_files  * 1 
+Function: tts_say  *  *  int 3 
+Function: __r_core_bin_reload  *  *  long 3 
+Function: bin_header  *  int 2 
+Ind-call: * 1 
+Function: cmd_ik  *  * 2 
+Function: cmd_it  *  * 2 
+Function: cmd_ic  *  *  *  _Bool  _Bool 5 
+Function: demangle  *  * 2 
+Function: cmd_is  *  *  *  _Bool  int  _Bool 6 
+Function: cmd_id  *  *  *  _Bool  int 5 
+Function: cmd_iS  *  *  *  int  _Bool  _Bool 6 
+Function: cmd_info_here  *  *  int 3 
+Function: cmd_iz  *  *  int  int  _Bool  * 6 
+Function: demangle_internal  *  *  * 3 
+Function: cmd_ic_sub  *  * 2 
+Function: cmd_ic_comma  *  * 2 
+Function: isjvm  * 1 
+Function: isKnownAndroidPackage  * 1 
+Function: cmd_icg  *  *  * 3 
+Function: classdump_keys  *  * 2 
+Function: is_equal_file_hashes  *  *  * 3 
+Function: r_core_file_info  *  *  int 3 
+Function: bin_is_executable  * 1 
+Function: pair.3436  *  * 2 
+Function: showBuffer  * 1 
+Function: cmd_egg_compile  * 1 
+Function: cmd_egg_option  *  *  * 3 
+Function: flag_to_flag  *  * 2 
+Function: flagbars  *  * 2 
+Function: adjust_offset  *  * 2 
+Function: print_function_labels  *  *  int 3 
+Function: find_flag_after_foreach  *  * 2 
+Function: cmd_fz  *  * 2 
+Function: cmd_flag_table  *  * 2 
+Function: cmd_flag_tags  *  * 2 
+Function: r_flag_space_rename  *  *  * 3 
+Function: flag_space_stack_list  *  int 2 
+Function: r_flag_space_unset  *  * 2 
+Function: r_flag_space_set.3437  *  * 2 
+Function: __flag_graph  *  *  int 3 
+Function: flag_ordinals  *  * 2 
+Function: cmpflag  *  * 2 
+Function: rename_flag_ordinal  *  * 2 
+Function: listFlag  *  * 2 
+Function: __printRecursive  *  *  *  int  int 5 
+Function: __childrenFlagsOf  *  *  * 3 
+Function: countMatching  *  * 2 
+Function: __isOnlySon  *  *  * 3 
+Function: print_space_stack  *  int  *  _Bool  *  int 6 
+Function: r_flag_space_cur_name  * 1 
+Function: __tableItemCallback  *  * 2 
+Function: find_flag_after  *  * 2 
+Function: print_function_labels_for  *  int  * 3 
+Function: print_function_labels_cb  *  long  * 3 
+Function: flagbar_foreach  *  * 2 
+Function: flag_to_flag_foreach  *  * 2 
+Function: nextpal  *  int 2 
+Function: cmd_load_theme  *  * 2 
+Function: is_static_theme  * 1 
+Function: cmd_eval_table  *  * 2 
+Function: r_config_node_is_ro  * 1 
+Function: load_theme  *  * 2 
+Function: nextpal_item  *  *  int  * 4 
+Function: debug_trace_calls  *  * 2 
+Function: dot_trace_traverse  *  *  int 3 
+Function: cmd_debug_desc  *  * 2 
+Function: cmd_debug_step  *  * 2 
+Function: r_core_cmd_bp  *  * 2 
+Function: static_debug_stop  * 1 
+Function: cmd_debug_continue  *  * 2 
+Function: cmd_debug_map  *  * 2 
+Function: cmd_debug_reg  *  * 2 
+Function: cmd_debug_pid  *  * 2 
+Function: getFileData  *  *  * 3 
+Function: r_core_debug_esil  *  * 2 
+Function: get_corefile_name  *  int 2 
+Function: r_core_debug_kill  *  * 2 
+Function: setRarunProfileString  *  * 2 
+Function: cmd_debug_reg_print_packed_reg  *  *  char  * 4 
+Function: grab_bits  *  *  * 3 
+Function: cmd_debug_map_snapshot  *  * 2 
+Function: cmd_debug_modules  *  int 2 
+Function: dump_maps  *  int  * 3 
+Function: addroflib  *  * 2 
+Function: get_closest_map  *  long 2 
+Function: get_bin_info  *  *  long  *  int  _Bool  * 7 
+Function: cmd_dmh  *  * 2 
+Function: dmh_glibc_64  *  * 2 
+Function: dmh_glibc_32  *  * 2 
+Function: dmh_jemalloc_64  *  * 2 
+Function: dmh_jemalloc_32  *  * 2 
+Function: jemalloc_print_narenas_32  *  * 2 
+Function: jemalloc_get_bins_32  *  * 2 
+Function: jemalloc_get_chunks_32  *  * 2 
+Function: r_resolve_jemalloc_32  *  *  * 3 
+Function: je_matched_32  *  * 2 
+Function: je_get_va_symbol_32  *  *  * 3 
+Function: jemalloc_print_narenas_64  *  * 2 
+Function: jemalloc_get_bins_64  *  * 2 
+Function: jemalloc_get_chunks_64  *  * 2 
+Function: r_resolve_jemalloc_64  *  *  * 3 
+Function: je_matched_64  *  * 2 
+Function: je_get_va_symbol_64  *  *  * 3 
+Function: is_tcache_32  * 1 
+Function: r_resolve_main_arena_32  *  * 2 
+Function: print_heap_segment_32  *  *  int  int  int  int 6 
+Function: print_arena_stats_32  *  int  *  int  int 5 
+Function: print_heap_bin_32  *  int  *  * 4 
+Function: dmhg_32  *  *  *  int  int 5 
+Function: print_tcache_instance_32  *  int  *  _Bool 4 
+Function: tcache_chunk_size_32  *  int 2 
+Function: tcache_new_32  * 1 
+Function: tcache_read_32  *  int  * 3 
+Function: tcache_print_32  *  *  _Bool 3 
+Function: tcache_free_32  * 1 
+Function: tcache_get_count_32  *  int 2 
+Function: tcache_get_entry_32  *  int 2 
+Function: print_double_linked_list_bin_32  *  *  int  int  int  int 6 
+Function: print_double_linked_list_bin_simple_32  *  int  *  int 4 
+Function: print_double_linked_list_bin_graph_32  *  int  *  int 4 
+Function: get_next_pointer_32  *  int  int 3 
+Function: resolve_glibc_version_32  * 1 
+Function: get_libc_filename_32  * 1 
+Function: get_main_arena_offset_with_symbol_32  *  * 2 
+Function: get_main_arena_offset_with_relocs_32  *  * 2 
+Function: get_expected_main_arena_structures_32  *  *  int 3 
+Function: get_libc_filename_from_maps_32  * 1 
+Function: is_tcache_64  * 1 
+Function: r_resolve_main_arena_64  *  * 2 
+Function: print_heap_segment_64  *  *  long  long  long  int 6 
+Function: print_arena_stats_64  *  long  *  long  int 5 
+Function: print_heap_bin_64  *  long  *  * 4 
+Function: dmhg_64  *  *  *  long  int 5 
+Function: print_tcache_instance_64  *  long  *  _Bool 4 
+Function: tcache_chunk_size_64  *  long 2 
+Function: tcache_new_64  * 1 
+Function: tcache_read_64  *  long  * 3 
+Function: tcache_print_64  *  *  _Bool 3 
+Function: tcache_free_64  * 1 
+Function: tcache_get_count_64  *  int 2 
+Function: tcache_get_entry_64  *  int 2 
+Function: print_double_linked_list_bin_64  *  *  long  long  long  int 6 
+Function: print_double_linked_list_bin_simple_64  *  long  *  long 4 
+Function: print_double_linked_list_bin_graph_64  *  long  *  long 4 
+Function: get_next_pointer_64  *  long  long 3 
+Function: resolve_glibc_version_64  * 1 
+Function: get_libc_filename_64  * 1 
+Function: get_main_arena_offset_with_symbol_64  *  * 2 
+Function: get_main_arena_offset_with_relocs_64  *  * 2 
+Function: get_expected_main_arena_structures_64  *  *  long 3 
+Function: get_libc_filename_from_maps_64  * 1 
+Function: __r_debug_snap_diff  *  int 2 
+Ind-call: * long * int 4 
+Function: cmd_debug_cont_syscall  *  * 2 
+Function: cmd_dcu  *  * 2 
+Ind-call: * long * int 4 
+Function: cmd_debug_backtrace  *  * 2 
+Function: is_x86_call  *  long 2 
+Ind-call: * long * int 4 
+Function: is_x86_ret  *  long 2 
+Ind-call: * long * int 4 
+Function: backtrace_vars  *  * 2 
+Function: asciiart_backtrace  *  * 2 
+Function: get_backtrace_info  *  *  long  *  *  *  * 7 
+Function: add_breakpoint  *  *  _Bool  _Bool 4 
+Function: core_cmd_dbi  *  *  long 3 
+Function: step_until_eof  * 1 
+Function: step_until_flag  *  * 2 
+Function: step_until_inst  *  *  _Bool 3 
+Function: step_until_esil  *  * 2 
+Function: step_until_optype  *  * 2 
+Ind-call: * long * int 4 
+Function: step_until  *  long 2 
+Function: step_line  *  int 2 
+Function: is_repeatable_inst  *  long 2 
+Function: run_buffer_dxr  *  *  _Bool  _Bool 4 
+Function: dot_trace_create_node  *  * 2 
+Function: dot_trace_discover_child  *  * 2 
+Function: get_graphtrace_node  *  *  * 3 
+Function: do_debug_trace_calls  *  long  long  long 4 
+Function: trace_traverse  * 1 
+Function: trace_traverse_pre  *  * 2 
+Function: add_trace_tree_child  *  *  *  long 4 
+Function: cmd_meta_lineinfo  *  * 2 
+Function: cmd_meta_comment  *  * 2 
+Function: cmd_meta_vartype_comment  *  * 2 
+Function: cmd_meta_others  *  * 2 
+Function: cb_strhit  *  *  long 3 
+Function: cmd_meta_add_fileline  *  *  long 3 
+Function: print_addrinfo  *  *  * 3 
+Function: remove_meta_offset  *  long 2 
+Function: print_addrinfo_json  *  *  * 3 
+Function: print_meta_offset  *  long  * 3 
+Function: cmd_cp  *  * 2 
+Function: cmd_cmp_watcher  *  * 2 
+Function: radare_compare  *  *  *  int  int 5 
+Function: cmp_bits  *  long 2 
+Function: cmd_cmp_disasm  *  *  int 3 
+Function: _core_cmp_info  *  * 2 
+Function: cmd_curl  *  * 2 
+Function: radare_compare_unified  *  long  long  int 4 
+Function: radare_compare_words  *  long  long  int  int 5 
+Function: cmd_cmp_posix  *  *  * 3 
+Function: myslurp  *  *  * 3 
+Function: _core_cmp_info_symbols  *  int  int 3 
+Function: _core_cmp_info_libs  *  int  int 3 
+Function: _core_cmp_info_imports  *  int  int 3 
+Function: _core_cmp_info_exports  *  int  int 3 
+Function: exports_of  *  int 2 
+Function: its_an_export.3438  * 1 
+Function: imports_of  *  int 2 
+Function: libs_of  *  int 2 
+Function: symbols_of  *  int 2 
+Function: nowatchers  long 1 
+Function: cmd_apt  *  * 2 
+Function: match_prelude  *  * 2 
+Function: core_anal_bytes  *  *  int  int  int 5 
+Function: abo  * 1 
+Function: core_anal_abf  *  * 2 
+Function: cmd_anal_abt  *  * 2 
+Function: cmd_anal_abp  *  * 2 
+Function: anal_bb_list  *  * 2 
+Function: cmd_anal_classes  *  * 2 
+Function: cmd_anal_aC  *  * 2 
+Function: cmd_anal_info  *  * 2 
+Function: cmd_anal_esil  *  *  _Bool 3 
+Function: cmd_anal_opcode  *  * 2 
+Function: cmd_anal_bytes  *  * 2 
+Function: cmd_an  *  *  int 3 
+Function: cmd_anal_graph  *  * 2 
+Function: cmd_anal_syscall  *  * 2 
+Function: cmd_anal_virtual_functions  *  * 2 
+Function: cmd_anal_refs  *  * 2 
+Ind-call: * long 2 
+Function: cmd_anal_all  *  * 2 
+Function: anal_fcn_data_gaps  *  * 2 
+Function: anal_fcn_data  *  * 2 
+Function: cmd_anal_trampoline  *  * 2 
+Function: cmd_anal_hint  *  * 2 
+Function: print_trampolines  *  long  long  long 4 
+Function: cmd_anal_blocks  *  * 2 
+Function: cmd_anal_aaft  * 1 
+Function: flag_every_function  * 1 
+Function: single_block_analysis  * 1 
+Function: cmd_anal_calls  *  *  _Bool  _Bool 4 
+Function: cmd_anal_jumps  *  * 2 
+Function: cmd_anal_aad  *  * 2 
+Function: cmd_anal_aav  *  * 2 
+Function: cmd_anal_aaw  *  * 2 
+Function: r_core_anal_nofunclist  *  * 2 
+Function: r_core_anal_info  *  * 2 
+Function: is_unknown_file  * 1 
+Function: is_apple_target  * 1 
+Function: cmd_anal_aftertraps  *  * 2 
+Function: anal_aarr  * 1 
+Function: funref  *  long  long 3 
+Function: is_executable.3439  *  long 2 
+Function: is_valid_code  *  long  int 3 
+Function: compute_code  * 1 
+Function: compute_coverage  * 1 
+Function: compute_calls  * 1 
+Function: RVecAnalRef_length.3440  * 1 
+Function: r_meta_item_size  long  long 2 
+Function: r_read_ble.3441  *  _Bool  int 3 
+Function: _CbInRangeAav  *  long  long  int  * 5 
+Function: archIsThumbable  * 1 
+Function: _anal_calls  *  long  long  _Bool  _Bool 5 
+Function: collect_addresses  * 1 
+Function: sort64  *  * 2 
+Function: sort64val  * 1 
+Function: anal_axg  *  *  int  *  int  * 6 
+Function: axtm  * 1 
+Function: get_buf_asm  *  long  long  *  _Bool 5 
+Function: axfm  * 1 
+Function: cmd_anal_ucall_ref  *  long 2 
+Function: find_refs  *  * 2 
+Function: compare_ref  *  * 2 
+Function: RVecAnalRef_sort.3442  *  * 2 
+Function: axtm_name  *  long 2 
+Function: get_op_ireg  *  long 2 
+Function: cmd_avg  *  * 2 
+Function: cmd_anal_rtti  *  * 2 
+Function: cmd_sdbk  *  * 2 
+Function: cmd_syscall_do  *  long  long 3 
+Function: cmd_graph_mermaid  *  _Bool 2 
+Function: cmd_agraph_node  *  * 2 
+Function: cmd_agraph_edge  *  * 2 
+Function: r_core_graph_print  *  *  int  _Bool  * 5 
+Function: print_graph_dot  *  * 2 
+Function: print_graph_agg  * 1 
+Function: convert_dot_str_to_image  *  *  * 3 
+Function: mermaid_nodeinfo_body  * 1 
+Function: _graph_node_info_get_title  *  * 2 
+Function: _graph_node_info_get_body  *  * 2 
+Function: cmd_ageh  *  * 2 
+Function: mermaid_add_node_asm  *  *  * 3 
+Ind-call: * long * int 4 
+Function: fcn_siwtch_mermaid  *  * 2 
+Function: cmd_anal_opcode_bits  *  *  int 3 
+Function: listOpDescriptions  *  *  * 3 
+Function: compare_mnemonics  *  * 2 
+Function: intsort  *  * 2 
+Function: mnemonic_tolist  * 1 
+Function: guess_arg  int  * 2 
+Function: esil_compile  *  * 2 
+Function: cmd_aespc  *  long  long  int 4 
+Function: __core_anal_appcall  *  * 2 
+Function: cmd_debug_stack_init  *  int  *  * 4 
+Function: cmd_esil_mem  *  * 2 
+Function: cmd_aeg  *  int  * 3 
+Function: r_anal_aefa  *  * 2 
+Function: __anal_esil_function  *  long 2 
+Function: cmd_aea  *  int  long  int  * 5 
+Function: aea_stats_init  * 1 
+Function: myregwrite  *  *  * 3 
+Function: myregread  *  *  *  * 4 
+Function: mymemwrite  *  long  *  int 4 
+Function: mymemread  *  long  *  int 4 
+Function: contains  *  * 2 
+Function: showregs  * 1 
+Function: showregs_json  *  * 2 
+Function: showmem_json  *  * 2 
+Function: showmem  * 1 
+Function: aea_stats_fini  * 1 
+Function: regwrite_hook  *  *  * 3 
+Function: _aeg_get_title  *  * 2 
+Function: _aeg_get_body  *  * 2 
+Function: initialize_stack  *  long  long 3 
+Function: cmd_address_info  *  *  int 3 
+Function: show_reg_args  *  int  * 3 
+Function: cmd_anal_class_vtable  *  * 2 
+Function: cmd_anal_class_base  *  * 2 
+Function: cmd_anal_class_method  *  * 2 
+Function: get_xrefs  * 1 
+Function: get_calls  * 1 
+Ind-call: * long * int 4 
+Function: ut64join  * 1 
+Function: fcnjoin  * 1 
+Function: RVecUT64_free  * 1 
+Function: RVecUT64_fini.3443  * 1 
+Function: RVecUT64_new 0 
+Function: RVecUT64_emplace_back  * 1 
+Function: RVecUT64_length.3445  * 1 
+Function: RVecUT64_reserve.3446  *  long 2 
+Function: RVecUT64_init.3449  * 1 
+Function: cmd_anal_abtn  *  * 2 
+Function: RVecBacktrace_new 0 
+Function: RVecBacktrace_push_back  *  * 2 
+Function: RVecStringSlice_free  * 1 
+Function: RVecStringSlice_fini  * 1 
+Function: RVecBacktrace_length  * 1 
+Function: RVecBacktrace_reserve  *  long 2 
+Function: RVecBacktrace_init  * 1 
+Function: mr  *  long  *  int 4 
+Function: mw  *  long  *  int 4 
+Function: esilmemrefs  *  * 2 
+Function: r_vector_length  * 1 
+Function: val_tojson  *  * 2 
+Function: esil_cost  *  long  * 3 
+Function: mr2  *  long  *  int 4 
+Function: mw2  *  long  *  int 4 
+Function: match_prelude_internal  *  *  * 3 
+Function: cmd_help_exclamation  * 1 
+Function: cmd_help_percent  * 1 
+Function: vernum  * 1 
+Function: colormessage  *  * 2 
+Function: filterFlags  *  * 2 
+Function: findBreakChar  * 1 
+Function: cmd_tcp_server  *  * 2 
+Function: cmd_remote  *  *  _Bool 3 
+Function: getArg  char  int 2 
+Function: is_json_command  *  * 2 
+Function: r_core_search_rop  *  long  long  int  *  int  * 7 
+Function: rop_kuery  *  *  * 3 
+Function: print_rop  *  *  *  int 4 
+Function: do_ref_search  *  long  long  long  * 5 
+Function: do_asm_search  *  *  *  int  long  long 6 
+Function: __core_cmd_search_backward  *  int 2 
+Function: __core_cmd_search_asm_byteswap  *  int 2 
+Function: __core_cmd_search_asm_infinite  *  * 2 
+Function: do_syscall_search  *  * 2 
+Function: do_unkjmp_search  *  *  _Bool  * 4 
+Function: do_analstr_search  *  *  _Bool  * 4 
+Function: do_anal_search  *  *  * 3 
+Function: search_collisions  *  *  *  int  int 5 
+Function: cmd_search_bin  *  long  long 3 
+Ind-call: * 1 
+Function: search_similar_pattern  *  int  * 3 
+Function: chatoi  * 1 
+Function: v_writebuf  *  *  int  char  int 5 
+Function: do_esil_search  *  *  * 3 
+Function: search_hash  *  *  *  int  int  * 6 
+Function: do_section_search  *  *  * 3 
+Function: do_string_search  *  long  long  * 4 
+Function: _cb_hit_sz  *  int  *  long 4 
+Function: getstring  *  int 2 
+Function: _cb_hit  *  *  long 3 
+Function: print_search_progress  long  long  int  * 4 
+Function: esil_addrinfo  * 1 
+Function: search_similar_pattern_in  *  int  long  long 4 
+Function: memcmpdiff  *  *  int 3 
+Function: incPrintBuffer  *  int 2 
+Function: incLowerBuffer  *  int 2 
+Function: incUpperBuffer  *  int 2 
+Function: incBuffer  *  int 2 
+Function: cmd_search_aF  *  * 2 
+Function: search_hit_at  *  *  *  * 4 
+Function: get_syscall_register  * 1 
+Function: emulateSyscallPrelude  *  long  long 3 
+Function: rop_classify  *  *  *  *  int 5 
+Function: rop_classify_nops  *  * 2 
+Function: rop_classify_mov  *  * 2 
+Function: rop_classify_constant  *  * 2 
+Function: rop_classify_arithmetic  *  * 2 
+Function: rop_classify_arithmetic_const  *  * 2 
+Function: get_constants  * 1 
+Function: fillRegisterValues  * 1 
+Function: esil_split_flg  *  *  * 3 
+Function: parse_list  * 1 
+Function: isFlag  * 1 
+Function: simulate_op  *  long  long  long  long  *  int 7 
+Function: is_end_gadget  *  char 2 
+Function: construct_rop_gadget  *  long  *  int  int  *  int  *  *  * 10 
+Function: insert_into  *  long  long 3 
+Function: cmd_table_header  *  * 2 
+Function: display_table_filter  *  * 2 
+Function: display_table  * 1 
+Function: load_table  *  *  * 3 
+Function: load_table_json  *  *  * 3 
+Function: load_table_csv  *  *  * 3 
+Function: load_table_asciiart  *  *  * 3 
+Function: get_type_string  * 1 
+Function: print_aliases  *  *  * 3 
+Function: cmd_hash_bang  *  * 2 
+Function: cmd_autocomplete  *  * 2 
+Function: print_dict  *  int 2 
+Function: cmd_autocomplete_help  * 1 
+Function: autocomplete_type  * 1 
+Function: r_cmd_alias_init  * 1 
+Function: alias_cmp  *  * 2 
+Function: alias_hashfn  * 1 
+Function: alias_dupkey  * 1 
+Function: alias_dupvalue  * 1 
+Function: alias_calcsizeK  * 1 
+Function: alias_calcsizeV  * 1 
+Function: alias_freefn  * 1 
+Function: r_cmd_new 0 
+Function: create_cmd_desc  *  *  int  *  *  _Bool 6 
+Function: r_cmd_macro_init  * 1 
+Function: r_cmd_macro_item_free  * 1 
+Function: cmd_desc_free  * 1 
+Function: cmd_desc_set_parent  *  * 2 
+Function: r_pvector_push.10348  *  * 2 
+Function: r_cmd_free  * 1 
+Function: r_cmd_alias_free  * 1 
+Function: r_cmd_macro_fini  * 1 
+Function: r_cmd_get_root  * 1 
+Function: r_cmd_get_desc  *  * 2 
+Function: r_cmd_alias_keys  * 1 
+Function: get_keys  *  *  * 3 
+Function: r_cmd_alias_del  *  * 2 
+Function: r_cmd_alias_set_cmd  *  *  * 3 
+Function: r_cmd_alias_set_str  *  *  * 3 
+Function: r_cmd_alias_set_raw  *  *  *  int 4 
+Function: r_cmd_alias_get  *  * 2 
+Function: r_cmd_alias_append_str  *  *  * 3 
+Function: alias_append_internal  *  *  *  int 4 
+Function: r_cmd_alias_append_raw  *  *  *  int 4 
+Function: r_cmd_alias_val_strdup  * 1 
+Function: r_cmd_alias_val_strdup_b64  * 1 
+Function: r_cmd_set_data  *  * 2 
+Function: r_cmd_add  *  *  * 3 
+Function: r_cmd_del  *  * 2 
+Function: r_cmd_call  *  * 2 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: r_cmd_macro_item_new 0 
+Function: r_cmd_macro_add  *  * 2 
+Function: r_cmd_macro_list  *  int 2 
+Ind-call: * * 2 
+Ind-call: * int * * 4 
+Ind-call: * 1 
+Ind-call: * int 2 
+Ind-call: * 1 
+Function: macro_meta  * 1 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * int 2 
+Ind-call: * 1 
+Function: r_cmd_macro_rm  *  * 2 
+Function: r_cmd_macro_cmd_args  *  *  *  int 4 
+Ind-call: * * 2 
+Function: r_cmd_macro_label_process  *  *  *  * 4 
+Function: r_cmd_macro_call  *  * 2 
+Function: r_cmd_macro_break  *  * 2 
+Function: r_cmd_parsed_args_new  *  int  * 3 
+Function: r_cmd_parsed_args_newcmd  * 1 
+Function: r_cmd_parsed_args_newargs  int  * 2 
+Function: r_cmd_parsed_args_free  * 1 
+Function: r_cmd_parsed_args_setargs  *  int  * 3 
+Function: free_array  *  int 2 
+Function: r_cmd_parsed_args_setcmd  *  * 2 
+Function: r_cmd_parsed_args_argstr  * 1 
+Function: parsed_args_iterateargs  *  * 2 
+Function: r_cmd_parsed_args_execstr  * 1 
+Function: r_cmd_parsed_args_cmd  * 1 
+Function: r_core_version 0 
+Function: r_core_getreloc  *  long  int 3 
+Function: getreloc_tree  *  *  * 3 
+Function: r_core_get_asmqjmps  *  * 2 
+Function: r_core_add_asmqjmp  *  long 2 
+Function: r_core_set_asmqjmps  *  *  long  int 4 
+Function: r_core_cmd_call_str_at  *  long  * 3 
+Function: r_core_bind  *  * 2 
+Function: r_core_debug_breakpoint_hit  *  * 2 
+Function: r_core_debug_syscall_hit  * 1 
+Function: core_help  *  * 2 
+Function: setab  *  *  int 3 
+Function: getName  *  long 2 
+Function: getNameDelta  *  long 2 
+Function: archbits  *  long 2 
+Function: cfggeti  *  * 2 
+Function: cfgget  *  * 2 
+Function: numget  *  * 2 
+Function: __isMapped  *  long  int 3 
+Function: __syncDebugMaps  * 1 
+Function: r_core_pj_new  * 1 
+Function: r_str_startswith_inline.10432  *  * 2 
+Function: r_core_ncast  long 1 
+Function: r_core_cast  * 1 
+Function: r_core_new 0 
+Function: r_core_init  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: cmdusr1  int 1 
+Function: cmdusr2  int 1 
+Function: r_core_setenv  * 1 
+Function: r_fs_shell_new 0 
+Function: cb_event_handler  *  int  *  * 4 
+Function: num_callback  *  *  * 3 
+Function: str_callback  *  long  * 3 
+Function: r_core_print_offname  *  long 2 
+Function: r_core_print_offsize  *  long 2 
+Function: mywrite  *  int 2 
+Function: exists_var  *  long  * 3 
+Function: __disasm  *  long 2 
+Function: colorfor_cb  *  long  char  _Bool 4 
+Function: hasrefs_cb  *  long  int 3 
+Function: get_comments_cb  *  long 2 
+Function: get_section_name  *  long 2 
+Function: core_visual_init  * 1 
+Function: r_core_editor  *  *  * 3 
+Function: r_core_fgets  *  int 2 
+Function: cbcore  *  int  *  * 4 
+Function: r_core_bind_cons  * 1 
+Function: r_core_anal_log  *  * 2 
+Function: r_core_anal_read_at  *  long  *  int 4 
+Function: r_core_flag_get_by_spaces  *  long 2 
+Function: on_fcn_new  *  *  * 3 
+Function: on_fcn_delete  *  *  * 3 
+Function: on_fcn_rename  *  *  *  * 4 
+Function: ev_iowrite_cb  *  int  *  * 4 
+Function: core_flg_class_set  *  *  long  int 4 
+Function: core_flg_class_get  *  * 2 
+Function: core_flg_fcn_set  *  *  long  int 4 
+Function: update_sdb  * 1 
+Function: __init_autocomplete  * 1 
+Function: __init_autocomplete_default  * 1 
+Function: r_core_autocomplete_add  *  *  int  _Bool 4 
+Function: r_core_autocomplete_find  *  *  _Bool 3 
+Function: __foreach  *  *  int 3 
+Function: r_flag_space_push.12001  *  * 2 
+Function: r_flag_space_pop.12002  * 1 
+Function: __cons_cb_fkey  *  int 2 
+Function: r_core_sleep_begin  * 1 
+Function: r_core_sleep_end  *  * 2 
+Function: autocomplete  *  *  int  * 4 
+Function: r_str_ncpy.12023  *  *  long 3 
+Function: r_core_autocomplete  *  *  *  int 4 
+Function: autocomplete_default  *  *  * 3 
+Function: check_tabhelp_exceptions  * 1 
+Function: autocomplete_filename  *  *  *  *  int 5 
+Function: autocomplete_flags.12029  *  *  * 3 
+Function: sdbkv_key.12102  * 1 
+Function: autocomplete_pfele  *  *  *  *  int  * 6 
+Function: sdbkv_value.12106  * 1 
+Function: autocomplete_alias  *  *  *  _Bool 4 
+Function: find_e_opts  *  *  * 3 
+Function: autocomplete_file  *  * 2 
+Function: find_autocomplete  *  *  * 3 
+Function: autocomplete_functions  *  *  * 3 
+Function: autocomplete_flagspaces  *  *  * 3 
+Function: autocomplete_zignatures  *  *  * 3 
+Function: autocomplete_evals  *  *  * 3 
+Function: autocomplete_project  *  *  * 3 
+Function: autocomplete_minus  *  *  * 3 
+Function: autocomplete_breakpoints  *  *  * 3 
+Function: autocomplete_vars  *  *  * 3 
+Function: autocomplete_macro  *  *  * 3 
+Function: autocomplete_ms_file  *  *  * 3 
+Function: autocomplete_theme  *  *  * 3 
+Function: autocomplete_charsets  *  *  * 3 
+Function: autocomplete_sdb  *  *  * 3 
+Function: autocomplete_ms_path  *  *  *  * 4 
+Function: autocomplete_mount_point  *  *  * 3 
+Function: autocomplete_process_path  *  *  * 3 
+Function: check_alias_completion  *  *  * 3 
+Function: add_argv  *  * 2 
+Function: r_core_anal_hasrefs  *  long  int 3 
+Function: r_core_anal_hasrefs_to_depth  *  long  *  int 4 
+Function: getvalue  long  int 2 
+Function: r_core_anal_optype_colorfor  *  long  char  _Bool 4 
+Function: is_string.12186  *  int  * 3 
+Function: colorforop  *  long 2 
+Function: r_read_ble64.12194  *  _Bool 2 
+Function: r_read_ble32.12195  *  _Bool 2 
+Function: r_read_ble16.12196  *  _Bool 2 
+Function: r_read_ble8.12197  * 1 
+Function: numvar_instruction  *  * 2 
+Function: numvar_instruction_backward  *  * 2 
+Function: r_itv_begin.12202  long  long 2 
+Function: r_itv_size.12203  long  long 2 
+Function: getref  *  int  char  int 4 
+Function: bbBegin  *  long 2 
+Function: bbSize  *  long 2 
+Function: bbInstructions  *  long 2 
+Function: bbJump  *  long 2 
+Function: bbFail  *  long 2 
+Function: RVecAnalRef_free.12205  * 1 
+Function: RVecAnalRef_fini.12206  * 1 
+Function: r_read_be16.12211  * 1 
+Function: r_read_le16.12212  * 1 
+Function: r_read_be32.12213  * 1 
+Function: r_read_le32.12214  * 1 
+Function: r_read_be64.12215  * 1 
+Function: r_read_le64.12216  * 1 
+Function: r_read_at_le32.12217  *  long 2 
+Function: r_read_at_be32.12218  *  long 2 
+Function: r_core_autocomplete_reload  * 1 
+Function: r_core_autocomplete_free  * 1 
+Function: r_core_fini  * 1 
+Function: r_fs_shell_free  * 1 
+Function: r_core_free  * 1 
+Function: r_core_prompt_loop  * 1 
+Function: r_core_prompt  *  int 2 
+Function: r_core_prompt_exec  * 1 
+Function: r_core_cmd_queue  *  * 2 
+Function: set_prompt  * 1 
+Function: prompt_flag  *  *  long 3 
+Function: prompt_sec  *  *  long 3 
+Function: chop_prompt  *  *  long 3 
+Function: r_core_cmd_queue_wait  * 1 
+Function: r_core_seek_size  *  long  int 3 
+Function: r_core_block_size  *  int 2 
+Function: r_core_seek_align  *  long  int 3 
+Function: r_core_op_str  *  long 2 
+Function: r_core_op_anal  *  long  int 3 
+Function: r_core_serve  *  * 2 
+Function: rap_break  * 1 
+Function: r_write_be32.12280  *  int 2 
+Function: r_read_at_be64  *  long 2 
+Function: r_write_be64.12284  *  long 2 
+Function: r_write_at_be32.12291  *  int  long 3 
+Function: r_write_be16.12292  *  short 2 
+Function: r_write_at_be16.12293  *  short  long 3 
+Function: r_write_be8.12294  *  char 2 
+Function: r_write_at_be8.12295  *  char  long 3 
+Function: r_write_at_ble8.12296  *  char  long 3 
+Function: r_write_ble8.12297  *  char 2 
+Function: r_core_get_cons  * 1 
+Function: r_core_get_config  * 1 
+Function: r_core_get_bin  * 1 
+Function: r_core_syscallf  *  *  *  variadic 3 
+Function: r_core_syscall  *  *  * 3 
+Function: r_core_autocomplete_remove  *  * 2 
+Function: r_core_table  *  * 2 
+Function: r_core_cmd_str_r  *  * 2 
+Function: thchan_handler  * 1 
+Function: r_core_undo_new  long  *  * 3 
+Function: r_core_undo_free  * 1 
+Function: r_core_undo_push  *  * 2 
+Function: r_core_undo_pop  * 1 
+Function: r_core_undo_condition  *  * 2 
+Function: r_core_undo_print  *  int  * 3 
+Function: r_core_undo_down  * 1 
+Function: r_core_undo_up  * 1 
+Function: r_core_pava  *  long 2 
+Function: r_itv_begin.12342  long  long 2 
+Function: r_core_get_section_name  *  long 2 
+Function: r_core_flag_in_middle  *  long  int  * 4 
+Function: handleMidFlags  *  *  _Bool 3 
+Function: r_core_bb_starts_in_middle  *  long  int 3 
+Function: handleMidBB  *  * 2 
+Function: r_core_get_reloff  *  int  long  * 4 
+Function: r_flag_space_push.12362  *  * 2 
+Function: r_flag_space_pop.12363  * 1 
+Function: r_core_print_disasm  *  long  *  int  int  int  *  _Bool  _Bool  *  * 11 
+Ind-call: * long int 3 
+Function: ds_init  * 1 
+Function: ds_free  * 1 
+Function: ds_reflines_init  * 1 
+Function: ds_print_esil_anal_init  * 1 
+Function: fcnIn  *  long  int 3 
+Function: myregwrite.12372  *  *  * 3 
+Function: ds_begin_line  * 1 
+Function: ds_print_labels  *  * 2 
+Function: ds_setup_print_pre  *  _Bool  _Bool 3 
+Function: ds_print_lines_left  * 1 
+Function: ds_start_line_highlight  * 1 
+Function: ds_print_offset  * 1 
+Function: ds_hint_begin  *  long 2 
+Function: ds_update_ref_lines  * 1 
+Function: ds_must_strip  * 1 
+Function: ds_pre_line  * 1 
+Function: ds_begin_comment  * 1 
+Function: ds_comment  *  _Bool  *  variadic 3 
+Function: get_bits_comment  *  *  *  int 4 
+Function: ds_pre_xrefs  *  _Bool 2 
+Function: ds_show_comments_right  * 1 
+Function: ds_disassemble  *  *  int 3 
+Function: ds_atabs_option  * 1 
+Function: ds_print_bbline  * 1 
+Function: ds_show_flags  *  _Bool 2 
+Function: ds_show_xrefs  * 1 
+Function: ds_control_flow_comments  * 1 
+Function: ds_adistrick_comments  * 1 
+Function: ds_show_functions  * 1 
+Function: ds_show_refs  * 1 
+Function: ds_build_op_str  *  _Bool 2 
+Function: ds_print_ptr  *  int  int 3 
+Function: ds_print_sysregs  * 1 
+Function: ds_print_fcn_name  * 1 
+Function: ds_print_demangled  * 1 
+Function: ds_print_pins  * 1 
+Function: ds_print_color_reset  * 1 
+Function: ds_print_esil_anal  * 1 
+Function: ds_print_calls_hints  * 1 
+Function: ds_show_comments_describe  * 1 
+Function: ds_print_meta_infos  *  *  int  int  * 5 
+Function: ds_print_core_vmode  *  int 2 
+Function: ds_print_op_size  * 1 
+Function: ds_print_trace  * 1 
+Function: ds_print_cycles  * 1 
+Function: ds_print_family  * 1 
+Function: ds_print_stackptr  * 1 
+Function: ds_print_dwarf  * 1 
+Function: ds_print_middle  *  int 2 
+Function: ds_print_asmop_payload  *  * 2 
+Function: ds_end_line_highlight  * 1 
+Function: ds_print_comments_right  * 1 
+Function: ds_print_show_cursor  * 1 
+Function: ds_print_bytes  * 1 
+Function: ds_print_lines_right  * 1 
+Function: ds_print_optype  * 1 
+Function: ds_print_vliw  *  _Bool 2 
+Function: ds_print_opstr  * 1 
+Function: ds_cdiv_optimization  * 1 
+Function: ds_newline  * 1 
+Function: ds_print_pre  *  _Bool 2 
+Function: ds_print_ref_lines  *  *  * 3 
+Function: ds_print_esil_anal_fini  * 1 
+Function: ds_reflines_fini  * 1 
+Function: get_utf8_char  char  * 2 
+Function: revert_cdiv_magic  long 1 
+Function: ds_print_indent  * 1 
+Function: instruction_depth  *  *  * 3 
+Function: bb_cmp.12402  *  * 2 
+Function: inbounds  *  long 2 
+Function: RVecUT64_init.12403  * 1 
+Function: cmp_ut64  *  * 2 
+Function: RVecUT64_find  *  *  * 3 
+Ind-call: * * 2 
+Function: RVecUT64_push_back.12404  *  * 2 
+Function: RVecUT64_fini.12405  * 1 
+Function: RVecUT64_length.12408  * 1 
+Function: RVecUT64_reserve.12409  *  long 2 
+Function: ds_print_relocs  * 1 
+Function: ds_align_comment  * 1 
+Function: line_highlighted  * 1 
+Function: ds_ostackptr_at  *  * 2 
+Function: ds_update_stackptr  *  * 2 
+Function: ds_ostackptr_atfcn  *  * 2 
+Function: _stackptr_range  *  long  long  int  * 5 
+Function: ds_print_shortcut  *  long  int 3 
+Function: get_ptr  *  long 2 
+Function: get_ptr_ble  *  long 2 
+Function: ds_print_core_vmode_jump_hit  *  int 2 
+Function: r_read_ble64.12451  *  _Bool 2 
+Function: r_read_ble32.12452  *  _Bool 2 
+Function: r_read_be32.12453  * 1 
+Function: r_read_le32.12454  * 1 
+Function: r_read_be64.12455  * 1 
+Function: r_read_le64.12456  * 1 
+Function: r_read_at_le32.12457  *  long 2 
+Function: r_read_at_be32.12458  *  long 2 
+Function: r_meta_node_size  * 1 
+Function: ds_print_data_type  *  *  int  int 4 
+Function: r_read_ble.12481  *  _Bool  int 3 
+Function: r_str_startswith_inline.12495  *  * 2 
+Function: r_read_ble16.12497  *  _Bool 2 
+Function: r_read_be16.12498  * 1 
+Function: r_read_le16.12499  * 1 
+Function: r_meta_item_size.12500  long  long 2 
+Function: can_emulate_metadata  *  long 2 
+Function: myregread.12510  *  *  *  * 4 
+Function: mymemwrite2  *  long  *  int 4 
+Function: mymemwrite0  *  long  *  int 4 
+Function: mymemwrite1  *  long  *  int 4 
+Function: mipsTweak  * 1 
+Function: ds_comment_esil  *  _Bool  _Bool  *  variadic 4 
+Function: ds_comment_call  * 1 
+Function: delete_last_comment  * 1 
+Function: ds_comment_middle  *  *  variadic 2 
+Function: ds_comment_end  *  *  variadic 2 
+Function: print_fcn_arg.12522  *  *  *  *  long  int  int 7 
+Function: ds_comment_  *  _Bool  _Bool  *  * 5 
+Function: ds_begin_cont  * 1 
+Function: ds_comment_lineup  * 1 
+Function: ds_comment_align  * 1 
+Function: get_section_name.12538  * 1 
+Function: ssa_get  *  * 2 
+Function: ds_begin_nl_comment  * 1 
+Function: RVecAnalRef_free.12564  * 1 
+Function: is_filtered_flag  *  * 2 
+Function: ds_print_str  *  *  int  long 4 
+Function: ds_comment_start  *  *  variadic 2 
+Function: ds_print_as_string  * 1 
+Function: ds_esc_str  *  *  int  *  _Bool 5 
+Function: RVecAnalRef_fini.12595  * 1 
+Function: get_op_ireg.12600  *  long 2 
+Function: get_ptr_at  *  long  long 3 
+Function: get_reg_at  *  long  long 3 
+Function: ds_sub_jumps  *  * 2 
+Function: r_str_ncpy.12601  *  *  long 3 
+Function: __replaceImports  * 1 
+Function: colorize_asm_string  *  *  _Bool 3 
+Function: ds_highlight_word  *  *  * 3 
+Function: set_jump_realname  *  long  *  * 4 
+Function: _find_next_number  * 1 
+Function: empty_signature  * 1 
+Function: tmp_get_realsize  * 1 
+Function: print_var_summary  *  * 2 
+Function: ds_show_functions_argvar  *  *  *  *  _Bool  char 6 
+Function: RVecAnalRef_length.12649  * 1 
+Function: RVecAnalRef_at.12655  *  long 2 
+Function: custom_sorted_flags  * 1 
+Function: __preline_flag  *  * 2 
+Function: flagVal  * 1 
+Function: is_first  * 1 
+Function: ds_setup_pre  *  _Bool  _Bool 3 
+Function: get_reloff  *  long  * 3 
+Function: printCol  *  *  int  * 4 
+Function: ssa_set  *  * 2 
+Function: ds_pre_emulation  * 1 
+Function: r_flag_space_get.12891  *  * 2 
+Function: r_core_print_disasm_instructions_with_buf  *  long  *  int  int 5 
+Function: check_end  int  int  int  int 4 
+Function: r_core_print_disasm_instructions  *  int  int 3 
+Function: handle_backwards_disasm  *  *  * 3 
+Function: r_core_print_disasm_json  *  long  *  int  int  * 6 
+Function: RVecAnalRef_empty.12933  * 1 
+Function: r_core_print_disasm_all  *  long  int  int  int 5 
+Function: r_core_disasm_pdi_with_buf  *  long  *  int  int  int 6 
+Function: r_core_disasm_pdi  *  int  int  int 4 
+Function: r_core_disasm_pde  *  int  int 3 
+Function: read_ahead  *  *  *  long  long  long 6 
+Function: r_core_file_close_all_but  * 1 
+Function: close_but_cb  *  *  int 3 
+Function: r_core_file_reopen  *  *  int  int 4 
+Function: r_core_file_open  *  *  int  long 4 
+Function: r_core_bin_load  *  *  long 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: loadGP  * 1 
+Function: its_a_mips  * 1 
+Function: r_str_startswith_inline.13002  *  * 2 
+Function: r_core_file_load_for_debug  *  long  * 3 
+Function: r_core_file_load_for_io_plugin  *  long  long 3 
+Function: file_is_loaded  *  * 2 
+Function: r_core_file_loadlib  *  *  long 3 
+Function: linkcb  *  *  int 3 
+Function: r_flag_space_set.13037  *  * 2 
+Function: try_loadlib  *  *  long 3 
+Function: filecb  *  *  int 3 
+Function: setbpint  *  *  * 3 
+Function: r_core_file_open_many  *  *  int  long 4 
+Function: r_core_sysenv_end  *  * 2 
+Function: r_core_sysenv_begin  *  * 2 
+Function: r_core_fortune_types 0 
+Function: _push_types  *  * 2 
+Function: r_str_startswith_inline.13108  *  * 2 
+Function: r_core_fortune_list_types 0 
+Function: r_core_fortune_list  * 1 
+Function: getFortuneFile  *  * 2 
+Function: r_core_fortune_print_random  * 1 
+Function: getrandomline  * 1 
+Function: r_core_gdiff_fcn  *  long  long 3 
+Function: r_core_gdiff  *  * 2 
+Function: r_str_startswith_inline.13133  *  * 2 
+Function: r_core_diff_show  *  * 2 
+Function: diffrow  long  *  int  int  int  long  *  int  *  float  int 11 
+Function: r_core_diff_show_json  *  * 2 
+Function: r_core_zdiff  *  * 2 
+Function: is_import  * 1 
+Function: matchBytes  *  * 2 
+Function: matchGraph  *  * 2 
+Function: r_str_startswith_inline.13159  *  * 2 
+Function: r_agraph_set_curnode  *  * 2 
+Ind-call: * * 2 
+Function: tmplayercmp  *  * 2 
+Function: r_agraph_get_sdb  * 1 
+Function: check_changes  *  _Bool  *  * 4 
+Function: agraph_reload_nodes  *  *  * 3 
+Function: fold_asm_trace  *  * 2 
+Function: is_mini  * 1 
+Function: update_node_dimension  *  int  int  int  _Bool  int 6 
+Function: agraph_set_layout  * 1 
+Function: get_title.13169  long 1 
+Function: r_agraph_get_node  *  * 2 
+Function: update_seek  *  *  int 3 
+Function: agraph_update_title  *  *  * 3 
+Function: r_agraph_set_title  *  * 2 
+Function: set_layout  * 1 
+Function: update_graph_sizes  * 1 
+Function: rebase  *  int 2 
+Function: aedge_free  * 1 
+Function: remove_cycles  * 1 
+Function: assign_layers  * 1 
+Function: create_dummy_nodes  * 1 
+Function: create_layers  * 1 
+Function: minimize_crossings  * 1 
+Function: place_dummies  * 1 
+Function: place_original  * 1 
+Function: fix_back_edge_dummy_nodes  *  *  * 3 
+Function: r_agraph_del_edge  *  *  * 3 
+Function: r_agraph_add_edge_at  *  *  *  int 4 
+Function: set_layer_gap  * 1 
+Function: backedge_info  * 1 
+Function: count_edges  *  *  * 3 
+Function: get_edge_number  *  *  *  _Bool 4 
+Function: ranode_free  * 1 
+Function: get_right_dummy  *  * 2 
+Function: hash_set  *  *  long 3 
+Function: dist_nodes  *  *  * 3 
+Function: original_traverse_l  *  *  *  int 4 
+Function: place_sequence  *  int  *  *  int  int  int 7 
+Function: set_dist_nodes  *  int  int  int 4 
+Function: is_valid_pos  *  int  int 3 
+Function: hash_get  *  * 2 
+Function: adjust_directions  *  int  int  *  * 5 
+Function: find_dist  *  * 2 
+Function: place_single  *  int  *  *  int  int 6 
+Function: combine_sequences  *  int  *  *  int  int  int 7 
+Function: collect_changes  *  int  *  int  int  int  *  int 8 
+Function: RM_listcmp  *  * 2 
+Function: RP_listcmp  *  * 2 
+Function: compute_vertical_nodes  * 1 
+Function: compute_pos  *  int  * 3 
+Function: free_vertical_nodes_cb  *  *  * 3 
+Function: compute_classes  *  *  int  * 4 
+Function: place_nodes  *  *  int  *  *  *  * 7 
+Function: adjust_class  *  int  *  *  int 5 
+Function: get_sibling  *  *  int  int 4 
+Function: adjust_class_val  *  *  *  *  int 5 
+Function: cmp_dist  long  long 2 
+Function: place_nodes_val  *  *  *  *  int 5 
+Function: place_nodes_sel_p  int  int  int  int 4 
+Function: layer_sweep  *  *  int  int  int 5 
+Function: get_crossing_matrix  *  *  int  int  int  * 6 
+Function: view_dummy  *  * 2 
+Function: r_agraph_add_node  *  *  *  * 4 
+Function: is_reversed  *  * 2 
+Function: find_edge  *  * 2 
+Function: add_sorted  *  * 2 
+Function: view_cyclic_edge  *  * 2 
+Function: r_agraph_reset  * 1 
+Function: reload_nodes  *  *  * 3 
+Function: get_cgnodes  *  *  * 3 
+Function: get_bbnodes  *  *  * 3 
+Function: bbcmp.13207  *  * 2 
+Function: r_anal_block_contains.13208  *  long 2 
+Function: isbbfew  *  * 2 
+Function: mode2opts  * 1 
+Function: get_bb_body  *  *  int  *  _Bool  long  *  int 8 
+Function: add_child  *  *  *  long 4 
+Function: delete_dup_edges  * 1 
+Function: r_agraph_add_edge  *  *  *  _Bool 4 
+Function: get_body  *  long  int  int 4 
+Function: is_offset  * 1 
+Function: is_comments  * 1 
+Function: is_summary  * 1 
+Function: cur_points_to_bb  *  * 2 
+Function: RVecAnalRef_free.13244  * 1 
+Function: RVecAnalRef_fini.13245  * 1 
+Function: agraph_free_nodes  * 1 
+Function: agraph_sdb_init  * 1 
+Function: sdb_set_enc  *  *  *  int 4 
+Function: r_agraph_print  * 1 
+Function: agraph_print  *  _Bool  *  * 4 
+Function: agraph_print_edges  * 1 
+Function: agraph_print_nodes  * 1 
+Function: agraph_print_node.13267  *  * 2 
+Function: tiny_RANode_print  *  *  int 3 
+Function: mini_RANode_print  *  *  int  _Bool 4 
+Function: normal_RANode_print  *  *  int 3 
+Function: get_node_bgcolor  int  int 2 
+Function: append_shortcut  *  *  *  int 4 
+Function: get_node_color  int  int 2 
+Function: agraph_print_edges_simple  * 1 
+Function: first_x_cmp  *  * 2 
+Function: r_agraph_print_json  *  * 2 
+Function: r_agraph_del_node  *  * 2 
+Function: r_agraph_foreach  *  *  * 3 
+Function: user_node_cb  *  *  * 3 
+Ind-call: * * 2 
+Function: r_agraph_foreach_edge  *  *  * 3 
+Function: user_edge_cb  *  *  * 3 
+Ind-call: * * * 3 
+Function: r_agraph_get_first_node  * 1 
+Function: r_agraph_free  * 1 
+Function: r_agraph_new  * 1 
+Function: agraph_init  * 1 
+Function: r_core_visual_find  *  * 2 
+Function: agraph_refresh  * 1 
+Function: agraph_set_need_reload_nodes  * 1 
+Function: agraph_refresh_oneshot  * 1 
+Function: check_function_modified  *  * 2 
+Function: r_core_visual_graph  *  *  *  int 4 
+Function: agraph_set_zoom  *  int 2 
+Function: seek_to_node  *  * 2 
+Function: get_bbupdate  *  *  * 3 
+Function: showcursor  *  int 2 
+Function: agraph_update_seek  *  *  _Bool 3 
+Function: nextword  *  *  * 3 
+Function: agraph_toggle_callgraph  * 1 
+Function: agraph_prev_node  * 1 
+Function: toggle_bb  *  long 2 
+Function: graph_single_step_in  *  * 2 
+Function: graph_single_step_over  *  * 2 
+Function: agraph_next_node  * 1 
+Function: next_mode  int 1 
+Function: prev_mode  int 1 
+Function: goto_asmqjmps  *  * 2 
+Function: visual_offset  *  * 2 
+Function: applyDisMode  * 1 
+Function: rotateColor  * 1 
+Function: rotateAsmemu  * 1 
+Function: agraph_toggle_tiny  * 1 
+Function: agraph_toggle_mini  * 1 
+Function: graphNodeMove  *  int  int 3 
+Function: find_near_of  *  *  int 3 
+Function: agraph_follow_innodes  *  _Bool 2 
+Function: agraph_follow_true  * 1 
+Function: agraph_follow_false  * 1 
+Function: agraph_toggle_speed  *  * 2 
+Function: graph_breakpoint  * 1 
+Function: graph_continue  * 1 
+Function: follow_nth  *  int 2 
+Function: agraph_get_title  *  *  _Bool 3 
+Function: is_near  *  int  int  int 4 
+Function: move_current_node  *  int  int 3 
+Function: is_tiny  * 1 
+Function: r_vector_at.13511  *  int 2 
+Function: get_graph_string  *  * 2 
+Function: r_agraph_new_from_graph  *  *  * 3 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: r_core_hack_arm64  *  *  * 3 
+Function: r_core_hack_arm  *  *  * 3 
+Function: r_core_hack_x86  *  *  * 3 
+Function: r_core_hack  *  * 2 
+Ind-call: * * * 3 
+Function: r_core_hack_dalvik  *  *  * 3 
+Function: r_core_hack_riscv  *  *  * 3 
+Function: r_core_loadlibs_init  * 1 
+Function: __lib_io_cb  *  *  * 3 
+Function: __lib_io_dt  *  *  * 3 
+Function: __lib_core_cb  *  *  * 3 
+Function: __lib_core_dt  *  *  * 3 
+Function: __lib_debug_cb  *  *  * 3 
+Function: __lib_debug_dt  *  *  * 3 
+Function: __lib_bp_cb  *  *  * 3 
+Function: __lib_bp_dt  *  *  * 3 
+Function: __lib_lang_cb  *  *  * 3 
+Function: __lib_lang_dt  *  *  * 3 
+Function: __lib_anal_cb  *  *  * 3 
+Function: __lib_anal_dt  *  *  * 3 
+Function: __lib_esil_cb  *  *  * 3 
+Function: __lib_esil_dt  *  *  * 3 
+Function: __lib_parse_cb  *  *  * 3 
+Function: __lib_parse_dt  *  *  * 3 
+Function: __lib_bin_cb  *  *  * 3 
+Function: __lib_bin_dt  *  *  * 3 
+Function: __lib_egg_cb  *  *  * 3 
+Function: __lib_egg_dt  *  *  * 3 
+Function: __lib_fs_cb  *  *  * 3 
+Function: __lib_fs_dt  *  *  * 3 
+Function: __lib_arch_cb  *  *  * 3 
+Function: __lib_arch_dt  *  *  * 3 
+Function: r_core_loadlibs  *  int  * 3 
+Function: load_plugins  *  int  * 3 
+Function: load_scripts  * 1 
+Function: load_scripts_at  *  * 2 
+Function: is_script  * 1 
+Function: open_plugins_at  *  *  * 3 
+Function: r_core_log_list  *  int  int  char 4 
+Function: r_core_log_new 0 
+Function: r_core_log_init  * 1 
+Function: r_core_log_free  * 1 
+Function: r_core_log_run  *  *  * 3 
+Ind-call: * int * 3 
+Function: r_core_log_get  *  int 2 
+Function: r_core_log_add  *  * 2 
+Function: r_core_log_del  *  int 2 
+Function: __parse_string_on_cursor  *  *  int 3 
+Function: r_core_panels_save  *  * 2 
+Function: __show_status_input  *  * 2 
+Function: __show_status  *  * 2 
+Function: __create_panels_config_path  * 1 
+Function: __get_panel  *  int 2 
+Function: __init_menu_saved_layout  *  * 2 
+Function: __update_menu  *  *  * 3 
+Ind-call: * * 2 
+Function: __update_menu_contents  *  *  * 3 
+Function: __draw_menu  *  * 2 
+Function: __get_panels_config_dir_path 0 
+Function: __load_layout_saved_cb  * 1 
+Function: __add_menu  *  *  *  * 4 
+Function: __free_menu_item  * 1 
+Function: r_core_panels_load  *  * 2 
+Function: __create_default_panels  * 1 
+Function: __panels_layout  * 1 
+Function: __set_curnode  *  int 2 
+Function: __set_mode  *  int 2 
+Function: __del_menu  * 1 
+Function: __set_refresh_all  *  _Bool  _Bool 3 
+Function: __check_panel_type  *  * 2 
+Function: __set_cmd_str_cache  *  *  * 3 
+Function: __set_dcb  *  * 2 
+Function: __set_pcb  * 1 
+Function: __print_disassembly_cb  *  * 2 
+Function: __print_stack_cb  *  * 2 
+Function: __print_hexdump_cb  *  * 2 
+Function: __print_decompiler_cb  *  * 2 
+Function: __print_graph_cb  *  * 2 
+Function: __print_disasmsummary_cb  *  * 2 
+Function: __print_default_cb  *  * 2 
+Function: __check_func_diff  *  * 2 
+Function: __find_cmd_str_cache  *  * 2 
+Function: __handle_cmd_str_cache  *  *  _Bool 3 
+Function: __update_panel_contents  *  *  * 3 
+Function: __is_abnormal_cursor_type  *  * 2 
+Function: search_db_check_panel_type  *  *  * 3 
+Function: __search_db  *  * 2 
+Function: __apply_filter_cmd  *  * 2 
+Function: __get_cur_panel  * 1 
+Function: __reset_scroll_pos  * 1 
+Function: __do_panels_refreshOneShot  * 1 
+Function: __do_panels_resize  * 1 
+Function: __do_panels_refresh  * 1 
+Function: __panel_all_clear  * 1 
+Function: __panels_layout_refresh  * 1 
+Function: __del_invalid_panels  * 1 
+Function: __check_edge  * 1 
+Function: __panels_check_stackbase  * 1 
+Function: __panels_refresh  * 1 
+Function: __refresh_core_offset  * 1 
+Function: __panel_print  *  *  *  _Bool 4 
+Function: __print_snow  * 1 
+Function: demo_begin  *  * 2 
+Function: print_notch  * 1 
+Function: show_cursor  * 1 
+Function: __menu_panel_print  *  *  int  int  int  int 6 
+Function: __default_panel_print  *  * 2 
+Ind-call: * * 2 
+Function: __update_help_contents  *  * 2 
+Function: __update_help_title  *  * 2 
+Function: __update_panel_title  *  * 2 
+Function: __check_if_cur_panel  *  * 2 
+Function: __set_panel_addr  *  *  long 3 
+Function: __del_panel  *  int 2 
+Function: __update_pdc_contents  *  *  * 3 
+Function: __direction_panels_cursor_cb  *  int 2 
+Function: __direction_default_cb  *  int 2 
+Function: __direction_graph_cb  *  int 2 
+Function: __direction_stack_cb  *  int 2 
+Function: __direction_disassembly_cb  *  int 2 
+Function: __direction_register_cb  *  int 2 
+Function: __direction_hexdump_cb  *  int 2 
+Function: __cursor_left  * 1 
+Function: __cursor_right  * 1 
+Function: __fix_cursor_down  * 1 
+Function: __fix_cursor_up  * 1 
+Function: __cursor_up  * 1 
+Function: __cursor_down  * 1 
+Function: insoff  *  int 2 
+Function: __set_cursor  *  _Bool 2 
+Function: __update_help  *  * 2 
+Function: __set_read_only  *  *  * 3 
+Function: __layout_default  * 1 
+Function: __set_geometry  *  int  int  int  int 5 
+Function: __set_pos  *  int  int 3 
+Function: __set_size  *  int  int 3 
+Function: __init_panel_param  *  *  *  * 4 
+Function: __set_rcb  *  * 2 
+Function: __cache_white_list  *  * 2 
+Function: sdbkv_key.13885  * 1 
+Function: __get_panels_config_file_from_dir  * 1 
+Function: __parse_panels_config  *  int 2 
+Function: r_core_panels_root  *  * 2 
+Function: __set_root_state  *  int 2 
+Function: __init_new_panels_root  * 1 
+Function: __panels_process  *  * 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * int 2 
+Ind-call: * _Bool 2 
+Ind-call: * _Bool 2 
+Function: __check_root_state  *  int 2 
+Function: __del_panels  * 1 
+Function: __create_new_canvas  *  int  int 3 
+Function: __reset_snow  * 1 
+Function: __handle_mouse  *  *  * 3 
+Function: __handle_menu  *  int 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: __handle_cursor_mode  *  int 2 
+Function: __handle_zoom_mode  *  int 2 
+Function: __handle_window_mode  *  int 2 
+Function: __handle_console  *  *  int 3 
+Function: __undo_seek  * 1 
+Function: __redo_seek  * 1 
+Function: __rotate_panels  *  _Bool 2 
+Function: __toggle_help  * 1 
+Function: __handleComment  * 1 
+Function: __panel_single_step_in  * 1 
+Function: __panel_single_step_over  * 1 
+Function: __call_visual_graph  * 1 
+Function: __handlePrompt  *  * 2 
+Function: __activate_cursor  * 1 
+Function: __show_status_yesno  *  int  * 3 
+Function: __replace_cmd  *  *  * 3 
+Function: nextOpcode  * 1 
+Function: prevOpcode  * 1 
+Function: __set_filter  *  * 2 
+Function: __reset_filter  *  * 2 
+Function: __hudstuff  * 1 
+Function: __create_modal  *  *  * 3 
+Ind-call: * * int * 4 
+Function: __handle_print_rotate  * 1 
+Function: __handle_refs  *  *  long 3 
+Function: __dismantle_del_panel  *  *  int 3 
+Function: __handle_tab_key  *  _Bool 2 
+Function: __handle_vmark  * 1 
+Function: __clear_panels_menu  * 1 
+Function: __swap_panels  *  int  int 3 
+Function: __handle_tab  * 1 
+Function: __toggle_window_mode  * 1 
+Function: __move_panel_to_dir  *  *  int 3 
+Function: __toggle_zoom_mode  * 1 
+Function: __split_panel_vertical  *  *  *  * 4 
+Function: __split_panel_horizontal  *  *  *  * 4 
+Function: __check_func  * 1 
+Function: __rotate_asmemu  *  * 2 
+Function: __toggle_cache  *  * 2 
+Function: __panel_breakpoint  * 1 
+Function: __panel_continue  * 1 
+Function: demo_end  *  * 2 
+Function: __check_panel_num  * 1 
+Function: __insert_panel  *  int  *  * 4 
+Function: __fix_layout  * 1 
+Function: __fix_layout_w  * 1 
+Function: __fix_layout_h  * 1 
+Function: __save_panel_pos  * 1 
+Function: __maximize_panel_size  * 1 
+Function: __restore_panel_pos  * 1 
+Function: __dismantle_panel  *  * 2 
+Function: __move_panel_to_left  *  *  int 3 
+Function: __move_panel_to_right  *  *  int 3 
+Function: __move_panel_to_up  *  *  int 3 
+Function: __move_panel_to_down  *  *  int 3 
+Function: __shrink_panels_forward  *  int 2 
+Function: __shrink_panels_backward  *  int 2 
+Function: __handle_tab_nth  *  int 2 
+Function: __handle_tab_next  * 1 
+Function: __handle_tab_prev  * 1 
+Function: __handle_tab_name  * 1 
+Function: __handle_tab_new  * 1 
+Function: __handle_tab_new_with_cur_panel  * 1 
+Function: __panels_new  * 1 
+Function: __init_panels_menu  * 1 
+Function: __init_panels  *  * 2 
+Function: __init_all_dbs  * 1 
+Function: __init_sdb  * 1 
+Function: __init_modal_db  * 1 
+Function: __init_rotate_db  * 1 
+Function: __rotate_disasm_cb  *  _Bool 2 
+Function: __rotate_entropy_h_cb  *  _Bool 2 
+Function: __rotate_entropy_v_cb  *  _Bool 2 
+Function: __rotate_hexdump_cb  *  _Bool 2 
+Function: __rotate_register_cb  *  _Bool 2 
+Function: __rotate_function_cb  *  _Bool 2 
+Function: __rotate_panel_cmds  *  *  int  *  _Bool 5 
+Function: __create_panel_db  *  *  int  * 4 
+Function: __search_strings_data_create  *  *  int  * 4 
+Function: __search_strings_bin_create  *  *  int  * 4 
+Function: __create_panel_input  *  *  int  * 4 
+Function: __replace_current_panel_input  *  *  int  * 4 
+Function: __delegate_show_all_decompiler_cb  *  *  int  * 4 
+Function: __put_breakpoints_cb  *  *  int  * 4 
+Function: __continue_modal_cb  *  *  int  * 4 
+Function: __step_modal_cb  *  *  int  * 4 
+Function: __step_over_modal_cb  *  *  int  * 4 
+Function: __step_over_cb  * 1 
+Function: __update_disassembly_or_open  * 1 
+Function: __step_cb  * 1 
+Function: __continue_cb  * 1 
+Function: __break_points_cb  * 1 
+Function: __panel_prompt  *  *  int 3 
+Function: __show_all_decompiler_cb  * 1 
+Function: __get_panels  *  int 2 
+Function: __layout_equal_hor  * 1 
+Function: __create_panel  *  *  int  *  * 5 
+Function: __search_strings  *  _Bool 2 
+Function: __renew_filter  *  int 2 
+Function: __load_config_menu  * 1 
+Function: __open_menu_cb  * 1 
+Function: __open_file_cb  * 1 
+Function: __close_file_cb  * 1 
+Function: __save_layout_cb  * 1 
+Function: __clear_layout_cb  * 1 
+Function: __quit_cb  * 1 
+Function: __add_cmd_panel  * 1 
+Function: __copy_cb  * 1 
+Function: __paste_cb  * 1 
+Function: __write_str_cb  * 1 
+Function: __write_hex_cb  * 1 
+Function: __writeValueCb  * 1 
+Function: __assemble_cb  * 1 
+Function: __fill_cb  * 1 
+Function: __sorted_list  *  *  int 3 
+Function: __calculator_cb  * 1 
+Function: __r2_assembler_cb  * 1 
+Function: __r2_shell_cb  * 1 
+Function: __system_shell_cb  * 1 
+Function: __string_whole_bin_cb  * 1 
+Function: __string_data_sec_cb  * 1 
+Function: __rop_cb  * 1 
+Function: __code_cb  * 1 
+Function: __hexpairs_cb  * 1 
+Function: __esil_init_cb  * 1 
+Function: __esil_step_to_cb  * 1 
+Function: __esil_step_range_cb  * 1 
+Function: __watch_points_cb  * 1 
+Function: __reload_cb  * 1 
+Function: __function_cb  * 1 
+Function: __symbols_cb  * 1 
+Function: __program_cb  * 1 
+Function: __basic_blocks_cb  * 1 
+Function: __calls_cb  * 1 
+Function: __references_cb  * 1 
+Function: __license_cb  * 1 
+Function: __version_cb  * 1 
+Function: __version2_cb  * 1 
+Function: __fortune_cb  * 1 
+Function: __game_cb  * 1 
+Function: __help_cb  * 1 
+Function: __rw_cb  * 1 
+Function: __debugger_cb  * 1 
+Function: __load_layout_default_cb  * 1 
+Function: __init_menu_color_settings_layout  *  * 2 
+Function: __settings_decompiler_cb  * 1 
+Function: __init_menu_disasm_settings_layout  *  * 2 
+Function: __init_menu_screen_settings_layout  *  * 2 
+Function: __io_cache_on_cb  * 1 
+Function: __io_cache_off_cb  * 1 
+Function: __config_value_cb  * 1 
+Function: __config_toggle_cb  * 1 
+Function: __init_menu_disasm_asm_settings_layout  *  * 2 
+Function: __settings_colors_cb  * 1 
+Function: __esil_init  * 1 
+Function: __esil_step_to  *  long 2 
+Function: __add_cmdf_panel  *  *  * 3 
+Function: __adjust_side_panels  * 1 
+Function: __load_cmdf  *  *  *  * 4 
+Function: cmpstr  *  * 2 
+Function: __adjust_and_add_panel  *  *  * 3 
+Function: __file_history_up  * 1 
+Function: __file_history_down  * 1 
+Function: __init  *  *  int  int 4 
+Function: __mht_free_kv  * 1 
+Function: __clear_panels_menuRec  * 1 
+Function: __add_vmark  * 1 
+Function: __set_addr_by_type  *  *  long 3 
+Function: __init_modal 0 
+Function: __update_modal  *  *  *  int 4 
+Function: __get_word_from_canvas_for_menu  *  *  int  int 4 
+Function: __free_modal  * 1 
+Function: __exec_modal  *  *  *  *  int 5 
+Ind-call: * * int * 4 
+Function: __delete_modal  *  *  * 3 
+Function: __draw_modal  *  *  int  int  * 5 
+Function: __is_normal_cursor_type  * 1 
+Function: bottom_panel_line  * 1 
+Function: filter_arg  * 1 
+Function: __set_refresh_by_type  *  *  _Bool 3 
+Function: __add_help_panel  * 1 
+Function: __move_to_direction  *  int 2 
+Function: __resize_panel_left  * 1 
+Function: __resize_panel_right  * 1 
+Function: __resize_panel_down  * 1 
+Function: __resize_panel_up  * 1 
+Function: __insert_value  * 1 
+Function: __cursor_del_breakpoints  *  * 2 
+Function: __jmp_to_cursor_addr  *  * 2 
+Function: __set_breakpoints_on_cursor  *  * 2 
+Function: __drag_and_resize  * 1 
+Function: __handle_mouse_on_top  *  int  int 3 
+Ind-call: * 1 
+Function: __handle_mouse_on_menu  *  int  int 3 
+Ind-call: * 1 
+Function: __handle_mouse_on_X  *  int  int 3 
+Function: __check_if_mouse_x_illegal  *  int 2 
+Function: __check_if_mouse_y_illegal  *  int 2 
+Function: __check_if_mouse_x_on_edge  *  int  int 3 
+Function: __check_if_mouse_y_on_edge  *  int  int 3 
+Function: __handle_mouse_on_panel  *  *  int  int  * 5 
+Function: __get_panel_idx_in_pos  *  int  int 3 
+Function: __get_word_from_canvas  *  *  int  int 4 
+Function: __check_if_addr  *  int 2 
+Function: __seek_all  *  long 2 
+Function: __update_edge_x  *  int 2 
+Function: __update_edge_y  *  int 2 
+Function: r_core_patch_line  *  * 2 
+Function: r_core_patch  *  * 2 
+Function: __core_patch_bracket  *  *  * 3 
+Function: r_core_plugin_fini  * 1 
+Ind-call: * * 2 
+Function: r_core_plugin_add  *  * 2 
+Ind-call: * * 2 
+Function: r_core_plugin_remove  *  * 2 
+Function: r_core_plugin_init  * 1 
+Function: r_core_plugin_check  *  * 2 
+Ind-call: * * 2 
+Function: r_core_is_project  *  * 2 
+Function: get_project_script_path  *  * 2 
+Function: is_valid_project_name  * 1 
+Function: r_core_project_cat  *  * 2 
+Function: r_core_project_list  *  int 2 
+Function: r_core_project_delete  *  * 2 
+Function: r_core_project_execute_cmds  *  * 2 
+Function: r_core_project_notes_file  *  * 2 
+Function: r_core_project_load_bg  *  *  * 3 
+Function: project_load_background  * 1 
+Function: r_str_ncpy.14291  *  *  long 3 
+Function: r_core_project_load  *  *  * 3 
+Function: r_core_project_name  *  * 2 
+Function: load_project_rop  *  * 2 
+Function: get_project_name  * 1 
+Function: r_str_startswith_inline.14317  *  * 2 
+Function: r_core_project_open  *  * 2 
+Function: r_core_project_undirty  * 1 
+Function: r_core_project_save_script  *  *  int 3 
+Function: flush  * 1 
+Function: r_flag_space_push.14343  *  * 2 
+Function: r_flag_space_pop.14344  * 1 
+Function: r_core_project_save  *  * 2 
+Function: make_projects_directory  * 1 
+Function: r_core_project_zip  *  * 2 
+Function: r_core_project_is_dirty  * 1 
+Function: r_core_pseudo_code  *  * 2 
+Function: find_and_change  *  int 2 
+Function: r_core_wait  * 1 
+Function: r_core_rtr_http_stop  * 1 
+Function: r_core_rtr_http  *  int  int  * 4 
+Function: r_core_rtr_http_thread  * 1 
+Function: r_core_rtr_http_run  *  int  int  * 4 
+Function: activateDieTime  * 1 
+Function: r_str_startswith_inline.14547  *  * 2 
+Function: http_logf  *  *  variadic 2 
+Function: r_str_ncpy.14555  *  *  long 3 
+Function: rtr_dir_files  * 1 
+Function: guess_filetype  * 1 
+Function: dietime  int 1 
+Function: r_core_rtr_gdb  *  int  * 3 
+Function: r_core_rtr_gdb_run  *  int  * 3 
+Function: r_core_rtr_gdb_cb  *  *  *  *  long 5 
+Ind-call: * int 2 
+Function: write_reg_val  *  long  long  int  _Bool 5 
+Function: swap_big_regs  *  long  *  int 4 
+Function: write_big_reg  *  long  *  int  _Bool 5 
+Function: r_swap_ut64  long 1 
+Function: r_swap_ut16  short 1 
+Function: r_swap_ut32  int 1 
+Function: r_core_rtr_pushout  *  * 2 
+Function: r_core_rtr_list  * 1 
+Function: r_core_rtr_add  *  * 2 
+Function: r_core_rtr_remove  *  * 2 
+Function: r_core_rtr_event  *  * 2 
+Function: r_core_rtr_session  *  * 2 
+Function: __rtr_shell  *  int 2 
+Function: rtr_visual  * struct  * 3 
+Function: rtr_textlog_chat  * struct 2 
+Function: r_core_rtr_cmd  *  * 2 
+Function: r_core_rtr_rap_run  *  * 2 
+Function: r_core_rtr_rap_thread  * 1 
+Function: rtrcmd struct  * 2 
+Function: showcursor.14763  *  int 2 
+Function: r_core_rtr_cmds_query  *  *  *  * 4 
+Function: r_core_rtr_cmds  *  * 2 
+Function: r_core_task_scheduler_init  *  * 2 
+Function: r_core_task_decref  * 1 
+Function: r_core_task_new  *  _Bool  *  *  * 5 
+Function: task_free  * 1 
+Function: tasks_lock_enter  *  * 2 
+Function: tasks_lock_leave  *  * 2 
+Function: tasks_lock_block_signals_reset  * 1 
+Function: tasks_lock_block_signals  * 1 
+Function: r_core_task_scheduler_fini  * 1 
+Function: r_core_task_print  *  *  *  int 4 
+Function: r_core_task_status  * 1 
+Function: r_core_task_list  *  int 2 
+Function: r_core_task_running_tasks_count  * 1 
+Function: r_core_task_join  *  *  int 3 
+Function: r_core_task_get_incref  *  int 2 
+Function: r_core_task_sleep_begin  * 1 
+Function: task_join  * 1 
+Function: r_core_task_sleep_end  * 1 
+Function: r_core_task_incref  * 1 
+Function: task_wakeup  * 1 
+Function: r_core_task_schedule  *  int 2 
+Ind-call: * 1 
+Function: task_get  *  int 2 
+Function: r_core_task_yield  * 1 
+Function: r_core_task_self  * 1 
+Function: r_core_task_enqueue  *  * 2 
+Function: task_run_thread  * 1 
+Function: task_run  * 1 
+Ind-call: * * 2 
+Function: task_end  * 1 
+Function: r_core_task_enqueue_oneshot  *  *  * 3 
+Ind-call: * 1 
+Function: r_core_task_run_sync  *  * 2 
+Function: r_core_task_sync_begin  * 1 
+Function: r_core_task_sync_end  * 1 
+Function: r_core_task_break  *  int 2 
+Function: r_core_task_break_all  * 1 
+Function: r_core_task_del  *  int 2 
+Function: r_core_task_del_all_done  * 1 
+Function: r_core_visual_asm  *  long 2 
+Function: readline_callback  *  * 2 
+Function: r_core_visual_applyHexMode  *  int 2 
+Function: r_core_visual_toggle_decompiler_disasm  *  _Bool  _Bool 3 
+Function: r_core_visual_applyDisMode  *  int 2 
+Function: r_core_visual_showcursor  *  int 2 
+Function: r_core_visual_hud  * 1 
+Function: r_core_visual_jump  *  char 2 
+Function: r_core_visual_seek_animation  *  long 2 
+Function: r_core_visual_append_help  *  *  * 3 
+Function: r_core_visual_prompt_input  * 1 
+Function: __holdMouseState  * 1 
+Function: backup_current_addr  *  *  *  * 4 
+Function: r_core_visual_prompt  * 1 
+Function: restore_current_addr  *  long  long  long 4 
+Function: reset_print_cur  * 1 
+Function: r_core_visual_show_char  *  char 2 
+Function: r_core_prevop_addr  *  long  int  * 4 
+Function: prevop_addr  *  long 2 
+Function: r_core_prevop_addr_force  *  long  int 3 
+Function: r_line_hist_offset_up  * 1 
+Function: r_str_ncpy.14942  *  *  long 3 
+Function: r_line_hist_offset_down  * 1 
+Function: r_core_visual_offset  * 1 
+Function: __core_visual_gogo  *  int 2 
+Ind-call: * 1 
+Function: r_itv_begin.14951  long  long 2 
+Function: r_itv_end.14953  long  long 2 
+Function: r_core_visual_prevopsz  *  long 2 
+Function: r_core_visual_refs  *  _Bool  _Bool 3 
+Function: RVecAnalRef_free.14958  * 1 
+Function: RVecAnalRef_empty.14965  * 1 
+Function: RVecAnalRef_length.14968  * 1 
+Function: add_ref  * 1 
+Function: delete_ref  *  *  int  int 4 
+Function: addComment  *  long 2 
+Function: follow_ref  *  *  int  int 4 
+Function: RVecAnalRef_at.14987  *  long 2 
+Function: RVecAnalRef_fini.15019  * 1 
+Function: getcommapath  * 1 
+Function: r_core_visual_browse  *  * 2 
+Function: r_core_visual_cmd  *  * 2 
+Function: visual_nkey  *  int 2 
+Function: process_get_click  *  int 2 
+Function: setcursor  *  _Bool 2 
+Function: isNumber  *  int 2 
+Function: isDisasmPrint  int 1 
+Function: numbuf_append  *  int 2 
+Function: nextPrintFormat  * 1 
+Function: prevPrintFormat  * 1 
+Function: rotateAsmBits  * 1 
+Function: canWrite  *  long 2 
+Function: prompt_read  *  *  int 3 
+Function: numbuf_pull  * 1 
+Function: setdiff  * 1 
+Function: visual_comma  * 1 
+Function: visual_nthtab  *  int 2 
+Function: visual_prevtab  * 1 
+Function: visual_nexttab  * 1 
+Function: visual_tabname  * 1 
+Function: visual_closetab  * 1 
+Function: visual_newtab  * 1 
+Function: visual_textlogs  * 1 
+Function: visual_refresh  * 1 
+Function: cursor_left  *  _Bool 2 
+Function: cursor_right  *  _Bool 2 
+Function: cursor_nextrow  *  _Bool 2 
+Function: r_core_visual_disasm_down  *  *  * 3 
+Function: __core_visual_print_command  * 1 
+Function: cursor_prevrow  *  _Bool 2 
+Function: r_core_visual_disasm_up  *  * 2 
+Function: visual_single_step_in  * 1 
+Function: __core_visual_step_over  * 1 
+Function: nextPrintCommand  * 1 
+Function: setprintmode  *  int 2 
+Function: prevPrintCommand  * 1 
+Function: findPair  * 1 
+Function: findNextWord  * 1 
+Function: findPrevWord  * 1 
+Function: visual_search  * 1 
+Function: rotateAsmemu.15127  * 1 
+Function: toggle_bb.15149  *  long 2 
+Function: visual_help  * 1 
+Function: isSpace  char 1 
+Function: cursor_ocur  *  _Bool 2 
+Function: prevOpcode.15306  * 1 
+Function: insoff.15308  *  int 2 
+Function: stackPrintCommand  * 1 
+Function: nextOpcode.15329  * 1 
+Function: visual_responsive  * 1 
+Function: r_str_startswith_inline.15335  *  * 2 
+Function: visual_title  *  int 2 
+Function: printSnow  * 1 
+Function: r_core_print_scrollbar  * 1 
+Function: show_cursor.15350  * 1 
+Function: r_core_print_scrollbar_bottom  * 1 
+Function: r_flag_space_push.15368  *  * 2 
+Function: r_flag_space_pop.15369  * 1 
+Function: __core_visual_tab_count  * 1 
+Function: __core_visual_tab_string  *  * 2 
+Function: r_core_visual_tab_free  * 1 
+Function: r_core_visual_tab_new  * 1 
+Function: visual_tabset  *  * 2 
+Function: visual_tabget  *  * 2 
+Function: printFormat  *  int 2 
+Function: visual_breakpoint  * 1 
+Function: visual_continue  * 1 
+Function: r_core_visual  *  * 2 
+Function: r_core_visual_tab_update  * 1 
+Function: fix_cursor  * 1 
+Function: visual_refresh_oneshot  * 1 
+Function: insert_mode_enabled  * 1 
+Function: is_mintty  * 1 
+Function: flush_stdin 0 
+Function: r_core_visual_slides  *  * 2 
+Function: count_pages  * 1 
+Function: clearkeys  * 1 
+Function: render  *  *  *  int  int  int  int 7 
+Function: render_title  int  int  int 3 
+Function: gotokey  *  *  int  int 4 
+Function: findpage  *  * 2 
+Function: r_str_startswith_inline.15506  *  * 2 
+Function: r_core_vmark_reset  * 1 
+Function: r_core_vmark_dump  *  int 2 
+Function: r_core_vmark_set  *  char  long  int  int 5 
+Function: r_core_vmark_del  *  char 2 
+Function: r_core_vmark  *  char 2 
+Function: r_core_vmark_seek  *  char  * 3 
+Function: r_core_visual_esil  *  * 2 
+Function: colorize_asm_string.15555  *  *  int  long 4 
+Function: wordpos  *  int 2 
+Function: showreg.15563  *  *  * 3 
+Function: r_core_visual_bit_editor  * 1 
+Function: rotate_nibble  char  int 2 
+Function: r_core_visual_types  * 1 
+Function: r_flag_space_is_empty  * 1 
+Function: sdbforcb  *  *  * 3 
+Function: prompt  *  * 2 
+Function: getformat  *  * 2 
+Function: r_spaces_is_empty  * 1 
+Function: r_core_visual_hudclasses  * 1 
+Function: r_core_visual_hudstuff  * 1 
+Function: hudstuff_append  *  * 2 
+Function: r_interval_tree_iter_get.15688  * 1 
+Function: r_core_visual_classes  * 1 
+Function: show_class  *  int  *  *  *  * 6 
+Function: r_str_startswith_inline.15708  *  * 2 
+Function: r_core_visual_anal_classes  * 1 
+Function: show_anal_classes  *  char  *  *  * 5 
+Function: anal_class_print  *  * 2 
+Function: sdbkv_key.15719  * 1 
+Function: r_vector_empty.15724  * 1 
+Function: r_core_visual_view_rop  * 1 
+Function: r_read_be64.15740  * 1 
+Function: r_read_be32.15742  * 1 
+Function: print_rop.15744  *  *  _Bool 3 
+Function: r_read_at_be32.15757  *  long 2 
+Function: r_core_visual_trackflags  * 1 
+Function: r_flag_space_cur_name.15760  * 1 
+Function: sort_flags  *  int 2 
+Function: r_flag_space_cur.15771  * 1 
+Function: r_flag_space_set.15774  *  * 2 
+Function: r_spaces_current.15787  * 1 
+Function: flag_name_sort  *  * 2 
+Function: flag_offset_sort  *  * 2 
+Function: r_spaces_current_name.15788  * 1 
+Function: r_core_visual_comments  * 1 
+Function: r_core_visual_config  * 1 
+Function: copyuntilch  *  *  int 3 
+Function: show_config_options  *  * 2 
+Function: r_core_visual_define  *  *  int 3 
+Function: r_core_visual_config_hud  * 1 
+Function: config_visual_hit_i  *  *  int 3 
+Function: r_core_visual_colors  * 1 
+Function: config_visual_hit  *  *  int 3 
+Function: r_config_node_is_bool  * 1 
+Function: r_str_ncpy.15847  *  *  long 3 
+Function: r_config_node_is_int  * 1 
+Function: define_data_ntimes  *  long  int  int  int 5 
+Function: isDisasmPrint.15865  int 1 
+Function: handleHints  * 1 
+Function: r_core_visual_mounts  * 1 
+Function: r_core_visual_debugtraces  *  * 2 
+Function: r_core_visual_debugtraces_help  * 1 
+Function: r_core_visual_anal  *  * 2 
+Function: r_core_visual_anal_refresh_oneshot  * 1 
+Function: r_core_visual_anal_refresh  * 1 
+Function: addVar  *  int  * 3 
+Function: variable_rename  *  long  int  * 4 
+Function: function_rename.15985  *  long  * 3 
+Function: variable_set_type  *  long  int  * 4 
+Function: __prompt  *  * 2 
+Function: r_core_visual_anal_refresh_column  *  int 2 
+Function: var_functions_show  *  int  int  int 4 
+Function: var_variables_show  *  int  *  int  int 5 
+Function: r_core_seek_next  *  * 2 
+Function: seek_flag_offset  *  * 2 
+Function: r_core_seek_previous  *  * 2 
+Function: r_str_widget_list  *  *  int  int  * 5 
+Ind-call: * * _Bool 3 
+Function: __core_visual_view_graph_update  *  * 2 
+Function: print_item  *  *  _Bool 3 
+Function: r_core_visual_view_graph  * 1 
+Function: __reset_status  * 1 
+Function: __sync_status_with_cursor  * 1 
+Function: __toggleSort  * 1 
+Function: __sort  *  * 2 
+Function: __seek_cursor  * 1 
+Function: cmpaddr.16094  *  * 2 
+Function: cmpname.16095  *  * 2 
+Function: __xrefs  *  long 2 
+Function: __refs  *  long 2 
+Function: RVecAnalRef_free.16096  * 1 
+Function: RVecAnalRef_fini.16097  * 1 
+Function: __fcns  * 1 
+Function: __core_visual_view_zigns_update  *  * 2 
+Function: __signs  *  long  _Bool 3 
+Function: print_item.16100  *  *  _Bool 3 
+Function: r_core_visual_view_zigns  * 1 
+Function: r_core_yank_set  *  long  *  int 4 
+Function: r_core_yank_set_str  *  long  *  int 4 
+Function: r_core_yank  *  long  int 3 
+Function: r_core_yank_string  *  long  int 3 
+Function: r_core_yank_paste  *  long  int 3 
+Function: r_core_yank_to  *  * 2 
+Function: r_core_yank_dump  *  long  int 3 
+Function: r_core_yank_hexdump  *  long 2 
+Function: r_core_yank_cat  *  long 2 
+Function: r_core_yank_cat_string  *  long 2 
+Function: r_core_yank_hud_file  *  * 2 
+Function: r_core_yank_hud_path  *  *  int 3 
+Function: r_core_yank_unset  * 1 
+Function: r_core_yank_hexpair  *  * 2 
+Function: r_core_yank_file_ex  *  * 2 
+Function: consume_chars  *  char 2 
+Function: find_next_char  *  char 2 
+Function: perform_mapped_file_yank  *  long  long  * 4 
+Function: r_itv_begin.16156  long  long 2 
+Function: r_core_yank_file_all  *  * 2 
+Function: r_cmd_agD_call  *  * 2 
+Function: r_str_startswith_inline.16170  *  * 2 
+Function: _get_title  *  * 2 
+Function: _get_body  *  * 2 
+Function: r_cmd_anal_call  *  * 2 
+Function: analyzeFunction  *  long 2 
+Function: analyzeStackBased  *  *  long  * 4 
+Function: getFunctionSize  * 1 
+Function: addTarget  *  *  *  long 4 
+Function: bbAdd  *  long  long  long  long 5 
+Function: getCrossingBlock  *  *  long  long 4 
+Function: r_cmdsixref_call  *  * 2 
+Function: r_str_startswith_inline.16227  *  * 2 
+Function: siguza_xrefs  *  long  long  int 4 
+Function: siguza_xrefs_chunked  *  long  int 3 
+Function: addref  *  long  long  int 4 
+Function: r_cmd_java_call  *  * 2 
+Ind-call: * * 2 
+Function: r_cmd_java_handle_help  *  * 2 
+Function: r_cmd_java_handle_set_flags  *  * 2 
+Function: r_cmd_java_handle_prototypes  *  * 2 
+Function: r_cmd_java_handle_resolve_cp  *  * 2 
+Function: r_cmd_java_handle_calc_flags  *  * 2 
+Function: r_cmd_java_handle_flags_str_at  *  * 2 
+Function: r_cmd_java_handle_flags_str  *  * 2 
+Function: r_cmd_java_handle_method_info  *  * 2 
+Function: r_cmd_java_handle_field_info  *  * 2 
+Function: r_cmd_java_handle_find_cp_const  *  * 2 
+Function: cpfind  *  * 2 
+Function: r_cmd_java_handle_replace_cp_value  *  * 2 
+Function: r_cmd_java_handle_replace_classname_value  *  * 2 
+Function: r_cmd_java_handle_reload_bin  *  * 2 
+Function: r_cmd_java_handle_summary_info  *  * 2 
+Function: r_cmd_java_handle_print_exceptions  *  * 2 
+Function: r_cmd_java_handle_yara_code_extraction_refs  *  * 2 
+Function: r_cmd_java_handle_insert_method_ref  *  * 2 
+Function: r_cmd_java_handle_calc_class_sz  *  * 2 
+Function: r_cmd_java_handle_isvalid  *  * 2 
+Function: r_cmd_java_consumetok  *  char  long 3 
+Function: r_cmd_java_is_valid_input_num_value  *  * 2 
+Function: r_cmd_java_get_input_num_value  *  * 2 
+Function: r_cmd_java_print_cmd_help  * 1 
+Function: get_anal  * 1 
+Function: r_cmd_java_get_bin_obj  * 1 
+Function: r_cmd_java_strtok  *  char  long 3 
+Function: r_cmd_java_reload_bin_from_buf  *  *  *  long 4 
+Function: r_cmd_java_get_class_names_from_input  *  *  *  *  * 5 
+Function: r_cmd_get_num_classname_str_occ  *  * 2 
+Function: r_cmd_is_object_descriptor  *  int 2 
+Function: r_cmd_replace_name_def  *  int  *  int  *  int  * 7 
+Function: r_cmd_replace_name  *  int  *  int  *  int  * 7 
+Function: r_cmd_java_get_cp_bytes_and_write  *  *  short  long  *  long 6 
+Function: r_cmd_get_next_classname_str  *  * 2 
+Function: r_cmd_java_handle_replace_cp_value_str  *  *  *  short  long 5 
+Function: r_cmd_java_handle_replace_cp_value_int  *  *  *  short  long 5 
+Function: r_cmd_java_handle_replace_cp_value_long  *  *  *  short  long 5 
+Function: r_cmd_java_handle_replace_cp_value_float  *  *  *  short  long 5 
+Function: r_cmd_java_handle_replace_cp_value_double  *  *  *  short  long 5 
+Function: cpfind_str  *  * 2 
+Function: cpfind_int  *  *  * 3 
+Function: cpfind_long  *  *  * 3 
+Function: cpfind_float  *  * 2 
+Function: cpfind_double  *  * 2 
+Function: r_cmd_java_print_field_num_name  * 1 
+Function: r_cmd_java_print_field_summary  *  short 2 
+Function: r_cmd_java_print_field_name  *  short 2 
+Function: r_cmd_java_print_method_num_name  * 1 
+Function: r_cmd_java_print_method_summary  *  short 2 
+Function: r_cmd_java_print_method_name  *  short 2 
+Function: r_cmd_java_print_field_access_flags_value  * 1 
+Function: r_cmd_java_print_method_access_flags_value  * 1 
+Function: r_cmd_java_print_class_access_flags_value  * 1 
+Function: r_cmd_java_get_all_access_flags_value  * 1 
+Function: r_cmd_java_resolve_cp_type  *  short 2 
+Function: r_cmd_java_resolve_cp_idx  *  short 2 
+Function: r_cmd_java_resolve_cp_idx_b64  *  short 2 
+Function: r_cmd_java_resolve_cp_address  *  short 2 
+Function: r_cmd_java_resolve_cp_summary  *  short 2 
+Function: r_cmd_java_resolve_cp_to_key  *  short 2 
+Function: r_cmd_java_print_method_definitions  * 1 
+Function: r_cmd_java_print_field_definitions  * 1 
+Function: r_cmd_java_print_import_definitions  * 1 
+Function: r_cmd_java_print_class_definitions  * 1 
+Function: r_cmd_java_print_all_definitions  * 1 
+Function: r_cmd_java_print_json_definitions  * 1 
+Function: r_cmd_java_get_bin_obj_list  * 1 
+Function: r_cmd_java_is_valid_java_mcf  char 1 
+Function: r_cmd_java_set_acc_flags  *  long  short 3 
+Function: sdb_array_get_num  *  *  int  * 4 
+Function: sdb_array_get  *  *  int  * 4 
+Function: sdb_gh_malloc  long 1 
+Ind-call: * * long 3 
+Function: sdb_array_insert_num  *  *  int  long  int 5 
+Function: sdb_array_insert  *  *  int  *  int 5 
+Function: sdb_gh_free  * 1 
+Ind-call: * * long 3 
+Function: Aindexof  *  int 2 
+Function: sdb_array_set  *  *  int  *  int 5 
+Function: sdb_array_set_num  *  *  int  long  int 5 
+Function: sdb_array_add_num  *  *  long  int 4 
+Function: sdb_array_contains  *  *  *  * 4 
+Function: sdb_array_add  *  *  *  int 4 
+Function: sdb_array_add_sorted  *  *  *  int 4 
+Function: cstring_cmp  *  * 2 
+Function: astrcmp  *  * 2 
+Function: sdb_array_add_sorted_num  *  *  long  int 4 
+Function: sdb_array_unset  *  *  int  int 4 
+Function: sdb_array_append  *  *  *  int 4 
+Function: sdb_array_append_num  *  *  long  int 4 
+Function: sdb_array_remove_num  *  *  long  int 4 
+Function: sdb_array_delete  *  *  int  int 4 
+Function: sdb_array_indexof  *  *  *  int 4 
+Function: sdb_array_remove  *  *  *  int 4 
+Function: sdb_array_contains_num  *  *  long  * 4 
+Function: sdb_array_size  *  * 2 
+Function: sdb_array_length  *  * 2 
+Function: sdb_array_push_num  *  *  long  int 4 
+Function: sdb_array_push  *  *  *  int 4 
+Function: sdb_array_prepend  *  *  *  int 4 
+Function: sdb_array_prepend_num  *  *  long  int 4 
+Function: sdb_array_pop_num  *  *  * 3 
+Function: sdb_array_pop  *  *  * 3 
+Function: sdb_array_pop_head  *  *  * 3 
+Function: sdb_array_pop_tail  *  *  * 3 
+Function: sdb_array_sort  *  *  int 3 
+Function: sdb_array_sort_num  *  *  int 3 
+Function: int_cmp  *  * 2 
+Function: sdb_encode_raw  *  *  int 3 
+Function: sdb_b64_encode  *  *  int 3 
+Function: sdb_decode_raw  *  *  int 3 
+Function: sdb_b64_decode  *  * 2 
+Function: sdb_encode  *  int 2 
+Function: sdb_gh_calloc  long  long 2 
+Function: sdb_gh_malloc.16469  long 1 
+Ind-call: * * long 3 
+Function: sdb_decode  *  * 2 
+Function: sdb_gh_free.16472  * 1 
+Ind-call: * * long 3 
+Function: set_u_foreach  *  *  * 3 
+Function: u_foreach_cb  *  long  * 3 
+Ind-call: * long 2 
+Function: set_p_foreach  *  *  * 3 
+Function: p_foreach_cb  *  *  * 3 
+Ind-call: * * 2 
+Function: set_p_new 0 
+Function: set_p_add  *  * 2 
+Function: set_p_contains  *  * 2 
+Function: set_p_delete  *  * 2 
+Function: set_p_free  * 1 
+Function: set_u_new 0 
+Function: set_u_add  *  long 2 
+Function: set_u_contains  *  long 2 
+Function: set_u_delete  *  long 2 
+Function: set_u_free  * 1 
+Function: cdb_getkvlen  *  *  *  int 4 
+Function: cdb_read  *  *  int  int 4 
+Function: seek_set  int  long 2 
+Function: cdb_free  * 1 
+Function: cdb_findstart  * 1 
+Function: cdb_init  *  int 2 
+Function: cdb_findnext  *  int  *  int 4 
+Function: ut32_unpack  *  * 2 
+Function: match  *  *  int  int 4 
+Function: buffer_initialize  *  *  int  *  int 5 
+Function: buffer_flush  * 1 
+Function: allwrite  *  int  *  int 4 
+Ind-call: int * int 3 
+Function: buffer_putalign  *  *  int 3 
+Function: buffer_putflush  *  *  int 3 
+Function: cdb_make_start  *  int 2 
+Function: seek_set.16489  int  long 2 
+Function: cdb_make_addend  *  int  int  int 4 
+Function: cdb_alloc  int 1 
+Function: incpos  *  int 2 
+Function: sdb_gh_malloc.16490  long 1 
+Ind-call: * * long 3 
+Function: cdb_make_addbegin  *  int  int 3 
+Function: pack_kvlen  *  int  int 3 
+Function: cdb_make_add  *  *  int  *  int 5 
+Function: cdb_make_finish  * 1 
+Function: ut32_pack  *  int 2 
+Function: cdb_alloc_free  * 1 
+Function: sdb_gh_free.16491  * 1 
+Ind-call: * * long 3 
+Function: dict_new  int  * 2 
+Function: sdb_gh_calloc.16492  long  long 2 
+Function: dict_init  *  int  * 3 
+Function: sdb_gh_free.16495  * 1 
+Ind-call: * * long 3 
+Function: sdb_gh_malloc.16496  long 1 
+Ind-call: * * long 3 
+Function: dict_fini  * 1 
+Ind-call: * 1 
+Function: dict_free  * 1 
+Function: dict_hash  * 1 
+Function: dict_set  *  long  long  * 4 
+Function: dict_bucket  *  long 2 
+Function: sdb_gh_realloc  *  long 2 
+Ind-call: * * long 3 
+Function: dict_stats  *  int 2 
+Function: dict_getr  *  long 2 
+Function: dict_get  *  long 2 
+Function: dict_getu  *  long 2 
+Function: dict_add  *  long  long  * 4 
+Function: dict_del  *  long 2 
+Ind-call: * 1 
+Function: dict_foreach  *  *  * 3 
+Ind-call: * * 2 
+Function: sdb_diff_format  *  int  * 3 
+Function: sdb_diff  *  *  *  * 4 
+Function: sdb_diff_ctx  * 1 
+Function: sdb_diff_report_ns  *  *  _Bool 3 
+Ind-call: * * 2 
+Function: sdb_diff_report  *  *  _Bool 3 
+Function: sdb_diff_kv_cb  *  *  * 3 
+Function: sdb_diff_report_kv  *  *  *  _Bool 4 
+Ind-call: * * 2 
+Function: sdb_diff_report_kv_cb  *  *  * 3 
+Function: sdb_disk_create  * 1 
+Function: sdb_gh_free.16512  * 1 
+Ind-call: * * long 3 
+Function: sdb_gh_malloc.16513  long 1 
+Ind-call: * * long 3 
+Function: mkdirp  * 1 
+Function: sdb_disk_insert  *  *  * 3 
+Function: sdb_disk_finish  * 1 
+Function: sdb_disk_unlink  * 1 
+Function: sdb_fmt_tostr  *  * 2 
+Function: sdb_gh_realloc.16518  *  long 2 
+Ind-call: * * long 3 
+Function: sdb_gh_free.16520  * 1 
+Ind-call: * * long 3 
+Function: sdb_fmt_tobin  *  *  * 3 
+Function: sdb_fmt_free  *  * 2 
+Function: sdb_fmt_init  *  * 2 
+Function: sdb_fmt_array_num  * 1 
+Function: sdb_gh_malloc.16523  long 1 
+Ind-call: * * long 3 
+Function: sdb_anext2  *  * 2 
+Function: sdb_fmt_array  * 1 
+Function: ht_uu_new0 0 
+Function: sdb_gh_calloc.16528  long  long 2 
+Function: HtUU__new  *  long 2 
+Function: CWISS_RawTable_new  *  *  long 3 
+Function: CWISS_EmptyGroup 0 
+Function: CWISS_NormalizeCapacity  long 1 
+Function: CWISS_RawTable_InitializeSlots  *  * 2 
+Ind-call: long long 2 
+Function: CWISS_AllocSize  long  long  long 3 
+Function: CWISS_SlotOffset  long  long 2 
+Function: CWISS_ResetCtrl  long  *  *  long 4 
+Function: CWISS_RawTable_ResetGrowthLeft  *  * 2 
+Function: CWISS_CapacityToGrowth  long 1 
+Function: CWISS_IsValidCapacity  long 1 
+Function: CWISS_NumClonedBytes 0 
+Function: CWISS_PoisonMemory  *  long 2 
+Function: HtUU__kPolicy_DefaultSlotInit  * 1 
+Function: HtUU__kPolicy_DefaultSlotDtor  * 1 
+Function: HtUU__kPolicy_DefaultSlotTransfer  *  * 2 
+Function: HtUU__kPolicy_DefaultSlotGet  * 1 
+Function: HtUU__default_dtor  * 1 
+Function: CWISS_DefaultMalloc  long  long 2 
+Function: CWISS_DefaultFree  *  long  long 3 
+Function: HtUU__default_hash  * 1 
+Function: HtUU__default_eq  *  * 2 
+Function: CWISS_AbslHash_Write  *  *  long 3 
+Function: CWISS_AbslHash_Finish  long 1 
+Function: CWISS_AbslHash_Hash64  *  long 2 
+Function: CWISS_AbslHash_Mix  *  long 2 
+Function: CWISS_Load9To16  *  long 2 
+Function: CWISS_Load4To8  *  long 2 
+Function: CWISS_Load1To3  *  long 2 
+Function: CWISS_Load32  * 1 
+Function: CWISS_Load64  * 1 
+Function: CWISS_AbslHash_LowLevelMix  long  long 2 
+Function: CWISS_Mul128  long  long 2 
+Function: CWISS_AbslHash_LowLevelHash  *  long  long  * 4 
+Function: HtUU__default_copy  *  * 2 
+Function: sdb_gh_malloc.16535  long 1 
+Ind-call: * * long 3 
+Function: ht_uu_free  * 1 
+Function: HtUU__destroy  * 1 
+Function: sdb_gh_free.16538  * 1 
+Ind-call: * * long 3 
+Function: CWISS_RawTable_destroy  *  * 2 
+Function: CWISS_RawTable_DestroySlots  *  * 2 
+Ind-call: * 1 
+Ind-call: * long long 3 
+Function: CWISS_IsFull  char 1 
+Function: ht_uu_insert  *  long  long 3 
+Function: HtUU__insert  *  *  * 3 
+Function: CWISS_RawTable_insert  *  *  *  * 4 
+Ind-call: * * 2 
+Function: CWISS_RawTable_FindOrPrepareInsert  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: CWISS_RawTable_PreInsert  *  *  long 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: CWISS_RawTable_citer_at  *  *  *  long 4 
+Function: CWISS_RawTable_iter_at  *  *  *  long 4 
+Function: CWISS_RawIter_SkipEmptyOrDeleted  *  * 2 
+Function: CWISS_IsEmptyOrDeleted  char 1 
+Function: CWISS_Group_new  * 1 
+Function: CWISS_Group_CountLeadingEmptyOrDeleted  * 1 
+Function: CWISS_mm_cmpgt_epi8_fixed  vector  vector 2 
+Function: CWISS_RawTable_PrefetchHeapBlock  *  * 2 
+Function: CWISS_ProbeSeq_Start  *  *  long  long 4 
+Function: CWISS_H2  long 1 
+Function: CWISS_Group_Match  *  char 2 
+Function: CWISS_BitMask_next  *  * 2 
+Function: CWISS_ProbeSeq_offset  *  long 2 
+Function: CWISS_Group_MatchEmpty  * 1 
+Function: CWISS_ProbeSeq_next  * 1 
+Function: CWISS_RawTable_PrepareInsert  *  *  long 3 
+Function: CWISS_FindFirstNonFull  *  long  long 3 
+Function: CWISS_IsDeleted  char 1 
+Function: CWISS_RawTable_rehash_and_grow_if_necessary  *  * 2 
+Function: CWISS_IsEmpty  char 1 
+Function: CWISS_SetCtrl  long  char  long  *  *  long 6 
+Function: CWISS_UnpoisonMemory  *  long 2 
+Function: CWISS_RawTable_Resize  *  *  long 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * long long 3 
+Function: CWISS_RawTable_DropDeletesWithoutResize  *  * 2 
+Ind-call: long long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * long long 3 
+Function: CWISS_IsSmall  long 1 
+Function: CWISS_ConvertDeletedToEmptyAndFullToDeleted  *  long 2 
+Function: CWISS_Group_ConvertSpecialToEmptyAndFullToDeleted  *  * 2 
+Function: CWISS_Group_MatchEmptyOrDeleted  * 1 
+Function: CWISS_ShouldInsertBackwards  long  * 2 
+Function: CWISS_BitMask_HighestBitSet  * 1 
+Function: CWISS_BitMask_TrailingZeros  * 1 
+Function: CWISS_H1  long  * 2 
+Function: RandomSeed 0 
+Function: CWISS_HashSeed  * 1 
+Function: CWISS_BitMask_LowestBitSet  * 1 
+Function: CWISS_ProbeSeq_new  *  long  long 3 
+Function: ht_uu_update  *  long  long 3 
+Function: HtUU__Iter_get  * 1 
+Function: CWISS_RawIter_get  *  * 2 
+Ind-call: * 1 
+Function: ht_uu_update_key  *  long  long 3 
+Function: HtUU__find  *  *  * 3 
+Function: HtUU__erase_at struct 1 
+Function: CWISS_RawTable_erase_at  * struct 2 
+Ind-call: * 1 
+Function: CWISS_RawTable_EraseMetaOnly  * struct 2 
+Function: CWISS_BitMask_LeadingZeros  * 1 
+Function: CWISS_RawTable_find  *  *  *  *  * 5 
+Ind-call: * 1 
+Function: CWISS_RawTable_find_hinted  *  *  *  *  *  long 6 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: ht_uu_delete  *  long 2 
+Function: HtUU__erase  *  * 2 
+Function: CWISS_RawTable_erase  *  *  *  * 4 
+Function: ht_uu_find  *  long  * 3 
+Function: ht_uu_foreach  *  *  * 3 
+Ind-call: * long long 3 
+Function: HtUU__citer  *  * 2 
+Function: HtUU__CIter_get  * 1 
+Function: HtUU__CIter_next  * 1 
+Function: CWISS_RawIter_next  *  * 2 
+Function: CWISS_RawTable_citer  *  *  * 3 
+Function: CWISS_RawTable_iter  *  *  * 3 
+Function: ht_up_new_opt  * 1 
+Function: internal_ht_new  int  int  * 3 
+Function: sdb_gh_calloc.16553  long  long 2 
+Function: sdb_gh_free.16554  * 1 
+Ind-call: * * long 3 
+Function: sdb_gh_malloc.16555  long 1 
+Ind-call: * * long 3 
+Function: ht_up_free  * 1 
+Ind-call: * 1 
+Function: next_kv  *  * 2 
+Function: ht_up_insert_kv  *  *  _Bool 3 
+Function: reserve_kv  *  long  int  _Bool 4 
+Function: check_growing  * 1 
+Function: internal_ht_grow  * 1 
+Function: next_idx  int 1 
+Function: compute_size  int  int 2 
+Function: bucketfn  *  long 2 
+Function: is_kv_equal  *  long  int  * 4 
+Ind-call: long long 2 
+Function: freefn  *  * 2 
+Ind-call: * 1 
+Function: sdb_gh_realloc.16558  *  long 2 
+Ind-call: * * long 3 
+Function: kv_at  *  *  int 3 
+Function: hashfn  *  long 2 
+Ind-call: long 1 
+Function: ht_up_insert  *  long  * 3 
+Function: insert_update  *  long  *  _Bool 4 
+Function: calcsize_key  *  long 2 
+Ind-call: long 1 
+Function: dupkey  *  long 2 
+Ind-call: long 1 
+Function: dupval  *  * 2 
+Ind-call: * 1 
+Function: calcsize_val  *  * 2 
+Ind-call: * 1 
+Function: ht_up_update  *  long  * 3 
+Function: ht_up_update_key  *  long  long 3 
+Function: ht_up_find  *  long  * 3 
+Function: ht_up_find_kv  *  long  * 3 
+Function: ht_up_delete  *  long 2 
+Function: ht_up_foreach  *  *  * 3 
+Ind-call: * long * 3 
+Function: ht_up_new  *  *  * 3 
+Function: internal_ht_default_new  int  int  *  *  * 5 
+Function: ht_up_new0 0 
+Function: ht_up_new_size  int  *  *  * 4 
+Function: ht_pp_new_opt  * 1 
+Function: internal_ht_new.16576  int  int  * 3 
+Function: sdb_gh_calloc.16577  long  long 2 
+Function: sdb_gh_free.16578  * 1 
+Ind-call: * * long 3 
+Function: sdb_gh_malloc.16579  long 1 
+Ind-call: * * long 3 
+Function: ht_pp_free  * 1 
+Ind-call: * 1 
+Function: next_kv.16582  *  * 2 
+Function: ht_pp_insert_kv  *  *  _Bool 3 
+Function: reserve_kv.16583  *  *  int  _Bool 4 
+Function: check_growing.16584  * 1 
+Function: internal_ht_grow.16585  * 1 
+Function: next_idx.16586  int 1 
+Function: compute_size.16587  int  int 2 
+Function: bucketfn.16588  *  * 2 
+Function: is_kv_equal.16589  *  *  int  * 4 
+Ind-call: * * 2 
+Function: freefn.16590  *  * 2 
+Ind-call: * 1 
+Function: sdb_gh_realloc.16591  *  long 2 
+Ind-call: * * long 3 
+Function: kv_at.16592  *  *  int 3 
+Function: hashfn.16593  *  * 2 
+Ind-call: * 1 
+Function: ht_pp_insert  *  *  * 3 
+Function: insert_update.16596  *  *  *  _Bool 4 
+Function: calcsize_key.16597  *  * 2 
+Ind-call: * 1 
+Function: dupkey.16598  *  * 2 
+Ind-call: * 1 
+Function: dupval.16599  *  * 2 
+Ind-call: * 1 
+Function: calcsize_val.16600  *  * 2 
+Ind-call: * 1 
+Function: ht_pp_update  *  *  * 3 
+Function: ht_pp_update_key  *  *  * 3 
+Function: ht_pp_find  *  *  * 3 
+Function: ht_pp_find_kv  *  *  * 3 
+Function: ht_pp_delete  *  * 2 
+Function: ht_pp_foreach  *  *  * 3 
+Ind-call: * * * 3 
+Function: ht_pp_new  *  *  * 3 
+Function: internal_ht_default_new.16611  int  int  *  *  * 5 
+Function: sdb_hash  * 1 
+Function: ht_pp_new0 0 
+Function: free_kv_key  * 1 
+Function: ht_pp_new_size  int  *  *  * 4 
+Function: ht_pu_new0 0 
+Function: sdb_gh_calloc.16616  long  long 2 
+Function: HtPU__new  *  long 2 
+Function: CWISS_RawTable_new.16617  *  *  long 3 
+Function: CWISS_EmptyGroup.16618 0 
+Function: CWISS_NormalizeCapacity.16619  long 1 
+Function: CWISS_RawTable_InitializeSlots.16620  *  * 2 
+Ind-call: long long 2 
+Function: CWISS_AllocSize.16625  long  long  long 3 
+Function: CWISS_SlotOffset.16626  long  long 2 
+Function: CWISS_ResetCtrl.16627  long  *  *  long 4 
+Function: CWISS_RawTable_ResetGrowthLeft.16628  *  * 2 
+Function: CWISS_CapacityToGrowth.16629  long 1 
+Function: CWISS_IsValidCapacity.16630  long 1 
+Function: CWISS_NumClonedBytes.16632 0 
+Function: CWISS_PoisonMemory.16633  *  long 2 
+Function: HtPU__kPolicy_DefaultSlotInit  * 1 
+Function: HtPU__kPolicy_DefaultSlotDtor  * 1 
+Function: HtPU__kPolicy_DefaultSlotTransfer  *  * 2 
+Function: HtPU__kPolicy_DefaultSlotGet  * 1 
+Function: HtPU__default_dtor  * 1 
+Function: CWISS_DefaultMalloc.16635  long  long 2 
+Function: CWISS_DefaultFree.16636  *  long  long 3 
+Function: HtPU__default_hash  * 1 
+Function: HtPU__default_eq  *  * 2 
+Function: CWISS_AbslHash_Write.16639  *  *  long 3 
+Function: CWISS_AbslHash_Finish.16640  long 1 
+Function: CWISS_AbslHash_Hash64.16641  *  long 2 
+Function: CWISS_AbslHash_Mix.16642  *  long 2 
+Function: CWISS_Load9To16.16643  *  long 2 
+Function: CWISS_Load4To8.16644  *  long 2 
+Function: CWISS_Load1To3.16645  *  long 2 
+Function: CWISS_Load32.16646  * 1 
+Function: CWISS_Load64.16647  * 1 
+Function: CWISS_AbslHash_LowLevelMix.16648  long  long 2 
+Function: CWISS_Mul128.16649  long  long 2 
+Function: CWISS_AbslHash_LowLevelHash.16651  *  long  long  * 4 
+Function: HtPU__default_copy  *  * 2 
+Function: sdb_gh_malloc.16652  long 1 
+Ind-call: * * long 3 
+Function: ht_pu_free  * 1 
+Function: HtPU__destroy  * 1 
+Function: sdb_gh_free.16653  * 1 
+Ind-call: * * long 3 
+Function: CWISS_RawTable_destroy.16654  *  * 2 
+Function: CWISS_RawTable_DestroySlots.16655  *  * 2 
+Ind-call: * 1 
+Ind-call: * long long 3 
+Function: CWISS_IsFull.16656  char 1 
+Function: ht_pu_insert  *  *  long 3 
+Function: HtPU__insert  *  *  * 3 
+Function: CWISS_RawTable_insert.16659  *  *  *  * 4 
+Ind-call: * * 2 
+Function: CWISS_RawTable_FindOrPrepareInsert.16660  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: CWISS_RawTable_PreInsert.16661  *  *  long 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: CWISS_RawTable_citer_at.16662  *  *  *  long 4 
+Function: CWISS_RawTable_iter_at.16663  *  *  *  long 4 
+Function: CWISS_RawIter_SkipEmptyOrDeleted.16664  *  * 2 
+Function: CWISS_IsEmptyOrDeleted.16666  char 1 
+Function: CWISS_Group_new.16667  * 1 
+Function: CWISS_Group_CountLeadingEmptyOrDeleted.16668  * 1 
+Function: CWISS_mm_cmpgt_epi8_fixed.16669  vector  vector 2 
+Function: CWISS_RawTable_PrefetchHeapBlock.16670  *  * 2 
+Function: CWISS_ProbeSeq_Start.16671  *  *  long  long 4 
+Function: CWISS_H2.16672  long 1 
+Function: CWISS_Group_Match.16673  *  char 2 
+Function: CWISS_BitMask_next.16674  *  * 2 
+Function: CWISS_ProbeSeq_offset.16675  *  long 2 
+Function: CWISS_Group_MatchEmpty.16676  * 1 
+Function: CWISS_ProbeSeq_next.16677  * 1 
+Function: CWISS_RawTable_PrepareInsert.16679  *  *  long 3 
+Function: CWISS_FindFirstNonFull.16680  *  long  long 3 
+Function: CWISS_IsDeleted.16681  char 1 
+Function: CWISS_RawTable_rehash_and_grow_if_necessary.16682  *  * 2 
+Function: CWISS_IsEmpty.16683  char 1 
+Function: CWISS_SetCtrl.16684  long  char  long  *  *  long 6 
+Function: CWISS_UnpoisonMemory.16686  *  long 2 
+Function: CWISS_RawTable_Resize.16687  *  *  long 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * long long 3 
+Function: CWISS_RawTable_DropDeletesWithoutResize.16688  *  * 2 
+Ind-call: long long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * long long 3 
+Function: CWISS_IsSmall.16689  long 1 
+Function: CWISS_ConvertDeletedToEmptyAndFullToDeleted.16691  *  long 2 
+Function: CWISS_Group_ConvertSpecialToEmptyAndFullToDeleted.16693  *  * 2 
+Function: CWISS_Group_MatchEmptyOrDeleted.16694  * 1 
+Function: CWISS_ShouldInsertBackwards.16695  long  * 2 
+Function: CWISS_BitMask_HighestBitSet.16696  * 1 
+Function: CWISS_BitMask_TrailingZeros.16697  * 1 
+Function: CWISS_H1.16698  long  * 2 
+Function: RandomSeed.16699 0 
+Function: CWISS_HashSeed.16701  * 1 
+Function: CWISS_BitMask_LowestBitSet.16702  * 1 
+Function: CWISS_ProbeSeq_new.16703  *  long  long 3 
+Function: ht_pu_update  *  *  long 3 
+Function: HtPU__Iter_get  * 1 
+Function: CWISS_RawIter_get.16704  *  * 2 
+Ind-call: * 1 
+Function: ht_pu_update_key  *  *  * 3 
+Function: HtPU__find  *  *  * 3 
+Function: HtPU__erase_at struct 1 
+Function: CWISS_RawTable_erase_at.16705  * struct 2 
+Ind-call: * 1 
+Function: CWISS_RawTable_EraseMetaOnly.16706  * struct 2 
+Function: CWISS_BitMask_LeadingZeros.16708  * 1 
+Function: CWISS_RawTable_find.16709  *  *  *  *  * 5 
+Ind-call: * 1 
+Function: CWISS_RawTable_find_hinted.16710  *  *  *  *  *  long 6 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: ht_pu_delete  *  * 2 
+Function: HtPU__erase  *  * 2 
+Function: CWISS_RawTable_erase.16711  *  *  *  * 4 
+Function: ht_pu_find  *  *  * 3 
+Function: ht_pu_foreach  *  *  * 3 
+Ind-call: * * long 3 
+Function: HtPU__citer  *  * 2 
+Function: HtPU__CIter_get  * 1 
+Function: HtPU__CIter_next  * 1 
+Function: CWISS_RawIter_next.16712  *  * 2 
+Function: CWISS_RawTable_citer.16713  *  *  * 3 
+Function: CWISS_RawTable_iter.16714  *  *  * 3 
+Function: ht_su_new0 0 
+Function: sdb_gh_calloc.16715  long  long 2 
+Function: HtSU__new  *  long 2 
+Function: CWISS_RawTable_new.16716  *  *  long 3 
+Function: CWISS_EmptyGroup.16717 0 
+Function: CWISS_NormalizeCapacity.16718  long 1 
+Function: CWISS_RawTable_InitializeSlots.16719  *  * 2 
+Ind-call: long long 2 
+Function: CWISS_AllocSize.16724  long  long  long 3 
+Function: CWISS_SlotOffset.16725  long  long 2 
+Function: CWISS_ResetCtrl.16726  long  *  *  long 4 
+Function: CWISS_RawTable_ResetGrowthLeft.16727  *  * 2 
+Function: CWISS_CapacityToGrowth.16728  long 1 
+Function: CWISS_IsValidCapacity.16729  long 1 
+Function: CWISS_NumClonedBytes.16731 0 
+Function: CWISS_PoisonMemory.16732  *  long 2 
+Function: HtSU__kPolicy_DefaultSlotInit  * 1 
+Function: HtSU__kPolicy_DefaultSlotDtor  * 1 
+Function: HtSU__kPolicy_DefaultSlotTransfer  *  * 2 
+Function: HtSU__kPolicy_DefaultSlotGet  * 1 
+Function: string_dtor  * 1 
+Function: sdb_gh_free.16734  * 1 
+Ind-call: * * long 3 
+Function: CWISS_DefaultMalloc.16735  long  long 2 
+Function: CWISS_DefaultFree.16736  *  long  long 3 
+Function: string_hash  * 1 
+Function: string_eq  *  * 2 
+Function: CWISS_FxHash_Write  *  *  long 3 
+Function: string_copy  *  * 2 
+Function: sdb_gh_malloc.16738  long 1 
+Ind-call: * * long 3 
+Function: ht_su_free  * 1 
+Function: HtSU__destroy  * 1 
+Function: CWISS_RawTable_destroy.16739  *  * 2 
+Function: CWISS_RawTable_DestroySlots.16740  *  * 2 
+Ind-call: * 1 
+Ind-call: * long long 3 
+Function: CWISS_IsFull.16741  char 1 
+Function: ht_su_insert  *  *  long 3 
+Function: HtSU__insert  *  *  * 3 
+Function: CWISS_RawTable_insert.16744  *  *  *  * 4 
+Ind-call: * * 2 
+Function: CWISS_RawTable_FindOrPrepareInsert.16745  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: CWISS_RawTable_PreInsert.16746  *  *  long 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: CWISS_RawTable_citer_at.16747  *  *  *  long 4 
+Function: CWISS_RawTable_iter_at.16748  *  *  *  long 4 
+Function: CWISS_RawIter_SkipEmptyOrDeleted.16749  *  * 2 
+Function: CWISS_IsEmptyOrDeleted.16751  char 1 
+Function: CWISS_Group_new.16752  * 1 
+Function: CWISS_Group_CountLeadingEmptyOrDeleted.16753  * 1 
+Function: CWISS_mm_cmpgt_epi8_fixed.16754  vector  vector 2 
+Function: CWISS_RawTable_PrefetchHeapBlock.16755  *  * 2 
+Function: CWISS_ProbeSeq_Start.16756  *  *  long  long 4 
+Function: CWISS_H2.16757  long 1 
+Function: CWISS_Group_Match.16758  *  char 2 
+Function: CWISS_BitMask_next.16759  *  * 2 
+Function: CWISS_ProbeSeq_offset.16760  *  long 2 
+Function: CWISS_Group_MatchEmpty.16761  * 1 
+Function: CWISS_ProbeSeq_next.16762  * 1 
+Function: CWISS_RawTable_PrepareInsert.16764  *  *  long 3 
+Function: CWISS_FindFirstNonFull.16765  *  long  long 3 
+Function: CWISS_IsDeleted.16766  char 1 
+Function: CWISS_RawTable_rehash_and_grow_if_necessary.16767  *  * 2 
+Function: CWISS_IsEmpty.16768  char 1 
+Function: CWISS_SetCtrl.16769  long  char  long  *  *  long 6 
+Function: CWISS_UnpoisonMemory.16771  *  long 2 
+Function: CWISS_RawTable_Resize.16772  *  *  long 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * long long 3 
+Function: CWISS_RawTable_DropDeletesWithoutResize.16773  *  * 2 
+Ind-call: long long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * long long 3 
+Function: CWISS_IsSmall.16774  long 1 
+Function: CWISS_ConvertDeletedToEmptyAndFullToDeleted.16776  *  long 2 
+Function: CWISS_Group_ConvertSpecialToEmptyAndFullToDeleted.16778  *  * 2 
+Function: CWISS_Group_MatchEmptyOrDeleted.16779  * 1 
+Function: CWISS_ShouldInsertBackwards.16780  long  * 2 
+Function: CWISS_BitMask_HighestBitSet.16781  * 1 
+Function: CWISS_BitMask_TrailingZeros.16782  * 1 
+Function: CWISS_H1.16783  long  * 2 
+Function: RandomSeed.16784 0 
+Function: CWISS_HashSeed.16786  * 1 
+Function: CWISS_BitMask_LowestBitSet.16787  * 1 
+Function: CWISS_ProbeSeq_new.16788  *  long  long 3 
+Function: ht_su_update  *  *  long 3 
+Function: HtSU__Iter_get  * 1 
+Function: CWISS_RawIter_get.16789  *  * 2 
+Ind-call: * 1 
+Function: ht_su_update_key  *  *  * 3 
+Function: HtSU__find  *  *  * 3 
+Function: HtSU__erase_at struct 1 
+Function: CWISS_RawTable_erase_at.16791  * struct 2 
+Ind-call: * 1 
+Function: CWISS_RawTable_EraseMetaOnly.16792  * struct 2 
+Function: CWISS_BitMask_LeadingZeros.16794  * 1 
+Function: CWISS_RawTable_find.16795  *  *  *  *  * 5 
+Ind-call: * 1 
+Function: CWISS_RawTable_find_hinted.16796  *  *  *  *  *  long 6 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: ht_su_delete  *  * 2 
+Function: HtSU__erase  *  * 2 
+Function: CWISS_RawTable_erase.16797  *  *  *  * 4 
+Function: ht_su_find  *  *  * 3 
+Function: ht_su_foreach  *  *  * 3 
+Ind-call: * * long 3 
+Function: HtSU__citer  *  * 2 
+Function: HtSU__CIter_get  * 1 
+Function: HtSU__CIter_next  * 1 
+Function: CWISS_RawIter_next.16799  *  * 2 
+Function: CWISS_RawTable_citer.16800  *  *  * 3 
+Function: CWISS_RawTable_iter.16801  *  *  * 3 
+Function: sdb_journal_close  * 1 
+Function: sdb_journal_filename  *  *  long 3 
+Function: sdb_journal_open  * 1 
+Function: sdb_journal_load  * 1 
+Function: sdb_gh_malloc.16803  long 1 
+Ind-call: * * long 3 
+Function: sdb_gh_free.16804  * 1 
+Ind-call: * * long 3 
+Function: sdb_journal_log  *  *  * 3 
+Function: sdb_journal_clear  * 1 
+Function: sdb_journal_unlink  * 1 
+Function: rangstr_null  * 1 
+Function: rangstr_new  *  * 2 
+Function: rangstr_length  * 1 
+Function: rangstr_int  * 1 
+Function: rangstr_dup  * 1 
+Function: sdb_gh_malloc.16806  long 1 
+Ind-call: * * long 3 
+Function: rangstr_news  *  *  *  int 4 
+Function: rangstr_cmp  *  * 2 
+Function: rangstr_find  *  char 2 
+Function: rangstr_str  * 1 
+Function: sdb_js0n  *  int  * 3 
+Function: json_path_first  * 1 
+Function: json_path_next  * 1 
+Function: json_find  *  *  * 3 
+Function: sdb_gh_calloc.16807  long  long 2 
+Function: sdb_gh_free.16808  * 1 
+Ind-call: * * long 3 
+Function: json_get  *  *  * 3 
+Function: api_json_get  *  * 2 
+Function: api_json_set  *  *  * 3 
+Function: api_json_seti  *  *  int 3 
+Function: sdb_json_indent  *  * 2 
+Function: doIndent  int  *  * 3 
+Function: sdb_json_unindent  * 1 
+Function: sdb_json_get_str  *  * 2 
+Function: sdb_json_get_bool  *  * 2 
+Function: sdb_json_get  *  *  *  * 4 
+Function: sdb_json_num_inc  *  *  *  int  int 5 
+Function: sdb_json_num_get  *  *  *  * 4 
+Function: sdb_json_num_set  *  *  *  int  int 5 
+Function: sdb_json_set  *  *  *  *  int 5 
+Function: isstring  * 1 
+Function: findkey  * 1 
+Function: sdb_json_num_dec  *  *  *  int  int 5 
+Function: sdb_json_unset  *  *  *  int 4 
+Function: sdb_json_format  *  *  variadic 2 
+Function: sdb_gh_realloc.16819  *  long 2 
+Ind-call: * * long 3 
+Function: sdb_lock_file  *  *  long 3 
+Function: sdb_lock  * 1 
+Function: sdb_lock_wait  * 1 
+Function: sdb_unlock  * 1 
+Function: ls_newf  * 1 
+Function: ls_new 0 
+Function: sdb_gh_calloc.16826  long  long 2 
+Function: sdb_gh_malloc.16827  long 1 
+Ind-call: * * long 3 
+Function: ls_merge_sort  *  * 2 
+Function: _merge_sort  *  * 2 
+Function: _sdb_list_split  * 1 
+Function: _merge  *  *  * 3 
+Ind-call: * * 2 
+Function: ls_insertion_sort_iter  *  * 2 
+Ind-call: * * 2 
+Function: ls_sort  *  * 2 
+Function: ls_insertion_sort  *  * 2 
+Function: ls_delete  *  * 2 
+Ind-call: * 1 
+Function: ls_split_iter  *  * 2 
+Function: sdb_gh_free.16830  * 1 
+Ind-call: * * long 3 
+Function: ls_delete_data  *  * 2 
+Function: ls_destroy  * 1 
+Function: ls_free  * 1 
+Function: ls_append  *  * 2 
+Function: ls_prepend  *  * 2 
+Function: ls_pop  * 1 
+Function: ls_clone  * 1 
+Function: ls_join  *  * 2 
+Function: ls_insert  *  int  * 3 
+Function: ls_pop_head  * 1 
+Function: ls_del_n  *  int 2 
+Function: sdb_match  *  * 2 
+Function: haveSuffix  *  int  * 3 
+Function: havePrefix  *  int  * 3 
+Function: compareString  *  *  int  int 4 
+Function: mycmp  *  *  int  int 4 
+Function: strstr2  *  *  int 3 
+Function: sdb_gh_free.16841  * 1 
+Ind-call: * * long 3 
+Function: sdb_ns_lock  *  int  int 3 
+Function: sdb_ns_free  * 1 
+Function: ns_free  *  * 2 
+Function: in_list  *  * 2 
+Function: sdb_ns_unset  *  *  * 3 
+Function: sdb_ns_set  *  *  * 3 
+Function: sdb_gh_malloc.16844  long 1 
+Ind-call: * * long 3 
+Function: sdb_gh_free.16845  * 1 
+Ind-call: * * long 3 
+Function: sdb_ns  *  *  int 3 
+Function: sdb_ns_new  *  *  int 3 
+Function: sdb_ns_path  *  *  int 3 
+Function: sdb_ns_sync  * 1 
+Function: ns_sync  *  * 2 
+Function: sdb_num_exists  *  * 2 
+Function: sdb_num_get  *  *  * 3 
+Function: sdb_num_add  *  *  long  int 4 
+Function: sdb_num_set  *  *  long  int 4 
+Function: sdb_num_inc  *  *  long  int 4 
+Function: sdb_num_dec  *  *  long  int 4 
+Function: sdb_num_min  *  *  long  int 4 
+Function: sdb_num_max  *  *  long  int 4 
+Function: sdb_bool_set  *  *  _Bool  int 4 
+Function: sdb_bool_get  *  *  * 3 
+Function: sdb_ptr_set  *  *  *  int 4 
+Function: sdb_ptr_get  *  *  * 3 
+Function: sdb_queryf  *  *  variadic 2 
+Function: sdb_query  *  * 2 
+Function: sdb_querys  *  *  long  * 4 
+Function: sdb_gh_free.16875  * 1 
+Ind-call: * * long 3 
+Function: strbuf_new 0 
+Function: sdb_gh_calloc.16876  long  long 2 
+Function: strbuf_free  * 1 
+Function: strbuf_append  *  *  int 3 
+Function: walk_namespace  *  *  int  *  *  int 6 
+Function: sdbkv_key.16881  * 1 
+Function: sdbkv_value.16882  * 1 
+Function: foreach_list_cb  *  *  * 3 
+Function: sdb_query_file  *  * 2 
+Function: sdb_gh_malloc.16886  long 1 
+Ind-call: * * long 3 
+Function: slurp  * 1 
+Function: sdb_query_lines  *  * 2 
+Function: sdb_gh_realloc.16892  *  long 2 
+Ind-call: * * long 3 
+Function: sdb_querysf  *  *  long  *  variadic 4 
+Function: sdb_new0 0 
+Function: sdb_new  *  *  int 3 
+Function: sdb_gh_calloc.16897  long  long 2 
+Function: sdb_gh_malloc.16899  long 1 
+Ind-call: * * long 3 
+Function: sdb_gh_free.16900  * 1 
+Ind-call: * * long 3 
+Function: sdb_open  *  * 2 
+Function: sdb_open_text  *  * 2 
+Function: sdb_file  *  * 2 
+Function: sdb_merge  *  * 2 
+Function: sdb_merge_cb  *  *  * 3 
+Function: sdb_foreach  *  *  * 3 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Function: sdb_foreach_cdb  *  *  *  * 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: sdb_foreach_end  *  _Bool 2 
+Function: sdbkv_value.16909  * 1 
+Function: sdbkv_key.16910  * 1 
+Function: next_kv.16911  *  * 2 
+Function: sdb_dump_begin  * 1 
+Function: sdb_dump_dupnext  *  *  *  * 4 
+Function: getbytes  *  *  int 3 
+Function: seek_set.16912  int  long 2 
+Function: sdb_set  *  *  *  int 4 
+Function: sdb_set_internal  *  *  *  _Bool  int 5 
+Function: sdbkv_value_len  * 1 
+Function: sdb_hook_call  *  *  * 3 
+Ind-call: * * * * 4 
+Function: nextcas  * 1 
+Function: sdbkv_new2  *  int  *  int 4 
+Function: sdb_isempty  * 1 
+Function: sdb_dump_hasnext  * 1 
+Function: sdb_count  * 1 
+Function: sdb_free  * 1 
+Function: sdb_fini  *  _Bool 2 
+Function: sdb_hook_free  * 1 
+Function: sdb_const_get_len  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: sdb_unset  *  *  int 3 
+Function: sdb_const_get  *  *  * 3 
+Function: sdb_get_len  *  *  *  * 4 
+Function: sdb_get  *  *  * 3 
+Function: sdb_nget  *  long  * 3 
+Function: sdb_nunset  *  long  int 3 
+Function: sdb_nset  *  long  *  int 4 
+Function: sdb_remove  *  *  int 3 
+Function: sdb_uncat  *  *  *  int 4 
+Function: sdb_set_owned  *  *  *  int 4 
+Function: sdb_concat  *  *  *  int 4 
+Function: sdb_add  *  *  *  int 4 
+Function: sdb_exists  *  * 2 
+Function: sdb_nadd  *  long  *  int 4 
+Function: sdb_open_gperf  *  * 2 
+Function: sdb_close  * 1 
+Function: sdb_reset  * 1 
+Function: sdbkv_match  *  * 2 
+Function: match.16948  *  * 2 
+Function: lastChar  * 1 
+Function: sdbkv_new  *  * 2 
+Function: sdbkv_free  * 1 
+Function: sdb_num_nset  *  long  long  int 4 
+Function: sdb_num_nget  *  long  * 3 
+Function: sdb_foreach_list  *  _Bool 2 
+Function: sdb_foreach_list_cb  *  *  * 3 
+Function: __cmp_asc  *  * 2 
+Function: sdb_foreach_list_filter  *  *  _Bool 3 
+Function: sdb_foreach_list_filter_cb  *  *  * 3 
+Ind-call: * * * 3 
+Function: sdb_foreach_match  *  *  _Bool 3 
+Function: sdb_foreach_match_cb  *  *  * 3 
+Function: sdb_sync  * 1 
+Function: _insert_into_disk  *  *  * 3 
+Function: _remove_afer_insert  *  *  * 3 
+Function: sdb_dump_next  * 1 
+Function: sdb_stats  *  *  * 3 
+Function: sdb_expire_set  *  *  long  int 4 
+Function: parse_expire  long 1 
+Function: sdb_expire_get  *  *  * 3 
+Function: sdb_hook  *  *  * 3 
+Function: sdb_unhook  *  * 2 
+Function: sdb_config  *  int 2 
+Function: sdb_unlink  * 1 
+Function: sdb_drain  *  * 2 
+Function: sdb_copy  *  * 2 
+Function: copy_foreach_cb  *  *  * 3 
+Function: sdb_unset_like  *  * 2 
+Function: unset_cb  *  *  * 3 
+Function: sdb_like  *  *  *  * 4 
+Function: like_cb  *  *  * 3 
+Ind-call: * * * 3 
+Function: sdb_gh_realloc.16962  *  long 2 
+Ind-call: * * long 3 
+Function: sdb_main  int  * 2 
+Function: showusage  int 1 
+Function: main_argparse  *  int  * 3 
+Function: dbdiff  *  * 2 
+Function: sdb_dump  * 1 
+Function: gen_gperf  *  *  * 3 
+Function: sdb_gh_free.16963  * 1 
+Ind-call: * * long 3 
+Function: terminate  int 1 
+Function: synchronize  int 1 
+Function: write_null 0 
+Function: insertkeys  *  *  int  int 4 
+Function: slurp.16966  *  * 2 
+Function: createdb  *  *  int 3 
+Function: sdb_gh_calloc.16970  long  long 2 
+Function: sdb_gh_realloc.16971  *  long 2 
+Ind-call: * * long 3 
+Function: sdb_gh_malloc.16972  long 1 
+Ind-call: * * long 3 
+Function: sdb_gh_fini 0 
+Ind-call: * 1 
+Function: get_cname  * 1 
+Function: sdb_system  * 1 
+Ind-call: * 1 
+Function: get_name  * 1 
+Function: cgen_header  *  * 2 
+Function: sdbkv_key.16986  * 1 
+Function: sdbkv_value.16987  * 1 
+Function: sdb_dump_cb  *  *  *  * 4 
+Function: cgen_footer  *  *  * 3 
+Function: escape  *  int 2 
+Function: dbdiff_cb  *  * 2 
+Function: main_argparse_flag  *  char 2 
+Function: main_argparse_getarg  * 1 
+Function: showversion 0 
+Function: base64encode 0 
+Function: base64decode 0 
+Function: jsonIndent 0 
+Function: showcount  * 1 
+Function: sdb_heap_realloc  *  *  int 3 
+Function: sdb_heap_fini  * 1 
+Function: sdb_heap_free  *  * 2 
+Function: remove_offset  * 1 
+Function: unmap  *  *  int 3 
+Function: append_to_free_list  *  * 2 
+Function: coalesce  *  * 2 
+Function: split  *  *  int  int 4 
+Function: setSizeHeader  *  int 2 
+Function: getFooter  * 1 
+Function: remove_from_free_list  *  * 2 
+Function: setFree  *  int 2 
+Function: add_offset  * 1 
+Function: sdb_heap_malloc  *  int 2 
+Function: getSize  * 1 
+Function: find_free_block  *  int 2 
+Function: sdb_strdup  * 1 
+Function: sdb_gh_malloc.17054  long 1 
+Ind-call: * * long 3 
+Function: sdb_heap_init  * 1 
+Function: sdbkv_fini  * 1 
+Function: sdb_gh_free.17055  * 1 
+Ind-call: * * long 3 
+Function: sdb_ht_new 0 
+Function: sdb_ht_insert  *  *  * 3 
+Function: sdb_ht_internal_insert  *  *  *  _Bool 4 
+Function: sdb_ht_insert_kvp  *  *  _Bool 3 
+Function: sdb_ht_update  *  *  * 3 
+Function: sdb_ht_find_kvp  *  *  * 3 
+Function: sdb_ht_find  *  *  * 3 
+Function: sdb_ht_free  * 1 
+Function: sdb_ht_delete  *  * 2 
+Function: sdb_hash_byte  * 1 
+Function: sdb_itoa  long  int  *  int 4 
+Function: sdb_itoas  long  int 2 
+Function: sdb_atoi  * 1 
+Function: sdb_array_compact  * 1 
+Function: sdb_aslice  *  int  int 3 
+Function: sdb_alen  * 1 
+Function: sdb_alen_ignore_empty  * 1 
+Function: sdb_anext  *  * 2 
+Function: sdb_const_anext  * 1 
+Function: sdb_now 0 
+Function: sdb_unow 0 
+Function: sdb_isnum  * 1 
+Function: sdb_num_base  * 1 
+Function: sdb_type  * 1 
+Function: sdb_isjson  * 1 
+Function: sdb_text_save_fd  *  int  _Bool 3 
+Function: text_save  *  int  _Bool  * 4 
+Function: write_path  int  * 2 
+Function: sdbkv_key.17101  * 1 
+Function: sdbkv_value.17102  * 1 
+Function: save_kv_cb  *  *  * 3 
+Function: cmp_ns  *  * 2 
+Function: write_key  int  * 2 
+Function: write_value  int  * 2 
+Function: escape_loop  int  *  char 3 
+Function: escape_flush  int  *  * 3 
+Function: sdb_text_save  *  *  _Bool 3 
+Function: sdb_text_load_buf  *  *  long 3 
+Function: load_ctx_init  *  *  *  long 4 
+Function: load_process_single_char  * 1 
+Function: load_process_final_line  * 1 
+Function: load_ctx_fini  * 1 
+Function: sdb_gh_malloc.17111  long 1 
+Ind-call: * * long 3 
+Function: load_process_line  * 1 
+Function: unescape_raw_char  char 1 
+Function: sdb_text_load  *  * 2 
+Function: sdb_text_check  *  * 2 
+Function: sh_fputs  *  * 2 
+Function: out_printf  *  *  variadic 2 
+Function: sh_pipe  *  *  * 3 
+Function: sh_endpipe  *  *  * 3 
+Function: sh_default  *  *  * 3 
+Function: spp_fputs  *  * 2 
+Function: spp_arg_i  * 1 
+Function: spp_arg_d  * 1 
+Function: spp_var_set  *  * 2 
+Function: spp_get  *  *  * 3 
+Function: spp_hex  *  *  * 3 
+Function: spp_getrandom  *  *  * 3 
+Function: spp_grepline  *  *  * 3 
+Function: spp_set  *  *  * 3 
+Function: spp_add  *  *  * 3 
+Function: spp_sub  *  *  * 3 
+Function: spp_switch  *  *  * 3 
+Function: spp_case  *  *  * 3 
+Function: spp_endswitch  *  *  * 3 
+Function: spp_echo  *  *  * 3 
+Function: spp_error  *  *  * 3 
+Function: spp_warning  *  *  * 3 
+Function: spp_trace  *  *  * 3 
+Function: spp_ifin  *  *  * 3 
+Function: spp_ifnot  *  *  * 3 
+Function: spp_ifeq  *  *  * 3 
+Function: spp_if  *  *  * 3 
+Function: spp_else  *  *  * 3 
+Function: spp_endif  *  *  * 3 
+Function: spp_pipe  *  *  * 3 
+Function: spp_endpipe  *  *  * 3 
+Function: spp_include  *  *  * 3 
+Function: spp_system  *  *  * 3 
+Function: spp_default  *  *  * 3 
+Function: cmd_to_str  * 1 
+Function: spp_file  *  * 2 
+Function: spp_io  *  * 2 
+Function: spp_eval  *  * 2 
+Function: do_fputs  *  * 2 
+Ind-call: * * 2 
+Function: spp_proc_eval  *  *  * 3 
+Function: spp_run  *  * 2 
+Ind-call: * * * 3 
+Function: spp_run_str  *  * 2 
+Function: lbuf_strcat  *  * 2 
+Function: spp_var_get  * 1 
+Function: acr_default  *  *  * 3 
+Function: slurp_args  * 1 
+Function: acr_eof  *  *  * 3 
+Function: pod_head1  *  *  * 3 
+Function: pod_cut  *  *  * 3 
+Function: pod_default  *  *  * 3 
+Function: cpp_ifdef  *  *  * 3 
+Function: cpp_ifndef  *  *  * 3 
+Function: cpp_endif  *  *  * 3 
+Function: cpp_if  *  *  * 3 
+Function: cpp_else  *  *  * 3 
+Function: cpp_include  *  *  * 3 
+Function: cpp_define  *  *  * 3 
+Function: cpp_error  *  *  * 3 
+Function: cpp_warning  *  *  * 3 
+Function: cpp_default  *  *  * 3 
+Function: cpp_macro_add  *  *  * 3 
+Function: cpp_fputs  *  * 2 
+Function: cpp_arg_i  * 1 
+Function: cpp_arg_d  * 1 
+Function: spp_proc_list_kw 0 
+Function: spp_proc_list 0 
+Function: spp_proc_set  *  *  int 3 
+Function: spp_eval_str  *  * 2 
+Function: spp_proc_init  * 1 
+Function: gdbr_init  *  _Bool 2 
+Function: gdbr_set_architecture  *  int  int 3 
+Function: gdbr_get_reg_profile  int  int 2 
+Function: gdbr_set_reg_profile  *  * 2 
+Function: gdbr_cleanup  * 1 
+Function: gdbr_server_serve  *  *  * 3 
+Function: r_str_startswith_inline.17228  *  * 2 
+Function: _server_handle_k  *  *  * 3 
+Function: _server_handle_vKill  *  *  * 3 
+Function: _server_handle_qSupported  * 1 
+Function: _server_handle_qTStatus  * 1 
+Function: _server_handle_qC  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_qAttached  *  *  * 3 
+Function: _server_handle_vMustReplyEmpty  * 1 
+Function: _server_handle_qTfV  *  *  * 3 
+Function: _server_handle_qfThreadInfo  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_qsThreadInfo  *  *  * 3 
+Function: _server_handle_Hg  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_Hc  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_ques  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_g  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_vCont  *  *  * 3 
+Ind-call: * * * * long 5 
+Ind-call: * * * * long 5 
+Function: _server_handle_qOffsets  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_z  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_s  *  *  * 3 
+Ind-call: * * * * long 5 
+Ind-call: * * * * long 5 
+Function: _server_handle_c  *  *  * 3 
+Ind-call: * * * * long 5 
+Ind-call: * * * * long 5 
+Function: _server_handle_m  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_M  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_P  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_p  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: _server_handle_exec_file_read  *  *  * 3 
+Ind-call: * * * * long 5 
+Function: parse_def  * 1 
+Function: parse_size  *  * 2 
+Function: arch_parse_reg_profile  * 1 
+Function: handle_qSupported  * 1 
+Function: r_str_startswith_inline.17291  *  * 2 
+Function: send_ack  * 1 
+Function: send_msg  *  * 2 
+Function: read_packet  *  _Bool 2 
+Function: unpack  *  *  int 3 
+Function: append  *  char 2 
+Function: send_packet  * 1 
+Function: pack  *  * 2 
+Function: cmd_checksum  * 1 
+Function: unpack_uint64  *  int 2 
+Function: hex2int  int 1 
+Function: unpack_uint64_co  *  int 2 
+Function: int2hex  int 1 
+Function: hex2char  * 1 
+Function: unpack_hex  *  long  * 3 
+Function: pack_hex  *  long  * 3 
+Function: write_thread_id  *  int  int  int  _Bool 5 
+Function: read_thread_id  *  *  *  _Bool 4 
+Function: r_str_startswith_inline.17376  *  * 2 

@@ -1,0 +1,17 @@
+libchafa0t64
+libcjose0
+gstreamer1.0-plugins-ugly
+libcares2
+libblosc2-3
+libcvc5parser1
+libexo-2-0
+libeditorconfig0
+libcvc5-1
+libcapnp-1.0.1
+libgimp2.0t64
+libmagic-mgc
+libexo-common
+libbzip3-0
+libdwarf1
+libmagic1t64
+libexiv2-27

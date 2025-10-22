@@ -1,0 +1,29 @@
+CVE Impact Analysis
+
+This claim is discussed in Section 7.2 of the paper under “CVE Impact Analysis”
+and illustrated in Figure 5. This directory includes all scripts required to
+reproduce Figure 5.
+
+We recommend using the Jupyter notebook in the cve_impact directory to generate
+the plots. It also provides detailed instructions for a scaled-down experiment
+to compute CVE impact scores when compute resources are limited.
+
+Before you begin, ensure the Python virtual environment is installed and
+activated.
+
+To open the Jupyter notebook:
+```
+$ cd cve_impact
+$ conda activate supply_chain_py311
+$ jupyter notebook --no-browser --port=6868
+
+# In the terminal output, click the access-token URL to open Jupyter in your browser.
+```
+
+To run on public infrastructure (Google Colab):
+1. Upload the `cve_impact/CVE_Impact.ipynb` notebook on Google Colab
+2. On the left pane of Google Colab, click on the option to upload more files
+3. Upload the `cve_impact/for_colab.zip` archive
+4. Execute all cells sequentially to get the plots
+5. Compare the plots with those in the `expected` directory
+

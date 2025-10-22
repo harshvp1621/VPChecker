@@ -1,0 +1,331 @@
+version: '3'
+
+services:
+  docker-01:
+    image: sysfilter:patched
+    container_name: docker-01
+    volumes:
+      - ./docker_vols/volaa:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-02:
+    image: sysfilter:patched
+    container_name: docker-02
+    volumes:
+      - ./docker_vols/volab:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-03:
+    image: sysfilter:patched
+    container_name: docker-03
+    volumes:
+      - ./docker_vols/volac:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-04:
+    image: sysfilter:patched
+    container_name: docker-04
+    volumes:
+      - ./docker_vols/volad:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-05:
+    image: sysfilter:patched
+    container_name: docker-05
+    volumes:
+      - ./docker_vols/volae:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-06:
+    image: sysfilter:patched
+    container_name: docker-06
+    volumes:
+      - ./docker_vols/volaf:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-07:
+    image: sysfilter:patched
+    container_name: docker-07
+    volumes:
+      - ./docker_vols/volag:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-08:
+    image: sysfilter:patched
+    container_name: docker-08
+    volumes:
+      - ./docker_vols/volah:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-09:
+    image: sysfilter:patched
+    container_name: docker-09
+    volumes:
+      - ./docker_vols/volai:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-10:
+    image: sysfilter:patched
+    container_name: docker-10
+    volumes:
+      - ./docker_vols/volaj:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-11:
+    image: sysfilter:patched
+    container_name: docker-11
+    volumes:
+      - ./docker_vols/volak:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-12:
+    image: sysfilter:patched
+    container_name: docker-12
+    volumes:
+      - ./docker_vols/volal:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-13:
+    image: sysfilter:patched
+    container_name: docker-13
+    volumes:
+      - ./docker_vols/volam:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-14:
+    image: sysfilter:patched
+    container_name: docker-14
+    volumes:
+      - ./docker_vols/volan:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-15:
+    image: sysfilter:patched
+    container_name: docker-15
+    volumes:
+      - ./docker_vols/volao:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-16:
+    image: sysfilter:patched
+    container_name: docker-16
+    volumes:
+      - ./docker_vols/volap:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-17:
+    image: sysfilter:patched
+    container_name: docker-17
+    volumes:
+      - ./docker_vols/volaq:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-18:
+    image: sysfilter:patched
+    container_name: docker-18
+    volumes:
+      - ./docker_vols/volar:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-19:
+    image: sysfilter:patched
+    container_name: docker-19
+    volumes:
+      - ./docker_vols/volas:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-20:
+    image: sysfilter:patched
+    container_name: docker-20
+    volumes:
+      - ./docker_vols/volat:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-21:
+    image: sysfilter:patched
+    container_name: docker-21
+    volumes:
+      - ./docker_vols/volau:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-22:
+    image: sysfilter:patched
+    container_name: docker-22
+    volumes:
+      - ./docker_vols/volav:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-23:
+    image: sysfilter:patched
+    container_name: docker-23
+    volumes:
+      - ./docker_vols/volaw:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-24:
+    image: sysfilter:patched
+    container_name: docker-24
+    volumes:
+      - ./docker_vols/volax:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-25:
+    image: sysfilter:patched
+    container_name: docker-25
+    volumes:
+      - ./docker_vols/volay:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-26:
+    image: sysfilter:patched
+    container_name: docker-26
+    volumes:
+      - ./docker_vols/volaz:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-27:
+    image: sysfilter:patched
+    container_name: docker-27
+    volumes:
+      - ./docker_vols/volba:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-28:
+    image: sysfilter:patched
+    container_name: docker-28
+    volumes:
+      - ./docker_vols/volbb:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-29:
+    image: sysfilter:patched
+    container_name: docker-29
+    volumes:
+      - ./docker_vols/volbc:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-30:
+    image: sysfilter:patched
+    container_name: docker-30
+    volumes:
+      - ./docker_vols/volbd:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-31:
+    image: sysfilter:patched
+    container_name: docker-31
+    volumes:
+      - ./docker_vols/volbe:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-32:
+    image: sysfilter:patched
+    container_name: docker-32
+    volumes:
+      - ./docker_vols/volbf:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-33:
+    image: sysfilter:patched
+    container_name: docker-33
+    volumes:
+      - ./docker_vols/volbg:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-34:
+    image: sysfilter:patched
+    container_name: docker-34
+    volumes:
+      - ./docker_vols/volbh:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-35:
+    image: sysfilter:patched
+    container_name: docker-35
+    volumes:
+      - ./docker_vols/volbi:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-36:
+    image: sysfilter:patched
+    container_name: docker-36
+    volumes:
+      - ./docker_vols/volbj:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-37:
+    image: sysfilter:patched
+    container_name: docker-37
+    volumes:
+      - ./docker_vols/volbk:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-38:
+    image: sysfilter:patched
+    container_name: docker-38
+    volumes:
+      - ./docker_vols/volbl:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-39:
+    image: sysfilter:patched
+    container_name: docker-39
+    volumes:
+      - ./docker_vols/volbm:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-40:
+    image: sysfilter:patched
+    container_name: docker-40
+    volumes:
+      - ./docker_vols/volbn:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-41:
+    image: sysfilter:patched
+    container_name: docker-41
+    volumes:
+      - ./docker_vols/volbo:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-42:
+    image: sysfilter:patched
+    container_name: docker-42
+    volumes:
+      - ./docker_vols/volbp:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-43:
+    image: sysfilter:patched
+    container_name: docker-43
+    volumes:
+      - ./docker_vols/volbq:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-44:
+    image: sysfilter:patched
+    container_name: docker-44
+    volumes:
+      - ./docker_vols/volbr:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-45:
+    image: sysfilter:patched
+    container_name: docker-45
+    volumes:
+      - ./docker_vols/volbs:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-46:
+    image: sysfilter:patched
+    container_name: docker-46
+    volumes:
+      - ./docker_vols/volbt:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-47:
+    image: sysfilter:patched
+    container_name: docker-47
+    volumes:
+      - ./docker_vols/volbu:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS

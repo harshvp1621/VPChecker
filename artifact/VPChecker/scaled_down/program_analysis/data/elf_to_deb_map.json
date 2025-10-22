@@ -1,0 +1,533 @@
+{
+    "groups": [
+        "coreutils_9.4-3.1"
+    ],
+    "libunistring.so.5": [
+        "libunistring5_1.2-1"
+    ],
+    "link": [
+        "coreutils_9.4-3.1"
+    ],
+    "dpkg-divert": [
+        "dpkg_1.22.6"
+    ],
+    "sha256sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "rmt-tar": [
+        "tar_1.35+dfsg-3"
+    ],
+    "echo": [
+        "coreutils_9.4-3.1"
+    ],
+    "vdir": [
+        "coreutils_9.4-3.1"
+    ],
+    "sleep": [
+        "coreutils_9.4-3.1"
+    ],
+    "rred": [
+        "apt_2.9.6"
+    ],
+    "gpgv": [
+        "apt_2.9.6"
+    ],
+    "cut": [
+        "coreutils_9.4-3.1"
+    ],
+    "mirror+https": [
+        "apt_2.9.6"
+    ],
+    "md5sum.textutils": [
+        "coreutils_9.4-3.1"
+    ],
+    "dump": [
+        "apt_2.9.6"
+    ],
+    "whoami": [
+        "coreutils_9.4-3.1"
+    ],
+    "libidn2.so.0": [
+        "libidn2-0_2.3.7-2"
+    ],
+    "dpkg-deb": [
+        "dpkg_1.22.6"
+    ],
+    "apt-helper": [
+        "apt_2.9.6"
+    ],
+    "shred": [
+        "coreutils_9.4-3.1"
+    ],
+    "libseccomp.so.2": [
+        "libseccomp2_2.5.5-1"
+    ],
+    "tee": [
+        "coreutils_9.4-3.1"
+    ],
+    "uniq": [
+        "coreutils_9.4-3.1"
+    ],
+    "nproc": [
+        "coreutils_9.4-3.1"
+    ],
+    "touch": [
+        "coreutils_9.4-3.1"
+    ],
+    "libxxhash.so.0": [
+        "libxxhash0_0.8.2-2+b1"
+    ],
+    "libgcrypt.so.20": [
+        "libgcrypt20_1.10.3-3"
+    ],
+    "libselinux.so.1": [
+        "libselinux1_3.5-2+b2"
+    ],
+    "apt": [
+        "apt_2.9.6"
+    ],
+    "https": [
+        "apt_2.9.6"
+    ],
+    "libsystemd.so.0": [
+        "libsystemd0_256.1-2"
+    ],
+    "od": [
+        "coreutils_9.4-3.1"
+    ],
+    "mkfifo": [
+        "coreutils_9.4-3.1"
+    ],
+    "libc.so.6": [
+        "libc6_2.38-13"
+    ],
+    "pwd": [
+        "coreutils_9.4-3.1"
+    ],
+    "libbz2.so.1.0": [
+        "libbz2-1.0_1.0.8-5.1"
+    ],
+    "pathchk": [
+        "coreutils_9.4-3.1"
+    ],
+    "store": [
+        "apt_2.9.6"
+    ],
+    "libattr.so.1": [
+        "libattr1_1:2.5.2-1"
+    ],
+    "libstdbuf.so": [
+        "coreutils_9.4-3.1"
+    ],
+    "csplit": [
+        "coreutils_9.4-3.1"
+    ],
+    "mirror": [
+        "apt_2.9.6"
+    ],
+    "copy": [
+        "apt_2.9.6"
+    ],
+    "dpkg-split": [
+        "dpkg_1.22.6"
+    ],
+    "join": [
+        "coreutils_9.4-3.1"
+    ],
+    "libapt-private.so.0.0": [
+        "apt_2.9.6"
+    ],
+    "readlink": [
+        "coreutils_9.4-3.1"
+    ],
+    "b2sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "nohup": [
+        "coreutils_9.4-3.1"
+    ],
+    "who": [
+        "coreutils_9.4-3.1"
+    ],
+    "libtasn1.so.6": [
+        "libtasn1-6_4.19.0-3+b2"
+    ],
+    "head": [
+        "coreutils_9.4-3.1"
+    ],
+    "wc": [
+        "coreutils_9.4-3.1"
+    ],
+    "md5sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "date": [
+        "coreutils_9.4-3.1"
+    ],
+    "libapt-pkg.so.6.0": [
+        "libapt-pkg6.0t64_2.9.6"
+    ],
+    "mkdir": [
+        "coreutils_9.4-3.1"
+    ],
+    "rmt": [
+        "tar_1.35+dfsg-3"
+    ],
+    "ptx": [
+        "coreutils_9.4-3.1"
+    ],
+    "rsh": [
+        "apt_2.9.6"
+    ],
+    "chgrp": [
+        "coreutils_9.4-3.1"
+    ],
+    "install": [
+        "coreutils_9.4-3.1"
+    ],
+    "realpath": [
+        "coreutils_9.4-3.1"
+    ],
+    "libstdc++.so.6": [
+        "libstdc++6_14.1.0-3"
+    ],
+    "basenc": [
+        "coreutils_9.4-3.1"
+    ],
+    "mktemp": [
+        "coreutils_9.4-3.1"
+    ],
+    "libpcre2-8.so.0": [
+        "libpcre2-8-0_10.42-4+b1"
+    ],
+    "mv": [
+        "coreutils_9.4-3.1"
+    ],
+    "dpkg-query": [
+        "dpkg_1.22.6"
+    ],
+    "env": [
+        "coreutils_9.4-3.1"
+    ],
+    "tac": [
+        "coreutils_9.4-3.1"
+    ],
+    "stdbuf": [
+        "coreutils_9.4-3.1"
+    ],
+    "apt-get": [
+        "apt_2.9.6"
+    ],
+    "cksum": [
+        "coreutils_9.4-3.1"
+    ],
+    "apt-cache": [
+        "apt_2.9.6"
+    ],
+    "dircolors": [
+        "coreutils_9.4-3.1"
+    ],
+    "du": [
+        "coreutils_9.4-3.1"
+    ],
+    "apt-mark": [
+        "apt_2.9.6"
+    ],
+    "logname": [
+        "coreutils_9.4-3.1"
+    ],
+    "arch": [
+        "coreutils_9.4-3.1"
+    ],
+    "sha384sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "start-stop-daemon": [
+        "dpkg_1.22.6"
+    ],
+    "cdrom": [
+        "apt_2.9.6"
+    ],
+    "id": [
+        "coreutils_9.4-3.1"
+    ],
+    "libnettle.so.8": [
+        "libnettle8t64_3.10-1"
+    ],
+    "libcap.so.2": [
+        "libcap2_1:2.66-5"
+    ],
+    "liblz4.so.1": [
+        "liblz4-1_1.9.4-2"
+    ],
+    "mirror+file": [
+        "apt_2.9.6"
+    ],
+    "hostid": [
+        "coreutils_9.4-3.1"
+    ],
+    "runcon": [
+        "coreutils_9.4-3.1"
+    ],
+    "tar": [
+        "tar_1.35+dfsg-3"
+    ],
+    "update-alternatives": [
+        "dpkg_1.22.6"
+    ],
+    "libgnutls.so.30": [
+        "libgnutls30t64_3.8.5-4"
+    ],
+    "pinky": [
+        "coreutils_9.4-3.1"
+    ],
+    "ln": [
+        "coreutils_9.4-3.1"
+    ],
+    "fmt": [
+        "coreutils_9.4-3.1"
+    ],
+    "nl": [
+        "coreutils_9.4-3.1"
+    ],
+    "sha224sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "paste": [
+        "coreutils_9.4-3.1"
+    ],
+    "mirror+copy": [
+        "apt_2.9.6"
+    ],
+    "http": [
+        "apt_2.9.6"
+    ],
+    "df": [
+        "coreutils_9.4-3.1"
+    ],
+    "chroot": [
+        "coreutils_9.4-3.1"
+    ],
+    "uname": [
+        "coreutils_9.4-3.1"
+    ],
+    "dir": [
+        "coreutils_9.4-3.1"
+    ],
+    "false": [
+        "coreutils_9.4-3.1"
+    ],
+    "mirror+http": [
+        "apt_2.9.6"
+    ],
+    "sync": [
+        "coreutils_9.4-3.1"
+    ],
+    "libm.so.6": [
+        "libc6_2.38-13"
+    ],
+    "base32": [
+        "coreutils_9.4-3.1"
+    ],
+    "liblzma.so.5": [
+        "liblzma5_5.6.2-2"
+    ],
+    "tr": [
+        "coreutils_9.4-3.1"
+    ],
+    "dpkg-trigger": [
+        "dpkg_1.22.6"
+    ],
+    "cp": [
+        "coreutils_9.4-3.1"
+    ],
+    "test": [
+        "coreutils_9.4-3.1"
+    ],
+    "apt-cdrom": [
+        "apt_2.9.6"
+    ],
+    "sort": [
+        "coreutils_9.4-3.1"
+    ],
+    "file": [
+        "apt_2.9.6"
+    ],
+    "ftp": [
+        "apt_2.9.6"
+    ],
+    "chmod": [
+        "coreutils_9.4-3.1"
+    ],
+    "libzstd.so.1": [
+        "libzstd1_1.5.6+dfsg-1"
+    ],
+    "dpkg": [
+        "dpkg_1.22.6"
+    ],
+    "libp11-kit.so.0": [
+        "libp11-kit0_0.25.3-5"
+    ],
+    "sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "sha512sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "factor": [
+        "coreutils_9.4-3.1"
+    ],
+    "libz.so.1": [
+        "zlib1g_1:1.3.dfsg+really1.3.1-1"
+    ],
+    "tty": [
+        "coreutils_9.4-3.1"
+    ],
+    "stty": [
+        "coreutils_9.4-3.1"
+    ],
+    "mirror+ftp": [
+        "apt_2.9.6"
+    ],
+    "yes": [
+        "coreutils_9.4-3.1"
+    ],
+    "sha1sum": [
+        "coreutils_9.4-3.1"
+    ],
+    "libmd.so.0": [
+        "libmd0_1.1.0-2"
+    ],
+    "users": [
+        "coreutils_9.4-3.1"
+    ],
+    "shuf": [
+        "coreutils_9.4-3.1"
+    ],
+    "[": [
+        "coreutils_9.4-3.1"
+    ],
+    "truncate": [
+        "coreutils_9.4-3.1"
+    ],
+    "libgmp.so.10": [
+        "libgmp10_2:6.3.0+dfsg-2+b1"
+    ],
+    "libgpg-error.so.0": [
+        "libgpg-error0_1.49-2"
+    ],
+    "printenv": [
+        "coreutils_9.4-3.1"
+    ],
+    "pr": [
+        "coreutils_9.4-3.1"
+    ],
+    "chcon": [
+        "coreutils_9.4-3.1"
+    ],
+    "dpkg-statoverride": [
+        "dpkg_1.22.6"
+    ],
+    "dd": [
+        "coreutils_9.4-3.1"
+    ],
+    "base64": [
+        "coreutils_9.4-3.1"
+    ],
+    "libacl.so.1": [
+        "libacl1_2.3.2-2"
+    ],
+    "apt-config": [
+        "apt_2.9.6"
+    ],
+    "libhogweed.so.6": [
+        "libhogweed6t64_3.10-1"
+    ],
+    "tsort": [
+        "coreutils_9.4-3.1"
+    ],
+    "basename": [
+        "coreutils_9.4-3.1"
+    ],
+    "libgcc_s.so.1": [
+        "libgcc-s1_14.1.0-3"
+    ],
+    "expand": [
+        "coreutils_9.4-3.1"
+    ],
+    "printf": [
+        "coreutils_9.4-3.1"
+    ],
+    "true": [
+        "coreutils_9.4-3.1"
+    ],
+    "nice": [
+        "coreutils_9.4-3.1"
+    ],
+    "ls": [
+        "coreutils_9.4-3.1"
+    ],
+    "rmdir": [
+        "coreutils_9.4-3.1"
+    ],
+    "split": [
+        "coreutils_9.4-3.1"
+    ],
+    "numfmt": [
+        "coreutils_9.4-3.1"
+    ],
+    "cat": [
+        "coreutils_9.4-3.1"
+    ],
+    "chown": [
+        "coreutils_9.4-3.1"
+    ],
+    "libcrypto.so.3": [
+        "libssl3t64_3.2.2-1"
+    ],
+    "comm": [
+        "coreutils_9.4-3.1"
+    ],
+    "libudev.so.1": [
+        "libudev1_256.1-2"
+    ],
+    "ssh": [
+        "apt_2.9.6"
+    ],
+    "expr": [
+        "coreutils_9.4-3.1"
+    ],
+    "libffi.so.8": [
+        "libffi8_3.4.6-1"
+    ],
+    "fold": [
+        "coreutils_9.4-3.1"
+    ],
+    "tail": [
+        "coreutils_9.4-3.1"
+    ],
+    "dirname": [
+        "coreutils_9.4-3.1"
+    ],
+    "timeout": [
+        "coreutils_9.4-3.1"
+    ],
+    "seq": [
+        "coreutils_9.4-3.1"
+    ],
+    "unexpand": [
+        "coreutils_9.4-3.1"
+    ],
+    "stat": [
+        "coreutils_9.4-3.1"
+    ],
+    "unlink": [
+        "coreutils_9.4-3.1"
+    ],
+    "mknod": [
+        "coreutils_9.4-3.1"
+    ],
+    "rm": [
+        "coreutils_9.4-3.1"
+    ]
+}

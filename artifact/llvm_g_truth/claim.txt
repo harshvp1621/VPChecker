@@ -1,0 +1,22 @@
+LLVM Comparision
+
+This claim is discussed in Section 7.4.1 of the paper under “VPChecker Accuracy”
+and illustrated in Table 1. This directory includes all scripts required to
+reproduce Table 1.
+
+We recommend using the Jupyter notebook in the llvm_analysis directory to generate
+the contents of the table.
+
+Before you begin, ensure the Python virtual environment is installed and activated.
+
+To open the Jupyter notebook:
+```
+$ cd llvm_analysis
+$ conda activate supply_chain_py311
+$ jupyter notebook --no-browser --port=6868
+
+# In the terminal output, click the access-token URL to open Jupyter in your browser.
+```
+
+To run on public infrastructure like Google Colab upload the llvm_analysis
+folder and import the LLVM_Analysis.ipynb notebook. 

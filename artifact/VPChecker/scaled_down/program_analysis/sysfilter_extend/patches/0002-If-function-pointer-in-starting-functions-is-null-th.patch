@@ -1,0 +1,79 @@
+From 499b904a759e05d3f4d3ea3e17e471042d625a1a Mon Sep 17 00:00:00 2001
+From: Anon Anon <anon@anon>
+Date: Fri, 22 Dec 2023 19:54:23 -0500
+Subject: [PATCH 2/3] If function pointer in starting functions is null, then
+ skip the loop iteration and continue
+
+---
+ extraction/app/src/sysfilter.cpp | 13 ++++++++++---
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+
+diff --git a/extraction/app/src/sysfilter.cpp b/extraction/app/src/sysfilter.cpp
+index 402cc87..6594414 100644
+--- a/extraction/app/src/sysfilter.cpp
++++ b/extraction/app/src/sysfilter.cpp
+@@ -212,7 +212,7 @@ void Sysfilter::writeSymbolStatusFile() {
+ 
+ int Sysfilter::doAnalysis() {
+     auto time_funcs_start = std::chrono::high_resolution_clock::now();
+-
++    std::cout<< "doAnalysis" << std::endl;
+     buildTrackedFuncInfo();
+ 
+     // if (config.doMultiPass) {
+@@ -484,6 +484,8 @@ int Sysfilter::writeOutput() {
+ 
+         // Write the names of all libraries in the analysis scope
+         nlohmann::json analysisScope = nlohmann::json::object();
++        // Here they try to find the correct path of the library
++        // ------------- COMMENT OUT TO SKIP LIB ANALYSIS
+         auto liblist = setup.getConductor()->getProgram()->getLibraryList();
+         for (auto lib : CIter::children(liblist)) {
+             nlohmann::json libInfo = nlohmann::json::object();
+@@ -1188,6 +1190,7 @@ bool Sysfilter::parse(const char *filename) {
+         // TODO: also allow parsing egalito archives
+     }
+     catch (const char *message) {
++        std::cout << "Caught exception: " << message << std::endl;
+         LOG(1, "Caught exception: " << message);
+         return false;
+     }
+@@ -1674,6 +1677,7 @@ void Sysfilter::resolveStartingFunctions() {
+         std::vector<std::string> ifuncs_needed;
+         LibraryList *liblist = setup.getConductor()->getLibraryList();
+ 
++        // ----------------- COMMENT OUT TO SKIP LIB PROCESSING
+         for (auto library : CIter::children(liblist)) {
+             auto symbols = library->getModule()->getElfSpace()->getSymbolList();
+             if (!symbols) { continue; }
+@@ -1686,7 +1690,7 @@ void Sysfilter::resolveStartingFunctions() {
+                 }
+             }
+         }
+-
++        // ---------- COMMENT TO SKIP LIB PROCESSING
+         auto resolveFuncs
+             = [&](std::vector<std::string> names, std::set<Function *> &funcs) {
+                   for (auto fname : names) {
+@@ -1725,6 +1729,9 @@ void Sysfilter::resolveStartingFunctions() {
+                 for (auto var : CIter::children(array)) {
+                     auto func
+                         = dynamic_cast<Function *>(var->getDest()->getTarget());
++		    if(!func) {
++			continue;
++		    }
+                     LOG(10,
+                         "Processing entry point "
+                             << func << "/" << var->getName() << " at address "
+@@ -2213,7 +2220,7 @@ void Sysfilter::buildTrackedFuncInfo() {
+     };
+ 
+ #undef _reg
+-
++    // --------- COMMENT FOR SKIPPING LIBS
+     auto liblist = setup.getConductor()->getProgram()->getLibraryList();
+     for (auto lib : CIter::children(liblist)) {
+         auto it = syms.find(lib->getName());
+-- 
+2.34.1
+

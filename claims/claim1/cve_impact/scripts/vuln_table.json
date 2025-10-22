@@ -1,0 +1,556 @@
+{
+    "CVE-2024-25062": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlTextReaderRead@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 242
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlTextReaderRead@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 242
+        }
+    ],
+    "CVE-2023-45322": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlStaticCopyNodeList@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlStaticCopyNodeList@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        }
+    ],
+    "CVE-2022-2309": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "htmlCtxtReset@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 3
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlCtxtReset@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlCtxtReset@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "htmlCtxtReset@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 3
+        }
+    ],
+    "CVE-2023-28484": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlSchemaFixupComplexType@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlSchemaResolveElementReferences@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlSchemaFixupComplexType@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlSchemaResolveElementReferences@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        }
+    ],
+    "CVE-2022-40304": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlFreeEntity@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlCreateEntity@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlFreeEntity@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlCreateEntity@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        }
+    ],
+    "CVE-2023-39615": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlSAXVersion@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlDetectSAX2@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlCtxtUseOptionsInternal@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlDetectSAX2@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlCtxtUseOptionsInternal@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        }
+    ],
+    "CVE-2022-29824": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufCreateSize@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferResize@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferCreateSize@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 9
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufResize@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufCreateSize@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferCreateStatic@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 7
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufAdd@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferAdd@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufResize@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferCreateStatic@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 7
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferAdd@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferResize@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufferCreateSize@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 9
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlBufAdd@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        }
+    ],
+    "CVE-2022-23308": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlAddID@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlValidNormalizeAttributeValue@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlRemoveID@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlAddID@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlRemoveID@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlValidCtxtNormalizeAttributeValue@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlValidCtxtNormalizeAttributeValue@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlAddRef@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlAddRef@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlValidNormalizeAttributeValue@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        }
+    ],
+    "CVE-2022-40303": [
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseNmtoken@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseStringName@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParsePubidLiteral@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseEntityValue@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseSystemLiteral@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseNmtoken@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseStringName@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParsePubidLiteral@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseSystemLiteral@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseNCName@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseName@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseEntityValue@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseComment@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseAttValueComplex@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseCDSect@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseCDSect@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseName@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlFatalErr@libxml2.so.2@libxml2_2.12.7%2Bdfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7%2Bdfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParsePI@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseNCName@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlFatalErr@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        },
+        {
+            "STATUS": "FIXED",
+            "VULN_FUNC": "xmlParseAttValueComplex@libxml2.so.2@libxml2_2.12.7+dfsg-3",
+            "VULN_ELF": "libxml2.so.2",
+            "VULN_DEB": "libxml2_2.12.7+dfsg-3",
+            "ELF_REACH": 1496,
+            "FUNC_REACH": 1212
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+From 39995964172884f64c8a7524c6294db91b9e9ce4 Mon Sep 17 00:00:00 2001
+From: Anon Anon <anon@anon>
+Date: Fri, 5 Jul 2024 01:47:48 +0000
+Subject: [PATCH 3/3] Comment out container assertion in data_symbols
+
+---
+ extraction/app/src/data_symbols.cpp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/extraction/app/src/data_symbols.cpp b/extraction/app/src/data_symbols.cpp
+index 494de34..366db60 100644
+--- a/extraction/app/src/data_symbols.cpp
++++ b/extraction/app/src/data_symbols.cpp
+@@ -151,7 +151,7 @@ DataSymbol *DataSymbolList::forAddressMaybe(address_t address) {
+     if (container == --dataSymbols.end()) return nullptr;
+ 
+     container--;
+-    assert(container->second->isInside(address));
++    // assert(container->second->isInside(address));
+     return container->second;
+ }
+ 
+-- 
+2.34.1
+

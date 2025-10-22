@@ -1,0 +1,164 @@
+Function: xpmFreeColorTable  *  int 2 
+Function: XpmFreeExtensions  *  int 2 
+Function: XpmAttributesSize 0 
+Function: xpmInitAttributes  * 1 
+Function: xpmSetAttributes  *  *  * 3 
+Function: CreateOldColorTable  *  int  * 3 
+Function: XpmFreeAttributes  * 1 
+Function: FreeOldColorTable  *  int 2 
+Function: XpmCreateBufferFromImage  *  *  *  *  * 5 
+Function: XpmCreateBufferFromXpmImage  *  *  * 3 
+Function: ExtensionsSize  *  int 2 
+Function: CommentsSize  * 1 
+Function: WriteColors  *  *  *  *  int  int 6 
+Function: WritePixels  *  int  *  int  int  int  *  * 8 
+Function: WriteExtensions  *  int  *  *  int 5 
+Function: XpmCreateBufferFromPixmap  *  *  long  long  * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: XpmCreateDataFromImage  *  *  *  *  * 5 
+Function: XpmCreateDataFromXpmImage  *  *  * 3 
+Function: CountExtensions  *  int  *  * 4 
+Function: CreateColors  *  *  *  int  int 5 
+Function: CreatePixels  *  int  int  int  int  *  * 7 
+Function: CreateExtensions  *  int  int  *  int  int 6 
+Function: XpmCreateDataFromPixmap  *  *  long  long  * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: XpmCreateImageFromBuffer  *  *  *  *  * 5 
+Function: OpenBuffer  *  * 2 
+Function: XpmCreateXpmImageFromBuffer  *  *  * 3 
+Function: XpmCreateImageFromData  *  *  *  *  * 5 
+Function: OpenArray  *  * 2 
+Function: XpmCreateXpmImageFromData  *  *  * 3 
+Function: xpmCreateImageFromPixmap  *  long  *  *  * 5 
+Function: XpmCreatePixmapFromBuffer  *  long  *  *  *  * 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: XpmCreatePixmapFromData  *  long  *  *  *  * 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xpmCreatePixmapFromImage  *  long  *  * 4 
+Function: xpmInitXpmImage  * 1 
+Function: XpmFreeXpmImage  * 1 
+Function: xpmInitXpmInfo  * 1 
+Function: XpmFreeXpmInfo  * 1 
+Function: xpmSetInfoMask  *  * 2 
+Function: xpmSetInfo  *  * 2 
+Function: XpmReadFileToBuffer  *  * 2 
+Function: XpmReadFileToData  *  * 2 
+Function: XpmReadFileToImage  *  *  *  *  * 5 
+Function: OpenReadFile  *  * 2 
+Function: xpmDataClose  * 1 
+Function: xpmPipeThrough  int  *  *  * 4 
+Function: XpmReadFileToXpmImage  *  *  * 3 
+Function: XpmReadFileToPixmap  *  long  *  *  *  * 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: XpmWriteFileFromBuffer  *  * 2 
+Function: XpmWriteFileFromData  *  * 2 
+Function: XpmWriteFileFromImage  *  *  *  *  * 5 
+Function: XpmWriteFileFromXpmImage  *  *  * 3 
+Function: OpenWriteFile  *  * 2 
+Function: xpmWriteFile  *  *  *  * 4 
+Function: xpmDataClose.47  * 1 
+Function: WriteColors.54  *  *  int 3 
+Function: WritePixels.55  *  int  int  int  *  * 6 
+Function: WriteExtensions.56  *  *  int 3 
+Function: XpmWriteFileFromPixmap  *  *  long  long  * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: XpmCreateImageFromXpmImage  *  *  *  *  * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * long * int * 5 
+Function: FreeColors  *  long  *  int  * 5 
+Function: CreateColors.62  *  *  *  int  *  *  *  *  *  *  * 11 
+Function: CreateXImage  *  *  int  int  int  int  * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: PutImagePixels8  *  int  int  *  * 5 
+Function: PutImagePixels1  *  int  int  *  * 5 
+Function: PutImagePixels16  *  int  int  *  * 5 
+Function: PutImagePixels32  *  int  int  *  * 5 
+Function: PutImagePixels  *  int  int  *  * 5 
+Function: xpm_xynormalizeimagebits  *  * 2 
+Function: _putbits  *  int  int  * 4 
+Function: xpm_znormalizeimagebits  *  * 2 
+Function: _XReverse_Bytes  *  int 2 
+Function: xpmVisualType  * 1 
+Function: AllocColor  *  long  *  *  * 5 
+Function: SetColor  *  long  *  *  int  *  *  *  *  *  *  *  *  *  int  *  * 17 
+Ind-call: * long * * * 5 
+Function: SetCloseColor  *  long  *  *  *  *  *  *  *  *  int  *  * 13 
+Ind-call: * long * * * 5 
+Ind-call: * long * * * 5 
+Function: closeness_cmp  *  * 2 
+Function: XpmCreatePixmapFromXpmImage  *  long  *  *  *  * 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xpmParseDataAndCreate  *  *  *  *  *  *  * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * long * int * 5 
+Function: PutPixel8  *  int  int  long 4 
+Function: PutPixel1MSB  *  int  int  long 4 
+Function: PutPixel1LSB  *  int  int  long 4 
+Function: PutPixel16MSB  *  int  int  long 4 
+Function: PutPixel16LSB  *  int  int  long 4 
+Function: PutPixel32MSB  *  int  int  long 4 
+Function: PutPixel32LSB  *  int  int  long 4 
+Function: PutPixel1  *  int  int  long 4 
+Function: PutPixel  *  int  int  long 4 
+Function: ParseAndPutPixels  *  int  int  int  int  *  *  *  *  *  * 11 
+Ind-call: * int int long 4 
+Ind-call: * int int long 4 
+Ind-call: * int int long 4 
+Ind-call: * int int long 4 
+Ind-call: * int int long 4 
+Ind-call: * int int long 4 
+Ind-call: * int int long 4 
+Ind-call: * int int long 4 
+Function: xpmNextString  * 1 
+Function: ParseComment  * 1 
+Function: xpmNextWord  *  *  int 3 
+Function: xpmNextUI  *  * 2 
+Function: xpmGetString  *  *  * 3 
+Function: xpmGetCmt  *  * 2 
+Function: xpmParseHeader  * 1 
+Function: xpmHashSlot  *  * 2 
+Function: xpmHashIntern  *  *  * 3 
+Function: AtomMake  *  * 2 
+Function: HashTableGrows  * 1 
+Function: xpmHashTableInit  * 1 
+Function: xpmHashTableFree  * 1 
+Function: xpmatoui  *  int  * 3 
+Function: XpmGetErrorString  int 1 
+Function: XpmLibraryVersion 0 
+Function: XpmFree  * 1 
+Function: xpmParseValues  *  *  *  *  *  *  *  *  * 9 
+Function: xpmParseColors  *  int  int  *  * 5 
+Function: xstrlcat  *  *  long 3 
+Function: xpmParseExtensions  *  *  * 3 
+Function: xpmParseData  *  *  * 3 
+Function: ParsePixels  *  int  int  int  int  *  *  * 8 
+Function: xpmReadRgbNames  *  * 2 
+Function: xpmGetRgbName  *  int  int  int  int 5 
+Function: xpmFreeRgbNames  *  int 2 
+Function: XpmCreateXpmImageFromImage  *  *  *  *  * 5 
+Function: storeMaskPixel  long  *  * 3 
+Function: GetImagePixels1  *  int  int  *  * 5 
+Ind-call: long * * 3 
+Ind-call: long * * 3 
+Function: storePixel  long  *  * 3 
+Function: GetImagePixels8  *  int  int  * 4 
+Function: GetImagePixels16  *  int  int  * 4 
+Function: GetImagePixels32  *  int  int  * 4 
+Function: GetImagePixels  *  int  int  * 4 
+Function: ScanTransparentColor  *  int  * 3 
+Function: ScanOtherColors  *  *  int  *  int  int  * 7 
+Function: XpmCreateXpmImageFromPixmap  *  long  long  *  * 5 
+Ind-call: * 1 
+Ind-call: * 1 

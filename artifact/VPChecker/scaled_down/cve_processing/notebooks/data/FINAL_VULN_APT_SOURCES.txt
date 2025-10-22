@@ -1,0 +1,14 @@
+gst-plugins-ugly1.0
+c-ares
+dwarfutils
+bzip3
+capnproto
+exiv2
+c-blosc2
+editorconfig-core
+cjose
+cvc5
+chafa
+gimp
+file
+exo

@@ -1,0 +1,10 @@
+dpkg
+debconf
+adduser     
+apt          
+coreutils                 
+libacl1                 
+libbz2-1.0       
+libpam-modules                   
+libuuid1            
+tar

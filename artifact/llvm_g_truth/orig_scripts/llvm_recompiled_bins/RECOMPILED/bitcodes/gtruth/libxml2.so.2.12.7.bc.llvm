@@ -1,0 +1,5627 @@
+Function: xmlBufCreate 0 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlBufMemoryError  *  * 2 
+Function: xmlBufCreateSize  long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlBufDetach  * 1 
+Function: xmlBufGetAllocationScheme  * 1 
+Function: xmlBufSetAllocationScheme  *  int 2 
+Function: xmlBufFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlBufEmpty  * 1 
+Function: xmlBufShrink  *  long 2 
+Function: xmlBufGrow  *  int 2 
+Function: xmlBufGrowInternal  *  long 2 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Function: xmlBufDump  *  * 2 
+Function: xmlBufContent  * 1 
+Function: xmlBufEnd  * 1 
+Function: xmlBufAddLen  *  long 2 
+Function: xmlBufLength  * 1 
+Function: xmlBufUse  * 1 
+Function: xmlBufAvail  * 1 
+Function: xmlBufIsEmpty  * 1 
+Function: xmlBufResize  *  long 2 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlBufAdd  *  *  int 3 
+Function: xmlBufCat  *  * 2 
+Function: xmlBufCCat  *  * 2 
+Function: xmlBufWriteQuotedString  *  * 2 
+Function: xmlBufFromBuffer  * 1 
+Ind-call: long 1 
+Function: xmlBufBackToBuffer  * 1 
+Ind-call: * 1 
+Function: xmlBufOverflowError  *  * 2 
+Function: xmlBufMergeBuffer  *  * 2 
+Function: xmlBufResetInput  *  * 2 
+Function: xmlBufUpdateInput  *  *  long 3 
+Function: xmlCharInRange  int  * 2 
+Function: xmlIsBaseChar  int 1 
+Function: xmlIsBlank  int 1 
+Function: xmlIsChar  int 1 
+Function: xmlIsCombining  int 1 
+Function: xmlIsDigit  int 1 
+Function: xmlIsExtender  int 1 
+Function: xmlIsIdeographic  int 1 
+Function: xmlIsPubidChar  int 1 
+Function: xmlInitializeDict 0 
+Function: xmlInitDictInternal 0 
+Function: xmlDictCleanup 0 
+Function: xmlCleanupDictInternal 0 
+Function: xmlDictCreate 0 
+Ind-call: long 1 
+Function: xmlRandom 0 
+Function: xoroshiro64ss  * 1 
+Function: xmlDictCreateSub  * 1 
+Function: xmlDictReference  * 1 
+Function: xmlDictFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDictOwns  *  * 2 
+Function: xmlDictSize  * 1 
+Function: xmlDictSetLimit  *  long 2 
+Function: xmlDictGetUsage  * 1 
+Function: xmlDictComputeHash  *  * 2 
+Function: xmlDictHashName  int  *  long  * 4 
+Function: xmlDictCombineHash  int  int 2 
+Function: xmlDictLookup  *  *  int 3 
+Function: xmlDictLookupInternal  *  *  *  int  int 5 
+Function: xmlDictHashQName  int  *  *  *  * 5 
+Function: xmlDictFindEntry  *  *  *  int  int  * 6 
+Function: xmlDictGrow  *  int 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlDictAddString  *  *  int 3 
+Ind-call: long 1 
+Function: xmlDictAddQString  *  *  int  *  int 5 
+Ind-call: long 1 
+Function: xmlDictLookupHashed  *  *  int 3 
+Function: xmlDictExists  *  *  int 3 
+Function: xmlDictQLookup  *  *  * 3 
+Function: xmlInitRandom 0 
+Function: xmlCleanupRandom 0 
+Function: xmlFreeEntity  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetPredefinedEntity  * 1 
+Function: xmlAddDtdEntity  *  *  int  *  *  * 6 
+Function: xmlEntitiesErr  int  * 2 
+Function: xmlAddEntity  *  *  int  *  *  * 6 
+Function: xmlEntitiesWarn  int  *  * 3 
+Function: xmlCreateEntity  *  *  int  *  *  * 6 
+Ind-call: long 1 
+Function: xmlEntitiesErrMemory  * 1 
+Function: xmlAddDocEntity  *  *  int  *  *  * 6 
+Function: xmlNewEntity  *  *  int  *  *  * 6 
+Function: xmlGetParameterEntity  *  * 2 
+Function: xmlGetEntityFromTable  *  * 2 
+Function: xmlGetDtdEntity  *  * 2 
+Function: xmlGetDocEntity  *  * 2 
+Function: xmlEncodeAttributeEntities  *  * 2 
+Function: xmlEncodeEntitiesInternal  *  *  int 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlEncodeEntitiesReentrant  *  * 2 
+Function: xmlEncodeSpecialChars  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlCreateEntitiesTable 0 
+Function: xmlFreeEntitiesTable  * 1 
+Function: xmlFreeEntityWrapper  *  * 2 
+Function: xmlCopyEntitiesTable  * 1 
+Function: xmlCopyEntity  *  * 2 
+Ind-call: long 1 
+Function: xmlDumpEntityDecl  *  * 2 
+Function: xmlDumpEntityContent  *  * 2 
+Function: xmlDumpEntitiesTable  *  * 2 
+Function: xmlDumpEntityDeclScan  *  *  * 3 
+Function: isolat1ToUTF8  *  *  *  * 4 
+Function: UTF8Toisolat1  *  *  *  * 4 
+Function: xmlDetectCharEncoding  *  int 2 
+Function: xmlCleanupEncodingAliases 0 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetEncodingAlias  * 1 
+Function: xmlAddEncodingAlias  *  * 2 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDelEncodingAlias  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseCharEncoding  * 1 
+Function: xmlGetCharEncodingName  int 1 
+Function: xmlNewCharEncodingHandler  *  *  * 3 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlRegisterCharEncodingHandler  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlInitCharEncodingHandlers 0 
+Function: xmlInitEncodingInternal 0 
+Function: xmlCleanupCharEncodingHandlers 0 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetCharEncodingHandler  int 1 
+Function: xmlFindCharEncodingHandler  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: UTF8ToUTF8  *  *  *  * 4 
+Function: UTF16LEToUTF8  *  *  *  * 4 
+Function: UTF8ToUTF16LE  *  *  *  * 4 
+Function: UTF16BEToUTF8  *  *  *  * 4 
+Function: UTF8ToUTF16BE  *  *  *  * 4 
+Function: UTF8ToUTF16  *  *  *  * 4 
+Function: asciiToUTF8  *  *  *  * 4 
+Function: UTF8Toascii  *  *  *  * 4 
+Function: xmlEncInputChunk  *  *  *  *  * 5 
+Ind-call: * * * * 4 
+Function: xmlIconvWrapper  *  *  *  *  * 5 
+Function: xmlCharEncFirstLine  *  *  * 3 
+Function: xmlCharEncInFunc  *  *  * 3 
+Function: xmlCharEncInput  * 1 
+Function: xmlEncConvertError  int 1 
+Function: xmlCharEncOutput  *  int 2 
+Function: xmlEncOutputChunk  *  *  *  *  * 5 
+Ind-call: * * * * 4 
+Function: xmlCharEncOutFunc  *  *  * 3 
+Function: xmlCharEncCloseFunc  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlByteConsumed  * 1 
+Function: xmlGenericErrorDefaultFunc  *  *  variadic 2 
+Function: initGenericErrorDefaultFunc  * 1 
+Function: xmlSetGenericErrorFunc  *  * 2 
+Function: xmlSetStructuredErrorFunc  *  * 2 
+Function: xmlParserPrintFileInfo  * 1 
+Ind-call: * * * int 4 
+Ind-call: * * int 3 
+Function: xmlParserPrintFileContext  * 1 
+Function: xmlParserPrintFileContextInternal  *  *  * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: __xmlRaiseError  *  *  *  *  *  int  int  int  *  int  *  *  *  int  int  *  variadic 16 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Function: xmlResetError  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCopyError  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParserError  *  *  variadic 2 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: xmlParserWarning  *  *  variadic 2 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: xmlParserValidityError  *  *  variadic 2 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Function: xmlParserValidityWarning  *  *  variadic 2 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Function: xmlReportError  *  *  *  *  * 5 
+Ind-call: * * * int 4 
+Ind-call: * * int 3 
+Ind-call: * * * int 4 
+Ind-call: * * int 3 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * int 4 
+Ind-call: * * int 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: __xmlSimpleError  int  int  *  *  * 5 
+Function: xmlGetLastError 0 
+Function: xmlResetLastError 0 
+Function: xmlCtxtGetLastError  * 1 
+Function: xmlCtxtResetLastError  * 1 
+Function: xmlPosixStrdup  * 1 
+Function: xmlInitGlobals 0 
+Function: xmlInitGlobalsInternal 0 
+Function: xmlFreeGlobalState  * 1 
+Function: xmlCleanupGlobals 0 
+Function: xmlCleanupGlobalsInternal 0 
+Function: xmlInitializeGlobalState  * 1 
+Function: xmlGetGlobalState 0 
+Function: xmlIsMainThread 0 
+Function: xmlIsMainThreadInternal 0 
+Function: __xmlLastError 0 
+Function: xmlGetThreadLocalStorage  int 1 
+Function: xmlNewGlobalState  int 1 
+Function: xmlInitGlobalState  * 1 
+Function: __xmlGenericError 0 
+Function: __xmlGenericErrorContext 0 
+Function: __xmlStructuredError 0 
+Function: __xmlStructuredErrorContext 0 
+Function: __htmlDefaultSAXHandler 0 
+Function: __xmlParserInputBufferCreateFilenameValue 0 
+Function: __xmlOutputBufferCreateFilenameValue 0 
+Function: __oldXMLWDcompatibility 0 
+Function: __xmlDefaultSAXLocator 0 
+Function: __xmlDoValidityCheckingDefaultValue 0 
+Function: __xmlGetWarningsDefaultValue 0 
+Function: __xmlKeepBlanksDefaultValue 0 
+Function: __xmlLineNumbersDefaultValue 0 
+Function: __xmlLoadExtDtdDefaultValue 0 
+Function: __xmlParserDebugEntities 0 
+Function: __xmlPedanticParserDefaultValue 0 
+Function: __xmlSubstituteEntitiesDefaultValue 0 
+Function: __xmlIndentTreeOutput 0 
+Function: __xmlTreeIndentString 0 
+Function: __xmlSaveNoEmptyTags 0 
+Function: __xmlDefaultSAXHandler 0 
+Function: __xmlBufferAllocScheme 0 
+Function: __xmlDefaultBufferSize 0 
+Function: __xmlRegisterNodeDefaultValue 0 
+Function: __xmlDeregisterNodeDefaultValue 0 
+Function: __xmlParserVersion 0 
+Function: xmlCheckThreadLocalStorage 0 
+Function: xmlThrDefSetGenericErrorFunc  *  * 2 
+Function: xmlThrDefSetStructuredErrorFunc  *  * 2 
+Function: xmlThrDefBufferAllocScheme  int 1 
+Function: xmlThrDefDefaultBufferSize  int 1 
+Function: xmlThrDefDoValidityCheckingDefaultValue  int 1 
+Function: xmlThrDefGetWarningsDefaultValue  int 1 
+Function: xmlThrDefIndentTreeOutput  int 1 
+Function: xmlThrDefTreeIndentString  * 1 
+Function: xmlThrDefSaveNoEmptyTags  int 1 
+Function: xmlThrDefKeepBlanksDefaultValue  int 1 
+Function: xmlThrDefLineNumbersDefaultValue  int 1 
+Function: xmlThrDefLoadExtDtdDefaultValue  int 1 
+Function: xmlThrDefParserDebugEntities  int 1 
+Function: xmlThrDefPedanticParserDefaultValue  int 1 
+Function: xmlThrDefSubstituteEntitiesDefaultValue  int 1 
+Function: xmlThrDefRegisterNodeDefault  * 1 
+Function: xmlThrDefDeregisterNodeDefault  * 1 
+Function: xmlThrDefParserInputBufferCreateFilenameDefault  * 1 
+Function: xmlThrDefOutputBufferCreateFilenameDefault  * 1 
+Function: xmlHashCreate  int 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlHashGrow  *  int 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlHashCreateDict  int  * 2 
+Function: xmlHashFree  *  * 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlHashDefaultDeallocator  *  * 2 
+Ind-call: * 1 
+Function: xmlHashAddEntry  *  *  * 3 
+Function: xmlHashUpdateInternal  *  *  *  *  *  *  int 7 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlHashValue  int  *  *  *  * 5 
+Function: xmlHashFindEntry  *  *  *  *  int  * 6 
+Function: xmlFastStrEqual  *  * 2 
+Function: xmlHashAddEntry2  *  *  *  * 4 
+Function: xmlHashAddEntry3  *  *  *  *  * 5 
+Function: xmlHashUpdateEntry  *  *  *  * 4 
+Function: xmlHashUpdateEntry2  *  *  *  *  * 5 
+Function: xmlHashUpdateEntry3  *  *  *  *  *  * 6 
+Function: xmlHashLookup  *  * 2 
+Function: xmlHashLookup3  *  *  *  * 4 
+Function: xmlHashLookup2  *  *  * 3 
+Function: xmlHashQLookup  *  *  * 3 
+Function: xmlHashQLookup3  *  *  *  *  *  *  * 7 
+Function: xmlHashQNameValue  int  *  *  *  *  *  * 7 
+Function: xmlHashQLookup2  *  *  *  *  * 5 
+Function: xmlHashScan  *  *  * 3 
+Function: stubHashScannerFull  *  *  *  *  * 5 
+Ind-call: * * * 3 
+Function: xmlHashScanFull  *  *  * 3 
+Ind-call: * * * * * 5 
+Function: xmlHashScan3  *  *  *  *  *  * 6 
+Function: xmlHashScanFull3  *  *  *  *  *  * 6 
+Ind-call: * * * * * 5 
+Function: xmlHashCopy  *  * 2 
+Ind-call: * * 2 
+Function: xmlHashSize  * 1 
+Function: xmlHashRemoveEntry  *  *  * 3 
+Function: xmlHashRemoveEntry3  *  *  *  *  * 5 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlHashRemoveEntry2  *  *  *  * 4 
+Function: xmlListCreate  *  * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Function: xmlLinkCompare  *  * 2 
+Function: xmlListSearch  *  * 2 
+Function: xmlListLinkSearch  *  * 2 
+Ind-call: * * 2 
+Function: xmlListLowerSearch  *  * 2 
+Ind-call: * * 2 
+Function: xmlListReverseSearch  *  * 2 
+Function: xmlListLinkReverseSearch  *  * 2 
+Ind-call: * * 2 
+Function: xmlListHigherSearch  *  * 2 
+Ind-call: * * 2 
+Function: xmlListInsert  *  * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Function: xmlListAppend  *  * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Function: xmlListDelete  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlListClear  * 1 
+Function: xmlLinkDeallocator  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlListRemoveFirst  *  * 2 
+Function: xmlListRemoveLast  *  * 2 
+Function: xmlListRemoveAll  *  * 2 
+Function: xmlListEmpty  * 1 
+Function: xmlListFront  * 1 
+Function: xmlListEnd  * 1 
+Function: xmlListSize  * 1 
+Function: xmlListPopFront  * 1 
+Function: xmlListPopBack  * 1 
+Function: xmlListPushFront  *  * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Function: xmlListPushBack  *  * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Function: xmlLinkGetData  * 1 
+Function: xmlListReverse  * 1 
+Function: xmlListSort  * 1 
+Function: xmlListDup  * 1 
+Function: xmlListMerge  *  * 2 
+Function: xmlListCopy  *  * 2 
+Function: xmlListWalk  *  *  * 3 
+Ind-call: * * 2 
+Function: xmlListReverseWalk  *  *  * 3 
+Ind-call: * * 2 
+Function: xmlWarningMsg  *  int  *  *  * 5 
+Function: xmlHasFeature  int 1 
+Function: xmlCheckLanguageID  * 1 
+Function: xmlParserNsCreate 0 
+Ind-call: long 1 
+Function: xmlParserNsFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParserNsLookupSax  *  * 2 
+Function: xmlParserNsLookup  *  *  * 3 
+Function: xmlParserNsUpdateSax  *  *  * 3 
+Function: inputPush  *  * 2 
+Ind-call: * long 2 
+Function: inputPop  * 1 
+Function: nodePush  *  * 2 
+Ind-call: * long 2 
+Function: xmlFatalErrMsgInt  *  int  *  int 4 
+Function: nodePop  * 1 
+Function: namePush  *  * 2 
+Ind-call: * long 2 
+Function: namePop  * 1 
+Function: xmlSkipBlankChars  * 1 
+Function: xmlParsePEReference  * 1 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Function: xmlSaturatedAddSizeT  *  long 2 
+Function: xmlSaturatedAdd  *  long 2 
+Function: xmlParserEntityCheck  *  long 2 
+Function: xmlPopInput  * 1 
+Ind-call: * * int 3 
+Function: xmlFatalErrMsg  *  int  * 3 
+Function: xmlParseName  * 1 
+Function: xmlFatalErrMsgStr  *  int  *  * 4 
+Function: xmlValidityError  *  int  *  *  * 5 
+Function: xmlPushInput  *  * 2 
+Ind-call: * * * int 4 
+Ind-call: * * int * 4 
+Function: xmlParseTextDecl  * 1 
+Function: xmlParseVersionInfo  * 1 
+Function: xmlParseEncodingDecl  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseEncName  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseVersionNum  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlParseNameComplex  * 1 
+Function: xmlParseCharRef  * 1 
+Function: xmlParserHandlePEReference  * 1 
+Function: xmlStringLenDecodeEntities  *  *  int  int  char  char  char 7 
+Function: xmlStringDecodeEntitiesInt  *  *  int  int  char  char  char  int 8 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * * * 3 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * * * 3 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseStringCharRef  *  * 2 
+Function: xmlParseStringEntityRef  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseStringPEReference  *  * 2 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlLoadEntityContent  *  * 2 
+Ind-call: * * * 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseStringName  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlIsNameStartChar  *  int 2 
+Function: xmlIsNameChar  *  int 2 
+Function: xmlErrMsgStr  *  int  *  * 4 
+Function: xmlStringDecodeEntities  *  *  int  char  char  char 6 
+Function: xmlSplitQName  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlParseNmtoken  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseEntityValue  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseAttValue  * 1 
+Function: xmlParseAttValueInternal  *  *  *  int 4 
+Function: xmlParseAttValueComplex  *  *  int 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseEntityRef  * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlParseSystemLiteral  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParsePubidLiteral  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseCharData  *  int 2 
+Function: xmlParseCharDataInternal  *  int 2 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: areBlanks  *  *  int  int 4 
+Function: xmlParseCharDataComplex  *  int 2 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: xmlParseExternalID  *  *  int 3 
+Function: xmlParseComment  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseCommentComplex  *  *  long  long 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParsePITarget  * 1 
+Function: xmlNsErr  *  int  *  *  *  * 6 
+Function: xmlParsePI  * 1 
+Ind-call: * * * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Function: xmlParseCatalogPI  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseNotationDecl  * 1 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseEntityDecl  * 1 
+Ind-call: * * int * * * 6 
+Ind-call: * * int * * * 6 
+Ind-call: * * int * * * 6 
+Ind-call: * * * * * 5 
+Ind-call: * * int * * * 6 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseDefaultDecl  *  * 2 
+Function: xmlParseNotationType  * 1 
+Ind-call: * 1 
+Function: xmlParseEnumerationType  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseEnumeratedType  *  * 2 
+Function: xmlParseAttributeType  *  * 2 
+Function: xmlParseAttributeListDecl  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * int int * * 7 
+Ind-call: * 1 
+Function: xmlAttrNormalizeSpace  *  * 2 
+Function: xmlAddDefAttrs  *  *  *  * 4 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlAddSpecialAttr  *  *  *  int 4 
+Function: xmlParseElementMixedContentDecl  *  int 2 
+Function: xmlParseElementChildrenContentDecl  *  int 2 
+Function: xmlParseElementChildrenContentDeclPriv  *  int  int 3 
+Function: xmlParseElementContentDecl  *  *  * 3 
+Function: xmlParseElementDecl  * 1 
+Ind-call: * * int * 4 
+Function: xmlParseMarkupDecl  * 1 
+Function: xmlParseExternalSubset  *  *  * 3 
+Function: xmlDetectSAX2  * 1 
+Function: xmlParseConditionalSections  * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlParseReference  * 1 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlParseBalancedChunkMemoryInternal  *  *  *  * 4 
+Function: xmlParseExternalEntityPrivate  *  *  *  *  int  *  *  * 8 
+Function: xmlCreateEntityParserCtxtInternal  *  *  *  *  *  * 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseContent  * 1 
+Function: xmlParseContentInternal  * 1 
+Function: xmlFatalErrMsgStrIntStr  *  int  *  *  int  * 6 
+Function: xmlParseCDSect  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * 1 
+Function: xmlParseElementEnd  * 1 
+Function: xmlParseElementStart  * 1 
+Ind-call: * * * * 4 
+Ind-call: * * 2 
+Function: spacePush  *  int 2 
+Ind-call: * long 2 
+Function: xmlParseStartTag2  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * * * * int * int int * 9 
+Ind-call: * * * * int * int int * 9 
+Ind-call: * 1 
+Function: xmlParseStartTag  * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Function: spacePop  * 1 
+Function: nameNsPush  *  *  *  *  int  int 6 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: xmlParserNsPop  *  int 2 
+Function: xmlParseAttribute  *  * 2 
+Function: xmlErrAttributeDup  *  *  * 3 
+Function: xmlParserNsStartElement  * 1 
+Function: xmlParseQNameHashed  *  * 2 
+Ind-call: * 1 
+Function: xmlParseAttribute2  *  *  *  *  *  *  * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNsWarn  *  int  *  *  *  * 6 
+Function: xmlParserNsPush  *  *  *  *  int 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlCtxtGrowAttrs  *  int 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlAttrHashInsert  *  int  *  *  int  int 6 
+Function: xmlParserNsLookupUri  *  * 2 
+Function: xmlParserNsGrow  * 1 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Function: xmlAttrNormalizeSpace2  *  *  * 3 
+Function: xmlParseNCName  * 1 
+Function: xmlParseNCNameComplex  * 1 
+Function: xmlParseEndTag2  *  * 2 
+Ind-call: * * * * 4 
+Function: xmlParseEndTag1  *  int 2 
+Ind-call: * * 2 
+Function: xmlParseNameAndCompare  *  * 2 
+Function: xmlParseQNameAndCompare  *  *  * 3 
+Function: xmlParseQName  *  * 2 
+Function: xmlCreateDocParserCtxt  * 1 
+Function: xmlParseDocTypeDecl  * 1 
+Ind-call: * * * * 4 
+Function: xmlParseEndTag  * 1 
+Function: xmlParseElement  * 1 
+Function: xmlParseSDDecl  * 1 
+Function: xmlParseXMLDecl  * 1 
+Ind-call: * 1 
+Function: xmlParseMisc  * 1 
+Function: xmlParseDocument  * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Function: xmlParseInternalSubset  * 1 
+Function: xmlCleanSpecialAttr  * 1 
+Function: xmlCleanSpecialAttrCallback  *  *  *  *  * 5 
+Function: xmlParseExtParsedEnt  * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseChunk  *  *  int  int 4 
+Ind-call: * 1 
+Function: xmlParseTryOrFinish  *  int 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * * 4 
+Ind-call: * * 2 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * * * * 4 
+Ind-call: * * 2 
+Function: xmlParseLookupString  *  long  *  long 4 
+Function: xmlParseLookupGt  * 1 
+Function: xmlParseLookupChar  *  int 2 
+Function: xmlParseLookupCharData  * 1 
+Function: nameNsPop  * 1 
+Function: xmlCheckCdataPush  *  int  int 3 
+Function: xmlParseLookupInternalSubset  * 1 
+Function: xmlCreatePushParserCtxt  *  *  *  int  * 5 
+Function: xmlStopParser  * 1 
+Function: xmlCreateIOParserCtxt  *  *  *  *  *  int 6 
+Ind-call: * 1 
+Function: xmlIOParseDTD  *  *  int 3 
+Function: xmlSAXParseDTD  *  *  * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseDTD  *  * 2 
+Function: xmlParseCtxtExternalEntity  *  *  *  * 4 
+Function: xmlParseExternalEntity  *  *  *  int  *  *  * 7 
+Function: xmlParseBalancedChunkMemory  *  *  *  int  *  * 6 
+Function: xmlParseBalancedChunkMemoryRecover  *  *  *  int  *  *  int 7 
+Function: xmlCtxtUseOptionsInternal  *  int 2 
+Function: xmlParseInNodeContext  *  *  int  int  * 5 
+Function: xmlCreateMemoryParserCtxt  *  int 2 
+Function: xmlSAXParseEntity  *  * 2 
+Ind-call: * 1 
+Function: xmlCreateFileParserCtxt  * 1 
+Function: xmlCreateURLParserCtxt  *  int 2 
+Function: xmlParseEntity  * 1 
+Function: xmlCreateEntityParserCtxt  *  *  * 3 
+Function: xmlSAXParseFileWithData  *  *  int  * 4 
+Ind-call: * 1 
+Function: xmlSAXParseFile  *  *  int 3 
+Function: xmlRecoverDoc  * 1 
+Function: xmlSAXParseDoc  *  *  int 3 
+Function: xmlParseFile  * 1 
+Function: xmlRecoverFile  * 1 
+Function: xmlSetupParserForBuffer  *  *  * 3 
+Function: xmlSAXUserParseFile  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSAXParseMemoryWithData  *  *  int  int  * 5 
+Ind-call: * 1 
+Function: xmlSAXParseMemory  *  *  int  int 4 
+Function: xmlParseMemory  *  int 2 
+Function: xmlRecoverMemory  *  int 2 
+Function: xmlSAXUserParseMemory  *  *  *  int 4 
+Ind-call: * 1 
+Function: xmlParseDoc  * 1 
+Function: xmlCtxtReset  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParserNsReset  * 1 
+Function: xmlCtxtResetPush  *  *  int  *  * 5 
+Function: xmlCtxtUseOptions  *  int 2 
+Function: xmlCtxtSetMaxAmplification  *  int 2 
+Function: xmlReadDoc  *  *  *  int 4 
+Function: xmlDoRead  *  *  *  int  int 5 
+Function: xmlReadFile  *  *  int 3 
+Function: xmlReadMemory  *  int  *  *  int 5 
+Function: xmlReadFd  int  *  *  int 4 
+Function: xmlReadIO  *  *  *  *  *  int 6 
+Ind-call: * 1 
+Function: xmlCtxtReadDoc  *  *  *  *  int 5 
+Function: xmlCtxtReadFile  *  *  *  int 4 
+Function: xmlCtxtReadMemory  *  *  int  *  *  int 6 
+Function: xmlCtxtReadFd  *  int  *  *  int 5 
+Function: xmlCtxtReadIO  *  *  *  *  *  *  int 7 
+Ind-call: * 1 
+Function: xmlCheckVersion  int 1 
+Ind-call: * * int int 4 
+Ind-call: * * int int 4 
+Function: xmlErrMemory  *  * 2 
+Function: __xmlErrEncoding  *  int  *  *  * 5 
+Function: xmlFatalErr  *  int  * 3 
+Function: xmlIsLetter  int 1 
+Function: xmlHaltParser  * 1 
+Ind-call: * 1 
+Function: xmlFreeInputStream  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParserInputRead  *  int 2 
+Function: xmlParserGrow  * 1 
+Function: xmlParserInputGrow  *  int 2 
+Function: xmlParserShrink  * 1 
+Function: xmlParserInputShrink  * 1 
+Function: xmlNextChar  * 1 
+Function: xmlCurrentChar  *  * 2 
+Function: xmlErrEncodingInt  *  int  *  int 4 
+Function: xmlStringCurrentChar  *  *  * 3 
+Function: xmlCopyCharMultiByte  *  int 2 
+Function: xmlCopyChar  int  *  int 3 
+Function: xmlSwitchEncoding  *  int 2 
+Function: xmlDetectEBCDIC  * 1 
+Function: xmlSwitchInputEncoding  *  *  * 3 
+Function: xmlErrInternal  *  *  * 3 
+Function: xmlSwitchToEncoding  *  * 2 
+Function: xmlDetectEncoding  * 1 
+Function: xmlSetDeclaredEncoding  *  * 2 
+Ind-call: * 1 
+Function: xmlGetActualEncoding  * 1 
+Function: xmlNewInputStream  * 1 
+Ind-call: long 1 
+Function: xmlNewIOInputStream  *  *  int 3 
+Ind-call: * * 2 
+Function: xmlNewEntityInputStream  *  * 2 
+Ind-call: * * * 3 
+Function: xmlNewStringInputStream  *  * 2 
+Ind-call: * * * 3 
+Function: xmlNewInputFromFile  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlInitParserCtxt  * 1 
+Function: xmlInitSAXParserCtxt  *  *  * 3 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: xmlInitNodeInfoSeq  * 1 
+Function: xmlFreeParserCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNewParserCtxt 0 
+Function: xmlNewSAXParserCtxt  *  * 2 
+Ind-call: long 1 
+Function: xmlClearParserCtxt  * 1 
+Function: xmlClearNodeInfoSeq  * 1 
+Ind-call: * 1 
+Function: xmlParserFindNodeInfo  *  * 2 
+Function: xmlParserFindNodeInfoIndex  *  * 2 
+Function: xmlParserAddNodeInfo  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlPedanticParserDefault  int 1 
+Function: xmlLineNumbersDefault  int 1 
+Function: xmlSubstituteEntitiesDefault  int 1 
+Function: xmlKeepBlanksDefault  int 1 
+Function: xmlSAX2GetPublicId  * 1 
+Function: xmlSAX2GetSystemId  * 1 
+Function: xmlSAX2GetLineNumber  * 1 
+Function: xmlSAX2GetColumnNumber  * 1 
+Function: xmlSAX2IsStandalone  * 1 
+Function: xmlSAX2HasInternalSubset  * 1 
+Function: xmlSAX2HasExternalSubset  * 1 
+Function: xmlSAX2InternalSubset  *  *  *  * 4 
+Function: xmlSAX2ErrMemory  *  * 2 
+Function: xmlSAX2ExternalSubset  *  *  *  * 4 
+Ind-call: * * * 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSAX2ResolveEntity  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSAX2GetEntity  *  * 2 
+Function: xmlFatalErrMsg.380  *  int  *  *  * 5 
+Function: xmlSAX2GetParameterEntity  *  * 2 
+Function: xmlSAX2EntityDecl  *  *  int  *  *  * 6 
+Ind-call: * * * 3 
+Function: xmlWarnMsg  *  int  *  * 4 
+Function: xmlSAX2AttributeDecl  *  *  *  int  int  *  * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlErrValid  *  int  *  *  * 5 
+Function: xmlSAX2ElementDecl  *  *  int  * 4 
+Function: xmlSAX2NotationDecl  *  *  *  * 4 
+Function: xmlSAX2UnparsedEntityDecl  *  *  *  *  * 5 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlSAX2SetDocumentLocator  *  * 2 
+Function: xmlSAX2StartDocument  * 1 
+Function: xmlSAX2EndDocument  * 1 
+Function: xmlSAX2StartElement  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCheckDefaultedAttributes  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSAX2AttributeInternal  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNsWarnMsg  *  int  *  *  * 5 
+Function: xmlNsErrMsg  *  int  *  *  * 5 
+Function: xmlSAX2EndElement  *  * 2 
+Function: xmlSAX2StartElementNs  *  *  *  *  int  *  int  int  * 9 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSAX2AttributeNs  *  *  *  *  * 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSAX2TextNode  *  *  int 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSAX2DecodeAttrEntities  *  *  * 3 
+Function: xmlSAX2EndElementNs  *  *  *  * 4 
+Function: xmlSAX2Reference  *  * 2 
+Function: xmlSAX2Characters  *  *  int 3 
+Function: xmlSAX2Text  *  *  int  int 4 
+Ind-call: * long 2 
+Function: xmlSAX2IgnorableWhitespace  *  *  int 3 
+Function: xmlSAX2ProcessingInstruction  *  *  * 3 
+Function: xmlSAX2Comment  *  * 2 
+Function: xmlSAX2CDataBlock  *  *  int 3 
+Function: xmlSAXDefaultVersion  int 1 
+Function: xmlSAXVersion  *  int 2 
+Function: xmlSAX2InitDefaultSAXHandler  *  int 2 
+Function: xmlDefaultSAXHandlerInit 0 
+Function: xmlSAX2InitHtmlDefaultSAXHandler  * 1 
+Function: htmlDefaultSAXHandlerInit 0 
+Function: xmlDestructor 0 
+Function: xmlCleanupParser 0 
+Function: xmlGlobalInitMutexDestroy 0 
+Function: xmlInitMutex  * 1 
+Function: xmlNewMutex 0 
+Function: xmlCleanupMutex  * 1 
+Function: xmlFreeMutex  * 1 
+Function: xmlMutexLock  * 1 
+Function: xmlMutexUnlock  * 1 
+Function: xmlNewRMutex 0 
+Function: xmlFreeRMutex  * 1 
+Function: xmlRMutexLock  * 1 
+Function: xmlRMutexUnlock  * 1 
+Function: xmlGetThreadId 0 
+Function: xmlLockLibrary 0 
+Function: xmlUnlockLibrary 0 
+Function: xmlInitThreads 0 
+Function: xmlInitParser 0 
+Function: xmlGlobalInitMutexLock 0 
+Function: xmlGlobalInitMutexUnlock 0 
+Function: xmlCleanupThreads 0 
+Function: xmlBuildQName  *  *  *  int 4 
+Ind-call: long 1 
+Function: xmlTreeErrMemory  * 1 
+Function: xmlSplitQName2  *  * 2 
+Ind-call: * 1 
+Function: xmlSplitQName3  *  * 2 
+Function: xmlValidateNCName  *  int 2 
+Function: xmlValidateQName  *  int 2 
+Function: xmlValidateName  *  int 2 
+Function: xmlValidateNMToken  *  int 2 
+Function: xmlSetBufferAllocationScheme  int 1 
+Function: xmlGetBufferAllocationScheme 0 
+Function: xmlNewNs  *  *  * 3 
+Ind-call: long 1 
+Function: xmlFreeNs  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSetNs  *  * 2 
+Function: xmlFreeNsList  * 1 
+Function: xmlNewDtd  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlGetIntSubset  * 1 
+Function: xmlCreateIntSubset  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeDtd  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlUnlinkNode  * 1 
+Function: xmlFreeNode  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeProp  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeNodeList  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreePropList  * 1 
+Function: xmlFreeDoc  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNewDoc  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlStringLenGetNodeList  *  *  int 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTreeErr  int  *  * 3 
+Function: xmlNewDocText  *  * 2 
+Function: xmlAddNextSibling  *  * 2 
+Ind-call: * 1 
+Function: xmlNewReference  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlStringGetNodeList  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNodeAddContent  *  * 2 
+Function: xmlNodeSetContent  *  * 2 
+Ind-call: * 1 
+Function: xmlAddPropSibling  *  *  * 3 
+Function: xmlSetTreeDoc  *  * 2 
+Function: _copyStringForNewDictIfNeeded  *  *  * 3 
+Function: xmlSetListDoc  *  * 2 
+Function: xmlHasNsProp  *  *  * 3 
+Function: xmlRemoveProp  * 1 
+Function: xmlGetPropNodeInternal  *  *  *  int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetNsList  *  * 2 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlNodeAddContentLen  *  *  int 3 
+Function: xmlNewDocTextLen  *  *  int 3 
+Function: xmlAddChild  *  * 2 
+Function: xmlTextMerge  *  * 2 
+Function: xmlNewTextLen  *  int 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewText  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNodeListGetString  *  *  int 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNodeListGetRawString  *  *  int 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNewProp  *  *  * 3 
+Function: xmlNewPropInternal  *  *  *  *  int 5 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNewNsProp  *  *  *  * 4 
+Function: xmlNewNsPropEatName  *  *  *  * 4 
+Function: xmlNewDocProp  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewDocPI  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewPI  *  * 2 
+Function: xmlNewNode  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewNodeEatName  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewDocNode  *  *  *  * 4 
+Function: xmlNewDocNodeEatName  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlNewDocRawNode  *  *  *  * 4 
+Function: xmlNewDocFragment  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewTextChild  *  *  *  * 4 
+Function: xmlNewCharRef  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewComment  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewCDataBlock  *  *  int 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNewDocComment  *  * 2 
+Function: xmlNewChild  *  *  *  * 4 
+Function: xmlAddPrevSibling  *  * 2 
+Ind-call: * 1 
+Function: xmlAddSibling  *  * 2 
+Function: xmlAddChildList  *  * 2 
+Function: xmlGetLastChild  * 1 
+Function: xmlChildElementCount  * 1 
+Function: xmlFirstElementChild  * 1 
+Function: xmlLastElementChild  * 1 
+Function: xmlPreviousElementSibling  * 1 
+Function: xmlNextElementSibling  * 1 
+Function: xmlReplaceNode  *  * 2 
+Function: xmlCopyNamespace  * 1 
+Function: xmlCopyNamespaceList  * 1 
+Function: xmlCopyProp  *  * 2 
+Function: xmlCopyPropInternal  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSearchNs  *  *  * 3 
+Ind-call: long 1 
+Function: xmlNewReconciledNs  *  *  * 3 
+Function: xmlStaticCopyNodeList  *  *  * 3 
+Function: xmlCopyDtd  * 1 
+Function: xmlStaticCopyNode  *  *  *  int 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCopyDoc  *  int 2 
+Ind-call: * 1 
+Function: xmlCopyPropList  *  * 2 
+Function: xmlGetEntityFromDtd  *  * 2 
+Function: xmlGetParameterEntityFromDtd  *  * 2 
+Function: xmlCopyNode  *  int 2 
+Function: xmlSearchNsByHref  *  *  * 3 
+Ind-call: long 1 
+Function: xmlTreeEnsureXMLDecl  * 1 
+Ind-call: long 1 
+Function: xmlNsInScope  *  *  *  * 4 
+Function: xmlDocCopyNode  *  *  int 3 
+Function: xmlDocCopyNodeList  *  * 2 
+Function: xmlCopyNodeList  * 1 
+Function: xmlGetLineNo  * 1 
+Function: xmlGetLineNoInternal  *  int 2 
+Function: xmlGetNodePath  * 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDocGetRootElement  * 1 
+Function: xmlDocSetRootElement  *  * 2 
+Function: xmlNodeSetLang  *  * 2 
+Function: xmlSetNsProp  *  *  *  * 4 
+Function: xmlNodeGetLang  * 1 
+Function: xmlGetNsProp  *  *  * 3 
+Function: xmlGetPropNodeValueInternal  * 1 
+Function: xmlNodeSetSpacePreserve  *  int 2 
+Function: xmlNodeGetSpacePreserve  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNodeSetName  *  * 2 
+Ind-call: * 1 
+Function: xmlNodeSetBase  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNodeGetBase  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetProp  *  * 2 
+Function: xmlHasProp  *  * 2 
+Function: xmlNodeBufGetContent  *  * 2 
+Function: xmlBufGetNodeContent  *  * 2 
+Function: xmlNodeGetContent  * 1 
+Function: xmlNodeSetContentLen  *  *  int 3 
+Ind-call: * 1 
+Function: xmlReconciliateNs  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetNoNsProp  *  * 2 
+Function: xmlUnsetProp  *  * 2 
+Function: xmlUnsetNsProp  *  *  * 3 
+Function: xmlSetProp  *  *  * 3 
+Ind-call: * 1 
+Function: xmlNodeIsText  * 1 
+Function: xmlIsBlankNode  * 1 
+Function: xmlTextConcat  *  *  int 3 
+Function: xmlBufferCreate 0 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlBufferCreateSize  long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlBufferDetach  * 1 
+Function: xmlBufferCreateStatic  *  long 2 
+Function: xmlBufferAdd  *  *  int 3 
+Function: xmlBufferResize  *  int 2 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlBufferSetAllocationScheme  *  int 2 
+Function: xmlBufferFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlBufferEmpty  * 1 
+Function: xmlBufferShrink  *  int 2 
+Function: xmlBufferGrow  *  int 2 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Function: xmlBufferDump  *  * 2 
+Function: xmlBufferContent  * 1 
+Function: xmlBufferLength  * 1 
+Function: xmlBufferAddHead  *  *  int 3 
+Function: xmlBufferCat  *  * 2 
+Function: xmlBufferCCat  *  * 2 
+Function: xmlBufferWriteCHAR  *  * 2 
+Function: xmlBufferWriteChar  *  * 2 
+Function: xmlBufferWriteQuotedString  *  * 2 
+Function: xmlGetDocCompressMode  * 1 
+Function: xmlSetDocCompressMode  *  int 2 
+Function: xmlGetCompressMode 0 
+Function: xmlSetCompressMode  int 1 
+Function: xmlDOMWrapNewCtxt 0 
+Ind-call: long 1 
+Function: xmlDOMWrapFreeCtxt  * 1 
+Ind-call: * 1 
+Function: xmlDOMWrapNsMapFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDOMWrapRemoveNode  *  *  *  int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDOMWrapNSNormAddNsMapItem2  *  *  *  *  * 5 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlDOMWrapStoreNs  *  *  * 3 
+Function: xmlDOMWrapReconcileNamespaces  *  *  int 3 
+Ind-call: * 1 
+Function: xmlDOMWrapNSNormGatherInScopeNs  *  * 2 
+Function: xmlDOMWrapNsMapAddItem  *  int  *  *  int 5 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: xmlDOMWrapNSNormAcquireNormalizedNs  *  *  *  *  *  int  int  int 8 
+Function: xmlDOMWrapNSNormDeclareNsForced  *  *  *  *  int 5 
+Function: xmlTreeNSListLookupByPrefix  *  * 2 
+Function: xmlSearchNsByPrefixStrict  *  *  *  * 4 
+Function: xmlDOMWrapCloneNode  *  *  *  *  *  *  int  int 8 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDOMWrapAdoptNode  *  *  *  *  *  int 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDOMWrapAdoptBranch  *  *  *  *  *  int 6 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDOMWrapAdoptAttr  *  *  *  *  *  int 6 
+Ind-call: * 1 
+Function: xmlSearchNsByNamespaceStrict  *  *  *  *  int 5 
+Function: xmlIsXHTML  *  * 2 
+Function: xmlRegisterNodeDefault  * 1 
+Function: xmlDeregisterNodeDefault  * 1 
+Function: xmlParseURI  * 1 
+Function: xmlCreateURI 0 
+Ind-call: long 1 
+Function: xmlParse3986URIReference  *  * 2 
+Function: xmlFreeURI  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCleanURI  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParse3986URI  *  * 2 
+Function: xmlParse3986RelativeRef  *  * 2 
+Ind-call: * 1 
+Function: xmlParse3986Authority  *  * 2 
+Function: xmlParse3986PathAbEmpty  *  * 2 
+Ind-call: * 1 
+Function: xmlParse3986PathAbsolute  *  * 2 
+Ind-call: * 1 
+Function: xmlParse3986PathNoScheme  *  * 2 
+Ind-call: * 1 
+Function: xmlParse3986Query  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParse3986Fragment  *  * 2 
+Ind-call: * 1 
+Function: xmlURIUnescapeString  *  int  * 3 
+Ind-call: long 1 
+Function: xmlURIErrMemory  * 1 
+Function: is_hex  char 1 
+Function: xmlParse3986Segment  *  char  int 3 
+Function: xmlParse3986Userinfo  *  * 2 
+Ind-call: * 1 
+Function: xmlParse3986Host  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParse3986Port  *  * 2 
+Function: xmlParse3986DecOctet  * 1 
+Function: xmlParse3986Scheme  *  * 2 
+Ind-call: * 1 
+Function: xmlParse3986HierPart  *  * 2 
+Ind-call: * 1 
+Function: xmlParse3986PathRootless  *  * 2 
+Ind-call: * 1 
+Function: xmlParseURIReference  *  * 2 
+Function: xmlParseURIRaw  *  int 2 
+Function: xmlSaveUri  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSaveUriRealloc  *  * 2 
+Ind-call: * long 2 
+Function: xmlPrintURI  *  * 2 
+Ind-call: * 1 
+Function: xmlNormalizeURIPath  * 1 
+Function: xmlURIEscapeStr  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlURIEscape  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlBuildURI  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Function: xmlBuildRelativeURI  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlCanonicPath  * 1 
+Ind-call: * 1 
+Function: xmlPathToURI  * 1 
+Ind-call: * 1 
+Function: xmlValidBuildContentModel  *  * 2 
+Function: xmlErrValidNode  *  *  int  *  *  *  * 7 
+Function: xmlValidBuildAContentModel  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSnprintfElementContent  *  int  *  int 4 
+Function: xmlVErrMemory  *  * 2 
+Function: xmlErrValid.689  *  int  *  * 4 
+Function: xmlNewValidCtxt 0 
+Ind-call: long 1 
+Function: xmlFreeValidCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNewDocElementContent  *  *  int 3 
+Ind-call: long 1 
+Function: xmlNewElementContent  *  int 2 
+Function: xmlCopyDocElementContent  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: xmlCopyElementContent  * 1 
+Function: xmlFreeDocElementContent  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeElementContent  * 1 
+Function: xmlSprintfElementContent  *  *  int 3 
+Function: xmlAddElementDecl  *  *  *  int  * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeElement  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeElementTable  * 1 
+Function: xmlFreeElementTableEntry  *  * 2 
+Function: xmlCopyElementTable  * 1 
+Function: xmlCopyElement  *  * 2 
+Ind-call: long 1 
+Function: xmlDumpElementDecl  *  * 2 
+Function: xmlDumpElementContent  *  * 2 
+Function: xmlDumpElementOccur  *  * 2 
+Function: xmlDumpElementTable  *  * 2 
+Function: xmlDumpElementDeclScan  *  *  * 3 
+Function: xmlCreateEnumeration  * 1 
+Ind-call: long 1 
+Function: xmlFreeEnumeration  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCopyEnumeration  * 1 
+Function: xmlAddAttributeDecl  *  *  *  *  *  int  int  *  * 9 
+Ind-call: long 1 
+Function: xmlValidateAttributeValueInternal  *  int  * 3 
+Function: xmlErrValidWarning  *  *  int  *  *  *  * 7 
+Function: xmlFreeAttribute  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetDtdElementDesc2  *  *  *  int 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlScanIDAttributeDecl  *  *  int 3 
+Function: xmlValidateNamesValueInternal  *  * 2 
+Function: xmlValidateNameValueInternal  *  * 2 
+Function: xmlValidateNmtokensValueInternal  *  * 2 
+Function: xmlValidateNmtokenValueInternal  *  * 2 
+Function: xmlIsDocNameChar  *  int 2 
+Function: xmlIsDocNameStartChar  *  int 2 
+Function: xmlFreeAttributeTable  * 1 
+Function: xmlFreeAttributeTableEntry  *  * 2 
+Function: xmlCopyAttributeTable  * 1 
+Function: xmlCopyAttribute  *  * 2 
+Ind-call: long 1 
+Function: xmlDumpAttributeDecl  *  * 2 
+Function: xmlDumpEnumeration  *  * 2 
+Function: xmlDumpAttributeTable  *  * 2 
+Function: xmlDumpAttributeDeclScan  *  *  * 3 
+Function: xmlAddNotationDecl  *  *  *  *  * 5 
+Ind-call: long 1 
+Function: xmlFreeNotation  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeNotationTable  * 1 
+Function: xmlFreeNotationTableEntry  *  * 2 
+Function: xmlCopyNotationTable  * 1 
+Function: xmlCopyNotation  *  * 2 
+Ind-call: long 1 
+Function: xmlDumpNotationDecl  *  * 2 
+Function: xmlDumpNotationTable  *  * 2 
+Function: xmlDumpNotationDeclScan  *  *  * 3 
+Function: xmlAddID  *  *  *  * 4 
+Ind-call: long 1 
+Function: xmlIsStreaming  * 1 
+Function: xmlFreeID  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeIDTable  * 1 
+Function: xmlFreeIDTableEntry  *  * 2 
+Function: xmlIsID  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetDtdAttrDesc  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRemoveID  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlValidNormalizeString  * 1 
+Function: xmlGetID  *  * 2 
+Function: xmlAddRef  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeRef  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlDummyCompare  *  * 2 
+Function: xmlFreeRefTable  * 1 
+Function: xmlFreeRefTableEntry  *  * 2 
+Function: xmlIsRef  *  *  * 3 
+Function: xmlRemoveRef  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlWalkRemoveRef  *  * 2 
+Function: xmlGetRefs  *  * 2 
+Function: xmlGetDtdElementDesc  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetDtdQElementDesc  *  *  * 3 
+Function: xmlGetDtdQAttrDesc  *  *  *  * 4 
+Function: xmlGetDtdNotationDesc  *  * 2 
+Function: xmlValidateNotationUse  *  *  * 3 
+Function: xmlIsMixedElement  *  * 2 
+Function: xmlValidateNameValue  * 1 
+Function: xmlValidateNamesValue  * 1 
+Function: xmlValidateNmtokenValue  * 1 
+Function: xmlValidateNmtokensValue  * 1 
+Function: xmlValidateNotationDecl  *  *  * 3 
+Function: xmlValidateAttributeValue  int  * 2 
+Function: xmlValidCtxtNormalizeAttributeValue  *  *  *  *  * 5 
+Ind-call: * 1 
+Function: xmlValidNormalizeAttributeValue  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlValidateAttributeDecl  *  *  * 3 
+Function: xmlValidateAttributeIdCallback  *  *  * 3 
+Function: xmlErrValidNodeNr  *  *  int  *  *  int  * 7 
+Function: xmlValidateElementDecl  *  *  * 3 
+Function: xmlValidateOneAttribute  *  *  *  *  * 5 
+Ind-call: * 1 
+Function: xmlValidateAttributeValue2  *  *  *  int  * 5 
+Ind-call: * 1 
+Function: xmlValidateOneNamespace  *  *  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlValidatePushElement  *  *  *  * 4 
+Function: xmlValidateCheckMixed  *  *  * 3 
+Function: xmlValidGetElemDecl  *  *  *  * 4 
+Function: vstateVPush  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlValidatePushCData  *  *  int 3 
+Function: xmlValidatePopElement  *  *  *  * 4 
+Function: vstateVPop  * 1 
+Function: xmlValidateOneElement  *  *  * 3 
+Ind-call: * 1 
+Function: xmlValidateOneCdataElement  *  *  * 3 
+Ind-call: * 1 
+Function: xmlValidateElementContent  *  *  *  int  * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: nodeVPush  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: nodeVPop  * 1 
+Function: xmlSnprintfElements  *  int  *  int 4 
+Function: xmlValidateRoot  *  * 2 
+Ind-call: * 1 
+Function: xmlValidateElement  *  *  * 3 
+Ind-call: * 1 
+Function: xmlValidateDocumentFinal  *  * 2 
+Function: xmlValidateCheckRefCallback  *  *  * 3 
+Function: xmlWalkValidateList  *  * 2 
+Function: xmlValidateRef  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlValidateDtd  *  *  * 3 
+Function: xmlValidateDtdFinal  *  * 2 
+Function: xmlValidateAttributeCallback  *  *  * 3 
+Function: xmlValidateNotationCallback  *  *  * 3 
+Function: xmlValidateDocument  *  * 2 
+Ind-call: * 1 
+Function: xmlValidGetPotentialChildren  *  *  *  int 4 
+Function: xmlValidGetValidElements  *  *  *  int 4 
+Function: xmlNoValidityErr  *  *  variadic 2 
+Function: __xmlIOErr  int  int  * 3 
+Function: __xmlLoaderErr  *  *  * 3 
+Function: xmlNormalizeWindowsPath  * 1 
+Function: xmlCleanupInputCallbacks 0 
+Function: xmlPopInputCallbacks 0 
+Function: xmlCleanupOutputCallbacks 0 
+Function: xmlPopOutputCallbacks 0 
+Function: xmlCheckFilename  * 1 
+Function: xmlFileMatch  * 1 
+Function: xmlFileOpen  * 1 
+Ind-call: * 1 
+Function: xmlFileOpen_real  * 1 
+Function: xmlIOErr  int  * 2 
+Function: xmlFileRead  *  *  int 3 
+Function: xmlFileClose  * 1 
+Function: xmlIOHTTPMatch  * 1 
+Function: xmlIOHTTPOpen  * 1 
+Function: xmlIOHTTPOpenW  *  int 2 
+Ind-call: long 1 
+Function: xmlIOErrMemory  * 1 
+Function: xmlFreeHTTPWriteCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCreateZMemBuff  int 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: xmlAllocOutputBufferInternal  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeZMemBuff  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlOutputBufferClose  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlOutputBufferFlush  * 1 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: xmlIOHTTPRead  *  *  int 3 
+Function: xmlIOHTTPClose  * 1 
+Function: xmlRegisterInputCallbacks  *  *  *  * 4 
+Function: xmlRegisterOutputCallbacks  *  *  *  * 4 
+Function: xmlRegisterDefaultInputCallbacks 0 
+Function: xmlGzfileMatch  * 1 
+Function: xmlGzfileOpen  * 1 
+Ind-call: * 1 
+Function: xmlGzfileRead  *  *  int 3 
+Function: xmlGzfileClose  * 1 
+Function: xmlXzfileMatch  * 1 
+Function: xmlXzfileOpen  * 1 
+Ind-call: * 1 
+Function: xmlXzfileRead  *  *  int 3 
+Function: xmlXzfileClose  * 1 
+Function: xmlXzfileOpen_real  * 1 
+Function: xmlGzfileOpen_real  * 1 
+Function: xmlRegisterDefaultOutputCallbacks 0 
+Function: xmlFileOpenW  * 1 
+Function: xmlFileWrite  *  *  int 3 
+Function: xmlIOHTTPDfltOpenW  * 1 
+Function: xmlIOHTTPWrite  *  *  int 3 
+Function: xmlIOHTTPClosePut  * 1 
+Function: xmlIOHTTPCloseWrite  *  * 2 
+Ind-call: * 1 
+Function: xmlZMemBuffGetContent  *  * 2 
+Function: xmlZMemBuffExtend  *  long 2 
+Ind-call: * long 2 
+Function: append_reverse_ulong  *  long 2 
+Function: xmlZMemBuffAppend  *  *  int 3 
+Function: xmlOutputBufferWrite  *  int  * 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: xmlRegisterHTTPPostCallbacks 0 
+Function: xmlIOHTTPClosePost  * 1 
+Function: xmlAllocParserInputBuffer  int 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlAllocOutputBuffer  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeParserInputBuffer  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: __xmlParserInputBufferCreateFilename  *  int 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParserInputBufferCreateFilename  *  int 2 
+Ind-call: * int 2 
+Function: __xmlOutputBufferCreateFilename  *  *  int 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGzfileOpenW  *  int 2 
+Function: xmlGzfileWrite  *  *  int 3 
+Function: xmlOutputBufferCreateFilename  *  *  int 3 
+Ind-call: * * int 3 
+Function: xmlParserInputBufferCreateFile  *  int 2 
+Function: xmlFileFlush  * 1 
+Function: xmlOutputBufferCreateFile  *  * 2 
+Function: xmlOutputBufferCreateBuffer  *  * 2 
+Function: xmlBufferWrite  *  *  int 3 
+Function: xmlOutputBufferCreateIO  *  *  *  * 4 
+Function: xmlOutputBufferGetContent  * 1 
+Function: xmlOutputBufferGetSize  * 1 
+Function: xmlParserInputBufferCreateFd  int  int 2 
+Function: xmlFdRead  *  *  int 3 
+Function: xmlFdClose  * 1 
+Function: xmlParserInputBufferCreateMem  *  int  int 3 
+Ind-call: * 1 
+Function: xmlParserInputBufferCreateStatic  *  int  int 3 
+Ind-call: long 1 
+Function: xmlMemRead  *  *  int 3 
+Function: xmlMemClose  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParserInputBufferCreateString  * 1 
+Ind-call: long 1 
+Function: xmlStringRead  *  *  int 3 
+Function: xmlStringClose  * 1 
+Ind-call: * 1 
+Function: xmlOutputBufferCreateFd  int  * 2 
+Function: xmlFdWrite  *  *  int 3 
+Function: xmlParserInputBufferCreateIO  *  *  *  int 4 
+Function: xmlParserInputBufferCreateFilenameDefault  * 1 
+Function: xmlOutputBufferCreateFilenameDefault  * 1 
+Function: xmlParserInputBufferPush  *  int  * 3 
+Function: xmlParserInputBufferGrow  *  int 2 
+Ind-call: * * int 3 
+Function: endOfInput  *  *  int 3 
+Function: xmlParserInputBufferRead  *  int 2 
+Function: xmlOutputBufferWriteEscape  *  *  * 3 
+Ind-call: * * * * 4 
+Ind-call: * * * * 4 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: xmlEscapeContent  *  *  *  * 4 
+Function: xmlOutputBufferWriteString  *  * 2 
+Function: xmlParserGetDirectory  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCheckHTTPInput  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSetExternalEntityLoader  * 1 
+Function: xmlDefaultExternalEntityLoader  *  *  * 3 
+Ind-call: * 1 
+Function: xmlNoNetExternalEntityLoader  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlResolveResourceFromCatalog  *  *  * 3 
+Ind-call: * 1 
+Function: xmlNoNetExists  * 1 
+Function: xmlGetExternalEntityLoader 0 
+Function: xmlLoadExternalEntity  *  *  * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Function: xmlMallocBreakpoint 0 
+Ind-call: * * int 3 
+Function: xmlMallocLoc  long  *  int 3 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * * long 4 
+Function: xmlMallocAtomicLoc  long  *  int 3 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * * long 4 
+Function: xmlMemMalloc  long 1 
+Function: xmlReallocLoc  *  long  *  int 4 
+Ind-call: * * 2 
+Ind-call: * * * long long 5 
+Function: debugmem_tag_error  * 1 
+Ind-call: * * * 3 
+Function: xmlMemRealloc  *  long 2 
+Function: xmlMemFree  * 1 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlMemStrdupLoc  *  *  int 3 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Function: xmlMemoryStrdup  * 1 
+Function: xmlMemSize  * 1 
+Function: xmlMemUsed 0 
+Function: xmlMemBlocks 0 
+Function: xmlMemDisplayLast  *  long 2 
+Function: xmlMemDisplay  * 1 
+Function: xmlMemShow  *  int 2 
+Function: xmlMemoryDump 0 
+Function: xmlInitMemory 0 
+Function: xmlInitMemoryInternal 0 
+Function: xmlCleanupMemory 0 
+Function: xmlCleanupMemoryInternal 0 
+Function: xmlMemSetup  *  *  *  * 4 
+Function: xmlMemGet  *  *  *  * 4 
+Function: xmlGcMemSetup  *  *  *  *  * 5 
+Function: xmlGcMemGet  *  *  *  *  * 5 
+Function: xmlStrndup  *  int 2 
+Ind-call: long 1 
+Function: xmlStrdup  * 1 
+Function: xmlCharStrndup  *  int 2 
+Ind-call: long 1 
+Function: xmlCharStrdup  * 1 
+Function: xmlStrcmp  *  * 2 
+Function: xmlStrEqual  *  * 2 
+Function: xmlStrQEqual  *  *  * 3 
+Function: xmlStrncmp  *  *  int 3 
+Function: xmlStrcasecmp  *  * 2 
+Function: xmlStrncasecmp  *  *  int 3 
+Function: xmlStrchr  *  char 2 
+Function: xmlStrstr  *  * 2 
+Function: xmlStrlen  * 1 
+Function: xmlStrcasestr  *  * 2 
+Function: xmlStrsub  *  int  int 3 
+Function: xmlStrncat  *  *  int 3 
+Ind-call: * long 2 
+Function: xmlStrncatNew  *  *  int 3 
+Ind-call: long 1 
+Function: xmlStrcat  *  * 2 
+Function: xmlStrPrintf  *  int  *  variadic 3 
+Function: xmlStrVPrintf  *  int  *  * 4 
+Function: xmlUTF8Size  * 1 
+Function: xmlUTF8Charcmp  *  * 2 
+Function: xmlUTF8Strlen  * 1 
+Function: xmlGetUTF8Char  *  * 2 
+Function: xmlCheckUTF8  * 1 
+Function: xmlUTF8Strsize  *  int 2 
+Function: xmlUTF8Strndup  *  int 2 
+Ind-call: long 1 
+Function: xmlUTF8Strpos  *  int 2 
+Function: xmlUTF8Strloc  *  * 2 
+Function: xmlUTF8Strsub  *  int  int 3 
+Function: xmlEscapeFormatString  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlC14NExecute  *  *  *  int  *  int  * 7 
+Function: xmlC14NErrParam  * 1 
+Function: xmlC14NErr  *  *  int  * 4 
+Function: xmlC14NNewCtx  *  *  *  int  *  int  * 7 
+Ind-call: long 1 
+Function: xmlC14NProcessNodeList  *  * 2 
+Function: xmlC14NErrInternal  * 1 
+Function: xmlC14NFreeCtx  * 1 
+Ind-call: * 1 
+Function: xmlC14NVisibleNsStackDestroy  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlC14NProcessNode  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlC14NProcessElementNode  *  *  int 3 
+Function: xmlC11NNormalizeString  *  int 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlC14NErrInvalidNode  *  * 2 
+Function: xmlC14NErrUnknownNode  int  * 2 
+Function: xmlC14NErrMemory  * 1 
+Function: xmlC14NCheckForRelativeNamespaces  *  * 2 
+Function: xmlC14NVisibleNsStackSave  *  * 2 
+Function: xmlC14NProcessNamespacesAxis  *  *  int 3 
+Ind-call: * * * 3 
+Function: xmlExcC14NProcessNamespacesAxis  *  *  int 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlC14NVisibleNsStackShift  * 1 
+Function: xmlC14NProcessAttrsAxis  *  *  int 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlC14NVisibleNsStackRestore  *  * 2 
+Function: xmlC14NAttrsCompare  *  * 2 
+Function: xmlC14NIsXmlAttr  * 1 
+Function: xmlC14NFindHiddenParentAttr  *  *  *  * 4 
+Ind-call: * * * 3 
+Function: xmlC14NFixupBaseAttr  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlC14NPrintAttrs  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlC14NIsXmlNs  * 1 
+Function: xmlC14NNsCompare  *  * 2 
+Function: xmlC14NVisibleNsStackFind  *  * 2 
+Function: xmlC14NVisibleNsStackAdd  *  *  * 3 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * long 2 
+Function: xmlExcC14NVisibleNsStackFind  *  *  * 3 
+Ind-call: * * * 3 
+Function: xmlC14NPrintNamespaces  *  * 2 
+Function: xmlC14NPrintNamespacesWalker  *  * 2 
+Function: xmlC14NStrEqual  *  * 2 
+Function: xmlC14NErrRelativeNamespace  * 1 
+Function: xmlC14NVisibleNsStackCreate 0 
+Ind-call: long 1 
+Function: xmlC14NDocSaveTo  *  *  int  *  int  * 6 
+Function: xmlC14NIsNodeInNodeset  *  *  * 3 
+Function: xmlC14NDocDumpMemory  *  *  int  *  int  * 6 
+Function: xmlC14NDocSave  *  *  int  *  int  *  int 7 
+Function: xmlFreeCatalog  * 1 
+Ind-call: * 1 
+Function: xmlFreeCatalogEntryList  * 1 
+Function: xmlFreeCatalogEntry  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlConvertSGMLCatalog  * 1 
+Ind-call: * * 2 
+Function: xmlCatalogConvertEntry  *  *  * 3 
+Function: xmlParseCatalogFile  * 1 
+Function: xmlCatalogErrMemory  * 1 
+Function: xmlLoadSGMLSuperCatalog  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlLoadFileContent  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlCreateNewCatalog  int  int 2 
+Ind-call: long 1 
+Function: xmlParseSGMLCatalog  *  *  *  int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseSGMLCatalogComment  * 1 
+Function: xmlParseSGMLCatalogName  *  * 2 
+Function: xmlParseSGMLCatalogPubid  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCatalogNormalizePublic  * 1 
+Function: xmlNewCatalogEntry  int  *  *  *  int  * 6 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlExpandCatalog  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlLoadACatalog  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlACatalogResolveSystem  *  * 2 
+Ind-call: * * * 3 
+Function: xmlCatalogListXMLResolve  *  *  * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCatalogGetSGMLSystem  *  * 2 
+Function: xmlCatalogUnWrapURN  * 1 
+Function: xmlFetchXMLCatalogFile  * 1 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlCatalogXMLResolve  *  *  * 3 
+Ind-call: * * * * 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlCatalogErr  *  *  int  *  *  *  * 7 
+Function: xmlParseXMLCatalogFile  int  * 2 
+Ind-call: * * * 3 
+Ind-call: * * int * 4 
+Ind-call: * 1 
+Function: xmlParseXMLCatalogNodeList  *  int  *  * 4 
+Function: xmlParseXMLCatalogNode  *  int  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlParseXMLCatalogOneNode  *  int  *  *  *  int  * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * * * 5 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlACatalogResolvePublic  *  * 2 
+Ind-call: * * * 3 
+Function: xmlCatalogGetSGMLPublic  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlACatalogResolve  *  *  * 3 
+Ind-call: * * * * 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlCatalogSGMLResolve  *  *  * 3 
+Function: xmlACatalogResolveURI  *  * 2 
+Ind-call: * * * 3 
+Function: xmlCatalogListXMLResolveURI  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Function: xmlCatalogXMLResolveURI  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlACatalogDump  *  * 2 
+Function: xmlDumpXMLCatalog  *  * 2 
+Function: xmlCatalogDumpEntry  *  *  * 3 
+Function: xmlDumpXMLCatalogNode  *  *  *  *  * 5 
+Function: xmlACatalogAdd  *  *  *  * 4 
+Function: xmlAddXMLCatalog  *  *  *  * 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Function: xmlGetSGMLCatalogEntryType  * 1 
+Function: xmlGetXMLCatalogEntryType  * 1 
+Function: xmlACatalogRemove  *  * 2 
+Function: xmlDelXMLCatalog  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlNewCatalog  int 1 
+Function: xmlCatalogIsEmpty  * 1 
+Function: xmlInitializeCatalog 0 
+Ind-call: * 1 
+Function: xmlInitializeCatalogData 0 
+Function: xmlLoadCatalog  * 1 
+Function: xmlLoadCatalogs  * 1 
+Ind-call: * 1 
+Function: xmlCatalogCleanup 0 
+Ind-call: * * 2 
+Function: xmlFreeCatalogHashEntryList  *  * 2 
+Function: xmlCatalogResolveSystem  * 1 
+Function: xmlCatalogResolvePublic  * 1 
+Function: xmlCatalogResolve  *  * 2 
+Function: xmlCatalogResolveURI  * 1 
+Function: xmlCatalogDump  * 1 
+Function: xmlCatalogAdd  *  *  * 3 
+Function: xmlCatalogRemove  * 1 
+Function: xmlCatalogConvert 0 
+Function: xmlCatalogGetDefaults 0 
+Function: xmlCatalogSetDefaults  int 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlCatalogSetDefaultPrefer  int 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlCatalogSetDebug  int 1 
+Function: xmlCatalogFreeLocal  * 1 
+Function: xmlCatalogAddLocal  *  * 2 
+Ind-call: * * * 3 
+Function: xmlCatalogLocalResolve  *  *  * 3 
+Ind-call: * * * * 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlCatalogLocalResolveURI  *  * 2 
+Ind-call: * * * 3 
+Function: xmlCatalogGetSystem  * 1 
+Ind-call: * * 2 
+Function: xmlCatalogGetPublic  * 1 
+Ind-call: * * 2 
+Function: xmlDebugDumpString  *  * 2 
+Function: xmlDebugDumpAttr  *  *  int 3 
+Function: xmlCtxtDumpInitCtxt  * 1 
+Function: xmlCtxtDumpAttr  *  * 2 
+Function: xmlCtxtDumpCleanCtxt  * 1 
+Function: xmlCtxtDumpSpaces  * 1 
+Function: xmlCtxtDumpString  *  * 2 
+Function: xmlCtxtDumpNodeList  *  * 2 
+Function: xmlDebugErr  *  int  * 3 
+Function: xmlCtxtGenericNodeCheck  *  * 2 
+Function: xmlCtxtNsCheckScope  *  *  * 3 
+Function: xmlCtxtCheckString  *  * 2 
+Function: xmlCtxtCheckName  *  * 2 
+Function: xmlDebugErr3  *  int  *  * 4 
+Function: xmlNsCheckScope  *  * 2 
+Function: xmlCtxtDumpNode  *  * 2 
+Function: xmlCtxtDumpOneNode  *  * 2 
+Function: xmlCtxtDumpDtdNode  *  * 2 
+Function: xmlCtxtDumpElemDecl  *  * 2 
+Function: xmlCtxtDumpAttrDecl  *  * 2 
+Function: xmlCtxtDumpEntityDecl  *  * 2 
+Function: xmlCtxtDumpNamespace  *  * 2 
+Function: xmlDebugErr2  *  int  *  int 4 
+Function: xmlCtxtDumpNamespaceList  *  * 2 
+Function: xmlCtxtDumpAttrList  *  * 2 
+Function: xmlCtxtDumpEntity  *  * 2 
+Function: xmlDebugDumpEntities  *  * 2 
+Function: xmlCtxtDumpEntities  *  * 2 
+Function: xmlCtxtDumpDocHead  *  * 2 
+Function: xmlCtxtDumpEntityCallback  *  *  * 3 
+Function: xmlDebugDumpAttrList  *  *  int 3 
+Function: xmlDebugDumpOneNode  *  *  int 3 
+Function: xmlDebugDumpNode  *  *  int 3 
+Function: xmlDebugDumpNodeList  *  *  int 3 
+Function: xmlDebugDumpDocumentHead  *  * 2 
+Function: xmlCtxtDumpDocumentHead  *  * 2 
+Function: xmlDebugDumpDocument  *  * 2 
+Function: xmlCtxtDumpDocument  *  * 2 
+Function: xmlDebugDumpDTD  *  * 2 
+Function: xmlCtxtDumpDTD  *  * 2 
+Function: xmlDebugCheckDocument  *  * 2 
+Function: xmlLsCountNode  * 1 
+Function: xmlLsOneNode  *  * 2 
+Function: xmlBoolToText  int 1 
+Function: xmlShellPrintXPathError  int  * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlShellPrintNode  * 1 
+Function: xmlShellPrintNodeCtxt  *  * 2 
+Function: xmlShellPrintXPathResult  * 1 
+Function: xmlShellPrintXPathResultCtxt  *  * 2 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Ind-call: * * float 3 
+Ind-call: * * * 3 
+Function: xmlShellList  *  *  *  * 4 
+Function: xmlShellBase  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlShellDir  *  *  *  * 4 
+Function: xmlShellCat  *  *  *  * 4 
+Function: xmlShellLoad  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlShellWrite  *  *  *  * 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: xmlShellSave  *  *  *  * 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Function: xmlShellValidate  *  *  *  * 4 
+Function: xmlShellDu  *  *  *  * 4 
+Function: xmlShellPwd  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlShell  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * 2 
+Ind-call: * * * int 4 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlShellRNGValidate  *  *  *  * 4 
+Ind-call: * * * 3 
+Function: xmlShellGrep  *  *  *  * 4 
+Function: xmlShellSetContent  *  *  *  * 4 
+Function: xmlShellRegisterNamespace  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlShellRegisterRootNamespaces  *  *  *  * 4 
+Function: xmlShellSetBase  *  *  *  * 4 
+Function: htmlInitAutoClose 0 
+Function: htmlTagLookup  * 1 
+Function: htmlCompareTags  *  * 2 
+Function: htmlAutoCloseTag  *  *  * 3 
+Function: htmlCheckAutoClose  *  * 2 
+Function: htmlCompareStartClose  *  * 2 
+Function: htmlIsAutoClosed  *  * 2 
+Function: htmlIsScriptAttribute  * 1 
+Function: htmlEntityLookup  * 1 
+Function: htmlEntityValueLookup  int 1 
+Function: UTF8ToHtml  *  *  *  * 4 
+Function: htmlEncodeEntities  *  *  *  *  int 5 
+Function: htmlNewDocNoDtD  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: htmlErrMemory  *  * 2 
+Function: htmlNewDoc  *  * 2 
+Function: htmlParseEntityRef  *  * 2 
+Function: htmlParseName  * 1 
+Function: htmlParseErr  *  int  *  *  * 5 
+Function: htmlParseNameComplex  * 1 
+Function: htmlCurrentChar  *  * 2 
+Ind-call: * 1 
+Function: htmlParseErrInt  *  int  *  int 4 
+Function: htmlFindEncoding  * 1 
+Function: htmlParseCharRef  * 1 
+Function: htmlParseElement  * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Function: htmlParseStartTag  * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Function: htmlnamePop  * 1 
+Function: htmlParseContent  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * int 3 
+Ind-call: * 1 
+Function: htmlAutoCloseOnEnd  * 1 
+Ind-call: * * 2 
+Function: htmlParseEndTag  * 1 
+Ind-call: * * 2 
+Function: htmlParseHTMLName_nonInvasive  * 1 
+Function: htmlAutoClose  *  * 2 
+Ind-call: * * 2 
+Function: htmlParseScript  * 1 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: htmlParseDocTypeDecl  * 1 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: htmlParseComment  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: htmlSkipBogusComment  * 1 
+Function: htmlParsePI  * 1 
+Ind-call: * * * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * 3 
+Ind-call: * 1 
+Function: htmlParseReference  * 1 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: htmlParseCharData  * 1 
+Function: htmlParseCharDataInternal  *  int 2 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Function: areBlanks.1809  *  *  int 3 
+Function: htmlCheckParagraph  * 1 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: htmlCheckImplied  *  * 2 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Ind-call: * * * 3 
+Function: htmlnamePush  *  * 2 
+Ind-call: * long 2 
+Function: htmlSkipBlankChars  * 1 
+Function: htmlParseExternalID  *  * 2 
+Function: htmlParseSystemLiteral  * 1 
+Function: htmlParsePubidLiteral  * 1 
+Function: htmlParseHTMLName  * 1 
+Function: htmlAutoCloseOnClose  *  * 2 
+Ind-call: * * 2 
+Function: htmlNodeInfoPop  * 1 
+Function: htmlGetEndPriority  * 1 
+Function: htmlParseAttribute  *  * 2 
+Function: htmlCheckMeta  *  * 2 
+Function: htmlCheckEncoding  *  * 2 
+Function: htmlParseAttValue  * 1 
+Function: htmlParseHTMLAttribute  *  char 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: __htmlParseContent  * 1 
+Function: htmlParseContentInternal  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * int 3 
+Ind-call: * 1 
+Function: htmlParserFinishElementParsing  * 1 
+Function: htmlParseElementInternal  * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: htmlNodeInfoPush  *  * 2 
+Ind-call: * long 2 
+Function: htmlParseDocument  * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: htmlFreeParserCtxt  * 1 
+Function: htmlNewParserCtxt 0 
+Function: htmlNewSAXParserCtxt  *  * 2 
+Ind-call: long 1 
+Function: htmlInitParserCtxt  *  *  * 3 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: htmlCreateMemoryParserCtxt  *  int 2 
+Function: htmlParseChunk  *  *  int  int 4 
+Ind-call: * 1 
+Function: htmlParseTryOrFinish  *  int 2 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * * int 3 
+Ind-call: * 1 
+Function: htmlParseLookupSequence  *  char  char  char  int 5 
+Function: htmlParseLookupCommentEnd  * 1 
+Function: htmlCreatePushParserCtxt  *  *  *  int  *  int 6 
+Function: htmlNewInputStream  * 1 
+Ind-call: long 1 
+Function: htmlSAXParseDoc  *  *  *  * 4 
+Ind-call: * 1 
+Function: htmlCreateDocParserCtxt  *  * 2 
+Function: htmlParseDoc  *  * 2 
+Function: htmlCreateFileParserCtxt  *  * 2 
+Ind-call: * 1 
+Function: htmlSAXParseFile  *  *  *  * 4 
+Function: htmlParseFile  *  * 2 
+Function: htmlHandleOmittedElem  int 1 
+Function: htmlElementAllowedHere  *  * 2 
+Function: htmlElementStatusHere  *  * 2 
+Function: htmlAttrAllowed  *  *  int 3 
+Function: htmlNodeStatus  *  int 2 
+Function: htmlCtxtReset  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: htmlCtxtUseOptions  *  int 2 
+Function: htmlReadDoc  *  *  *  int 4 
+Function: htmlDoRead  *  *  *  int  int 5 
+Function: htmlReadFile  *  *  int 3 
+Function: htmlReadMemory  *  int  *  *  int 5 
+Function: htmlReadFd  int  *  *  int 4 
+Function: htmlReadIO  *  *  *  *  *  int 6 
+Ind-call: * 1 
+Function: htmlCtxtReadDoc  *  *  *  *  int 5 
+Function: htmlCtxtReadFile  *  *  *  int 4 
+Function: htmlCtxtReadMemory  *  *  int  *  *  int 6 
+Function: htmlCtxtReadFd  *  int  *  *  int 5 
+Function: htmlCtxtReadIO  *  *  *  *  *  *  int 7 
+Ind-call: * 1 
+Function: htmlGetMetaEncoding  * 1 
+Function: htmlSetMetaEncoding  *  * 2 
+Function: htmlIsBooleanAttr  * 1 
+Function: htmlNodeDump  *  *  * 3 
+Function: htmlBufNodeDumpFormat  *  *  *  int 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: htmlSaveErrMemory  * 1 
+Function: htmlNodeDumpFormatOutput  *  *  *  *  int 5 
+Ind-call: * 1 
+Function: htmlDtdDumpOutput  *  *  * 3 
+Function: htmlAttrDumpOutput  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: htmlSaveErr  int  *  * 3 
+Function: htmlNodeDumpFileFormat  *  *  *  *  int 5 
+Function: htmlNodeDumpFile  *  *  * 3 
+Function: htmlDocDumpMemoryFormat  *  *  *  int 4 
+Function: htmlDocContentDumpFormatOutput  *  *  *  int 4 
+Function: htmlDocDumpMemory  *  *  * 3 
+Function: htmlNodeDumpOutput  *  *  *  * 4 
+Function: htmlDocContentDumpOutput  *  *  * 3 
+Function: htmlDocDump  *  * 2 
+Function: htmlSaveFile  *  * 2 
+Function: htmlSaveFileFormat  *  *  *  int 4 
+Function: htmlSaveFileEnc  *  *  * 3 
+Function: xmlNanoHTTPInit 0 
+Function: xmlNanoHTTPScanProxy  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNanoHTTPCleanup 0 
+Ind-call: * 1 
+Function: xmlNanoHTTPOpen  *  * 2 
+Function: xmlNanoHTTPMethod  *  *  *  *  *  int 6 
+Function: xmlNanoHTTPMethodRedir  *  *  *  *  *  *  int 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNanoHTTPNewCtxt  * 1 
+Ind-call: long 1 
+Function: xmlNanoHTTPFreeCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNanoHTTPBypassProxy  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNanoHTTPConnectHost  *  int 2 
+Function: xmlHTTPErrMemory  * 1 
+Function: xmlNanoHTTPSend  *  *  int 3 
+Function: xmlNanoHTTPReadLine  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNanoHTTPScanAnswer  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Function: xmlNanoHTTPRecv  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: socket_errno 0 
+Function: xmlNanoHTTPConnectAttempt  * 1 
+Function: xmlNanoHTTPHostnameMatch  *  * 2 
+Function: xmlNanoHTTPScanURL  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNanoHTTPOpenRedir  *  *  * 3 
+Function: xmlNanoHTTPRead  *  *  int 3 
+Function: xmlNanoHTTPClose  * 1 
+Function: xmlNanoHTTPFetch  *  *  * 3 
+Ind-call: * 1 
+Function: xmlNanoHTTPFetchContent  *  *  * 3 
+Function: xmlNanoHTTPSave  *  * 2 
+Function: xmlNanoHTTPReturnCode  * 1 
+Function: xmlNanoHTTPAuthHeader  * 1 
+Function: xmlNanoHTTPContentLength  * 1 
+Function: xmlNanoHTTPRedir  * 1 
+Function: xmlNanoHTTPEncoding  * 1 
+Function: xmlNanoHTTPMimeType  * 1 
+Function: __libxml2_xzopen  *  * 2 
+Function: xz_open  *  int  * 3 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xz_reset  * 1 
+Function: xz_error  *  int  * 3 
+Ind-call: * 1 
+Ind-call: long 1 
+Function: __libxml2_xzcompressed  * 1 
+Function: xz_compressed  * 1 
+Function: __libxml2_xzdopen  int  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: __libxml2_xzread  *  *  int 3 
+Function: xz_skip  *  long 2 
+Function: xz_make  * 1 
+Function: xz_load  *  *  int  * 4 
+Function: xz_decomp  * 1 
+Function: xz_avail  * 1 
+Function: gz_next4  *  * 2 
+Function: xz_avail_zstrm  * 1 
+Function: xz_head  * 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: is_format_xz  * 1 
+Function: is_format_lzma  * 1 
+Function: __libxml2_xzclose  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlModuleOpen  *  int 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlModuleErrMemory  *  * 2 
+Function: xmlModulePlatformOpen  * 1 
+Function: xmlModuleSymbol  *  *  * 3 
+Function: xmlModulePlatformSymbol  *  *  * 3 
+Function: xmlModuleClose  * 1 
+Function: xmlModulePlatformClose  * 1 
+Function: xmlModuleFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNsListDumpOutput  *  * 2 
+Function: xmlNsDumpOutput  *  *  * 3 
+Function: xmlOutputBufferWriteWSNonSig  *  int 2 
+Function: xmlSaveToFd  int  *  int 3 
+Function: xmlNewSaveCtxt  *  int 2 
+Ind-call: long 1 
+Function: xmlFreeSaveCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSaveErrMemory  * 1 
+Function: xmlSaveErr  int  *  * 3 
+Function: xmlSaveCtxtInit  * 1 
+Function: xmlEscapeEntities  *  *  *  * 4 
+Ind-call: * * 2 
+Function: xmlSerializeHexCharRef  *  int 2 
+Function: xmlSaveToFilename  *  *  int 3 
+Function: xmlSaveToBuffer  *  *  int 3 
+Function: xmlSaveToIO  *  *  *  *  int 5 
+Function: xmlSaveDoc  *  * 2 
+Function: xmlDocContentDumpOutput  *  * 2 
+Function: xmlSaveSwitchEncoding  *  * 2 
+Function: xhtmlNodeDumpOutput  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNodeDumpOutputInternal  *  * 2 
+Function: xmlSaveClearEncoding  * 1 
+Function: xmlDtdDumpOutput  *  * 2 
+Function: xmlBufDumpElementDecl  *  * 2 
+Function: xmlBufDumpAttributeDecl  *  * 2 
+Function: xmlBufDumpEntityDecl  *  * 2 
+Function: xmlNsListDumpOutputCtxt  *  * 2 
+Function: xmlAttrDumpOutput  *  * 2 
+Function: xmlNsDumpOutputCtxt  *  * 2 
+Function: xmlAttrSerializeContent  *  * 2 
+Function: xmlBufAttrSerializeTxtContent  *  *  *  * 4 
+Function: xmlBufDumpNotationTable  *  * 2 
+Function: xhtmlAttrListDumpOutput  *  * 2 
+Function: xhtmlIsEmpty  * 1 
+Function: xmlSaveTree  *  * 2 
+Function: htmlNodeDumpOutputInternal  *  * 2 
+Function: xmlSaveFlush  * 1 
+Function: xmlSaveClose  * 1 
+Function: xmlSaveSetEscape  *  * 2 
+Function: xmlSaveSetAttrEscape  *  * 2 
+Function: xmlAttrSerializeTxtContent  *  *  *  * 4 
+Function: xmlNodeDump  *  *  *  int  int 5 
+Function: xmlBufNodeDump  *  *  *  int  int 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlNodeDumpOutput  *  *  *  int  int  * 6 
+Function: xmlElemDump  *  *  * 3 
+Function: xmlDocDumpFormatMemoryEnc  *  *  *  *  int 5 
+Function: xmlDocDumpMemory  *  *  * 3 
+Function: xmlDocDumpFormatMemory  *  *  *  int 4 
+Function: xmlDocDumpMemoryEnc  *  *  *  * 4 
+Function: xmlDocFormatDump  *  *  int 3 
+Ind-call: * 1 
+Function: xmlDocDump  *  * 2 
+Function: xmlSaveFileTo  *  *  * 3 
+Function: xmlSaveFormatFileTo  *  *  *  int 4 
+Function: xmlSaveFormatFileEnc  *  *  *  int 4 
+Function: xmlSaveFileEnc  *  *  * 3 
+Function: xmlSaveFormatFile  *  *  int 3 
+Function: xmlSaveFile  *  * 2 
+Function: xmlFreePattern  * 1 
+Function: xmlFreePatternList  * 1 
+Function: xmlFreePatternInternal  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeStreamComp  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeStreamCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlStreamPush  *  *  * 3 
+Function: xmlStreamPushInternal  *  *  *  int 4 
+Function: xmlStreamCtxtAddState  *  int  int 3 
+Ind-call: * long 2 
+Function: xmlStreamPushNode  *  *  *  int 4 
+Function: xmlStreamPushAttr  *  *  * 3 
+Function: xmlStreamPop  * 1 
+Function: xmlStreamWantsAnyNode  * 1 
+Function: xmlPatterncompile  *  *  int  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlNewPatParserContext  *  *  * 3 
+Ind-call: long 1 
+Function: xmlNewPattern 0 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlCompileIDCXPathPath  * 1 
+Function: xmlCompilePathPattern  * 1 
+Function: xmlFreePatParserContext  * 1 
+Ind-call: * 1 
+Function: xmlStreamCompile  * 1 
+Function: xmlReversePattern  * 1 
+Ind-call: * long 2 
+Function: xmlNewStreamComp  int 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlStreamCompAddStep  *  *  *  int  int 5 
+Ind-call: * long 2 
+Function: xmlPatternAdd  *  *  int  *  * 5 
+Ind-call: * long 2 
+Function: xmlCompileAttributeTest  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCompileStepPattern  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlPatScanNCName  * 1 
+Function: xmlPatScanName  * 1 
+Function: xmlPatternMatch  *  * 2 
+Function: xmlPatMatch  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlPatPushState  *  int  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlPatternGetStreamCtxt  * 1 
+Function: xmlNewStreamCtxt  * 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlPatternStreamable  * 1 
+Function: xmlPatternMaxDepth  * 1 
+Function: xmlPatternMinDepth  * 1 
+Function: xmlPatternFromRoot  * 1 
+Function: xmlTextReaderRead  * 1 
+Function: xmlTextReaderReadTree  * 1 
+Function: xmlTextReaderPushData  * 1 
+Ind-call: * * 2 
+Function: xmlTextReaderValidatePop  * 1 
+Ind-call: * 1 
+Function: xmlTextReaderFreeNode  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderExpand  * 1 
+Function: xmlTextReaderEntPush  *  * 2 
+Ind-call: * long 2 
+Ind-call: * * 2 
+Function: xmlTextReaderValidateEntity  * 1 
+Function: xmlTextReaderEntPop  * 1 
+Function: xmlTextReaderValidatePush  * 1 
+Ind-call: * 1 
+Function: xmlTextReaderValidateCData  *  *  int 3 
+Function: xmlTextReaderPreserve  * 1 
+Function: xmlTextReaderDoExpand  * 1 
+Function: xmlTextReaderGetSuccessor  * 1 
+Function: xmlTextReaderFreeProp  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderFreeNodeList  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderFreePropList  *  * 2 
+Function: xmlTextReaderReadState  * 1 
+Function: xmlTextReaderNext  * 1 
+Function: xmlTextReaderNextTree  * 1 
+Function: xmlTextReaderReadInnerXml  * 1 
+Function: xmlTextReaderReadOuterXml  * 1 
+Function: xmlTextReaderReadString  * 1 
+Ind-call: * * * int 4 
+Function: xmlTextReaderCollectSiblings  * 1 
+Ind-call: * 1 
+Function: xmlTextReaderNextSibling  * 1 
+Function: xmlNewTextReader  *  * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderStartElement  *  *  * 3 
+Ind-call: * * * 3 
+Function: xmlTextReaderEndElement  *  * 2 
+Ind-call: * * 2 
+Function: xmlTextReaderStartElementNs  *  *  *  *  int  *  int  int  * 9 
+Ind-call: * * * * int * int int * 9 
+Function: xmlTextReaderEndElementNs  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: xmlTextReaderCharacters  *  *  int 3 
+Ind-call: * * int 3 
+Function: xmlTextReaderCDataBlock  *  *  int 3 
+Ind-call: * * int 3 
+Function: xmlNewTextReaderFilename  * 1 
+Ind-call: * 1 
+Function: xmlFreeTextReader  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderClose  * 1 
+Ind-call: * 1 
+Function: xmlTextReaderFreeDoc  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderGetAttributeNo  *  int 2 
+Function: xmlTextReaderGetAttribute  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderGetAttributeNs  *  *  * 3 
+Function: xmlTextReaderGetRemainder  * 1 
+Ind-call: * * * int 4 
+Function: xmlTextReaderLookupNamespace  *  * 2 
+Function: xmlTextReaderMoveToAttributeNo  *  int 2 
+Function: xmlTextReaderMoveToAttribute  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextReaderMoveToAttributeNs  *  *  * 3 
+Function: xmlTextReaderMoveToFirstAttribute  * 1 
+Function: xmlTextReaderMoveToNextAttribute  * 1 
+Function: xmlTextReaderMoveToElement  * 1 
+Function: xmlTextReaderReadAttributeValue  * 1 
+Ind-call: * 1 
+Function: xmlTextReaderConstEncoding  * 1 
+Function: xmlTextReaderAttributeCount  * 1 
+Function: xmlTextReaderNodeType  * 1 
+Function: xmlTextReaderIsEmptyElement  * 1 
+Function: xmlTextReaderLocalName  * 1 
+Function: xmlTextReaderName  * 1 
+Function: xmlTextReaderConstLocalName  * 1 
+Function: xmlTextReaderConstName  * 1 
+Function: xmlTextReaderPrefix  * 1 
+Function: xmlTextReaderConstPrefix  * 1 
+Function: xmlTextReaderNamespaceUri  * 1 
+Function: xmlTextReaderConstNamespaceUri  * 1 
+Function: xmlTextReaderBaseUri  * 1 
+Function: xmlTextReaderConstBaseUri  * 1 
+Ind-call: * 1 
+Function: xmlTextReaderDepth  * 1 
+Function: xmlTextReaderHasAttributes  * 1 
+Function: xmlTextReaderHasValue  * 1 
+Function: xmlTextReaderValue  * 1 
+Function: xmlTextReaderConstValue  * 1 
+Ind-call: * * 2 
+Function: xmlTextReaderIsDefault  * 1 
+Function: xmlTextReaderQuoteChar  * 1 
+Function: xmlTextReaderXmlLang  * 1 
+Function: xmlTextReaderConstXmlLang  * 1 
+Ind-call: * 1 
+Function: xmlTextReaderConstString  *  * 2 
+Function: xmlTextReaderNormalization  * 1 
+Function: xmlTextReaderSetParserProp  *  int  int 3 
+Function: xmlTextReaderGetParserProp  *  int 2 
+Function: xmlTextReaderGetParserLineNumber  * 1 
+Function: xmlTextReaderGetParserColumnNumber  * 1 
+Function: xmlTextReaderCurrentNode  * 1 
+Function: xmlTextReaderPreservePattern  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * * 2 
+Ind-call: * long 2 
+Ind-call: * * 2 
+Function: xmlTextReaderCurrentDoc  * 1 
+Function: xmlTextReaderRelaxNGSetSchema  *  * 2 
+Function: xmlTextReaderValidityErrorRelay  *  *  variadic 2 
+Ind-call: * * int * 4 
+Ind-call: * 1 
+Function: xmlTextReaderValidityWarningRelay  *  *  variadic 2 
+Ind-call: * * int * 4 
+Ind-call: * 1 
+Function: xmlTextReaderValidityStructuredRelay  *  * 2 
+Ind-call: * * 2 
+Function: xmlTextReaderStructuredError  *  * 2 
+Ind-call: * * 2 
+Function: xmlTextReaderBuildMessage  *  * 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Function: xmlTextReaderValidityWarning  *  *  variadic 2 
+Function: xmlTextReaderGenericError  *  int  * 3 
+Ind-call: * * int * 4 
+Ind-call: * 1 
+Function: xmlTextReaderValidityError  *  *  variadic 2 
+Function: xmlTextReaderSetSchema  *  * 2 
+Function: xmlTextReaderLocator  *  *  * 3 
+Function: xmlTextReaderSchemaValidateCtxt  *  *  int 3 
+Function: xmlTextReaderSchemaValidateInternal  *  *  *  int 4 
+Function: xmlTextReaderSchemaValidate  *  * 2 
+Function: xmlTextReaderRelaxNGValidateCtxt  *  *  int 3 
+Function: xmlTextReaderRelaxNGValidateInternal  *  *  *  int 4 
+Function: xmlTextReaderRelaxNGValidate  *  * 2 
+Function: xmlTextReaderIsNamespaceDecl  * 1 
+Function: xmlTextReaderConstXmlVersion  * 1 
+Function: xmlTextReaderStandalone  * 1 
+Function: xmlTextReaderLocatorLineNumber  * 1 
+Function: xmlTextReaderLocatorBaseURI  * 1 
+Function: xmlTextReaderSetErrorHandler  *  *  * 3 
+Function: xmlTextReaderError  *  *  variadic 2 
+Function: xmlTextReaderWarning  *  *  variadic 2 
+Function: xmlTextReaderSetStructuredErrorHandler  *  *  * 3 
+Function: xmlTextReaderIsValid  * 1 
+Function: xmlTextReaderGetErrorHandler  *  *  * 3 
+Function: xmlTextReaderSetup  *  *  *  *  int 5 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlTextReaderSetMaxAmplification  *  int 2 
+Function: xmlTextReaderByteConsumed  * 1 
+Function: xmlReaderWalker  * 1 
+Ind-call: long 1 
+Ind-call: * * 2 
+Function: xmlReaderForDoc  *  *  *  int 4 
+Function: xmlReaderForMemory  *  int  *  *  int 5 
+Function: xmlReaderForFile  *  *  int 3 
+Function: xmlReaderForFd  int  *  *  int 4 
+Function: xmlReaderForIO  *  *  *  *  *  int 6 
+Ind-call: * 1 
+Function: xmlReaderNewWalker  *  * 2 
+Function: xmlReaderNewDoc  *  *  *  *  int 5 
+Function: xmlReaderNewMemory  *  *  int  *  *  int 6 
+Function: xmlReaderNewFile  *  *  *  int 4 
+Function: xmlReaderNewFd  *  int  *  *  int 5 
+Function: xmlReaderNewIO  *  *  *  *  *  *  int 7 
+Ind-call: * 1 
+Function: xmlRegNewExecCtxt  *  *  * 3 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlRegexpErrMemory  *  * 2 
+Function: xmlRegFreeExecCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegExecPushString  *  *  * 3 
+Function: xmlRegExecPushStringInternal  *  *  *  int 4 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegCompactPushString  *  *  *  * 4 
+Ind-call: * * * * 4 
+Ind-call: * 1 
+Function: xmlFARegExecSaveInputString  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRegStrEqualWildcard  *  * 2 
+Function: xmlFARegExecSave  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: xmlFARegExecRollBack  * 1 
+Function: xmlRegExecPushString2  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlRegExecNextValues  *  *  *  *  * 5 
+Function: xmlRegExecGetValues  *  int  *  *  *  * 6 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Function: xmlRegExecErrInfo  *  *  *  *  *  * 6 
+Function: xmlRegexpPrint  *  * 2 
+Function: xmlRegPrintAtom  *  * 2 
+Function: xmlRegPrintState  *  * 2 
+Function: xmlRegPrintTrans  *  * 2 
+Function: xmlRegPrintAtomType  *  int 2 
+Function: xmlRegPrintQuantType  *  int 2 
+Function: xmlRegPrintRange  *  * 2 
+Function: xmlRegexpCompile  * 1 
+Function: xmlRegNewParserCtxt  * 1 
+Ind-call: long 1 
+Function: xmlRegStatePush  * 1 
+Ind-call: * long 2 
+Function: xmlFAParseRegExp  *  int 2 
+Function: xmlRegexpErrCompile  *  * 2 
+Function: xmlFAEliminateEpsilonTransitions  * 1 
+Function: xmlRegEpxFromParse  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegFreeParserCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegFreeState  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegFreeAtom  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegFreeRange  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegexpIsDeterminist  * 1 
+Ind-call: * 1 
+Function: xmlRegCalloc2  long  long  long 3 
+Ind-call: long 1 
+Function: xmlNewAutomata 0 
+Function: xmlFAComputesDeterminism  * 1 
+Function: xmlFreeAutomata  * 1 
+Function: xmlFAEqualAtoms  *  *  int 3 
+Function: xmlFACompareAtoms  *  *  int 3 
+Function: xmlFARecurseDeterminism  *  *  int  int  * 5 
+Function: xmlFAFinishRecurseDeterminism  *  * 2 
+Function: xmlFACompareAtomTypes  int  int 2 
+Function: xmlRegCheckCharacter  *  int 2 
+Function: xmlFACompareRanges  *  * 2 
+Function: xmlRegCheckCharacterRange  int  int  int  int  int  * 6 
+Function: xmlFAEliminateSimpleEpsilonTransitions  * 1 
+Function: xmlFAReduceEpsilonTransitions  *  int  int  int 4 
+Function: xmlFAFinishReduceEpsilonTransitions  *  int 2 
+Function: xmlRegStateAddTrans  *  *  *  *  int  int 6 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRegStateAddTransTo  *  *  int 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlFAParseBranch  *  * 2 
+Function: xmlFAParsePiece  * 1 
+Function: xmlFAGenerateEpsilonTransition  *  *  * 3 
+Function: xmlFAGenerateTransitions  *  *  *  * 4 
+Function: xmlRegCopyAtom  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: xmlRegGetCounter  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlFAGenerateCountedEpsilonTransition  *  *  *  int 4 
+Function: xmlFAGenerateCountedTransition  *  *  *  int 4 
+Function: xmlRegAtomPush  *  * 2 
+Ind-call: * long 2 
+Function: xmlRegCopyRange  *  * 2 
+Function: xmlRegNewRange  *  int  int  int  int 5 
+Ind-call: long 1 
+Function: xmlFAParseAtom  * 1 
+Function: xmlFAParseQuantifier  * 1 
+Function: xmlFAParseQuantExact  * 1 
+Function: xmlFAIsChar  * 1 
+Function: xmlRegNewAtom  *  int 2 
+Ind-call: long 1 
+Function: xmlFAParseCharClass  * 1 
+Function: xmlFAParseCharGroup  * 1 
+Function: xmlFAParseCharClassEsc  * 1 
+Function: xmlRegAtomAddRange  *  *  int  int  int  int  * 7 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlFAParseCharProp  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: parse_escaped_codepoint  * 1 
+Function: parse_escaped_codeunit  * 1 
+Function: xmlFAParsePosCharGroup  * 1 
+Function: xmlFAParseCharRange  * 1 
+Function: xmlRegNewState  * 1 
+Ind-call: long 1 
+Function: xmlRegexpExec  *  * 2 
+Function: xmlFARegExec  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRegFreeRegexp  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlAutomataSetFlags  *  int 2 
+Function: xmlAutomataGetInitState  * 1 
+Function: xmlAutomataSetFinalState  *  * 2 
+Function: xmlAutomataNewTransition  *  *  *  *  * 5 
+Function: xmlAutomataNewTransition2  *  *  *  *  *  * 6 
+Ind-call: long 1 
+Function: xmlAutomataNewNegTrans  *  *  *  *  *  * 6 
+Ind-call: long 1 
+Function: xmlAutomataNewCountTrans2  *  *  *  *  *  int  int  * 8 
+Ind-call: long 1 
+Function: xmlAutomataNewCountTrans  *  *  *  *  int  int  * 7 
+Function: xmlAutomataNewOnceTrans2  *  *  *  *  *  int  int  * 8 
+Ind-call: long 1 
+Function: xmlAutomataNewOnceTrans  *  *  *  *  int  int  * 7 
+Function: xmlAutomataNewState  * 1 
+Function: xmlAutomataNewEpsilon  *  *  * 3 
+Function: xmlAutomataNewAllTrans  *  *  *  int 4 
+Function: xmlFAGenerateAllTransition  *  *  *  int 4 
+Function: xmlAutomataNewCounter  *  int  int 3 
+Function: xmlAutomataNewCountedTrans  *  *  *  int 4 
+Function: xmlAutomataNewCounterTrans  *  *  *  int 4 
+Function: xmlAutomataCompile  * 1 
+Function: xmlAutomataIsDeterminist  * 1 
+Function: xmlUCSIsAegeanNumbers  int 1 
+Function: xmlUCSIsAlphabeticPresentationForms  int 1 
+Function: xmlUCSIsArabic  int 1 
+Function: xmlUCSIsArabicPresentationFormsA  int 1 
+Function: xmlUCSIsArabicPresentationFormsB  int 1 
+Function: xmlUCSIsArmenian  int 1 
+Function: xmlUCSIsArrows  int 1 
+Function: xmlUCSIsBasicLatin  int 1 
+Function: xmlUCSIsBengali  int 1 
+Function: xmlUCSIsBlockElements  int 1 
+Function: xmlUCSIsBopomofo  int 1 
+Function: xmlUCSIsBopomofoExtended  int 1 
+Function: xmlUCSIsBoxDrawing  int 1 
+Function: xmlUCSIsBraillePatterns  int 1 
+Function: xmlUCSIsBuhid  int 1 
+Function: xmlUCSIsByzantineMusicalSymbols  int 1 
+Function: xmlUCSIsCJKCompatibility  int 1 
+Function: xmlUCSIsCJKCompatibilityForms  int 1 
+Function: xmlUCSIsCJKCompatibilityIdeographs  int 1 
+Function: xmlUCSIsCJKCompatibilityIdeographsSupplement  int 1 
+Function: xmlUCSIsCJKRadicalsSupplement  int 1 
+Function: xmlUCSIsCJKSymbolsandPunctuation  int 1 
+Function: xmlUCSIsCJKUnifiedIdeographs  int 1 
+Function: xmlUCSIsCJKUnifiedIdeographsExtensionA  int 1 
+Function: xmlUCSIsCJKUnifiedIdeographsExtensionB  int 1 
+Function: xmlUCSIsCherokee  int 1 
+Function: xmlUCSIsCombiningDiacriticalMarks  int 1 
+Function: xmlUCSIsCombiningDiacriticalMarksforSymbols  int 1 
+Function: xmlUCSIsCombiningHalfMarks  int 1 
+Function: xmlUCSIsCombiningMarksforSymbols  int 1 
+Function: xmlUCSIsControlPictures  int 1 
+Function: xmlUCSIsCurrencySymbols  int 1 
+Function: xmlUCSIsCypriotSyllabary  int 1 
+Function: xmlUCSIsCyrillic  int 1 
+Function: xmlUCSIsCyrillicSupplement  int 1 
+Function: xmlUCSIsDeseret  int 1 
+Function: xmlUCSIsDevanagari  int 1 
+Function: xmlUCSIsDingbats  int 1 
+Function: xmlUCSIsEnclosedAlphanumerics  int 1 
+Function: xmlUCSIsEnclosedCJKLettersandMonths  int 1 
+Function: xmlUCSIsEthiopic  int 1 
+Function: xmlUCSIsGeneralPunctuation  int 1 
+Function: xmlUCSIsGeometricShapes  int 1 
+Function: xmlUCSIsGeorgian  int 1 
+Function: xmlUCSIsGothic  int 1 
+Function: xmlUCSIsGreek  int 1 
+Function: xmlUCSIsGreekExtended  int 1 
+Function: xmlUCSIsGreekandCoptic  int 1 
+Function: xmlUCSIsGujarati  int 1 
+Function: xmlUCSIsGurmukhi  int 1 
+Function: xmlUCSIsHalfwidthandFullwidthForms  int 1 
+Function: xmlUCSIsHangulCompatibilityJamo  int 1 
+Function: xmlUCSIsHangulJamo  int 1 
+Function: xmlUCSIsHangulSyllables  int 1 
+Function: xmlUCSIsHanunoo  int 1 
+Function: xmlUCSIsHebrew  int 1 
+Function: xmlUCSIsHighPrivateUseSurrogates  int 1 
+Function: xmlUCSIsHighSurrogates  int 1 
+Function: xmlUCSIsHiragana  int 1 
+Function: xmlUCSIsIPAExtensions  int 1 
+Function: xmlUCSIsIdeographicDescriptionCharacters  int 1 
+Function: xmlUCSIsKanbun  int 1 
+Function: xmlUCSIsKangxiRadicals  int 1 
+Function: xmlUCSIsKannada  int 1 
+Function: xmlUCSIsKatakana  int 1 
+Function: xmlUCSIsKatakanaPhoneticExtensions  int 1 
+Function: xmlUCSIsKhmer  int 1 
+Function: xmlUCSIsKhmerSymbols  int 1 
+Function: xmlUCSIsLao  int 1 
+Function: xmlUCSIsLatin1Supplement  int 1 
+Function: xmlUCSIsLatinExtendedA  int 1 
+Function: xmlUCSIsLatinExtendedB  int 1 
+Function: xmlUCSIsLatinExtendedAdditional  int 1 
+Function: xmlUCSIsLetterlikeSymbols  int 1 
+Function: xmlUCSIsLimbu  int 1 
+Function: xmlUCSIsLinearBIdeograms  int 1 
+Function: xmlUCSIsLinearBSyllabary  int 1 
+Function: xmlUCSIsLowSurrogates  int 1 
+Function: xmlUCSIsMalayalam  int 1 
+Function: xmlUCSIsMathematicalAlphanumericSymbols  int 1 
+Function: xmlUCSIsMathematicalOperators  int 1 
+Function: xmlUCSIsMiscellaneousMathematicalSymbolsA  int 1 
+Function: xmlUCSIsMiscellaneousMathematicalSymbolsB  int 1 
+Function: xmlUCSIsMiscellaneousSymbols  int 1 
+Function: xmlUCSIsMiscellaneousSymbolsandArrows  int 1 
+Function: xmlUCSIsMiscellaneousTechnical  int 1 
+Function: xmlUCSIsMongolian  int 1 
+Function: xmlUCSIsMusicalSymbols  int 1 
+Function: xmlUCSIsMyanmar  int 1 
+Function: xmlUCSIsNumberForms  int 1 
+Function: xmlUCSIsOgham  int 1 
+Function: xmlUCSIsOldItalic  int 1 
+Function: xmlUCSIsOpticalCharacterRecognition  int 1 
+Function: xmlUCSIsOriya  int 1 
+Function: xmlUCSIsOsmanya  int 1 
+Function: xmlUCSIsPhoneticExtensions  int 1 
+Function: xmlUCSIsPrivateUse  int 1 
+Function: xmlUCSIsPrivateUseArea  int 1 
+Function: xmlUCSIsRunic  int 1 
+Function: xmlUCSIsShavian  int 1 
+Function: xmlUCSIsSinhala  int 1 
+Function: xmlUCSIsSmallFormVariants  int 1 
+Function: xmlUCSIsSpacingModifierLetters  int 1 
+Function: xmlUCSIsSpecials  int 1 
+Function: xmlUCSIsSuperscriptsandSubscripts  int 1 
+Function: xmlUCSIsSupplementalArrowsA  int 1 
+Function: xmlUCSIsSupplementalArrowsB  int 1 
+Function: xmlUCSIsSupplementalMathematicalOperators  int 1 
+Function: xmlUCSIsSupplementaryPrivateUseAreaA  int 1 
+Function: xmlUCSIsSupplementaryPrivateUseAreaB  int 1 
+Function: xmlUCSIsSyriac  int 1 
+Function: xmlUCSIsTagalog  int 1 
+Function: xmlUCSIsTagbanwa  int 1 
+Function: xmlUCSIsTags  int 1 
+Function: xmlUCSIsTaiLe  int 1 
+Function: xmlUCSIsTaiXuanJingSymbols  int 1 
+Function: xmlUCSIsTamil  int 1 
+Function: xmlUCSIsTelugu  int 1 
+Function: xmlUCSIsThaana  int 1 
+Function: xmlUCSIsThai  int 1 
+Function: xmlUCSIsTibetan  int 1 
+Function: xmlUCSIsUgaritic  int 1 
+Function: xmlUCSIsUnifiedCanadianAboriginalSyllabics  int 1 
+Function: xmlUCSIsVariationSelectors  int 1 
+Function: xmlUCSIsVariationSelectorsSupplement  int 1 
+Function: xmlUCSIsYiRadicals  int 1 
+Function: xmlUCSIsYiSyllables  int 1 
+Function: xmlUCSIsYijingHexagramSymbols  int 1 
+Function: xmlUCSIsBlock  int  * 2 
+Ind-call: int 1 
+Function: xmlUnicodeLookup  *  * 2 
+Function: xmlUCSIsCatC  int 1 
+Function: xmlUCSIsCatCc  int 1 
+Function: xmlUCSIsCatCf  int 1 
+Function: xmlUCSIsCatCo  int 1 
+Function: xmlUCSIsCatCs  int 1 
+Function: xmlUCSIsCatL  int 1 
+Function: xmlUCSIsCatLl  int 1 
+Function: xmlUCSIsCatLm  int 1 
+Function: xmlUCSIsCatLo  int 1 
+Function: xmlUCSIsCatLt  int 1 
+Function: xmlUCSIsCatLu  int 1 
+Function: xmlUCSIsCatM  int 1 
+Function: xmlUCSIsCatMc  int 1 
+Function: xmlUCSIsCatMe  int 1 
+Function: xmlUCSIsCatMn  int 1 
+Function: xmlUCSIsCatN  int 1 
+Function: xmlUCSIsCatNd  int 1 
+Function: xmlUCSIsCatNl  int 1 
+Function: xmlUCSIsCatNo  int 1 
+Function: xmlUCSIsCatP  int 1 
+Function: xmlUCSIsCatPc  int 1 
+Function: xmlUCSIsCatPd  int 1 
+Function: xmlUCSIsCatPe  int 1 
+Function: xmlUCSIsCatPf  int 1 
+Function: xmlUCSIsCatPi  int 1 
+Function: xmlUCSIsCatPo  int 1 
+Function: xmlUCSIsCatPs  int 1 
+Function: xmlUCSIsCatS  int 1 
+Function: xmlUCSIsCatSc  int 1 
+Function: xmlUCSIsCatSk  int 1 
+Function: xmlUCSIsCatSm  int 1 
+Function: xmlUCSIsCatSo  int 1 
+Function: xmlUCSIsCatZ  int 1 
+Function: xmlUCSIsCatZl  int 1 
+Function: xmlUCSIsCatZp  int 1 
+Function: xmlUCSIsCatZs  int 1 
+Function: xmlUCSIsCat  int  * 2 
+Ind-call: int 1 
+Function: xmlRelaxNGFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGFreeGrammar  * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGFreeDocumentList  * 1 
+Function: xmlRelaxNGFreeIncludeList  * 1 
+Function: xmlRelaxNGFreeDefine  * 1 
+Ind-call: * * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGFreePartition  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGFreeInclude  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGFreeDocument  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGFreeInnerSchema  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxParserSetFlag  *  int 2 
+Function: xmlRelaxNGInitTypes 0 
+Ind-call: * * 2 
+Function: xmlRelaxNGSchemaTypeHave  *  * 2 
+Function: xmlRelaxNGSchemaTypeCheck  *  *  *  *  * 5 
+Function: xmlRelaxNGSchemaTypeCompare  *  *  *  *  *  *  * 7 
+Function: xmlRelaxNGSchemaFacetCheck  *  *  *  *  *  * 6 
+Function: xmlRelaxNGSchemaFreeValue  *  * 2 
+Function: xmlRelaxNGRegisterTypeLibrary  *  *  *  *  *  *  * 7 
+Ind-call: * * * 3 
+Ind-call: long 1 
+Ind-call: * * * 3 
+Function: xmlRelaxNGDefaultTypeHave  *  * 2 
+Function: xmlRelaxNGDefaultTypeCheck  *  *  *  *  * 5 
+Function: xmlRelaxNGDefaultTypeCompare  *  *  *  *  *  *  * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGNormalize  *  * 2 
+Ind-call: long 1 
+Function: xmlRngVErrMemory  *  * 2 
+Function: xmlRelaxNGFreeTypeLibrary  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGCleanupTypes 0 
+Function: xmlRelaxNGNewParserCtxt  * 1 
+Ind-call: long 1 
+Function: xmlRngPErrMemory  *  * 2 
+Function: xmlRelaxNGNewMemParserCtxt  *  int 2 
+Ind-call: long 1 
+Function: xmlRelaxNGNewDocParserCtxt  * 1 
+Ind-call: long 1 
+Function: xmlRelaxNGFreeParserCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGParse  * 1 
+Function: xmlRngPErr  *  *  int  *  *  * 6 
+Function: xmlRelaxNGCleanupDoc  *  * 2 
+Function: xmlRelaxNGParseDocument  *  * 2 
+Function: xmlRelaxNGComputeInterleaves  *  *  * 3 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGNewDefine  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: xmlRelaxNGTryCompile  *  * 2 
+Function: xmlRelaxNGIsCompilable  * 1 
+Function: xmlRelaxNGCompile  *  * 2 
+Function: xmlRelaxNGDefName  * 1 
+Function: xmlRelaxNGGetElements  *  *  int 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlRelaxNGCompareElemDefLists  *  *  * 3 
+Function: xmlRelaxNGCompareNameClasses  *  * 2 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Function: xmlRelaxNGElementMatch  *  *  * 3 
+Ind-call: * * * int 4 
+Function: xmlRelaxNGAddValidError  *  int  *  *  int 5 
+Function: xmlRelaxNGDumpValidError  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGPopErrors  *  int 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGShowValidError  *  int  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlRelaxNGGetErrorString  int  *  * 3 
+Function: xmlRngVErr  *  *  int  *  *  * 6 
+Function: xmlRelaxNGValidErrorPush  *  int  *  *  int 5 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRelaxNGNewRelaxNG  * 1 
+Ind-call: long 1 
+Function: xmlRelaxNGParseGrammar  *  * 2 
+Function: xmlRelaxNGNewGrammar  * 1 
+Ind-call: long 1 
+Function: xmlRelaxNGParseStart  *  * 2 
+Function: xmlRelaxNGCheckCycles  *  *  int 3 
+Function: xmlRelaxNGSimplify  *  *  * 3 
+Function: xmlRelaxNGCheckRules  *  *  int  int 4 
+Function: xmlRelaxNGCheckGroupAttrs  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGGroupContentType  int  int 2 
+Function: xmlRelaxNGCheckChoiceDeterminism  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGMaxContentType  int  int 2 
+Function: xmlRelaxNGIsNullable  * 1 
+Function: xmlRelaxNGTryUnlink  *  *  *  * 4 
+Function: xmlRelaxNGGenerateAttributes  *  * 2 
+Function: xmlRelaxNGParsePatterns  *  *  int 3 
+Function: xmlRelaxNGParseElement  *  * 2 
+Function: xmlRelaxNGParsePattern  *  * 2 
+Function: xmlRelaxNGParseAttribute  *  * 2 
+Function: xmlRelaxNGNormExtSpace  * 1 
+Function: xmlRelaxNGParseData  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * 2 
+Function: xmlRelaxNGParseValue  *  * 2 
+Ind-call: * * 2 
+Ind-call: * * * * * 5 
+Function: xmlRelaxNGParseInterleave  *  * 2 
+Function: xmlRelaxNGProcessExternalRef  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGParseImportRefs  *  * 2 
+Function: xmlRelaxNGParseImportRef  *  *  * 3 
+Function: xmlRelaxNGGetDataTypeLibrary  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGParseNameClass  *  *  * 3 
+Function: xmlRelaxNGParseExceptNameClass  *  *  int 3 
+Function: xmlRelaxNGParseGrammarContent  *  * 2 
+Function: xmlRelaxNGCombineStart  *  * 2 
+Ind-call: * 1 
+Function: xmlRelaxNGCheckCombine  *  *  * 3 
+Ind-call: * 1 
+Function: xmlRelaxNGCheckReference  *  *  * 3 
+Function: xmlRelaxNGParseDefine  *  * 2 
+Ind-call: * 1 
+Function: xmlRelaxNGParseInclude  *  * 2 
+Function: xmlRelaxNGCleanupTree  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGCleanupAttributes  *  * 2 
+Ind-call: * 1 
+Function: xmlRelaxNGLoadExternalRef  *  *  * 3 
+Ind-call: long 1 
+Function: xmlRelaxNGLoadInclude  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlRelaxNGIsBlank  * 1 
+Function: xmlRelaxNGIncludePush  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRelaxNGIncludePop  * 1 
+Function: xmlRelaxNGRemoveRedefine  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlRelaxNGDocumentPush  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRelaxNGDocumentPop  * 1 
+Function: xmlRelaxNGSetParserErrors  *  *  *  * 4 
+Function: xmlRelaxNGGetParserErrors  *  *  *  * 4 
+Function: xmlRelaxNGSetParserStructuredErrors  *  *  * 3 
+Function: xmlRelaxNGDump  *  * 2 
+Function: xmlRelaxNGDumpGrammar  *  *  int 3 
+Function: xmlRelaxNGDumpDefine  *  * 2 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Function: xmlRelaxNGDumpDefines  *  * 2 
+Function: xmlRelaxNGDumpTree  *  * 2 
+Function: xmlRelaxNGValidatePushElement  *  *  * 3 
+Function: xmlRelaxNGValidateProgressiveCallback  *  *  *  * 4 
+Function: xmlRelaxNGElemPush  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRelaxNGNewValidState  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRelaxNGValidateAttributeList  *  * 2 
+Function: xmlRelaxNGValidateElementEnd  *  int 2 
+Function: xmlRelaxNGFreeValidState  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGLogBestError  * 1 
+Function: xmlRelaxNGFreeStates  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGBestState  * 1 
+Function: xmlRelaxNGNewStates  *  int 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlRelaxNGAddStatesUniq  *  *  * 3 
+Ind-call: * long 2 
+Function: xmlRelaxNGSkipIgnored  *  * 2 
+Function: xmlRelaxNGValidateAttribute  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGValidateDefinition  *  * 2 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Function: xmlRelaxNGValidateState  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * int 4 
+Function: xmlRelaxNGAddStates  *  *  * 3 
+Ind-call: * long 2 
+Function: xmlRelaxNGEqualValidState  *  *  * 3 
+Function: xmlRelaxNGValidErrorPop  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGValidateCompiledContent  *  *  * 3 
+Function: xmlRelaxNGValidateDefinitionList  *  * 2 
+Function: xmlRelaxNGCopyValidState  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlRelaxNGValidateInterleave  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGValidateDatatype  *  *  *  * 4 
+Ind-call: * * * * * 5 
+Ind-call: * * * * * 5 
+Ind-call: * * 2 
+Ind-call: * * * * * * 6 
+Ind-call: * * 2 
+Function: xmlRelaxNGValidateValue  *  * 2 
+Ind-call: * * * * * * * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * int 4 
+Function: xmlRelaxNGNextValue  * 1 
+Function: xmlRelaxNGValidateValueList  *  * 2 
+Function: xmlRelaxNGNodeMatchesList  *  * 2 
+Function: xmlRelaxNGValidateCompiledCallback  *  *  *  * 4 
+Function: xmlRelaxNGValidateValueContent  *  * 2 
+Function: xmlRelaxNGAttributeMatch  *  *  * 3 
+Ind-call: * * * int 4 
+Function: xmlRelaxNGValidatePushCData  *  *  int 3 
+Function: xmlRelaxNGValidatePopElement  *  *  * 3 
+Function: xmlRelaxNGElemPop  * 1 
+Function: xmlRelaxNGValidateFullElement  *  *  * 3 
+Function: xmlRelaxNGNewValidCtxt  * 1 
+Ind-call: long 1 
+Function: xmlRelaxNGFreeValidCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlRelaxNGSetValidErrors  *  *  *  * 4 
+Function: xmlRelaxNGSetValidStructuredErrors  *  *  * 3 
+Function: xmlRelaxNGGetValidErrors  *  *  *  * 4 
+Function: xmlRelaxNGValidateDoc  *  * 2 
+Function: xmlRelaxNGValidateDocument  *  * 2 
+Function: xmlRelaxNGCleanPSVI  * 1 
+Function: xmlSchemaNewFacet 0 
+Ind-call: long 1 
+Function: xmlSchemaFreeWildcard  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeAnnot  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeWildcardNsSet  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeFacet  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeType  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaItemListFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeTypeLinkList  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFree  * 1 
+Ind-call: * * * int 4 
+Ind-call: * 1 
+Function: xmlSchemaBucketFreeEntry  *  * 2 
+Function: xmlSchemaBucketFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaComponentListFree  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeAttribute  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeAttributeUse  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeAttributeUseProhib  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeElement  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeModelGroup  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeAttributeGroup  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeModelGroupDef  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeIDC  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeNotation  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeQNameRef  * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetComponentTypeStr  * 1 
+Function: xmlSchemaPSimpleInternalErr  *  *  * 3 
+Function: xmlSchemaItemTypeToStr  int 1 
+Function: xmlSchemaDump  *  * 2 
+Function: xmlSchemaAnnotDump  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaTypeDumpEntry  *  *  * 3 
+Function: xmlSchemaElementDump  *  *  *  *  * 5 
+Function: xmlSchemaTypeDump  *  * 2 
+Function: xmlSchemaAttrUsesDump  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaContentModelDump  *  *  int 3 
+Ind-call: * 1 
+Function: xmlSchemaFormatQName  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSchemaNewParserCtxt  * 1 
+Function: xmlSchemaParserCtxtCreate 0 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaPErrMemory  *  *  * 3 
+Function: xmlSchemaItemListCreate 0 
+Ind-call: long 1 
+Function: xmlSchemaNewMemParserCtxt  *  int 2 
+Function: xmlSchemaNewDocParserCtxt  * 1 
+Function: xmlSchemaFreeParserCtxt  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeValidCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaConstructionCtxtFree  * 1 
+Ind-call: * 1 
+Function: xmlSchemaSubstGroupFreeEntry  *  * 2 
+Function: xmlSchemaRedefListFree  * 1 
+Ind-call: * 1 
+Function: xmlSchemaSubstGroupFree  * 1 
+Ind-call: * 1 
+Function: xmlSchemaIDCFreeKey  * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeIDCStateObjList  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaClearAttrInfos  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaClearElemInfo  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaIDCReleaseMatcherList  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaIDCFreeIDCTable  * 1 
+Function: xmlSchemaIDCFreeBinding  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlFreeIDCHashEntry  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaCheckFacet  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * * * int 4 
+Function: xmlSchemaInternalErr  *  *  * 3 
+Function: xmlSchemaVCheckCVCSimpleType  *  *  *  *  *  int  int  int 8 
+Ind-call: * * * int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFacetTypeToString  int 1 
+Function: xmlSchemaCustomErr  *  int  *  *  *  *  * 7 
+Function: xmlSchemaCustomErr4  *  int  *  *  *  *  *  *  * 9 
+Ind-call: * 1 
+Function: xmlSchemaGetComponentNode  * 1 
+Function: xmlSchemaFormatItemForReport  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFormatNodeForError  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * int 4 
+Function: xmlSchemaErr4  *  int  *  *  *  *  *  * 8 
+Function: xmlSchemaErr4Line  *  int  int  *  int  *  *  *  *  * 10 
+Ind-call: * * * 3 
+Ind-call: * * * int 4 
+Function: xmlSchemaGetComponentQName  *  * 2 
+Function: xmlSchemaGetComponentDesignation  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaWildcardPCToString  int 1 
+Function: xmlSchemaGetComponentTargetNs  * 1 
+Function: xmlSchemaGetComponentName  * 1 
+Function: xmlSchemaNormalizeValue  *  * 2 
+Function: xmlSchemaValidateNotation  *  *  *  *  *  int 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaValidateQName  *  *  *  int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaValidateFacets  *  *  *  int  *  *  long  int 8 
+Function: xmlSchemaSimpleTypeErr  *  int  *  *  *  int 6 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetUnionSimpleTypeMemberTypes  * 1 
+Function: xmlSchemaEvalErrorNodeType  *  * 2 
+Function: xmlSchemaIsGlobalItem  * 1 
+Function: xmlSchemaErr  *  int  *  *  *  * 6 
+Function: xmlSchemaGetPrimitiveType  * 1 
+Function: xmlSchemaGetWhiteSpaceFacetValue  * 1 
+Function: xmlSchemaFacetErr  *  int  *  *  long  *  *  *  *  * 10 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaAreValuesEqual  *  * 2 
+Function: xmlSchemaErr3  *  int  *  *  *  *  * 7 
+Function: xmlSchemaFormatFacetEnumSet  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetCanonValueWhtspExt  *  int  * 3 
+Function: xmlSchemaGetCanonValueWhtspExt_1  *  int  *  int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaLookupNamespace  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaGetNotation  *  *  * 3 
+Function: xmlSchemaInternalErr2  *  *  *  *  * 5 
+Ind-call: * 1 
+Function: xmlSchemaParse  * 1 
+Function: xmlSchemaNewSchema  * 1 
+Ind-call: long 1 
+Function: xmlSchemaConstructionCtxtCreate  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaAddSchemaDoc  *  int  *  *  *  int  *  *  *  * 10 
+Function: xmlSchemaParseNewDocWithContext  *  *  * 3 
+Function: xmlSchemaFixupComponents  *  * 2 
+Function: xmlSchemaCheckSRCRedefineFirst  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaAddComponents  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaResolveElementReferences  *  * 2 
+Function: xmlSchemaResolveTypeReferences  *  * 2 
+Function: xmlSchemaResolveAttrTypeReferences  *  * 2 
+Function: xmlSchemaResolveAttrUseReferences  *  * 2 
+Function: xmlSchemaResolveAttrGroupReferences  *  * 2 
+Function: xmlSchemaResolveModelGroupParticleReferences  *  * 2 
+Function: xmlSchemaResolveIDCKeyReferences  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaResolveAttrUseProhibReferences  *  * 2 
+Function: xmlSchemaCheckTypeDefCircular  *  * 2 
+Function: xmlSchemaCheckGroupDefCircular  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaCheckAttrGroupCircular  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaModelGroupToModelGroupDefFixup  *  * 2 
+Function: xmlSchemaAttributeGroupExpandRefs  *  * 2 
+Function: xmlSchemaFixupSimpleTypeStageOne  *  * 2 
+Function: xmlSchemaCheckUnionTypeDefCircular  *  * 2 
+Function: xmlSchemaFixupSimpleTypeStageTwo  *  * 2 
+Function: xmlSchemaCheckAttrPropsCorrect  *  * 2 
+Function: xmlSchemaCheckAttrUsePropsCorrect  *  * 2 
+Function: xmlSchemaCheckAGPropsCorrect  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaCheckSRCRedefineSecond  * 1 
+Function: xmlSchemaFixupComplexType  *  * 2 
+Function: xmlSchemaCheckElementDeclComponent  *  * 2 
+Function: xmlSchemaBuildContentModel  *  * 2 
+Ind-call: * * * 3 
+Function: xmlSchemaBuildAContentModel  *  * 2 
+Function: xmlSchemaPCustomErr  *  int  *  *  *  * 6 
+Function: xmlSchemaPCustomErrExt  *  int  *  *  *  *  *  * 8 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaPErrExt  *  *  int  *  *  *  *  *  *  *  *  * 12 
+Function: xmlSchemaBuildContentModelForElement  *  * 2 
+Function: xmlSchemaBuildContentModelForSubstGroup  *  *  int  * 4 
+Function: xmlSchemaSubstGroupGet  *  * 2 
+Function: xmlSchemaPErr  *  *  int  *  *  * 6 
+Function: xmlSchemaCheckElemPropsCorrect  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaCheckElemSubstGroup  *  * 2 
+Function: xmlSchemaAddElementSubstitutionMember  *  *  * 3 
+Function: xmlSchemaSubstGroupAdd  *  * 2 
+Ind-call: long 1 
+Function: xmlSchemaItemListAdd  *  * 2 
+Ind-call: * long 2 
+Function: xmlSchemaCheckSubstGroupCircular  *  * 2 
+Function: xmlSchemaCheckCOSDerivedOK  *  *  *  int 4 
+Function: xmlSchemaIsDerivedFromBuiltInType  *  int 2 
+Function: xmlSchemaParseCheckCOSValidDefault  *  *  *  *  * 5 
+Function: xmlSchemaIsParticleEmptiable  * 1 
+Function: xmlSchemaGetParticleEmptiable  * 1 
+Function: xmlSchemaCheckCOSSTDerivedOK  *  *  *  int 4 
+Function: xmlSchemaCheckCOSCTDerivedOK  *  *  *  int 4 
+Function: xmlSchemaAreEqualTypes  *  * 2 
+Function: xmlSchemaTypeFixup  *  * 2 
+Function: xmlSchemaTypeFinalContains  *  int 2 
+Function: xmlSchemaCheckSRCCT  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaAddType  *  *  int  *  *  *  int 7 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaAddParticle  *  *  int  int 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaAddModelGroup  *  *  int  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaFixupTypeAttributeUses  *  * 2 
+Function: xmlSchemaCheckCTComponent  *  * 2 
+Function: xmlSchemaCheckCTPropsCorrect  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaCheckCOSCTExtends  *  * 2 
+Function: xmlSchemaCheckDerivationOKRestriction  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaCheckDerivationOKRestriction2to4  *  int  *  *  *  *  *  * 8 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaPAttrUseErr4  *  int  *  *  *  *  *  *  *  * 10 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetEffectiveValueConstraint  *  *  *  * 4 
+Function: xmlSchemaCheckCVCWildcardNamespace  *  * 2 
+Function: xmlSchemaCheckCOSNSSubset  *  * 2 
+Function: xmlSchemaItemListRemove  *  int 2 
+Ind-call: * 1 
+Function: xmlSchemaPSimpleErr  * 1 
+Function: xmlSchemaExpandAttributeGroupRefs  *  *  *  *  * 5 
+Ind-call: * 1 
+Function: xmlSchemaItemListAddSize  *  int  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlSchemaUnionWildcards  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaNewWildcardNsConstraint  * 1 
+Ind-call: long 1 
+Function: xmlSchemaAddWildcard  *  *  int  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaCloneWildcardNsConstraints  *  *  * 3 
+Function: xmlSchemaIntersectWildcards  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaItemListInsert  *  *  int 3 
+Ind-call: * long 2 
+Function: xmlSchemaCustomWarning  *  int  *  *  *  *  *  * 8 
+Ind-call: * 1 
+Function: xmlSchemaAddItemSize  *  int  * 3 
+Function: xmlSchemaAddRedef  *  *  *  *  * 5 
+Ind-call: long 1 
+Function: xmlSchemaFinishMemberTypeDefinitionsProperty  *  * 2 
+Ind-call: long 1 
+Function: xmlSchemaCheckSTPropsCorrect  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaCheckCOSSTRestricts  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaCheckFacetValues  *  * 2 
+Function: xmlSchemaDeriveAndValidateFacets  *  * 2 
+Ind-call: long 1 
+Function: xmlSchemaTypeFixupWhitespace  * 1 
+Function: xmlSchemaTypeFixupOptimFacets  * 1 
+Function: xmlSchemaDeriveFacetErr  *  *  *  int  int  int 6 
+Ind-call: * 1 
+Function: xmlSchemaCreateVCtxtOnPCtxt  * 1 
+Function: xmlSchemaNewValidCtxt  * 1 
+Ind-call: long 1 
+Function: xmlSchemaSetValidErrors  *  *  *  * 4 
+Function: xmlSchemaSetValidStructuredErrors  *  *  * 3 
+Function: xmlSchemaSetParserStructuredErrors  *  *  * 3 
+Function: xmlSchemaSetParserErrors  *  *  *  * 4 
+Function: xmlSchemaVErrMemory  *  *  * 3 
+Function: xmlSchemaPIllegalFacetAtomicErr  *  int  *  *  * 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaPIllegalFacetListUnionErr  *  int  *  * 4 
+Ind-call: * 1 
+Function: xmlSchemaCheckUnionTypeDefCircularRecur  *  *  * 3 
+Function: xmlSchemaCheckAttrGroupCircularRecur  *  * 2 
+Function: xmlSchemaGetCircModelGrDefRef  *  * 2 
+Function: xmlSchemaCheckTypeDefCircularInternal  *  *  * 3 
+Function: xmlSchemaGetAttributeDecl  *  *  * 3 
+Function: xmlSchemaPResCompAttrErr  *  int  *  *  *  *  *  int  * 9 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetIDC  *  *  * 3 
+Function: xmlSchemaGetNamedComponent  *  int  *  * 4 
+Ind-call: * * * int 4 
+Function: xmlSchemaGetGroup  *  *  * 3 
+Function: xmlSchemaGetElem  *  *  * 3 
+Function: xmlSchemaGetAttributeGroup  *  *  * 3 
+Function: xmlSchemaGetType  *  *  * 3 
+Function: xmlSchemaResolveUnionMemberTypes  *  * 2 
+Ind-call: * 1 
+Ind-call: long 1 
+Function: xmlSchemaFindRedefCompInGraph  *  int  *  * 4 
+Function: xmlSchemaClearSchemaDefaults  * 1 
+Function: xmlSchemaParseSchemaElement  *  *  * 3 
+Function: xmlSchemaParseSchemaTopLevel  *  *  * 3 
+Function: xmlSchemaParseAnnotation  *  *  int 3 
+Function: xmlSchemaParseImport  *  *  * 3 
+Function: xmlSchemaParseInclude  *  *  * 3 
+Function: xmlSchemaParseRedefine  *  *  * 3 
+Function: xmlSchemaParseComplexType  *  *  *  int 4 
+Function: xmlSchemaParseSimpleType  *  *  *  int 4 
+Function: xmlSchemaParseElement  *  *  *  *  int 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaParseGlobalAttribute  *  *  * 3 
+Function: xmlSchemaParseAttributeGroupDefinition  *  *  * 3 
+Function: xmlSchemaParseModelGroupDefinition  *  *  * 3 
+Function: xmlSchemaParseNotation  *  *  * 3 
+Function: xmlSchemaPContentErr  *  int  *  *  *  *  * 7 
+Ind-call: * 1 
+Function: xmlSchemaPErr2  *  *  *  int  *  *  * 7 
+Function: xmlSchemaGetProp  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSchemaAddNotation  *  *  *  *  * 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaPValAttrID  *  *  * 3 
+Function: xmlSchemaGetPropNode  *  * 2 
+Function: xmlSchemaPValAttrNodeID  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetNodeContentNoDict  * 1 
+Function: xmlSchemaPSimpleTypeErr  *  int  *  *  *  *  *  *  *  * 10 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaPMissingAttrErr  *  int  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlSchemaPValAttrNode  *  *  *  *  * 5 
+Function: xmlSchemaAddModelGroupDefinition  *  *  *  *  * 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaPIllegalAttrErr  *  int  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaParseModelGroup  *  *  *  int  int 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetMinOccurs  *  *  int  int  int  * 6 
+Function: xmlGetMaxOccurs  *  *  int  int  int  * 6 
+Function: xmlSchemaPCheckParticleCorrect_2  *  *  *  int  int 5 
+Function: xmlSchemaParseModelGroupDefRef  *  *  * 3 
+Function: xmlSchemaParseAny  *  *  * 3 
+Function: xmlSchemaParseWildcardNs  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetNodeContent  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaPValAttrNodeValue  *  *  *  *  * 5 
+Function: xmlSchemaPValAttrNodeQName  *  *  *  *  *  * 6 
+Function: xmlSchemaCheckReference  *  *  *  *  * 5 
+Function: xmlSchemaNewQNameRef  *  int  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaPValAttrNodeQNameValue  *  *  *  *  *  *  * 7 
+Function: xmlSchemaPCustomAttrErr  *  int  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlSchemaFormatQNameNs  *  *  * 3 
+Function: xmlSchemaAddAttributeGroupDefinition  *  *  *  *  * 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaParseLocalAttributes  *  *  *  *  int  * 6 
+Function: xmlSchemaParseAnyAttribute  *  *  * 3 
+Function: xmlSchemaParseLocalAttribute  *  *  *  *  int 5 
+Ind-call: * 1 
+Function: xmlSchemaParseAttributeGroupRef  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSchemaPMutualExclAttrErr  *  int  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlSchemaAddAttributeUse  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaAddAttribute  *  *  *  *  *  int 6 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaAddAttributeUseProhib  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaPValAttrQName  *  *  *  *  *  *  * 7 
+Function: xmlSchemaAddElement  *  *  *  *  int 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlGetBooleanProp  *  *  *  int 4 
+Function: xmlSchemaPValAttrBlockFinal  *  *  int  int  int  int  int  int 8 
+Ind-call: * 1 
+Function: xmlSchemaParseIDC  *  *  *  int  * 5 
+Function: xmlSchemaAddIDC  *  *  *  *  int  * 6 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaParseIDCSelectorAndField  *  *  *  int 4 
+Ind-call: long 1 
+Function: xmlSchemaCheckCSelectorXPath  *  *  *  *  int 5 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaAddAnnotation  *  * 2 
+Function: xmlSchemaParseRestriction  *  *  *  int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlSchemaParseList  *  *  * 3 
+Function: xmlSchemaParseUnion  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaParseFacet  *  *  * 3 
+Function: xmlSchemaPGetBoolNodeValue  *  *  * 3 
+Ind-call: * 1 
+Function: xmlSchemaParseSimpleContent  *  *  *  * 4 
+Function: xmlSchemaParseComplexContent  *  *  *  * 4 
+Function: xmlSchemaParseExtension  *  *  *  int 4 
+Function: xmlSchemaParseIncludeOrRedefine  *  *  *  int 4 
+Function: xmlSchemaParseIncludeOrRedefineAttrs  *  *  *  *  int 5 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaParseNewDoc  *  *  * 3 
+Function: xmlSchemaNewParserCtxtUseDict  *  * 2 
+Function: xmlSchemaPValAttr  *  *  *  *  *  * 6 
+Function: xmlSchemaBuildAbsoluteURI  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaNewAnnot  *  * 2 
+Ind-call: long 1 
+Function: xmlSchemaGetPropNodeNs  *  *  * 3 
+Function: xmlSchemaPValAttrFormDefault  *  *  int 3 
+Function: xmlSchemaGetSchemaBucket  *  * 2 
+Function: xmlSchemaSchemaRelationCreate 0 
+Ind-call: long 1 
+Function: xmlSchemaSchemaRelationAddChild  *  * 2 
+Function: xmlSchemaGetSchemaBucketByTNS  *  *  int 3 
+Function: xmlSchemaGetChameleonSchemaBucket  *  *  * 3 
+Function: xmlSchemaCleanupDoc  *  * 2 
+Function: xmlSchemaBucketCreate  *  int  * 3 
+Ind-call: long 1 
+Function: xmlSchemaIsBlank  *  int 2 
+Function: xmlSchemaGetParserErrors  *  *  *  * 4 
+Function: xmlSchemaValidateSetFilename  *  * 2 
+Ind-call: * 1 
+Function: xmlSchemaIsValid  * 1 
+Function: xmlSchemaGetValidErrors  *  *  *  * 4 
+Function: xmlSchemaSetValidOptions  *  int 2 
+Function: xmlSchemaValidCtxtGetOptions  * 1 
+Function: xmlSchemaValidateOneElement  *  * 2 
+Function: xmlSchemaVStart  * 1 
+Function: xmlSchemaPreRun  * 1 
+Function: xmlSchemaVDocWalk  * 1 
+Function: xmlSchemaPostRun  * 1 
+Function: xmlSchemaClearValidCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaItemListClear  * 1 
+Ind-call: * 1 
+Function: xmlSchemaIDCFreeMatcherList  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaValidatorPushElem  * 1 
+Function: xmlSchemaValidatorPushAttribute  *  *  int  *  *  int  *  int 8 
+Function: xmlSchemaValidateElem  * 1 
+Function: xmlSchemaVPushText  *  int  *  int  int  * 6 
+Function: xmlSchemaValidatorPopElem  * 1 
+Ind-call: * 1 
+Function: xmlSchemaVContentModelCallback  *  *  *  * 4 
+Function: xmlSchemaComplexTypeErr  *  int  *  *  *  int  int  * 8 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaVCheckINodeDataType  *  *  *  * 4 
+Function: xmlSchemaCheckCOSValidDefault  *  *  * 3 
+Function: xmlSchemaXPathProcessHistory  *  int 2 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaIDCFillNodeTables  *  * 2 
+Function: xmlSchemaCheckCVCIDCKeyRef  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaBubbleIDCNodeTables  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: xmlSchemaIDCNewBinding  * 1 
+Ind-call: long 1 
+Function: xmlSchemaHashKeySequence  *  *  *  int 4 
+Function: xmlSchemaFormatIDCKeySequence  *  *  *  int 4 
+Function: xmlSchemaKeyrefErr  *  int  *  *  *  *  * 7 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFormatIDCKeySequence_1  *  *  *  int  int 5 
+Ind-call: * 1 
+Function: xmlSchemaGetCanonValueHash  *  * 2 
+Function: xmlSchemaIDCAcquireBinding  *  * 2 
+Function: xmlSchemaIDCAppendNodeTableItem  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlSchemaGetIDCDesignation  *  * 2 
+Function: xmlSchemaIDCStoreKey  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlSchemaIDCAcquireTargetList  *  * 2 
+Function: xmlSchemaIDCStoreNodeTableItem  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlSchemaVAddNodeQName  *  *  * 3 
+Function: xmlSchemaAssembleByXSI  * 1 
+Function: xmlSchemaAugmentImportedIDC  *  *  * 3 
+Function: xmlSchemaValidateChildElem  * 1 
+Function: xmlSchemaValidateElemWildcard  *  * 2 
+Function: xmlSchemaValidateElemDecl  * 1 
+Function: xmlSchemaXPathEvaluate  *  int 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlSchemaVAttributesComplex  * 1 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Ind-call: * 1 
+Function: xmlSchemaVAttributesSimple  * 1 
+Function: xmlSchemaIllegalAttrErr  *  int  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFormatErrorNodeQName  *  *  * 3 
+Function: xmlSchemaGetFreshAttrInfo  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: xmlSchemaXPathPop  * 1 
+Function: xmlSchemaIDCAddStateObject  *  *  *  int 4 
+Ind-call: long 1 
+Function: xmlSchemaGetMetaAttrInfo  *  int 2 
+Function: xmlSchemaProcessXSIType  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaIDCRegisterMatchers  *  * 2 
+Ind-call: long 1 
+Function: xmlSchemaVExpandQName  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaAugmentIDC  *  *  * 3 
+Ind-call: long 1 
+Function: xmlSchemaAssembleByLocation  *  *  *  *  * 5 
+Function: xmlSchemaGetFreshElemInfo  * 1 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: xmlSchemaCreatePCtxtOnVCtxt  * 1 
+Function: xmlSchemaValidateDoc  *  * 2 
+Function: xmlSchemaSAXPlug  *  *  * 3 
+Ind-call: long 1 
+Function: xmlSchemaSAXHandleStartElementNs  *  *  *  *  int  *  int  int  * 9 
+Ind-call: long 1 
+Ind-call: * long 2 
+Ind-call: long 1 
+Function: xmlSchemaSAXHandleEndElementNs  *  *  *  * 4 
+Function: xmlSchemaSAXHandleText  *  *  int 3 
+Function: xmlSchemaSAXHandleCDataSection  *  *  int 3 
+Function: xmlSchemaSAXHandleReference  *  * 2 
+Ind-call: * * * int 4 
+Function: internalSubsetSplit  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: isStandaloneSplit  * 1 
+Ind-call: * 1 
+Function: hasInternalSubsetSplit  * 1 
+Ind-call: * 1 
+Function: hasExternalSubsetSplit  * 1 
+Ind-call: * 1 
+Function: resolveEntitySplit  *  *  * 3 
+Ind-call: * * * 3 
+Function: getEntitySplit  *  * 2 
+Ind-call: * * 2 
+Function: entityDeclSplit  *  *  int  *  *  * 6 
+Ind-call: * * int * * * 6 
+Function: notationDeclSplit  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: attributeDeclSplit  *  *  *  int  int  *  * 7 
+Ind-call: * * * int int * * 7 
+Function: elementDeclSplit  *  *  int  * 4 
+Ind-call: * * int * 4 
+Function: unparsedEntityDeclSplit  *  *  *  *  * 5 
+Ind-call: * * * * * 5 
+Function: setDocumentLocatorSplit  *  * 2 
+Ind-call: * * 2 
+Function: startDocumentSplit  * 1 
+Ind-call: * 1 
+Function: endDocumentSplit  * 1 
+Ind-call: * 1 
+Function: processingInstructionSplit  *  *  * 3 
+Ind-call: * * * 3 
+Function: commentSplit  *  * 2 
+Ind-call: * * 2 
+Function: warningSplit  *  *  variadic 2 
+Ind-call: * * * int 4 
+Function: errorSplit  *  *  variadic 2 
+Ind-call: * * * int 4 
+Function: fatalErrorSplit  *  *  variadic 2 
+Ind-call: * * * int 4 
+Function: getParameterEntitySplit  *  * 2 
+Ind-call: * * 2 
+Function: externalSubsetSplit  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: charactersSplit  *  *  int 3 
+Ind-call: * * int 3 
+Function: ignorableWhitespaceSplit  *  *  int 3 
+Ind-call: * * int 3 
+Function: cdataBlockSplit  *  *  int 3 
+Ind-call: * * int 3 
+Function: referenceSplit  *  * 2 
+Ind-call: * * 2 
+Function: startElementNsSplit  *  *  *  *  int  *  int  int  * 9 
+Ind-call: * * * * int * int int * 9 
+Function: endElementNsSplit  *  *  *  * 4 
+Ind-call: * * * * 4 
+Function: xmlSchemaSAXUnplug  * 1 
+Ind-call: * 1 
+Function: xmlSchemaValidateSetLocator  *  *  * 3 
+Function: xmlSchemaValidateStream  *  *  int  *  * 5 
+Ind-call: * 1 
+Function: xmlSchemaValidateStreamInternal  *  * 2 
+Function: xmlSchemaValidateStreamLocator  *  *  * 3 
+Function: xmlSchemaValidateFile  *  *  int 3 
+Ind-call: * 1 
+Function: xmlSchemaValidCtxtGetParserCtxt  * 1 
+Function: xmlSchemaInitTypes 0 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: xmlSchemaTypeErrMemory  *  * 2 
+Function: xmlSchemaInitBasicType  *  int  * 3 
+Ind-call: long 1 
+Function: xmlSchemaAddParticle.3647 0 
+Ind-call: long 1 
+Function: xmlSchemaCleanupTypesInternal 0 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaFreeTypeEntry  *  * 2 
+Function: xmlSchemaNewMinLengthFacet  int 1 
+Ind-call: * 1 
+Function: xmlSchemaNewValue  int 1 
+Ind-call: long 1 
+Function: xmlSchemaCleanupTypes 0 
+Function: xmlSchemaIsBuiltInTypeFacet  *  int 2 
+Function: xmlSchemaGetBuiltInType  int 1 
+Function: xmlSchemaValueAppend  *  * 2 
+Function: xmlSchemaValueGetNext  * 1 
+Function: xmlSchemaValueGetAsString  * 1 
+Function: xmlSchemaValueGetAsBoolean  * 1 
+Function: xmlSchemaNewStringValue  int  * 2 
+Ind-call: long 1 
+Function: xmlSchemaNewNOTATIONValue  *  * 2 
+Function: xmlSchemaNewQNameValue  *  * 2 
+Function: xmlSchemaFreeValue  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaGetPredefinedType  *  * 2 
+Function: xmlSchemaGetBuiltInListSimpleTypeItemType  * 1 
+Function: xmlSchemaWhiteSpaceReplace  * 1 
+Function: xmlSchemaCollapseString  * 1 
+Function: xmlSchemaValPredefTypeNode  *  *  *  * 4 
+Function: xmlSchemaValAtomicType  *  *  *  *  int  int  int  int  int 9 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * * * int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaParseUInt  *  *  *  * 4 
+Function: xmlSchemaValidateDates  int  *  *  int 4 
+Function: xmlSchemaValidateDuration  *  *  *  int 4 
+Function: xmlSchemaCheckLanguageType  * 1 
+Function: xmlSchemaValAtomicListNode  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchemaStrip  * 1 
+Function: _xmlSchemaBase64Decode  char 1 
+Function: _xmlSchemaParseGDay  *  * 2 
+Function: _xmlSchemaParseTimeZone  *  * 2 
+Function: _xmlSchemaParseGMonth  *  * 2 
+Function: _xmlSchemaParseTime  *  * 2 
+Function: _xmlSchemaParseGYear  *  * 2 
+Function: xmlSchemaValPredefTypeNodeNoNorm  *  *  *  * 4 
+Function: xmlSchemaValidatePredefinedType  *  *  * 3 
+Function: xmlSchemaCopyValue  * 1 
+Function: xmlSchemaDupVal  * 1 
+Function: xmlSchemaCompareValues  *  * 2 
+Function: xmlSchemaCompareValuesInternal  int  *  *  int  int  *  *  int 8 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Function: xmlSchemaCompareDecimals  *  * 2 
+Function: xmlSchemaCompareDurations  *  * 2 
+Function: xmlSchemaCompareDates  *  * 2 
+Function: xmlSchemaComparePreserveReplaceStrings  *  *  int 3 
+Function: xmlSchemaComparePreserveCollapseStrings  *  *  int 3 
+Function: xmlSchemaCompareReplacedStrings  *  * 2 
+Function: xmlSchemaCompareReplaceCollapseStrings  *  *  int 3 
+Function: xmlSchemaCompareNormStrings  *  * 2 
+Function: xmlSchemaCompareFloats  *  * 2 
+Function: xmlSchemaDateNormalize  *  float 2 
+Function: _xmlSchemaDateCastYMToDays  * 1 
+Function: _xmlSchemaDateAdd  *  * 2 
+Function: xmlSchemaCompareValuesWhtsp  *  int  *  int 4 
+Function: xmlSchemaGetFacetValueAsULong  * 1 
+Function: xmlSchemaValidateListSimpleTypeFacet  *  *  long  * 4 
+Function: xmlSchemaValidateFacet  *  *  *  * 4 
+Function: xmlSchemaValidateFacetInternal  *  int  int  *  *  int 6 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Function: xmlSchemaCompareValuesWhtspExt  int  *  *  int  int  *  *  int 8 
+Function: xmlSchemaNormLen  * 1 
+Function: xmlSchemaValidateLengthFacet  *  *  *  *  * 5 
+Function: xmlSchemaValidateLengthFacetInternal  *  int  *  *  *  int 6 
+Ind-call: * * * int 4 
+Function: xmlSchemaValidateLengthFacetWhtsp  *  int  *  *  *  int 6 
+Function: xmlSchemaValidateFacetWhtsp  *  int  int  *  *  int 6 
+Function: xmlSchemaGetCanonValue  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Function: xmlSchemaGetCanonValueWhtsp  *  *  int 3 
+Function: xmlSchemaGetValType  * 1 
+Function: xmlSchematronFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronFreeRules  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronFreePatterns  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronFreeTests  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronFreeLets  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronNewParserCtxt  * 1 
+Ind-call: long 1 
+Function: xmlSchematronPErrMemory  *  *  * 3 
+Function: xmlSchematronFreeParserCtxt  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronNewMemParserCtxt  *  int 2 
+Ind-call: long 1 
+Function: xmlSchematronNewDocParserCtxt  * 1 
+Ind-call: long 1 
+Function: xmlSchematronParse  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronPErr  *  *  int  *  *  * 6 
+Function: xmlSchematronNewSchematron  * 1 
+Ind-call: long 1 
+Function: xmlSchematronAddNamespace  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlSchematronParsePattern  *  * 2 
+Ind-call: * 1 
+Function: xmlSchematronAddPattern  *  *  *  * 4 
+Ind-call: long 1 
+Function: xmlSchematronParseRule  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronAddRule  *  *  *  *  *  * 6 
+Ind-call: long 1 
+Function: xmlSchematronParseTestReportMsg  *  * 2 
+Ind-call: * 1 
+Function: xmlSchematronAddTest  *  int  *  *  *  * 6 
+Ind-call: long 1 
+Function: xmlSchematronSetValidStructuredErrors  *  *  * 3 
+Function: xmlSchematronNewValidCtxt  *  int 2 
+Ind-call: long 1 
+Function: xmlSchematronVErrMemory  *  *  * 3 
+Function: xmlSchematronFreeValidCtxt  * 1 
+Ind-call: * 1 
+Function: xmlSchematronValidateDoc  *  * 2 
+Ind-call: * * * int 4 
+Function: xmlSchematronRegisterVariables  *  *  *  * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlSchematronRunTest  *  *  *  *  * 5 
+Function: xmlSchematronUnregisterVariables  *  * 2 
+Ind-call: * * 2 
+Function: xmlSchematronNextNode  * 1 
+Function: xmlSchematronReportPattern  *  * 2 
+Ind-call: * * * int 4 
+Function: xmlSchematronReportOutput  *  *  * 3 
+Function: xmlSchematronReportSuccess  *  *  *  *  int 5 
+Ind-call: * * * int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlSchematronFormatReport  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * * int 3 
+Ind-call: * 1 
+Function: xmlSchematronGetNode  *  *  * 3 
+Function: xmlNewTextWriter  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlWriterErrMsg  *  int  * 3 
+Function: xmlFreeTextWriterStackEntry  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCmpTextWriterStackEntry  *  * 2 
+Function: xmlFreeTextWriterNsStackEntry  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlCmpTextWriterNsStackEntry  *  * 2 
+Function: xmlNewTextWriterFilename  *  int 2 
+Function: xmlNewTextWriterMemory  *  int 2 
+Function: xmlNewTextWriterPushParser  *  int 2 
+Function: xmlTextWriterWriteDocCallback  *  *  int 3 
+Function: xmlTextWriterCloseDocCallback  * 1 
+Function: xmlWriterErrMsgInt  *  int  *  int 4 
+Function: xmlNewTextWriterDoc  *  int 2 
+Function: xmlTextWriterStartDocumentCallback  * 1 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlNewTextWriterTree  *  *  int 3 
+Function: xmlFreeTextWriter  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextWriterStartDocument  *  *  *  * 4 
+Function: xmlTextWriterEndDocument  * 1 
+Function: xmlTextWriterEndElement  * 1 
+Function: xmlTextWriterEndPI  * 1 
+Function: xmlTextWriterEndCDATA  * 1 
+Function: xmlTextWriterEndDTD  * 1 
+Function: xmlTextWriterEndComment  * 1 
+Function: xmlTextWriterFlush  * 1 
+Function: xmlTextWriterEndDTDElement  * 1 
+Function: xmlTextWriterEndDTDAttlist  * 1 
+Function: xmlTextWriterEndDTDEntity  * 1 
+Function: xmlTextWriterEndAttribute  * 1 
+Function: xmlTextWriterOutputNSDecl  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextWriterWriteIndent  * 1 
+Function: xmlTextWriterWriteAttribute  *  *  * 3 
+Function: xmlTextWriterStartAttribute  *  * 2 
+Function: xmlTextWriterWriteString  *  * 2 
+Ind-call: * 1 
+Function: xmlTextWriterWriteRaw  *  * 2 
+Function: xmlTextWriterWriteRawLen  *  *  int 3 
+Function: xmlTextWriterHandleStateDependencies  *  * 2 
+Function: xmlTextWriterStartComment  * 1 
+Ind-call: long 1 
+Function: xmlTextWriterWriteFormatComment  *  *  variadic 2 
+Function: xmlTextWriterWriteVFormatComment  *  *  * 3 
+Ind-call: * 1 
+Function: xmlTextWriterVSprintf  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Function: xmlTextWriterWriteComment  *  * 2 
+Function: xmlTextWriterStartElement  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlTextWriterStartElementNS  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlTextWriterFullEndElement  * 1 
+Function: xmlTextWriterWriteFormatRaw  *  *  variadic 2 
+Function: xmlTextWriterWriteVFormatRaw  *  *  * 3 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatString  *  *  variadic 2 
+Function: xmlTextWriterWriteVFormatString  *  *  * 3 
+Ind-call: * 1 
+Function: xmlTextWriterWriteBase64  *  *  int  int 4 
+Function: xmlOutputBufferWriteBase64  *  int  * 3 
+Function: xmlTextWriterWriteBinHex  *  *  int  int 4 
+Function: xmlOutputBufferWriteBinHex  *  int  * 3 
+Function: xmlTextWriterStartAttributeNS  *  *  *  * 4 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatAttribute  *  *  *  variadic 3 
+Function: xmlTextWriterWriteVFormatAttribute  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatAttributeNS  *  *  *  *  *  variadic 5 
+Function: xmlTextWriterWriteVFormatAttributeNS  *  *  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlTextWriterWriteAttributeNS  *  *  *  *  * 5 
+Function: xmlTextWriterWriteFormatElement  *  *  *  variadic 3 
+Function: xmlTextWriterWriteVFormatElement  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlTextWriterWriteElement  *  *  * 3 
+Function: xmlTextWriterWriteFormatElementNS  *  *  *  *  *  variadic 5 
+Function: xmlTextWriterWriteVFormatElementNS  *  *  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlTextWriterWriteElementNS  *  *  *  *  * 5 
+Function: xmlTextWriterStartPI  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatPI  *  *  *  variadic 3 
+Function: xmlTextWriterWriteVFormatPI  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlTextWriterWritePI  *  *  * 3 
+Function: xmlTextWriterStartCDATA  * 1 
+Ind-call: long 1 
+Function: xmlTextWriterWriteFormatCDATA  *  *  variadic 2 
+Function: xmlTextWriterWriteVFormatCDATA  *  *  * 3 
+Ind-call: * 1 
+Function: xmlTextWriterWriteCDATA  *  * 2 
+Function: xmlTextWriterStartDTD  *  *  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatDTD  *  *  *  *  *  variadic 5 
+Function: xmlTextWriterWriteVFormatDTD  *  *  *  *  *  * 6 
+Ind-call: * 1 
+Function: xmlTextWriterWriteDTD  *  *  *  *  * 5 
+Function: xmlTextWriterStartDTDElement  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatDTDElement  *  *  *  variadic 3 
+Function: xmlTextWriterWriteVFormatDTDElement  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlTextWriterWriteDTDElement  *  *  * 3 
+Function: xmlTextWriterStartDTDAttlist  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatDTDAttlist  *  *  *  variadic 3 
+Function: xmlTextWriterWriteVFormatDTDAttlist  *  *  *  * 4 
+Ind-call: * 1 
+Function: xmlTextWriterWriteDTDAttlist  *  *  * 3 
+Function: xmlTextWriterStartDTDEntity  *  int  * 3 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlTextWriterWriteFormatDTDInternalEntity  *  int  *  *  variadic 4 
+Function: xmlTextWriterWriteVFormatDTDInternalEntity  *  int  *  *  * 5 
+Ind-call: * 1 
+Function: xmlTextWriterWriteDTDInternalEntity  *  int  *  * 4 
+Function: xmlTextWriterWriteDTDEntity  *  int  *  *  *  *  * 7 
+Function: xmlTextWriterWriteDTDExternalEntity  *  int  *  *  *  * 6 
+Function: xmlTextWriterWriteDTDExternalEntityContents  *  *  *  * 4 
+Function: xmlTextWriterWriteDTDNotation  *  *  *  * 4 
+Function: xmlTextWriterSetIndent  *  int 2 
+Function: xmlTextWriterSetIndentString  *  * 2 
+Ind-call: * 1 
+Function: xmlTextWriterSetQuoteChar  *  char 2 
+Function: xmlXIncludeNewContext  * 1 
+Ind-call: long 1 
+Function: xmlXIncludeErrMemory  *  *  * 3 
+Function: xmlXIncludeFreeContext  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXIncludeFreeRef  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXIncludeSetFlags  *  int 2 
+Function: xmlXIncludeSetStreamingMode  *  int 2 
+Function: xmlXIncludeProcessTreeFlagsData  *  int  * 3 
+Function: xmlXIncludeDoProcess  *  * 2 
+Function: xmlXIncludeTestNode  *  * 2 
+Function: xmlXIncludeExpandNode  *  * 2 
+Function: xmlXIncludeIncludeNode  *  * 2 
+Function: xmlXIncludeErr  *  *  int  *  * 5 
+Function: xmlXIncludeAddNode  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXIncludeLoadNode  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXIncludeGetProp  *  *  * 3 
+Function: xmlXIncludeLoadDoc  *  *  * 3 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXIncludeLoadTxt  *  *  * 3 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXIncludeLoadFallback  *  *  * 3 
+Function: xmlXIncludeCopyNode  *  *  int 3 
+Function: xmlXIncludeParseFile  *  * 2 
+Function: xmlXIncludeMergeEntities  *  *  * 3 
+Function: xmlXIncludeRecurseDoc  *  *  * 3 
+Ind-call: * 1 
+Function: xmlXIncludeCopyXPointer  *  * 2 
+Function: xmlXIncludeMergeEntity  *  *  * 3 
+Function: xmlXIncludeNewRef  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlXIncludeProcessFlagsData  *  int  * 3 
+Function: xmlXIncludeProcessFlags  *  int 2 
+Function: xmlXIncludeProcess  * 1 
+Function: xmlXIncludeProcessTreeFlags  *  int 2 
+Function: xmlXIncludeProcessTree  * 1 
+Function: xmlXIncludeProcessNode  *  * 2 
+Function: xmlXPathInit 0 
+Function: xmlInitXPathInternal 0 
+Function: xmlXPathIsNaN  float 1 
+Function: xmlXPathIsInf  float 1 
+Function: libxml_domnode_binary_insertion_sort  *  long 2 
+Function: libxml_domnode_binary_insertion_sort_start  *  long  long 3 
+Function: wrap_cmp  *  * 2 
+Function: libxml_domnode_binary_insertion_find  *  *  long 3 
+Function: xmlXPathCmpNodesExt  *  * 2 
+Function: libxml_domnode_tim_sort  *  long 2 
+Function: compute_minrun  long 1 
+Function: PUSH_NEXT  *  long  *  long  *  *  * 7 
+Function: libxml_domnode_check_invariant  *  int 2 
+Function: libxml_domnode_tim_sort_collapse  *  *  int  *  long 5 
+Function: libxml_domnode_tim_sort_merge  *  *  int  * 4 
+Function: libxml_domnode_tim_sort_resize  *  long 2 
+Function: libxml_domnode_count_run  *  long  long 3 
+Function: libxml_domnode_reverse_elements  *  long  long 3 
+Function: xmlXPathErr  *  int 2 
+Ind-call: * * 2 
+Function: xmlXPatherror  *  *  int  int 4 
+Function: xmlXPathFreeCompExpr  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathFreeObject  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathFreeValueTree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathFreeNodeSet  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathNodeSetFreeNs  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathDebugDumpObject  *  *  int 3 
+Function: xmlXPathDebugDumpNodeSet  *  *  int 3 
+Function: xmlXPathDebugDumpValueTree  *  *  int 3 
+Function: xmlXPathDebugDumpNodeList  *  *  int 3 
+Function: xmlXPathDebugDumpNode  *  *  int 3 
+Function: xmlXPathDebugDumpCompExpr  *  *  int 3 
+Function: xmlXPathDebugDumpStepOp  *  *  *  int 4 
+Function: xmlXPathContextSetCache  *  int  int  int 4 
+Function: xmlXPathNewCache 0 
+Ind-call: long 1 
+Function: xmlXPathFreeCache  * 1 
+Ind-call: * 1 
+Function: xmlXPathCacheFreeObjectList  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlPointerListFree  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathErrMemory  *  * 2 
+Ind-call: * * 2 
+Function: valuePop  * 1 
+Function: valuePush  *  * 2 
+Ind-call: * long 2 
+Function: xmlXPathPErrMemory  *  * 2 
+Function: xmlXPathPopBoolean  * 1 
+Function: xmlXPathCastToBoolean  * 1 
+Ind-call: * * * int 4 
+Function: xmlXPathReleaseObject  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlPointerListCreate  int 1 
+Ind-call: long 1 
+Function: xmlPointerListAddSize  *  *  int 3 
+Ind-call: * long 2 
+Function: xmlXPathCastNodeSetToBoolean  * 1 
+Function: xmlXPathCastStringToBoolean  * 1 
+Function: xmlXPathCastNumberToBoolean  float 1 
+Function: xmlXPathPopNumber  * 1 
+Function: xmlXPathCastToNumber  * 1 
+Ind-call: * * * int 4 
+Function: xmlXPathCastNodeSetToNumber  * 1 
+Ind-call: * 1 
+Function: xmlXPathCastStringToNumber  * 1 
+Function: xmlXPathCastBooleanToNumber  int 1 
+Function: xmlXPathStringEvalNumber  * 1 
+Function: xmlXPathCastNodeSetToString  * 1 
+Function: xmlXPathNodeSetSort  * 1 
+Function: xmlXPathCastNodeToString  * 1 
+Function: xmlXPathPopString  * 1 
+Function: xmlXPathCastToString  * 1 
+Ind-call: * * * int 4 
+Function: xmlXPathCastBooleanToString  int 1 
+Function: xmlXPathCastNumberToString  float 1 
+Function: xmlXPathFormatNumber  float  *  int 3 
+Function: xmlXPathPopNodeSet  * 1 
+Function: xmlXPathPopExternal  * 1 
+Function: xmlXPathOrderDocElems  * 1 
+Function: xmlXPathCmpNodes  *  * 2 
+Function: xmlXPathNodeSetCreate  * 1 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlXPathNodeSetDupNs  *  * 2 
+Ind-call: long 1 
+Function: xmlXPathNodeSetContains  *  * 2 
+Function: xmlXPathNodeSetAddNs  *  *  * 3 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlXPathNodeSetAdd  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlXPathNodeSetAddUnique  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlXPathNodeSetMerge  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlXPathNodeSetDel  *  * 2 
+Function: xmlXPathNodeSetRemove  *  int 2 
+Function: xmlXPathNewNodeSet  * 1 
+Ind-call: long 1 
+Function: xmlXPathNewValueTree  * 1 
+Ind-call: long 1 
+Function: xmlXPathNewNodeSetList  * 1 
+Function: xmlXPathWrapNodeSet  * 1 
+Ind-call: long 1 
+Function: xmlXPathFreeNodeSetList  * 1 
+Ind-call: * 1 
+Function: xmlXPathDifference  *  * 2 
+Function: xmlXPathIntersection  *  * 2 
+Function: xmlXPathDistinctSorted  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathDistinct  * 1 
+Function: xmlXPathHasSameNodes  *  * 2 
+Function: xmlXPathNodeLeadingSorted  *  * 2 
+Function: xmlXPathNodeLeading  *  * 2 
+Function: xmlXPathLeadingSorted  *  * 2 
+Function: xmlXPathLeading  *  * 2 
+Function: xmlXPathNodeTrailingSorted  *  * 2 
+Function: xmlXPathNodeTrailing  *  * 2 
+Function: xmlXPathTrailingSorted  *  * 2 
+Function: xmlXPathTrailing  *  * 2 
+Function: xmlXPathRegisterFunc  *  *  * 3 
+Function: xmlXPathRegisterFuncNS  *  *  *  * 4 
+Function: xmlXPathRegisterFuncLookup  *  *  * 3 
+Function: xmlXPathFunctionLookup  *  * 2 
+Ind-call: * * * 3 
+Function: xmlXPathFunctionLookupNS  *  *  * 3 
+Ind-call: * * * 3 
+Function: xmlXPathRegisteredFuncsCleanup  * 1 
+Function: xmlXPathRegisterVariable  *  *  * 3 
+Function: xmlXPathRegisterVariableNS  *  *  *  * 4 
+Function: xmlXPathFreeObjectEntry  *  * 2 
+Function: xmlXPathRegisterVariableLookup  *  *  * 3 
+Function: xmlXPathVariableLookup  *  * 2 
+Ind-call: * * * 3 
+Function: xmlXPathVariableLookupNS  *  *  * 3 
+Ind-call: * * * 3 
+Function: xmlXPathCacheObjectCopy  *  * 2 
+Function: xmlXPathCacheWrapNodeSet  *  * 2 
+Function: xmlXPathCacheNewString  *  * 2 
+Function: xmlXPathCacheNewBoolean  *  int 2 
+Function: xmlXPathCacheNewFloat  *  float 2 
+Function: xmlXPathObjectCopy  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * * int 3 
+Function: xmlXPathNewFloat  float 1 
+Ind-call: long 1 
+Function: xmlXPathNewBoolean  int 1 
+Ind-call: long 1 
+Function: xmlXPathNewString  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlXPathRegisteredVariablesCleanup  * 1 
+Function: xmlXPathRegisterNs  *  *  * 3 
+Ind-call: * 1 
+Function: xmlXPathNsLookup  *  * 2 
+Function: xmlXPathRegisteredNsCleanup  * 1 
+Function: xmlXPathWrapString  * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlXPathNewCString  * 1 
+Function: xmlXPathWrapCString  * 1 
+Function: xmlXPathWrapExternal  * 1 
+Ind-call: long 1 
+Function: xmlXPathConvertString  * 1 
+Ind-call: * * * int 4 
+Function: xmlXPathCastNodeToNumber  * 1 
+Ind-call: * 1 
+Function: xmlXPathConvertNumber  * 1 
+Function: xmlXPathConvertBoolean  * 1 
+Function: xmlXPathNewContext  * 1 
+Ind-call: long 1 
+Function: xmlXPathRegisterAllFunctions  * 1 
+Function: xmlXPathBooleanFunction  *  int 2 
+Function: xmlXPathCeilingFunction  *  int 2 
+Function: xmlXPathCountFunction  *  int 2 
+Function: xmlXPathConcatFunction  *  int 2 
+Function: xmlXPathContainsFunction  *  int 2 
+Function: xmlXPathIdFunction  *  int 2 
+Ind-call: * 1 
+Function: xmlXPathFalseFunction  *  int 2 
+Function: xmlXPathFloorFunction  *  int 2 
+Function: xmlXPathLastFunction  *  int 2 
+Function: xmlXPathLangFunction  *  int 2 
+Ind-call: * 1 
+Function: xmlXPathLocalNameFunction  *  int 2 
+Function: xmlXPathNotFunction  *  int 2 
+Function: xmlXPathNameFunction  *  int 2 
+Function: xmlXPathNamespaceURIFunction  *  int 2 
+Function: xmlXPathNormalizeFunction  *  int 2 
+Function: xmlXPathNumberFunction  *  int 2 
+Ind-call: * 1 
+Function: xmlXPathPositionFunction  *  int 2 
+Function: xmlXPathRoundFunction  *  int 2 
+Function: xmlXPathStringFunction  *  int 2 
+Function: xmlXPathStringLengthFunction  *  int 2 
+Ind-call: * 1 
+Function: xmlXPathStartsWithFunction  *  int 2 
+Function: xmlXPathSubstringFunction  *  int 2 
+Ind-call: * 1 
+Function: xmlXPathSubstringBeforeFunction  *  int 2 
+Function: xmlXPathSubstringAfterFunction  *  int 2 
+Function: xmlXPathSumFunction  *  int 2 
+Function: xmlXPathTrueFunction  *  int 2 
+Function: xmlXPathTranslateFunction  *  int 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Function: xmlXPathEscapeUriFunction  *  int 2 
+Function: xmlXPathCacheNewCString  *  * 2 
+Function: xmlXPathCacheWrapString  *  * 2 
+Function: xmlXPathCacheConvertString  *  * 2 
+Ind-call: * * * int 4 
+Function: xmlXPathCacheConvertNumber  *  * 2 
+Function: xmlXPathCacheNewNodeSet  *  * 2 
+Function: xmlXPathGetElementsByIds  *  * 2 
+Ind-call: * 1 
+Function: xmlXPathCacheConvertBoolean  *  * 2 
+Function: xmlXPathFreeContext  * 1 
+Ind-call: * 1 
+Function: xmlXPathNewParserContext  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathNewCompExpr 0 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlXPathFreeParserContext  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathEqualValues  * 1 
+Ind-call: * * * int 4 
+Function: xmlXPathEqualNodeSets  *  *  int 3 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathEqualNodeSetFloat  *  *  float  int 4 
+Ind-call: * 1 
+Function: xmlXPathEqualNodeSetString  *  *  int 3 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathEqualValuesCommon  *  *  * 3 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Ind-call: * * * int 4 
+Function: xmlXPathStringHash  * 1 
+Function: xmlXPathNodeValHash  * 1 
+Function: xmlXPathNotEqualValues  * 1 
+Ind-call: * * * int 4 
+Function: xmlXPathCompareValues  *  int  int 3 
+Function: xmlXPathCompareNodeSets  int  int  *  * 4 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlXPathCompareNodeSetValue  *  int  int  *  * 5 
+Ind-call: * * int 3 
+Function: xmlXPathCompareNodeSetFloat  *  int  int  *  * 5 
+Ind-call: * 1 
+Function: xmlXPathCompareNodeSetString  *  int  int  *  * 5 
+Ind-call: * 1 
+Function: xmlXPathValueFlipSign  * 1 
+Function: xmlXPathAddValues  * 1 
+Function: xmlXPathSubValues  * 1 
+Function: xmlXPathMultValues  * 1 
+Function: xmlXPathDivValues  * 1 
+Function: xmlXPathModValues  * 1 
+Function: xmlXPathNextSelf  *  * 2 
+Function: xmlXPathNextChild  *  * 2 
+Function: xmlXPathNextDescendant  *  * 2 
+Function: xmlXPathNextDescendantOrSelf  *  * 2 
+Function: xmlXPathNextParent  *  * 2 
+Function: xmlXPathNextAncestor  *  * 2 
+Function: xmlXPathNextAncestorOrSelf  *  * 2 
+Function: xmlXPathNextFollowingSibling  *  * 2 
+Function: xmlXPathNextPrecedingSibling  *  * 2 
+Function: xmlXPathNextFollowing  *  * 2 
+Function: xmlXPathNextPreceding  *  * 2 
+Function: xmlXPathIsAncestor  *  * 2 
+Function: xmlXPathNextNamespace  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathNextAttribute  *  * 2 
+Function: xmlXPathRoot  * 1 
+Function: xmlXPathParseNCName  * 1 
+Function: xmlXPathParseNameComplex  *  int 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * long 2 
+Ind-call: * 1 
+Function: xmlXPathCurrentChar  *  * 2 
+Function: xmlXPathParseName  * 1 
+Function: xmlXPathIsNodeType  * 1 
+Function: xmlXPathEvalPredicate  *  * 2 
+Ind-call: * * * int 4 
+Function: xmlXPathEvaluatePredicateResult  *  * 2 
+Ind-call: * * * int 4 
+Function: xmlXPathCtxtCompile  *  * 2 
+Function: xmlXPathTryStreamCompile  *  * 2 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlXPathCompileExpr  *  int 2 
+Function: xmlXPathOptimizeExpression  *  * 2 
+Function: xmlXPathCompAndExpr  * 1 
+Function: xmlXPathCompExprAdd  *  int  int  int  int  int  int  *  * 9 
+Ind-call: * long 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathCompEqualityExpr  * 1 
+Function: xmlXPathCompRelationalExpr  * 1 
+Function: xmlXPathCompAdditiveExpr  * 1 
+Function: xmlXPathCompMultiplicativeExpr  * 1 
+Function: xmlXPathCompUnaryExpr  * 1 
+Function: xmlXPathCompUnionExpr  * 1 
+Function: xmlXPathCompPathExpr  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathScanName  * 1 
+Function: xmlXPathCompLocationPath  * 1 
+Function: xmlXPathCompFilterExpr  * 1 
+Function: xmlXPathCompRelativeLocationPath  * 1 
+Function: xmlXPathCompStep  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathIsAxisName  * 1 
+Function: xmlXPathCompNodeTest  *  *  *  *  * 5 
+Ind-call: * * * int 4 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathCompPredicate  *  int 2 
+Function: xmlXPathParseLiteral  * 1 
+Function: xmlXPathCompPrimaryExpr  * 1 
+Function: xmlXPathCompVariableReference  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathCompNumber  * 1 
+Function: xmlXPathCompLiteral  * 1 
+Ind-call: * 1 
+Function: xmlXPathCompFunctionCall  * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPathParseQName  *  * 2 
+Function: xmlXPathCompile  * 1 
+Function: xmlXPathCompiledEval  *  * 2 
+Function: xmlXPathCompiledEvalInternal  *  *  *  int 4 
+Ind-call: * * 2 
+Ind-call: * * int 3 
+Function: xmlXPathCompParserContext  *  * 2 
+Ind-call: long 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Function: xmlXPathRunEval  *  int 2 
+Ind-call: long 1 
+Ind-call: * * 2 
+Function: xmlXPathRunStreamEval  *  *  *  int 4 
+Ind-call: * * 2 
+Function: xmlXPathCompOpEvalToBoolean  *  *  int 3 
+Function: xmlXPathCompOpEval  *  * 2 
+Ind-call: * * * * 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * * * 4 
+Ind-call: * * * 3 
+Ind-call: * int 2 
+Ind-call: * * int 3 
+Function: xmlXPathCheckOpLimit  *  long 2 
+Function: xmlXPathNodeCollectAndTest  *  *  *  *  int 5 
+Ind-call: * * 2 
+Ind-call: * * * int 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * * int 4 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * * 2 
+Ind-call: * 1 
+Function: xmlXPathCompOpEvalFirst  *  *  * 3 
+Function: xmlXPathNodeSetClearFromPos  *  int  int 3 
+Function: xmlXPathCompOpEvalLast  *  *  * 3 
+Function: xmlXPathNodeSetKeepLast  * 1 
+Function: xmlXPathNodeSetFilter  *  *  int  int  int  int 6 
+Ind-call: * long 2 
+Function: xmlXPathNodeSetClear  *  int 2 
+Function: xmlXPathCompSwap  * 1 
+Function: xmlXPathCompOpEvalFilterFirst  *  *  * 3 
+Function: xmlXPathNodeSetMergeAndClear  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlXPathNodeSetMergeAndClearNoDupls  *  * 2 
+Ind-call: long 1 
+Ind-call: * long 2 
+Function: xmlXPathNextChildElement  *  * 2 
+Function: xmlXPathNextPrecedingInternal  *  * 2 
+Function: xmlXPathIsPositionalPredicate  *  *  * 3 
+Function: xmlXPathCompOpEvalPredicate  *  *  *  int  int  int 6 
+Ind-call: * * 2 
+Function: xmlXPathCompiledEvalToBoolean  *  * 2 
+Function: xmlXPathEvalExpr  * 1 
+Function: xmlXPathEval  *  * 2 
+Ind-call: * * 2 
+Ind-call: * * int 3 
+Function: xmlXPathSetContextNode  *  * 2 
+Function: xmlXPathNodeEval  *  *  * 3 
+Function: xmlXPathEvalExpression  *  * 2 
+Function: xlinkGetDefaultHandler 0 
+Function: xlinkSetDefaultHandler  * 1 
+Function: xlinkGetDefaultDetect 0 
+Function: xlinkSetDefaultDetect  * 1 
+Function: xlinkIsLink  *  * 2 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPtrNewContext  *  *  * 3 
+Function: xmlXPtrEval  *  * 2 
+Function: xmlXPtrEvalXPointer  * 1 
+Ind-call: long 1 
+Function: xmlXPtrErr  *  int  *  * 4 
+Ind-call: * * 2 
+Function: xmlXPtrErrMemory  * 1 
+Function: xmlXPtrEvalChildSeq  *  * 2 
+Ind-call: * 1 
+Function: xmlXPtrEvalFullXPtr  *  * 2 
+Function: xmlXPtrEvalXPtrPart  *  * 2 
+Ind-call: * 1 
+Ind-call: long 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Ind-call: * 1 
+Function: xmlXPtrGetChildNo  *  int 2 
+Function: xmlXPtrGetNthChild  *  int 2 

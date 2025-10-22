@@ -1,0 +1,3 @@
+./bin/llc: error: ./bin/llc: /root/RECOMPILED/bitcodes/libXpm.so.4.11.0.s:1:2: error: expected top-level entity
+        .text
+        ^

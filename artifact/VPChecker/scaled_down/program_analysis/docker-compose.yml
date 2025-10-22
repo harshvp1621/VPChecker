@@ -1,0 +1,72 @@
+version: '3'
+
+services:
+  docker-01:
+    image: sysfilter:patched
+    container_name: docker-01
+    volumes:
+      - ./docker_vols/volaa:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-02:
+    image: sysfilter:patched
+    container_name: docker-02
+    volumes:
+      - ./docker_vols/volab:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-03:
+    image: sysfilter:patched
+    container_name: docker-03
+    volumes:
+      - ./docker_vols/volac:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-04:
+    image: sysfilter:patched
+    container_name: docker-04
+    volumes:
+      - ./docker_vols/volad:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-05:
+    image: sysfilter:patched
+    container_name: docker-05
+    volumes:
+      - ./docker_vols/volae:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-06:
+    image: sysfilter:patched
+    container_name: docker-06
+    volumes:
+      - ./docker_vols/volaf:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-07:
+    image: sysfilter:patched
+    container_name: docker-07
+    volumes:
+      - ./docker_vols/volag:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-08:
+    image: sysfilter:patched
+    container_name: docker-08
+    volumes:
+      - ./docker_vols/volah:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-09:
+    image: sysfilter:patched
+    container_name: docker-09
+    volumes:
+      - ./docker_vols/volai:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS
+
+  docker-10:
+    image: sysfilter:patched
+    container_name: docker-10
+    volumes:
+      - ./docker_vols/volaj:/home/SYSFILTER_ANALYSIS/EXE_DEBS
+      - ./docker_vols/LIBS:/home/SYSFILTER_ANALYSIS/LIBS

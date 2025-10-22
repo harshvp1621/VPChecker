@@ -1,0 +1,1258 @@
+Function: stb_vsnprintf  *  long  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:792
+Function: stb_snprintf  *  long  *  variadic 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:809
+Function: stb_sprintf  *  variadic 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:819
+Function: stb_mprintf  *  variadic 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:829
+Function: stbprint  *  variadic 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:955
+Function: stb_from_utf8  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:997
+Function: stb_to_utf8  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1047
+Function: stb__from_utf8  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1083
+Function: stb__from_utf8_alt  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1089
+Function: stb__to_utf8  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1095
+Function: stb__record_fileline  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1130
+Function: stb_fatal  *  variadic 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1137
+Function: stb_log  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1163
+Function: stb_log_fileline  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1168
+Function: stb_log_name  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1179
+Function: stb_  *  variadic 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1184
+Function: stb_append_to_file  *  *  variadic 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1201
+Function: stb_swap  *  *  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1219
+Function: stb_copy  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1247
+Function: stb_pointer_array_free  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1254
+Function: stb_array_block_alloc  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1262
+Function: stb__temp  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1301
+Function: stb_tempfree  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1309
+Function: stb_smoothstep  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1343
+Function: stb_cubic_bezier_1d  float  float  float  float  float 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1348
+Function: stb_newell_normal  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1354
+Function: stb_box_face_vertex_axis_side  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1375
+Function: stb_linear_controller  *  float  float  float  float 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1392
+Function: stb_quadratic_controller  float  float  float  float  float  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1420
+Function: stb_float_eq  float  float  float  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1425
+Function: stb_is_prime  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1432
+Function: stb_power_of_two_nearest_prime  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1446
+Function: stb_linear_remap  float  float  float  float  float 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1461
+Function: stb_bitcount  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1494
+Function: stb_bitreverse8  char 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1504
+Function: stb_bitreverse  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1511
+Function: stb_is_pow2  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1520
+Function: stb_log2_floor  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1551
+Function: stb_log2_ceil  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1574
+Function: stb_highbit8  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1580
+Function: stb_lowbit8  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1585
+Function: stb__intcmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1625
+Function: stb__intcmprev  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1632
+Function: stb__ucharcmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1639
+Function: stb__floatcmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1646
+Function: stb__doublecmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1653
+Function: stb__qsort_strcmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1660
+Function: stb__qsort_stricmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1667
+Function: stb__memcmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1674
+Function: stb_intcmp  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1679
+Function: stb_intcmprev  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1685
+Function: stb_ucharcmp  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1691
+Function: stb_qsort_strcmp  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1697
+Function: stb_qsort_stricmp  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1703
+Function: stb_floatcmp  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1709
+Function: stb_doublecmp  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1715
+Function: stb_memcmp  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1721
+Function: stb_probe  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1784
+Function: stb_probe_guess  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1753
+Function: stb_search_binary  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1827
+Function: stb_search_open  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1838
+Function: stb_strscpy  *  *  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1909
+Function: stb_plural  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1920
+Function: stb_prefix  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1925
+Function: stb_prefix_count  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1933
+Function: stb_suffix  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1944
+Function: stb_suffixi  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1954
+Function: stb_skipwhite  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1969
+Function: stb_skipnewline  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1975
+Function: stb_trimwhite  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1984
+Function: stb_strncpy  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:1996
+Function: stb_substr  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2003
+Function: stb_duplower  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2014
+Function: stb_tolower  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2024
+Function: stb_strchr2  *  char  char 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2032
+Function: stb_strrchr2  *  char  char 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2040
+Function: stb_strichr  *  char 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2049
+Function: stb_stristr  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2056
+Function: stb_strtok  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2087
+Function: stb_strtok_raw  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2069
+Function: stb_strtok_keep  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2092
+Function: stb_strtok_invert  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2097
+Function: stb_tokens  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2257
+Function: stb_tokens_raw  *  *  *  int  int  *  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2102
+Function: stb_tokens_nested  *  *  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2262
+Function: stb_tokens_nested_empty  *  *  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2267
+Function: stb_tokens_allowempty  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2272
+Function: stb_tokens_stripwhite  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2277
+Function: stb_tokens_quoted  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2282
+Function: stb_dupreplace  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2287
+Function: stb_replaceinplace  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2321
+Function: stb_fixpath  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2350
+Function: stb__add_section  *  *  long  long 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2357
+Function: stb_shorten_path_readable  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2369
+Function: stb_splitpath  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2457
+Function: stb__splitpath_raw  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2407
+Function: stb_splitpathdup  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2462
+Function: stb_replacedir  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2467
+Function: stb_replaceext  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2478
+Function: stb_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2642
+Function: stb__identify  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2625
+Function: stb__prevn  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2631
+Function: stb_malloc_validate  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2703
+Function: stb_malloc_global  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2970
+Function: malloc_base  *  long  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2889
+Function: stb__get_context  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2855
+Function: stb__insert_alloc  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2871
+Function: stb__insert_nochild  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2880
+Function: stb__alloc_chunk  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2791
+Function: stb__try_chunk  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2742
+Function: stb__sort_chunks  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2777
+Function: stb_malloc  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2975
+Function: stb_malloc_nofree  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2980
+Function: stb_malloc_leaf  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2985
+Function: stb_malloc_raw  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2990
+Function: stb_malloc_string  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:2995
+Function: stb_realloc  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3000
+Function: stb_realloc_c  *  *  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3042
+Function: stb_reassign  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3050
+Function: stb_arr_malloc_parent  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3272
+Function: stb_arr_malloc  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3279
+Function: stb__arr_copy_  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3295
+Function: stb__arr_malloc  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3288
+Function: stb_arr_free_  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3306
+Function: stb__arr_setsize_  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3359
+Function: stb__arrsize_  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3320
+Function: stb__arr_setlen_  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3366
+Function: stb__arr_addlen_  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3377
+Function: stb__arr_insertn_  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3382
+Function: stb__arr_deleten_  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3400
+Function: stb_hash  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3447
+Function: stb_hashlen  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3455
+Function: stb_hashptr  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3463
+Function: stb_rehash_improved  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3480
+Function: stb_hash2  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3485
+Function: stb_hash_fast  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3501
+Function: stb_hash_number  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3547
+Function: stb_perfect_hash  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3590
+Function: stb_perfect_create  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3639
+Function: stb__perfect_rand 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3618
+Function: stb__perfect_prehash  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3606
+Function: stb__slot_compare  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3632
+Function: stb_perfect_destroy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3799
+Function: stb_ischar  char  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:3818
+Function: stb_ptrmap_init  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_memory_usage  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_create 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_destroy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_get_flag  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb__stb_ptrmap_hash  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_get  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_getkey  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_set  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb__stb_ptrmap_addset  *  *  *  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb__stb_ptrmap_rehash  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_add  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_update  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_remove  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_copy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4203
+Function: stb_ptrmap_new 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4208
+Function: stb_ptrmap_delete  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4213
+Ind-call: * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4222
+Function: stb_idict_init  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_memory_usage  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_create 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_destroy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_get_flag  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb__stb_idict_hash  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_getkey  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_set  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb__stb_idict_addset  *  int  int  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb__stb_idict_rehash  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_add  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_update  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_remove  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_copy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4230
+Function: stb_idict_new_size  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4235
+Function: stb_idict_remove_all  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4247
+Function: stb_uidict_init  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_memory_usage  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_create 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_destroy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_get_flag  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb__stb_uidict_hash  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_getkey  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_set  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb__stb_uidict_addset  *  int  int  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb__stb_uidict_rehash  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_add  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_update  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_remove  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_copy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4257
+Function: stb_uidict_reset  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4262
+Function: stb__spmatrix_init  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_memory_usage  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_create 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_destroy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_get_flag  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__stb__spmatrix_hash  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_get  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_getkey  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_set  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__stb__spmatrix_addset  *  *  *  *  int  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__stb__spmatrix_rehash  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_add  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_update  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_remove  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb__spmatrix_copy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4300
+Function: stb_sparse_ptr_matrix_new  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4306
+Function: stb_sparse_ptr_matrix_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4314
+Function: stb_sparse_ptr_matrix_get  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4320
+Function: stb_sdict_init  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_memory_usage  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_create 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_destroy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_get_flag  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb__stb_sdict_hash  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_get  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_getkey  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_set  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb__stb_sdict_addset  *  *  *  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb__stb_sdict_rehash  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_add  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_update  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_remove  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdictinternal_copy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4378
+Function: stb_sdict_count  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4383
+Function: stb_sdict_internal_limit  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4388
+Function: stb_sdict_internal_key  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4392
+Function: stb_sdict_internal_value  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4396
+Function: stb_sdict_new  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4401
+Function: stb_sdict_copy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4409
+Function: stb_sdict_delete  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4425
+Function: stb_sdict_change  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:4432
+Function: stb_fwrite32  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5255
+Function: stb_fexists  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5266
+Function: stb_ftimestamp  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5275
+Function: stb_filelen  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5289
+Function: stb_file  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5299
+Function: stb_filewrite  *  *  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5319
+Function: stb_fopen  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5617
+Function: stb_fclose  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5649
+Function: stb_feq  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5538
+Function: stb__open_temp_file  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5568
+Function: stb_fcmp_core  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5497
+Function: stb_fullpath  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5472
+Function: stb_filewritestr  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5340
+Function: stb_file_max  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5345
+Function: stb_stringfile  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5360
+Function: stb_stringfile_trimmed  *  *  char 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5406
+Function: stb_fgets  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5421
+Function: stb_fgets_malloc  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5435
+Function: stb_fcmp  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5521
+Function: stb_copyfile  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5741
+Function: stb_size_varlen  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5795
+Function: stb_size_varlenu  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5796
+Function: stb_fput_varlen  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5805
+Function: stb_fput_varlenu  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5807
+Function: stb_fget_varlen  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5818
+Function: stb_fget_varlenu  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5824
+Function: stb_fget_varlen64  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5848
+Function: stb_size_varlen64  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5884
+Function: stb_fput_varlen64  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5897
+Function: stb_fput_ranged  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5915
+Function: stb_fget_ranged  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5926
+Function: stb_size_ranged  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5936
+Function: stb_fput_string  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5944
+Function: stb_fget_string  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5952
+Function: stb_strdup  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5963
+Function: stb_strip_final_slash  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5973
+Function: stb_strip_final_slash_regardless  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:5987
+Function: stb_getopt_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6012
+Function: stb_getopt  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6021
+Function: stb_getopt_param  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6026
+Function: stb_readdir_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6105
+Function: stb_readdir_files  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6218
+Function: readdir_raw  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6122
+Function: isdotdirname  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6114
+Function: stb_wildmatchi  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9245
+Function: stb__wildmatch_raw  *  *  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9215
+Function: stb__wildmatch_raw2  *  *  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9127
+Function: stb__match_qstring  *  *  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9079
+Function: stb__find_qstring  *  *  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9100
+Function: stb_readdir_subdirs  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6219
+Function: stb_readdir_files_mask  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6220
+Function: stb_readdir_subdirs_mask  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6221
+Function: stb_readdir_recursive  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6247
+Function: stb_readdir_rec  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6224
+Function: stb_delete_directory_recursive  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6252
+Function: stb_dir_is_prefix  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6301
+Function: stb_dirtree2_from_files_relative  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6309
+Function: stb_dirtree2_from_files  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6374
+Function: stb_crc32_block  int  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6404
+Function: stb_crc32  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6421
+Function: stb_adler32  int  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6426
+Function: stb_sha1  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6502
+Function: stb__sha1  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6457
+Function: stb_sha1_readable  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6637
+Function: stb_cfg_set_directory  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6813
+Function: stb_cfg_open  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6818
+Function: stb_cfg_close  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6876
+Function: stb_cfg_read  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6895
+Function: stb_cfg_write  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6910
+Function: stb_cfg_delete  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6928
+Function: stb_cfg_read_string  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6939
+Function: stb_cfg_write_string  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:6946
+Function: stb_wrapper_allocsize  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7490
+Function: stb__hashfind  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7474
+Function: stb_wrapper_malloc  *  long  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7572
+Function: stb__add_alloc  *  long  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7539
+Function: stb__grow_alloc 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7510
+Function: stb__realloc_raw  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:493
+Function: stb_wrapper_free  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7578
+Function: stb__remove_alloc  int  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7561
+Function: stb__historyfind  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7497
+Function: stb_wrapper_check  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7602
+Function: stb_wrapper_realloc  *  *  long  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7625
+Function: stb_wrapper_listall  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7656
+Ind-call: * long * int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7661
+Function: stb_wrapper_dump  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7665
+Function: stb_ps_delete  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7847
+Function: stb_bucket_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7775
+Function: stb_ps_copy  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7857
+Function: stb_ps_makehash  int  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7827
+Function: stb_ps_add  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7924
+Function: stb_bucket_create2  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7780
+Function: stb_ps_find  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7886
+Function: stb_ps_remove  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8009
+Function: stb_bucket_create3  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:7790
+Function: stb_ps_remove_any  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8094
+Function: stb_ps_getlist  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8147
+Function: stb_ps_writelist  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8186
+Function: stb_ps_enum  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8222
+Ind-call: * * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8228
+Ind-call: * * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8233
+Ind-call: * * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8240
+Ind-call: * * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8248
+Function: stb_ps_count  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8256
+Function: stb_ps_fastlist  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8278
+Function: stb_ps_subset  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8307
+Function: stb_ps_eq  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8318
+Function: stb_randLCG_explicit  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8364
+Function: stb_srandLCG  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8371
+Function: stb_randLCG 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8378
+Function: stb_frandLCG 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8385
+Function: stb_shuffle  *  long  long  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8390
+Function: stb_reverse  *  long  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8408
+Function: stb_srand  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8422
+Function: stb_rand 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8439
+Function: stb_frand 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8475
+Function: stb_dupe_numsets  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8553
+Function: stb_dupe_set  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8559
+Function: stb_dupe_set_count  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8565
+Function: stb_dupe_create  *  *  int  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8571
+Function: stb_dupe_add  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8600
+Ind-call: * int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8602
+Function: stb_dupe_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8608
+Function: stb_dupe_finish  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8628
+Ind-call: * * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8668
+Ind-call: * * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8687
+Function: stb__dupe_compare  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8620
+Ind-call: * * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8625
+Function: stb_bitset_eq  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8862
+Function: stb_bitset_disjoint  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8870
+Function: stb_bitset_disjoint_0  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8878
+Function: stb_bitset_subset  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8886
+Function: stb_bitset_union  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8894
+Function: stb_bitset_unioneq_changed  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8902
+Function: stb_bitset_new  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8915
+Function: stb_bitset_getlist  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8924
+Function: stb_wordwrap  *  int  int  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:8945
+Function: stb_wordwrapalloc  int  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9040
+Function: stb_wildmatch  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9240
+Function: stb_wildfind  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9250
+Function: stb_wildfindi  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9255
+Function: stb_matcher_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9603
+Function: stb_regex_matcher  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9637
+Function: stb__alloc_matcher 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9608
+Function: stb__reg_parse_alt  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9489
+Function: stb__add_node  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9308
+Function: stb__add_epsilon  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9319
+Function: stb__reg_parse  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9336
+Function: stb__add_edge  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9327
+Function: stb_lex_matcher 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9659
+Function: stb_lex_item  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9669
+Function: stb__lex_reset  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9628
+Function: stb_lex_item_wild  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9685
+Function: stb__wild_parse  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9527
+Function: stb_matcher_match  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9744
+Function: stb__add_if_inactive  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9718
+Function: stb__eps_closure  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9727
+Function: stb__clear  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9701
+Function: stb__get_dfa_node  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9818
+Function: stb_matcher_find  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10023
+Function: stb__matcher_dfa  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9870
+Function: stb__optimize  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9588
+Function: stb__clear_goalcheck  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9708
+Function: stb__opt  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:9577
+Function: stb_lex  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10029
+Function: stb_regex  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10036
+Function: stb_decompress_length  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10370
+Function: stb_decompress  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10424
+Function: stb_decompress_token  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10407
+Function: stb__match  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10385
+Function: stb__lit  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10394
+Function: stb_decompress_fromfile  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10458
+Function: stb_compress_window  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10602
+Function: stb_compress_hashsize  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10617
+Function: stb_compress  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10771
+Function: stb_compress_inner  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10736
+Function: stb__write  char 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10563
+Function: stb_out2  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10571
+Function: stb_out4  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10578
+Function: stb_compress_chunk  *  *  *  int  *  *  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10632
+Function: outliterals  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10581
+Function: stb_out3  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10577
+Function: stb_matchlen  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10549
+Function: stb_not_crap  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10609
+Function: stb_compress_tofile  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10781
+Function: stb_compress_intofile  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10801
+Function: stb_write  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10926
+Function: stb_compress_stream_start  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10993
+Function: stb_compress_streaming_start 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10867
+Function: stb_out_backpatch_id 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10822
+Function: stb_compress_stream_end  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11007
+Function: stb_compress_streaming_end 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10907
+Function: stb_out_backpatch  long  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:10830
+Function: stb_getc  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11057
+Ind-call: * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11057
+Function: stb_putc  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11058
+Ind-call: * int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11058
+Function: stb_getdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11060
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11062
+Function: stb_putdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11064
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11066
+Function: stb_close  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11068
+Ind-call: * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11070
+Function: stb_tell  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11073
+Ind-call: * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11073
+Function: stb_size  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11074
+Ind-call: * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11074
+Function: stb_backpatch  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11075
+Ind-call: * int * int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11077
+Function: stb_openf  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11095
+Function: stb__fgetbyte  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11081
+Function: stb__fgetdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11083
+Function: stb__fputbyte  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11082
+Function: stb__fputdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11084
+Function: stb__fsize  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11085
+Function: stb__ftell  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11086
+Function: stb__fbackpatch  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11087
+Function: stb__fclose  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11093
+Function: stb_open_inbuffer  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11140
+Function: stb__bgetbyte  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11115
+Function: stb__bgetdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11123
+Function: stb__noputbyte  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11111
+Function: stb__noputdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11112
+Function: stb__bsize  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11131
+Function: stb__btell  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11132
+Function: stb__nobackpatch  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11113
+Function: stb__bclose  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11134
+Function: stb_open_inbuffer_free  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11155
+Function: stb_open  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11189
+Function: stb__fclose2  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11184
+Function: stb_open_outbuffer  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11222
+Function: stb__nogetbyte  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11109
+Function: stb__nogetdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11110
+Function: stb__aputbyte  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11202
+Function: stb__aputdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11207
+Function: stb__asize  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11212
+Function: stb__abackpatch  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11213
+Function: stb__aclose  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11217
+Function: stb_arith_init_encode  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11285
+Function: stb_arith_encode  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11352
+Function: stb__arith_carry  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11293
+Function: stb__renorm_encoder  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11339
+Function: stb__arith_putbyte  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11302
+Function: stb_arith_encode_log2  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11365
+Function: stb_arith_decode_value  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11378
+Function: stb_arith_decode_advance  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11385
+Function: stb__renorm_decoder  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11346
+Function: stb_arith_decode_value_log2  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11394
+Function: stb_arith_decode_advance_log2  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11401
+Function: stb_arith_encode_close  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11410
+Function: stb__arith_flush  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11329
+Function: stb_arith_decode_close  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:11421
+Function: stb_source_path  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:12864
+Function: stb__get_sourcefile_path  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/deprecated/stb.c:12869
+Function: stb_c_lexer_init  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:272
+Function: stb_c_lexer_get_location  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:282
+Function: stb_c_lexer_get_token  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:497
+Function: stb__clex_iswhite  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:318
+Function: stb__clex_token  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:302
+Function: stb__clex_eof  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:312
+Function: stb__clex_parse_string  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:468
+Function: stb__clex_parse_char  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:447
+Function: stb__clex_parse_suffixes  *  long  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_c_lexer.c:332
+Function: stb_div_trunc  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_divide.c:149
+Function: stb_div_floor  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_divide.c:166
+Function: stb_div_eucl  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_divide.c:190
+Function: stb_mod_trunc  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_divide.c:226
+Function: stb_mod_floor  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_divide.c:247
+Function: stb_mod_eucl  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_divide.c:268
+Function: stbds_arrgrowf  *  long  long  long 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:762
+Function: stbds_arrfreef  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:800
+Function: stbds_rand_seed  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:851
+Function: stbds_hash_string  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1016
+Function: stbds_hash_bytes  *  long  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1116
+Function: stbds_siphash_bytes  *  long  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1051
+Function: stbds_hmfree_func  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1216
+Function: stbds_strreset  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1605
+Function: stbds_hmget_key_ts  *  long  *  long  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1281
+Function: stbds_hm_find_slot  *  long  *  long  long  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1232
+Function: stbds_probe_position  long  long  long 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:863
+Function: stbds_is_key_equal  *  long  *  long  long  int  long 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1203
+Function: stbds_hmget_key  *  long  *  long  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1312
+Function: stbds_hmput_default  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1320
+Function: stbds_hmput_key  *  long  *  long  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1337
+Function: stbds_make_hash_index  long  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:884
+Function: stbds_strdup  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1540
+Function: stbds_stralloc  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1557
+Function: stbds_log2  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:874
+Function: stbds_shmode_func  long  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1461
+Function: stbds_hmdel_key  *  long  *  long  long  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_ds.c:1472
+Function: stb_compress_dxt_block  *  *  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:600
+Function: stb__CompressAlphaBlock  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:548
+Function: stb__CompressColorBlock  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:480
+Function: stb__OptimizeColorsBlock  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:264
+Function: stb__EvalColors  *  short  short 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:212
+Function: stb__MatchColorsBlock  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:221
+Function: stb__RefineBlock  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:403
+Function: stb__Quantize5  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:382
+Function: stb__Quantize6  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:391
+Function: stb__From16Bit  *  short 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:171
+Function: stb__Lerp13RGB  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:203
+Function: stb__Lerp13  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:190
+Function: stb__As16Bit  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:184
+Function: stb__Mul8Bit  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:165
+Function: stb_compress_bc4_block  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:618
+Function: stb_compress_bc5_block  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_dxt.c:623
+Function: stbhw_get_last_error 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:350
+Function: stbhw_get_template_size  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:478
+Function: stbhw__get_template_info  *  *  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:430
+Function: stbhw_generate_image  *  *  *  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:693
+Function: stbhw__weighted  int  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:647
+Function: stbhw__match  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:642
+Function: stbhw__change_color  int  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:664
+Function: stbhw__choose_tile  *  int  *  *  *  *  *  *  * 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:595
+Function: stbhw__draw_h_tile  *  int  int  int  int  int  *  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:573
+Function: stbhw__draw_v_tile  *  int  int  int  int  int  *  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:583
+Function: stbhw__draw_pixel  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:568
+Function: stbhw_build_tileset_from_image  *  *  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:873
+Function: stbhw__parse_h_rect  *  int  int  int  int  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:841
+Function: stbhw__parse_v_rect  *  int  int  int  int  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:857
+Function: stbhw__process_template  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:483
+Function: stbhw__process_h_row  *  int  int  int  int  int  int  int  int  int  int  int  int  int  int  int 16 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:382
+Ind-call: * int int int int int int int int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:401
+Function: stbhw__process_v_row  *  int  int  int  int  int  int  int  int  int  int  int  int  int  int  int 16 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:406
+Ind-call: * int int int int int int int int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:425
+Function: stbhw_free_tileset  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:939
+Function: stbhw_make_template  *  *  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:1173
+Function: stbhw__corner_process_h_rect  *  int  int  int  int  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:1116
+Function: stbhw__corner_process_v_rect  *  int  int  int  int  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:1144
+Function: stbhw__edge_process_h_rect  *  int  int  int  int  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:1092
+Function: stbhw__edge_process_v_rect  *  int  int  int  int  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:1104
+Function: stbhw__draw_hline  *  int  int  int  int  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:997
+Function: stbhw__draw_vline  *  int  int  int  int  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:1014
+Function: stbhw__set_pixel  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:963
+Function: stbhw__stbhw__set_pixel_whiten  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:968
+Function: stbhw__draw_clipped_corner  *  int  int  int  int  int  int  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_herringbone_wang_tile.c:1074
+Function: hexwave_change  *  int  float  float  float 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:287
+Function: hexwave_create  *  int  float  float  float 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:297
+Function: hexwave_generate_samples  *  int  *  float 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:418
+Function: hexwave_generate_linesegs  *  *  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:350
+Function: hex_blamp  *  float  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:338
+Function: hex_blep  *  float  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:333
+Function: hex_add_oversampled_bleplike  *  float  float  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:315
+Function: hexwave_shutdown  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:546
+Function: hexwave_init  int  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_hexwave.c:557
+Function: stbi_failure_reason 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:970
+Function: stbi_image_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1099
+Function: stbi_set_flip_vertically_on_load  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1114
+Function: stbi_set_flip_vertically_on_load_thread  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1124
+Function: stbi_load  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1364
+Function: stbi__fopen  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1335
+Function: stbi__err  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:976
+Function: stbi_load_from_file  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1374
+Function: stbi__start_file  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:875
+Function: stbi__load_and_postprocess_8bit  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1258
+Function: stbi__load_main  *  *  *  *  int  *  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1135
+Function: stbi__convert_16_to_8  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1188
+Function: stbi__vertical_flip  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1220
+Function: stbi__malloc  long 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:983
+Function: stbi__png_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5301
+Function: stbi__png_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5294
+Function: stbi__bmp_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5360
+Function: stbi__bmp_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5530
+Function: stbi__gif_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6589
+Function: stbi__gif_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7047
+Function: stbi__psd_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6080
+Function: stbi__psd_load  *  *  *  *  int  *  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6125
+Function: stbi__pic_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6540
+Function: stbi__pic_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6499
+Function: stbi__jpeg_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4040
+Function: stbi__jpeg_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4026
+Function: stbi__pnm_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7493
+Function: stbi__pnm_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7505
+Function: stbi__hdr_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7096
+Function: stbi__hdr_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7157
+Function: stbi__hdr_to_ldr  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1882
+Function: stbi__tga_test  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5819
+Function: stbi__tga_load  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5870
+Function: stbi__get8  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1612
+Function: stbi__get16le  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1712
+Function: stbi__tga_get_comp  int  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5738
+Function: stbi__mad3sizes_valid  int  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1029
+Function: stbi__malloc_mad3  int  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1053
+Function: stbi__skip  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1642
+Ind-call: * int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1653
+Function: stbi__getn  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1664
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1673
+Function: stbi__malloc_mad2  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1046
+Function: stbi__tga_read_rgb16  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5851
+Function: stbi__convert_format  *  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1753
+Function: stbi__compute_y  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1744
+Function: stbi__mad2sizes_valid  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1022
+Function: stbi__mul2sizes_valid  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1012
+Function: stbi__addsizes_valid  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1000
+Function: stbi__refill_buffer  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1595
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1597
+Function: stbi__rewind  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:884
+Function: stbi__hdr_gettoken  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7108
+Function: stbi__mad4sizes_valid  int  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1037
+Function: stbi__malloc_mad4  int  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1060
+Function: stbi__hdr_convert  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7130
+Function: stbi__at_eof  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1626
+Ind-call: * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1629
+Function: stbi__hdr_test_core  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7086
+Function: stbi__pnm_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7580
+Function: stbi__convert_format16  *  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1810
+Function: stbi__compute_y_16  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1801
+Function: stbi__pnm_skip_whitespace  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7547
+Function: stbi__pnm_getinteger  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7566
+Function: stbi__pnm_isdigit  char 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7561
+Function: stbi__pnm_isspace  char 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7542
+Function: stbi__setup_jpeg  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3819
+Function: load_jpeg_image  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3863
+Ind-call: * * * int int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3929
+Ind-call: * * * * int int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3952
+Ind-call: * * * * int int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3965
+Ind-call: * * * * int int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3974
+Function: stbi__decode_jpeg_image  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3410
+Function: stbi__cleanup_jpeg  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3841
+Function: resample_row_1  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3454
+Function: stbi__resample_row_v_2  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3463
+Function: stbi__resample_row_h_2  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3473
+Function: stbi__resample_row_generic  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3644
+Function: stbi__blinn_8x8  char  char 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3857
+Function: stbi__free_jpeg_components  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3240
+Function: stbi__decode_jpeg_header  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3363
+Function: stbi__get_marker  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2917
+Function: stbi__process_scan_header  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3201
+Function: stbi__parse_entropy_coded_data  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2947
+Ind-call: * int * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2965
+Ind-call: * int * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2993
+Function: stbi__skip_jpeg_junk_at_end  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3387
+Function: stbi__get16be  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1692
+Function: stbi__process_marker  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3097
+Function: stbi__jpeg_finish  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3078
+Ind-call: * int * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3090
+Function: stbi__jpeg_dequantize  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3071
+Function: stbi__build_huffman  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2001
+Function: stbi__build_fast_ac  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2048
+Function: stbi__jpeg_reset  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2934
+Function: stbi__jpeg_decode_block  *  *  *  *  *  int  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2208
+Function: stbi__grow_buffer_unsafe  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2073
+Function: stbi__jpeg_decode_block_prog_dc  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2263
+Function: stbi__jpeg_decode_block_prog_ac  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2293
+Function: stbi__jpeg_huff_decode  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2095
+Function: stbi__jpeg_get_bits  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2167
+Function: stbi__extend_receive  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2151
+Function: stbi__jpeg_get_bit  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2179
+Function: stbi__addints_valid  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1068
+Function: stbi__mul2shorts_valid  short  short 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1076
+Function: stbi__process_frame_header  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3262
+Function: stbi__idct_block  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2465
+Function: stbi__YCbCr_to_RGB_row  *  *  *  *  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3658
+Function: stbi__resample_row_hv_2  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3503
+Function: stbi__sse2_available 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:763
+Function: stbi__idct_simd  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2528
+Function: stbi__YCbCr_to_RGB_simd  *  *  *  *  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3684
+Function: stbi__resample_row_hv_2_simd  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:3528
+Function: stbi__clamp  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:2414
+Function: stbi__get32be  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1702
+Function: stbi__pic_load_core  *  int  int  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6389
+Function: stbi__readval  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6366
+Function: stbi__copyval  int  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6380
+Function: stbi__pic_test_core  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6345
+Function: stbi__pic_is4  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6335
+Function: stbi__psd_decode_rle  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6087
+Function: stbi__gif_load_next  *  *  *  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6777
+Function: stbi__gif_header  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6607
+Function: stbi__gif_parse_colortable  *  *  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6596
+Function: stbi__process_gif_raster  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6690
+Function: stbi__out_gif_code  *  short 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6653
+Function: stbi__gif_test_raw  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6579
+Function: stbi__bmp_parse_header  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5447
+Function: stbi__high_bit  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5369
+Function: stbi__bitcount  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5381
+Function: stbi__get32le  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1720
+Function: stbi__shiftsigned  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5394
+Function: stbi__bmp_set_mask_defaults  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5421
+Function: stbi__bmp_test_raw  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5345
+Function: stbi__do_png  *  *  *  *  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5262
+Function: stbi__parse_png_file  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5079
+Function: stbi__check_png_header  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4599
+Function: stbi__get_chunk_header  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4591
+Function: stbi_zlib_decode_malloc_guesssize_headerflag  *  int  int  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4519
+Function: stbi__create_png_image  *  *  int  int  int  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4862
+Function: stbi__compute_transparency16  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4932
+Function: stbi__compute_transparency  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4907
+Function: stbi__de_iphone  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5034
+Function: stbi__expand_png_palette  *  *  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4957
+Function: stbi__create_png_image_raw  *  *  int  int  int  int  int  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4650
+Function: stbi__paeth  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4636
+Function: stbi__do_zlib  *  *  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4488
+Function: stbi__parse_zlib  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4460
+Function: stbi__parse_zlib_header  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4417
+Function: stbi__zreceive  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4211
+Function: stbi__parse_uncompressed_block  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4388
+Function: stbi__zbuild_huffman  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4122
+Function: stbi__compute_huffman_codes  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4338
+Function: stbi__parse_huffman_block  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4295
+Function: stbi__zhuffman_decode  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4240
+Function: stbi__zexpand  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4259
+Function: stbi__zeof  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4189
+Function: stbi__fill_bits  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4199
+Function: stbi__zhuffman_decode_slowpath  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4221
+Function: stbi__bit_reverse  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4114
+Function: stbi__bitreverse16  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4105
+Function: stbi__zget8  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4194
+Function: stbi__start_callbacks  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:834
+Function: stbi__stdio_read  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:848
+Function: stbi__stdio_skip  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:853
+Function: stbi__stdio_eof  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:863
+Function: stbi_load_from_file_16  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1387
+Function: stbi__load_and_postprocess_16bit  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1284
+Function: stbi__convert_8_to_16  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1204
+Function: stbi_load_16  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1400
+Function: stbi_load_16_from_memory  *  int  *  *  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1413
+Function: stbi__start_mem  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:824
+Function: stbi_load_16_from_callbacks  *  *  *  *  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1420
+Function: stbi_load_from_memory  *  int  *  *  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1427
+Function: stbi_load_from_callbacks  *  *  *  *  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1434
+Function: stbi_load_gif_from_memory  *  int  *  *  *  *  *  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1442
+Function: stbi__load_gif_main  *  *  *  *  *  *  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6962
+Function: stbi__vertical_flip_slices  *  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1245
+Function: stbi__load_gif_main_outofmem  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6951
+Function: stbi_loadf_from_memory  *  int  *  *  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1476
+Function: stbi__loadf_main  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1458
+Function: stbi__float_postprocess  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1312
+Function: stbi__ldr_to_hdr  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1856
+Function: stbi_loadf_from_callbacks  *  *  *  *  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1483
+Function: stbi_loadf  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1491
+Function: stbi_loadf_from_file  *  *  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1501
+Function: stbi_is_hdr_from_memory  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1515
+Function: stbi_is_hdr  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1529
+Function: stbi_is_hdr_from_file  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1540
+Function: stbi_is_hdr_from_callbacks  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1557
+Function: stbi_ldr_to_hdr_gamma  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1573
+Function: stbi_ldr_to_hdr_scale  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1574
+Function: stbi_hdr_to_ldr_gamma  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1579
+Function: stbi_hdr_to_ldr_scale  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:1580
+Function: stbi_zlib_decode_malloc_guesssize  *  int  int  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4498
+Function: stbi_zlib_decode_malloc  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4514
+Function: stbi_zlib_decode_buffer  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4535
+Function: stbi_zlib_decode_noheader_malloc  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4546
+Function: stbi_zlib_decode_noheader_buffer  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4562
+Function: stbi_set_unpremultiply_on_load  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4997
+Function: stbi_convert_iphone_png_to_rgb  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5002
+Function: stbi_set_unpremultiply_on_load_thread  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5014
+Function: stbi_convert_iphone_png_to_rgb_thread  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5020
+Function: stbi_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7690
+Function: stbi_info_from_file  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7700
+Function: stbi__info_main  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7631
+Function: stbi__jpeg_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4066
+Function: stbi__png_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5321
+Function: stbi__gif_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7076
+Function: stbi__bmp_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7334
+Function: stbi__psd_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7358
+Function: stbi__pic_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7422
+Function: stbi__hdr_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7288
+Function: stbi__tga_info  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5754
+Function: stbi__gif_info_raw  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:6638
+Function: stbi__png_info_raw  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5309
+Function: stbi__jpeg_info_raw  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:4054
+Function: stbi_is_16_bit  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7711
+Function: stbi_is_16_bit_from_file  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7721
+Function: stbi__is_16_main  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7673
+Function: stbi__png_is16  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:5328
+Function: stbi__psd_is16  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7393
+Function: stbi__pnm_is16  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7623
+Function: stbi_info_from_memory  *  int  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7733
+Function: stbi_info_from_callbacks  *  *  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7740
+Function: stbi_is_16_bit_from_memory  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7747
+Function: stbi_is_16_bit_from_callbacks  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image.c:7754
+Function: stbir_resize_uint8  *  int  int  int  *  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2462
+Function: stbir__resize_arbitrary  *  *  int  int  int  *  int  int  int  float  float  float  float  *  int  int  int  int  int  int  int  int  int 23 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2428
+Function: stbir__setup  *  int  int  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2206
+Function: stbir__calculate_transform  *  float  float  float  float  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2215
+Function: stbir__choose_filter  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2239
+Function: stbir__calculate_memory  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2249
+Function: stbir__resize_allocated  *  *  int  *  int  int  int  int  int  int  int  *  long 13 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2290
+Function: stbir__get_coefficient_width  int  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:901
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:904
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:906
+Function: stbir__get_filter_pixel_width  int  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:883
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:889
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:891
+Function: stbir__get_filter_pixel_margin  int  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:896
+Function: stbir__use_height_upsampling  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:876
+Function: stbir__calculate_filters  *  *  int  float  float  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1203
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1210
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1225
+Function: stbir__buffer_loop_upsample  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2067
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2071
+Function: stbir__buffer_loop_downsample  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2165
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2170
+Function: stbir__calculate_sample_range_downsample  int  float  float  float  *  *  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1024
+Function: stbir__empty_ring_buffer  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2120
+Function: stbir__decode_and_resample_downsample  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1672
+Function: stbir__add_empty_ring_buffer_entry  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1425
+Function: stbir__resample_vertical_downsample  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1987
+Function: stbir__get_ring_buffer_scanline  int  *  int  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1689
+Function: stbir__get_ring_buffer_entry  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1420
+Function: stbir__decode_scanline  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1252
+Function: stbir__use_width_upsampling  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:871
+Function: stbir__resample_horizontal_upsample  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1450
+Function: stbir__resample_horizontal_downsample  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1533
+Function: stbir__get_decode_buffer  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1243
+Function: stbir__use_upsampling  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:866
+Function: stbir__edge_wrap  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1000
+Function: stbir__srgb_to_linear  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:634
+Function: stbir__edge_wrap_slow  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:942
+Function: stbir__encode_scanline  *  int  *  *  int  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1696
+Function: stbir__saturate  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:572
+Function: stbir__linear_to_srgb_uchar  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:675
+Function: stbir__linear_to_srgb  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:642
+Function: stbir__support_zero  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:839
+Function: stbir__filter_trapezoid  float  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:759
+Function: stbir__support_trapezoid  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:779
+Function: stbir__filter_triangle  float  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:785
+Function: stbir__support_one  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:845
+Function: stbir__filter_cubic  float  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:797
+Function: stbir__support_two  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:851
+Function: stbir__filter_catmullrom  float  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:811
+Function: stbir__filter_mitchell  float  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:825
+Function: stbir__calculate_sample_range_upsample  int  float  float  float  *  *  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1009
+Function: stbir__decode_and_resample_upsample  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1658
+Function: stbir__resample_vertical_upsample  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1870
+Function: stbir__get_contributors  float  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:909
+Function: stbir__get_contributor  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:929
+Function: stbir__get_coefficient  *  int  float  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:936
+Function: stbir__calculate_coefficients_upsample  int  float  int  int  float  *  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1038
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1044
+Ind-call: float float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1054
+Function: stbir__calculate_coefficients_downsample  int  float  int  int  float  *  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1092
+Ind-call: float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1096
+Ind-call: float float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1107
+Function: stbir__normalize_downsample_coefficients  *  *  int  float  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:1126
+Function: stbir__min  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:567
+Function: stbir__get_total_horizontal_coefficients  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:917
+Function: stbir__get_total_vertical_coefficients  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:923
+Function: stbir_resize_float  *  int  int  int  *  int  int  int  int 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2472
+Function: stbir_resize_uint8_srgb  *  int  int  int  *  int  int  int  int  int  int 11 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2482
+Function: stbir_resize_uint8_srgb_edgemode  *  int  int  int  *  int  int  int  int  int  int  int 12 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2492
+Function: stbir_resize_uint8_generic  *  int  int  int  *  int  int  int  int  int  int  int  int  int  * 15 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2503
+Function: stbir_resize_uint16_generic  *  int  int  int  *  int  int  int  int  int  int  int  int  int  * 15 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2515
+Function: stbir_resize_float_generic  *  int  int  int  *  int  int  int  int  int  int  int  int  int  * 15 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2528
+Function: stbir_resize  *  int  int  int  *  int  int  int  int  int  int  int  int  int  int  int  int  * 18 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2541
+Function: stbir_resize_subpixel  *  int  int  int  *  int  int  int  int  int  int  int  int  int  int  int  int  *  float  float  float  float 22 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2556
+Function: stbir_resize_region  *  int  int  int  *  int  int  int  int  int  int  int  int  int  int  int  int  *  float  float  float  float 22 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_resize.c:2577
+Function: stbi_flip_vertically_on_write  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:262
+Function: stbi_write_bmp_to_func  *  *  int  int  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:512
+Function: stbi__start_write_callbacks  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:276
+Function: stbi_write_bmp_core  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:492
+Function: stbiw__outfile  *  int  int  int  int  int  int  *  int  int  *  variadic 11 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:478
+Function: stbiw__writefv  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:349
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:355
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:361
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:369
+Function: stbiw__write_pixels  *  int  int  int  int  int  *  int  int  int 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:451
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:474
+Function: stbiw__write_pixel  *  int  int  int  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:418
+Function: stbiw__write_flush  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:386
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:389
+Function: stbiw__write1  *  char 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:399
+Function: stbiw__write3  *  char  char  char 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:406
+Function: stbi_write_bmp  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:520
+Function: stbi__start_write_file  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:332
+Function: stbi__end_write_file  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:339
+Function: stbiw__fopen  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:304
+Function: stbi__stdio_write  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:284
+Function: stbi_write_tga_to_func  *  *  int  int  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:611
+Function: stbi_write_tga_core  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:532
+Function: stbiw__writef  *  *  variadic 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:378
+Function: stbi_write_tga  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:619
+Function: stbi_write_hdr_to_func  *  *  int  int  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:787
+Function: stbi_write_hdr_core  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:761
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:771
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:778
+Function: stbiw__write_hdr_scanline  *  int  int  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:672
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:696
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:719
+Function: stbiw__linear_to_rgbe  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:639
+Function: stbiw__write_dump_data  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:664
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:668
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:669
+Function: stbiw__write_run_data  *  int  char 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:656
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:660
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:661
+Function: stbi_write_hdr  *  int  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:794
+Function: stbi_zlib_compress  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:895
+Function: stbiw__sbgrowf  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:826
+Function: stbiw__zlib_flushf  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:839
+Function: stbiw__zhash  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:867
+Function: stbiw__zlib_countm  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:859
+Function: stbiw__zlib_bitrev  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:849
+Function: stbi_write_png_to_mem  *  int  int  int  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1128
+Function: stbiw__encode_png_line  *  int  int  int  int  int  int  * 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1092
+Function: stbiw__wpcrc  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1077
+Function: stbiw__crc32  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1024
+Function: stbiw__paeth  int  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1083
+Function: stbi_write_png  *  int  int  int  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1215
+Function: stbi_write_png_to_func  *  *  int  int  int  *  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1231
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1236
+Function: stbi_write_jpg_to_func  *  *  int  int  int  *  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1607
+Function: stbi_write_jpg_core  *  int  int  int  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1398
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1503
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1504
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1506
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1507
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1508
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1509
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1511
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1512
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1514
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1515
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1517
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1518
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1519
+Function: stbiw__putc  *  char 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:394
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:396
+Function: stbiw__jpg_processDU  *  *  *  *  int  *  int  *  * 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1328
+Function: stbiw__jpg_writeBits  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1253
+Function: stbiw__jpg_DCT  *  *  *  *  *  *  *  * 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1270
+Function: stbiw__jpg_calcBits  int  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1318
+Function: stbi_write_jpg  *  int  int  int  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_image_write.c:1616
+Function: stb_include_string  *  *  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:184
+Function: stb_include_find_includes  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:109
+Function: stb_include_append  *  *  *  long 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:176
+Function: stb_include_itoa  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:161
+Function: stb_include_file  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:272
+Function: stb_include_free_includes  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:95
+Function: stb_include_load_file  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:59
+Function: stb_include_isspace  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:103
+Function: stb_include_append_include  *  int  int  int  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:85
+Function: stb_include_strings  *  int  *  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_include.c:253
+Function: stb_leakcheck_malloc  long  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_leakcheck.c:37
+Function: stb_leakcheck_free  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_leakcheck.c:52
+Function: stb_leakcheck_realloc  *  long  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_leakcheck.c:70
+Function: stb_leakcheck_dumpmem 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_leakcheck.c:118
+Function: stblkck_internal_print  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_leakcheck.c:96
+Function: stb_perlin_noise3_internal  float  float  float  int  int  int  char 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:213
+Function: stb__perlin_fastfloor  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:184
+Function: stb__perlin_grad  int  float  float  float 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:191
+Function: stb__perlin_lerp  float  float  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:179
+Function: stb_perlin_noise3  float  float  float  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:265
+Function: stb_perlin_noise3_seed  float  float  float  int  int  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:270
+Function: stb_perlin_ridge_noise3  float  float  float  float  float  float  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:275
+Function: stb_perlin_fbm_noise3  float  float  float  float  float  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:295
+Function: stb_perlin_turbulence_noise3  float  float  float  float  float  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:310
+Function: stb_perlin_noise3_wrap_nonpow2  float  float  float  int  int  int  char 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_perlin.c:326
+Function: stbrp_setup_heuristic  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:229
+Function: stbrp_setup_allow_out_of_mem  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:241
+Function: stbrp_init_target  *  int  int  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:261
+Function: stbrp_pack_rects  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:542
+Function: rect_height_compare  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:524
+Function: stbrp__skyline_pack_rectangle  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:445
+Function: rect_original_order  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:535
+Function: stbrp__skyline_find_best_pos  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:343
+Function: stbrp__skyline_find_min_y  *  *  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_rect_pack.h:287
+Function: stbtt_FindGlyphIndex  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1496
+Function: ttUSHORT  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1286
+Function: ttSHORT  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1287
+Function: ttULONG  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1288
+Function: stbtt_GetCodepointShape  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1589
+Function: stbtt_GetGlyphShape  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2297
+Function: stbtt__GetGlyphShapeTT  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1674
+Function: stbtt__GetGlyphShapeT2  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2269
+Function: stbtt__run_charstring  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2010
+Function: stbtt__cff_index_get  *  long  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1260
+Function: stbtt__buf_get8  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1133
+Function: stbtt__buf_skip  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1153
+Function: stbtt__csctx_rmove_to  *  float  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1942
+Function: stbtt__csctx_rline_to  *  float  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1950
+Function: stbtt__csctx_rccurve_to  *  float  float  float  float  float  float 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1957
+Function: stbtt__cid_get_glyph_subrs  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1982
+Function: stbtt__get_subr  *  long  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1968
+Function: stbtt__csctx_close_shape  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1936
+Function: stbtt__buf_get  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1158
+Function: stbtt__cff_int  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1204
+Function: stbtt__csctx_v  *  char  int  int  int  int  int  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1920
+Function: stbtt__track_vertex  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1911
+Function: stbtt_setvertex  *  char  int  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1594
+Function: stbtt__cff_index_count  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1254
+Function: stbtt__new_buf  *  long 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1168
+Function: stbtt__buf_seek  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1147
+Function: stbtt__get_subrs  *  long  *  long 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1354
+Function: stbtt__dict_get_ints  *  int  int  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1246
+Function: stbtt__buf_range  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1181
+Function: stbtt__cff_get_index  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1190
+Function: stbtt__dict_get  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1231
+Function: stbtt__buf_peek8  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1140
+Function: stbtt__cff_skip_operand  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1216
+Function: stbtt__GetGlyfOffset  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1603
+Function: stbtt__close_shape  *  int  int  int  int  int  int  int  int  int 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1658
+Function: stbtt_GetGlyphBox  *  int  *  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1625
+Function: stbtt__GetGlyphInfoT2  *  int  *  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2286
+Function: stbtt_GetCodepointBox  *  int  *  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1641
+Function: stbtt_IsGlyphEmpty  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1646
+Function: stbtt_GetGlyphHMetrics  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2305
+Function: stbtt_GetKerningTableLength  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2317
+Function: stbtt_GetKerningTable  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2332
+Function: stbtt_GetGlyphKernAdvance  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2610
+Function: stbtt__GetGlyphGPOSInfoAdvance  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2496
+Function: stbtt__GetGlyphKernInfoAdvance  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2359
+Function: stbtt__GetCoverageIndex  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2389
+Function: stbtt__GetGlyphClass  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2447
+Function: stbtt_GetCodepointKernAdvance  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2622
+Function: stbtt_GetCodepointHMetrics  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2629
+Function: stbtt_GetFontVMetrics  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2634
+Function: stbtt_GetFontVMetricsOS2  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2641
+Function: stbtt__find_table  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1306
+Function: stbtt_GetFontBoundingBox  *  *  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2652
+Function: stbtt_ScaleForPixelHeight  *  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2660
+Function: stbtt_ScaleForMappingEmToPixels  *  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2666
+Function: stbtt_FreeShape  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2672
+Function: stbtt_FindSVGDoc  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2677
+Function: stbtt__get_svg  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1368
+Function: stbtt_GetGlyphSVG  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2694
+Function: stbtt_GetCodepointSVG  *  int  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2711
+Function: stbtt_GetGlyphBitmapBoxSubpixel  *  int  float  float  float  float  *  *  *  * 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2721
+Function: stbtt_GetGlyphBitmapBox  *  int  float  float  *  *  *  * 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2739
+Function: stbtt_GetCodepointBitmapBoxSubpixel  *  int  float  float  float  float  *  *  *  * 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2744
+Function: stbtt_GetCodepointBitmapBox  *  int  float  float  *  *  *  * 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2749
+Function: stbtt_Rasterize  *  float  *  int  float  float  float  float  int  int  int  * 12 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3695
+Function: stbtt_FlattenCurves  *  int  float  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3618
+Function: stbtt__rasterize  *  *  *  int  float  float  float  float  int  int  int  * 12 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3490
+Function: stbtt__sort_edges  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3479
+Function: stbtt__rasterize_sorted_edges  *  *  int  int  int  int  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3297
+Function: stbtt__hheap_free  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2791
+Function: stbtt__new_active  *  *  int  float  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2857
+Function: stbtt__fill_active_edges_new  *  *  int  *  float 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3082
+Function: stbtt__hheap_cleanup  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2797
+Function: stbtt__handle_clipped_edge  *  int  *  float  float  float  float 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3028
+Function: stbtt__position_trapezoid_area  float  float  float  float  float 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3072
+Function: stbtt__sized_triangle_area  float  float 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3077
+Function: stbtt__sized_trapezoid_area  float  float  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3065
+Function: stbtt__hheap_alloc  *  long  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:2770
+Function: stbtt__sort_edges_quicksort  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3417
+Function: stbtt__sort_edges_ins_sort  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3399
+Function: stbtt__add_point  *  int  float  float 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3547
+Function: stbtt__tesselate_curve  *  *  float  float  float  float  float  float  float  int 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3555
+Function: stbtt__tesselate_cubic  *  *  float  float  float  float  float  float  float  float  float  int 12 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3575
+Function: stbtt_FreeBitmap  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3708
+Function: stbtt_GetGlyphBitmapSubpixel  *  float  float  float  float  int  *  *  *  * 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3713
+Function: stbtt_GetGlyphBitmap  *  float  float  int  *  *  *  * 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3753
+Function: stbtt_MakeGlyphBitmapSubpixel  *  *  int  int  int  float  float  float  float  int 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3758
+Function: stbtt_MakeGlyphBitmap  *  *  int  int  int  float  float  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3777
+Function: stbtt_GetCodepointBitmapSubpixel  *  float  float  float  float  int  *  *  *  * 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3782
+Function: stbtt_MakeCodepointBitmapSubpixelPrefilter  *  *  int  int  int  float  float  float  float  int  int  *  *  int 14 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3787
+Function: stbtt_MakeGlyphBitmapSubpixelPrefilter  *  *  int  int  int  float  float  float  float  int  int  *  *  int 14 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4184
+Function: stbtt__h_prefilter  *  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4012
+Function: stbtt__v_prefilter  *  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4074
+Function: stbtt__oversample_shift  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4136
+Function: stbtt_MakeCodepointBitmapSubpixel  *  *  int  int  int  float  float  float  float  int 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3792
+Function: stbtt_GetCodepointBitmap  *  float  float  int  *  *  *  * 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3797
+Function: stbtt_MakeCodepointBitmap  *  *  int  int  int  float  float  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3802
+Function: stbtt_GetBakedQuad  *  int  int  int  *  *  *  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3859
+Function: stbtt_PackBegin  *  *  int  int  int  int  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3957
+Function: stbtt_PackEnd  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3989
+Function: stbtt_PackSetOversampling  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3995
+Function: stbtt_PackSetSkipMissingCodepoints  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4005
+Function: stbtt_PackFontRangesGatherRects  *  *  *  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4149
+Function: stbtt_PackFontRangesRenderIntoRects  *  *  *  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4208
+Function: stbtt_PackFontRangesPackRects  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4297
+Function: stbtt_PackFontRanges  *  *  int  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4302
+Function: stbtt_GetFontOffsetForIndex  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4942
+Function: stbtt_InitFont  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4952
+Function: stbtt_InitFont_internal  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1383
+Function: stbtt_GetFontOffsetForIndex_internal  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1319
+Function: stbtt__isfont  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1294
+Function: ttLONG  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1289
+Function: stbtt_PackFontRange  *  *  int  float  int  int  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4338
+Function: stbtt_GetScaledFontVMetrics  *  int  float  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4350
+Function: stbtt_GetPackedQuad  *  int  int  int  *  *  *  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4363
+Function: stbtt_GetGlyphSDF  *  float  int  int  char  float  *  *  *  * 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4575
+Function: stbtt__compute_crossings_x  float  float  int  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4467
+Function: stbtt__solve_cubic  float  float  float  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4544
+Function: stbtt__cuberoot  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4535
+Function: equal  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4462
+Function: stbtt__ray_intersect_bezier  *  *  *  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4398
+Function: stbtt_GetCodepointSDF  *  float  int  int  char  float  *  *  *  * 10 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4760
+Function: stbtt_FreeSDF  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4765
+Function: stbtt_GetFontNameString  *  *  int  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4822
+Function: stbtt_BakeFontBitmap  *  int  float  *  int  int  int  int  * 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4935
+Function: stbtt_BakeFontBitmap_internal  *  int  float  *  int  int  int  int  * 9 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:3813
+Function: stbtt_GetNumberOfFonts  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4947
+Function: stbtt_GetNumberOfFonts_internal  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:1338
+Function: stbtt_FindMatchingFont  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4957
+Function: stbtt_FindMatchingFont_internal  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4919
+Function: stbtt__matches  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4890
+Function: stbtt__matchpair  *  int  *  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4843
+Function: stbtt__CompareUTF8toUTF16_bigendian_prefix  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4776
+Function: stbtt_CompareUTF8toUTF16_bigendian_internal  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4815
+Function: stbtt_CompareUTF8toUTF16_bigendian  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/./stb_truetype.h:4962
+Function: stbsp_set_separators  char  char 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:271
+Function: stbsp_vsprintfcb  *  *  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:346
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:397
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1189
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1201
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1232
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1246
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1265
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1288
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1301
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1324
+Ind-call: * * int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1348
+Function: stbsp__strlen_limited  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:306
+Function: stbsp__real_to_parts  *  *  float 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1488
+Function: stbsp__lead_sign  int  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:291
+Function: stbsp__real_to_str  *  *  *  *  float  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1702
+Function: stbsp__raise_to_power10  *  *  float  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1635
+Function: stbsp_sprintf  *  *  variadic 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1373
+Function: stbsp_vsnprintf  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1427
+Function: stbsp__count_clamp_callback  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1418
+Function: stbsp__clamp_callback  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1390
+Function: stbsp_snprintf  *  int  *  variadic 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1457
+Function: stbsp_vsprintf  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_sprintf.c:1469
+Function: stb_vorbis_close  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4271
+Function: vorbis_deinit  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4208
+Function: setup_free  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:963
+Function: stb_vorbis_get_sample_offset  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4297
+Function: stb_vorbis_get_info  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4305
+Function: stb_vorbis_get_comment  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4317
+Function: stb_vorbis_get_error  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4326
+Function: stb_vorbis_flush_pushdata  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4341
+Function: stb_vorbis_decode_frame_pushdata  *  *  int  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4444
+Function: error  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:913
+Function: vorbis_search_for_page_pushdata  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4353
+Function: is_whole_packet_present  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3519
+Function: vorbis_decode_packet  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3449
+Function: get8_packet  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1575
+Function: vorbis_finish_frame  *  int  int  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3456
+Function: get_window  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3059
+Function: get8_packet_raw  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1563
+Function: next_segment  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1539
+Function: get8  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1337
+Function: start_page  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1497
+Function: capture_pattern  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1431
+Function: start_page_no_capturepattern  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1444
+Function: stb_vorbis_get_file_offset  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4545
+Function: get32  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1353
+Function: getn  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1363
+Function: vorbis_decode_initial  *  *  *  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3124
+Function: vorbis_decode_packet_rest  *  *  *  int  int  int  int  * 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3180
+Function: get_bits  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1599
+Function: ilog  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1027
+Function: prep_huffman  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1634
+Function: codebook_decode_scalar_raw  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1656
+Function: predict_point  int  int  int  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1935
+Function: decode_residue  *  *  int  int  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2104
+Function: do_floor  *  *  int  int  *  *  * 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3072
+Function: inverse_mdct  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2629
+Function: flush_packet  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1592
+Function: setup_temp_malloc  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:969
+Function: imdct_step3_iter0_loop  int  *  int  int  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2408
+Function: imdct_step3_inner_r_loop  int  *  int  int  *  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2453
+Function: imdct_step3_inner_s_loop  int  *  int  int  *  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2503
+Function: imdct_step3_inner_s_loop_ld654  int  *  int  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2586
+Function: iter_54  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2554
+Function: draw_line  *  int  int  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2034
+Function: make_block_array  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:938
+Function: codebook_decode_deinterleave_repeat  *  *  *  int  *  *  int  int 8 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1865
+Function: residue_decode  *  *  *  int  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:2083
+Function: codebook_decode_step  *  *  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1834
+Function: codebook_decode  *  *  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1795
+Function: codebook_decode_start  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1775
+Function: bit_reverse  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1010
+Function: maybe_start_packet  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1518
+Function: start_packet  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1503
+Function: crc32_update  int  char 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1003
+Function: stb_vorbis_open_pushdata  *  int  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4514
+Function: vorbis_init  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4278
+Function: start_decoder  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3580
+Function: vorbis_alloc  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4333
+Function: setup_malloc  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:950
+Function: vorbis_validate  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1233
+Function: get32_packet  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1582
+Function: skip  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1382
+Function: crc32_init 0 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:992
+Function: setup_temp_free  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:980
+Function: compute_codewords  *  *  int  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1086
+Function: compute_sorted_huffman  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1179
+Function: compute_accelerated_huffman  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1134
+Function: float32_unpack  int 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1057
+Function: lookup1_values  int  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1241
+Function: point_compare  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1320
+Function: neighbors  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1303
+Function: init_blocksize  *  int  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1286
+Function: compute_twiddle_factors  int  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1254
+Function: compute_window  int  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1271
+Function: compute_bitreverse  int  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1278
+Function: square  float 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1019
+Function: include_in_sort  *  char 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1169
+Function: uint32_compare  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1162
+Function: add_entry  *  int  int  int  int  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1075
+Function: stb_vorbis_seek_frame  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4880
+Function: seek_to_sample_coarse  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4700
+Function: peek_decode_initial  *  *  *  *  *  * 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4855
+Function: vorbis_pump_first_frame  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:3509
+Function: stb_vorbis_stream_length_in_samples  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4946
+Function: set_file_offset  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:1397
+Function: get_seek_page_info  *  * 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4643
+Function: stb_vorbis_seek_start  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4936
+Function: vorbis_find_page  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4561
+Function: go_to_page_before  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4675
+Function: stb_vorbis_seek  *  int 2 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:4919
+Function: stb_vorbis_get_frame_float  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5028
+Function: stb_vorbis_stream_length_in_seconds  * 1 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5021
+Function: stb_vorbis_open_file_section  *  int  *  *  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5052
+Function: stb_vorbis_open_file  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5073
+Function: stb_vorbis_open_filename  *  *  * 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5083
+Function: stb_vorbis_open_memory  *  int  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5099
+Function: stb_vorbis_get_frame_short  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5260
+Function: convert_samples_short  int  *  int  int  *  int  int 7 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5244
+Function: compute_samples  int  *  int  *  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5178
+Function: copy_samples  *  *  int 3 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5165
+Function: stb_vorbis_get_frame_short_interleaved  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5296
+Function: convert_channels_short_interleaved  int  *  int  *  int  int 6 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5270
+Function: compute_stereo_samples  *  int  *  int  int 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5204
+Function: stb_vorbis_get_samples_short_interleaved  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5309
+Function: stb_vorbis_get_samples_short  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5328
+Function: stb_vorbis_decode_filename  *  *  *  * 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5346
+Function: stb_vorbis_decode_memory  *  int  *  *  * 5 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5386
+Function: stb_vorbis_get_samples_float_interleaved  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5426
+Function: stb_vorbis_get_samples_float  *  int  *  int 4 /root/RECOMPILATION/LIBSTB/libstb/libstb-0.0~git20230129.5736b15+ds/stb_vorbis.c:5453
