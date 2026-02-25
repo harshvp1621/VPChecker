@@ -1,4 +1,10 @@
-# VPChecker - Vulnerable Path Checker
+# Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information
+
+Camera Ready Paper Link: https://harshvp1621.github.io/assets/papers/vpchecker_acsac.pdf
+
+This repository contains the code artifacts of our tool VPChecker. This work was accepted in ACSAC 2025. Due to the large size of our dataset, this git repository includes just the code. We have also uploaded this repository with the dataset to Zenodo (https://zenodo.org/records/17110050). We recommend downloading the repository from Zenodo for ease of use.
+
+## VPChecker - Vulnerable Path Checker
 
 ## Citation
 
@@ -84,7 +90,7 @@ the program analysis outputs, ArangoDB database dump, and Docker images used in
 our experiments.
 
 [Zenodo (full archive) — download the complete dataset and
-artifacts](https://zenodo.org/records/17110050?token=eyJhbGciOiJIUzUxMiIsImlhdCI6MTc1NzczNzYyMywiZXhwIjoxOTE1NDg3OTk5fQ.eyJpZCI6ImM1MTg1MGI2LWU0ODQtNGM4MS1iNjYwLWU4ZTc1YzE0OTIwMCIsImRhdGEiOnt9LCJyYW5kb20iOiJkMGUzMzhmYWI1ZDVlOWFlZmQxOTFhYWIwOTE3OGJkNSJ9.q8OrmK3aoqp4OxVbiD5UEjQ2rPmJi8S4UQf3ddpcEpyoURq9a39w1Z0P74HOIHCztQrCd-aX8nJgAWJ8R6Fa8Q)
+artifacts](https://zenodo.org/records/17110050)
 
 Quick usage notes:
 
