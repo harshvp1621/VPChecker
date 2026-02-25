@@ -1,5 +1,18 @@
 # VPChecker - Vulnerable Path Checker
 
+## Citation
+
+If you use VPChecker in your research, please cite our paper:
+
+```bibtex
+@inproceedings{vpchecker2025,
+  title={Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information},
+  author={Harshvardhan Patel, Alexander Snit, Michalis Polychronakis},
+  booktitle={Proceedings of the Annual Computer Security Applications Conference (ACSAC)},
+  year={2025}
+}
+```
+
 This archive provides the dataset and code that can be used to inspect and
 verify the claims of our paper. We have structured the artifacts as follows:
 
