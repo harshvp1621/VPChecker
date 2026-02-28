@@ -11,12 +11,12 @@ This repository contains the code artifacts of our tool VPChecker. This work was
 If you use VPChecker in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{vpchecker2025,
-  title={Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information},
-  author={Harshvardhan Patel, Alexander Snit, Michalis Polychronakis},
-  booktitle={Proceedings of the Annual Computer Security Applications Conference (ACSAC)},
-  year={2025}
-}
+@inproceedings{vpchecker,
+  author={Patel, Harshvardhan and Snit, Alexander and Polychronakis, Michalis},
+  booktitle={In Proceedings of the 2025 IEEE Annual Computer Security Applications Conference (ACSAC)}, 
+  title={Supply Chain Reaction: Enhancing the Precision of Vulnerability Triage using Code Reachability Information}, 
+  year={2025},
+  doi={10.1109/ACSAC67867.2025.00023}}
 ```
 
 This archive provides the dataset and code that can be used to inspect and
